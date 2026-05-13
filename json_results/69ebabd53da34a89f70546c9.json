@@ -1,0 +1,401 @@
+{
+  "receipt_guid": "69ebabd53da34a89f70546c9",
+  "shop_brand": null,
+  "analysis": {
+    "document_type": "receipt",
+    "merchant": {
+      "name": "A&G GAGLIARDI MARKET SRL",
+      "brand_name": "A&G GAGLIARDI MARKET",
+      "address": "VIA MISERICORDIA 10, 83020 SOLOFRA (AV)",
+      "vat_number": "02610900645",
+      "date": "2026-04-24",
+      "receipt_number": "2527-0189",
+      "notes": ""
+    },
+    "items": [
+      {
+        "description": "DIXI CORNET.MAIS MPK",
+        "description_full": "Dixi Cornetto Mais MPK",
+        "category": "bakery",
+        "quantity": 1,
+        "unit_of_measure": "pz",
+        "unit_price": 1.59,
+        "discount": 0.0,
+        "total_price": 1.59,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 24,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 24,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "TAV.CIOC.MILKA E TUC",
+        "description_full": "Tavoletta Cioccolato Milka e Tuc",
+        "category": "pantry",
+        "quantity": 1,
+        "unit_of_measure": "pz",
+        "unit_price": 1.69,
+        "discount": 0.0,
+        "total_price": 1.69,
+        "_catalog_method": "gemini_only",
+        "_catalog_confidence": 0.57,
+        "_alignment_override": true,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 31,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 31,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "YOXERS GR.120",
+        "description_full": "YOXERS GR 120",
+        "category": "dairy",
+        "quantity": 1,
+        "unit_of_measure": "pz",
+        "unit_price": 2.59,
+        "discount": 0.39,
+        "total_price": 2.2,
+        "_catalog_method": "abbreviation",
+        "_catalog_confidence": 0.7,
+        "_gemini_original": "Yoxers Gr. 120",
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 25,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 25,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "BOCCONCINO VIGILIOTTA",
+        "description_full": "Bocconcino Vigiliotta",
+        "category": "bakery",
+        "quantity": 1,
+        "unit_of_measure": "pz",
+        "unit_price": 3.2,
+        "discount": 0.25,
+        "total_price": 2.95,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 31,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 31,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "SHOP.BIODEGRAD.CONAD",
+        "description_full": "Shopper Biodegradabile Conad",
+        "category": "home_care",
+        "quantity": 2,
+        "unit_of_measure": "pz",
+        "unit_price": 0.14,
+        "discount": 0.0,
+        "total_price": 0.28,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 25,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 25,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "CROSTINI PANELBA",
+        "description_full": "Crostini Panelba",
+        "category": "bakery",
+        "quantity": 1,
+        "unit_of_measure": "pz",
+        "unit_price": 2.15,
+        "discount": 0.0,
+        "total_price": 2.15,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 28,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 28,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "PROSC.COTTO F.Q.NAZI",
+        "description_full": "Prosciutto Cotto F.Q. Nazi",
+        "category": "meat_fish",
+        "quantity": 1,
+        "unit_of_measure": "pz",
+        "unit_price": 2.79,
+        "discount": 0.0,
+        "total_price": 2.79,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 29,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 29,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "MATCH",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "POLLO SCELTA - KG 4G",
+        "description_full": "Pollo Scelta - Kg 4G",
+        "category": "meat_fish",
+        "quantity": 1,
+        "unit_of_measure": "pz",
+        "unit_price": 1.09,
+        "discount": 0.0,
+        "total_price": 1.09,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 24,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 24,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "CONFLICT",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "MORTADELLA SUPREMA",
+        "description_full": "Mortadella Suprema",
+        "category": "meat_fish",
+        "quantity": 1,
+        "unit_of_measure": "pz",
+        "unit_price": 0.93,
+        "discount": 0.0,
+        "total_price": 0.93,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 27,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 27,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "INCOMPATIBLE"
+        }
+      },
+      {
+        "description": "PANCETTA ARROTOLATA",
+        "description_full": "Pancetta arrotolata",
+        "category": "meat_fish",
+        "quantity": 1,
+        "unit_of_measure": "pz",
+        "unit_price": 1.69,
+        "discount": 0.0,
+        "total_price": 1.69,
+        "_catalog_method": "fuzzy",
+        "_catalog_confidence": 1.0,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 28,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 28,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "MATCH",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      }
+    ],
+    "totals": {
+      "total_amount": 16.64,
+      "tax_amount": 1.27,
+      "item_count": 11
+    }
+  },
+  "promo_status": "NO_PROMO",
+  "metadata": {
+    "version": "2.0.0+6c131bf",
+    "pars_dt": "2026-04-24T17:45:39.463+00:00",
+    "processing_status": "CLEAN",
+    "flags": [],
+    "preprocessing": [
+      {
+        "image_index": 0,
+        "tile_index": 0,
+        "steps": [
+          "GRAYSCALE(sat=16)",
+          "CLAHE(std=32,clip=0.01)"
+        ],
+        "stats": {
+          "mean_brightness": 163.4,
+          "std_brightness": 31.7,
+          "noise_level": 177.0,
+          "skew_angle": 0.0,
+          "avg_saturation": 15.7,
+          "width": 1920,
+          "height": 2560,
+          "contrast_ratio": 87.0,
+          "is_bimodal": true,
+          "histogram_clipping": 0.011,
+          "content_coverage": 0.68,
+          "applied_steps": [
+            "GRAYSCALE(sat=16)",
+            "CLAHE(std=32,clip=0.01)"
+          ]
+        }
+      },
+      {
+        "image_index": 1,
+        "tile_index": 1,
+        "steps": [
+          "GRAYSCALE(sat=17)"
+        ],
+        "stats": {
+          "mean_brightness": 159.4,
+          "std_brightness": 37.1,
+          "noise_level": 222.0,
+          "skew_angle": 0.0,
+          "avg_saturation": 17.0,
+          "width": 1920,
+          "height": 1440,
+          "contrast_ratio": 93.0,
+          "is_bimodal": true,
+          "histogram_clipping": 0.011,
+          "content_coverage": 0.68,
+          "applied_steps": [
+            "GRAYSCALE(sat=17)"
+          ]
+        }
+      },
+      {
+        "image_index": 2,
+        "tile_index": 2,
+        "steps": [
+          "GRAYSCALE(sat=19)"
+        ],
+        "stats": {
+          "mean_brightness": 160.7,
+          "std_brightness": 38.1,
+          "noise_level": 383.0,
+          "skew_angle": 0.0,
+          "avg_saturation": 18.6,
+          "width": 1920,
+          "height": 1440,
+          "contrast_ratio": 112.0,
+          "is_bimodal": false,
+          "histogram_clipping": 0.001,
+          "content_coverage": 0.76,
+          "applied_steps": [
+            "GRAYSCALE(sat=19)"
+          ]
+        }
+      },
+      {
+        "image_index": 3,
+        "tile_index": 3,
+        "steps": [
+          "GRAYSCALE(sat=16)"
+        ],
+        "stats": {
+          "mean_brightness": 169.5,
+          "std_brightness": 37.3,
+          "noise_level": 139.0,
+          "skew_angle": 0.0,
+          "avg_saturation": 16.4,
+          "width": 1920,
+          "height": 1440,
+          "contrast_ratio": 95.0,
+          "is_bimodal": true,
+          "histogram_clipping": 0.0,
+          "content_coverage": 0.28,
+          "applied_steps": [
+            "GRAYSCALE(sat=16)"
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_token_count": 3961,
+      "candidates_token_count": 1227,
+      "total_token_count": 10733,
+      "thinking_token_count": 5545
+    },
+    "cost_info": {
+      "total_cost": 0.0042558000000000006,
+      "model_name": "Gemini 2.5 Flash",
+      "input_cost": 0.0011883,
+      "output_cost": 0.0030675000000000003
+    },
+    "retry_count": 0
+  }
+}

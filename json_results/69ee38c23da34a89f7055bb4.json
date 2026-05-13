@@ -1,0 +1,252 @@
+{
+  "receipt_guid": "69ee38c23da34a89f7055bb4",
+  "shop_brand": null,
+  "analysis": {
+    "document_type": "receipt",
+    "merchant": {
+      "name": "GIOMARKET sas di A.PIAZZA",
+      "brand_name": "GIOMARKET",
+      "address": "VIA SAN PIETRO, 8 MAZARA DEL VALLO (TP)",
+      "vat_number": "02338970813",
+      "date": "2026-04-24",
+      "receipt_number": "1878-0021",
+      "notes": ""
+    },
+    "items": [
+      {
+        "description": "PATATE SACCO KG2 CUFF",
+        "description_full": "Patate Sacco 2 KG Cuff",
+        "category": "produce",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 1.99,
+        "discount": 0.0,
+        "total_price": 1.99,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 30,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 30,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "DERBY SUCCO ZERO M.FR",
+        "description_full": "Derby Succo Zero Mirtillo Rosso",
+        "category": "beverages",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 1.79,
+        "discount": 0.0,
+        "total_price": 1.79,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 27,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 27,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "MATCH",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "PIADELLE MB G300X4",
+        "description_full": "Piadelle Morbide 300g x 4",
+        "category": "bakery",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 2.69,
+        "discount": 0.0,
+        "total_price": 2.69,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 27,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 27,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "INCOMPATIBLE"
+        }
+      },
+      {
+        "description": "SALUMERIA",
+        "description_full": "Salumeria",
+        "category": "meat_fish",
+        "quantity": 7.05,
+        "unit_of_measure": "kg",
+        "unit_price": 1.0,
+        "discount": 0.0,
+        "total_price": 7.05,
+        "_catalog_method": "cache",
+        "_catalog_confidence": 0.9,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 27,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 27,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "CONFLICT",
+          "size": "UNKNOWN",
+          "category": "INCOMPATIBLE"
+        }
+      },
+      {
+        "description": "ORTOFRUTTA",
+        "description_full": "Ortofrutta",
+        "category": "produce",
+        "quantity": 3.34,
+        "unit_of_measure": "g",
+        "unit_price": 1.0,
+        "discount": 0.0,
+        "total_price": 3.34,
+        "_catalog_method": "gemini_only",
+        "_catalog_confidence": 0.4,
+        "_alignment_override": true,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 32,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 32,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "MATCH",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "PLUMCAKE MB YOGURT G3",
+        "description_full": "Plumcake Morbido Yogurt Grano 3",
+        "category": "bakery",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 2.999,
+        "discount": 1.5,
+        "total_price": 1.49,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 31,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 31,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "PANE VALENTI/MARRONE",
+        "description_full": "Pane Valenti Marrone",
+        "category": "bakery",
+        "quantity": 1.04,
+        "unit_of_measure": "kg",
+        "unit_price": 2.0,
+        "discount": 0.0,
+        "total_price": 2.08,
+        "_catalog_method": "gemini_only",
+        "_catalog_confidence": 0.4,
+        "_alignment_override": true,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 29,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 29,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      }
+    ],
+    "totals": {
+      "total_amount": 20.43,
+      "tax_amount": 1.49,
+      "item_count": null
+    }
+  },
+  "promo_status": "NO_PROMO",
+  "metadata": {
+    "version": "2.0.0+6c131bf",
+    "pars_dt": "2026-04-26T16:10:36.706+00:00",
+    "processing_status": "CLEAN",
+    "flags": [],
+    "preprocessing": [
+      {
+        "image_index": 0,
+        "tile_index": 0,
+        "steps": [
+          "PASSTHROUGH(no preprocessing needed)"
+        ],
+        "stats": {
+          "mean_brightness": 156.7,
+          "std_brightness": 59.7,
+          "noise_level": 266.0,
+          "skew_angle": 0.0,
+          "avg_saturation": 52.2,
+          "width": 1920,
+          "height": 3705,
+          "contrast_ratio": 167.0,
+          "is_bimodal": true,
+          "histogram_clipping": 0.005,
+          "content_coverage": 0.88,
+          "applied_steps": [
+            "PASSTHROUGH(no preprocessing needed)"
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_token_count": 5251,
+      "candidates_token_count": 729,
+      "total_token_count": 8557,
+      "thinking_token_count": 2577
+    },
+    "cost_info": {
+      "total_cost": 0.0033978000000000003,
+      "model_name": "Gemini 2.5 Flash",
+      "input_cost": 0.0015753,
+      "output_cost": 0.0018225000000000001
+    },
+    "retry_count": 0
+  }
+}

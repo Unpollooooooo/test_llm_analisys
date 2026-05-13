@@ -1,0 +1,336 @@
+{
+  "receipt_guid": "69e7ccfa551a2cb157c0ae2a",
+  "shop_brand": null,
+  "analysis": {
+    "document_type": "receipt",
+    "merchant": {
+      "name": "Penny Market S.R.L. a.s.u.",
+      "brand_name": "Penny",
+      "address": "VIA GENTILE 70100 BARI",
+      "vat_number": "IT12619750156",
+      "date": "2026-04-21",
+      "receipt_number": "0710-20260421-03-5673",
+      "notes": ""
+    },
+    "items": [
+      {
+        "description": "PY ACQUA NAT 2L",
+        "description_full": "Penny Acqua Naturale 2L",
+        "category": "beverages",
+        "quantity": 6.0,
+        "unit_of_measure": "pz",
+        "unit_price": 0.21,
+        "discount": 0.0,
+        "total_price": 1.26,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 33,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 33,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "INCOMPATIBLE"
+        }
+      },
+      {
+        "description": "CAPS DECISA NESPRES",
+        "description_full": "Capsule Decisa Nespresso",
+        "category": "pantry",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 14.99,
+        "discount": 0.0,
+        "total_price": 14.99,
+        "_catalog_method": "gemini_only",
+        "_catalog_confidence": 0.85,
+        "_alignment_override": true,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 30,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 30,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "SAPONE BUCATO 2X250G",
+        "description_full": "Sapone Bucato 2x250g",
+        "category": "home_care",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 1.29,
+        "discount": 0.0,
+        "total_price": 1.29,
+        "_catalog_method": "gemini_only",
+        "_catalog_confidence": 0.4,
+        "_alignment_override": true,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 30,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 30,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "SAPONE BUCATO 2X250G",
+        "description_full": "Sapone Bucato 2x250g",
+        "category": "home_care",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 1.29,
+        "discount": 0.0,
+        "total_price": 1.29,
+        "_catalog_method": "gemini_only",
+        "_catalog_confidence": 0.4,
+        "_alignment_override": true,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 30,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 30,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "BICARBONATO 500G",
+        "description_full": "Bicarbonato 500g",
+        "category": "pantry",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 0.79,
+        "discount": 0.0,
+        "total_price": 0.79,
+        "_catalog_method": "gemini_only",
+        "_catalog_confidence": 0.85,
+        "_alignment_override": true,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 26,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 26,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "CONFLICT",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "BICARBONATO 500G",
+        "description_full": "Bicarbonato 500g",
+        "category": "pantry",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 0.79,
+        "discount": 0.0,
+        "total_price": 0.79,
+        "_catalog_method": "gemini_only",
+        "_catalog_confidence": 0.85,
+        "_alignment_override": true,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 26,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 26,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "CONFLICT",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "YOG. GRECO 0% 150G",
+        "description_full": "Yogurt Greco 0% 150g",
+        "category": "dairy",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 0.89,
+        "discount": 0.0,
+        "total_price": 0.89,
+        "_catalog_method": "gemini_only",
+        "_catalog_confidence": 0.49,
+        "_alignment_override": true,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 24,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 24,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "MATCH",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "ITALPIZZA SALSICCIA",
+        "description_full": "Italpizza Salsiccia",
+        "category": "pantry",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 2.99,
+        "discount": 0.0,
+        "total_price": 2.99,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 27,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 27,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "SDC UOVA M TERRA 10P",
+        "description_full": "Scatola Uova M Terra 10 Pezzi",
+        "category": "dairy",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 2.49,
+        "discount": 0.0,
+        "total_price": 2.49,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 29,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 29,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "SHOPPER",
+        "description_full": "Shopper Bag",
+        "category": "other",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 0.15,
+        "discount": 0.0,
+        "total_price": 0.15,
+        "_catalog_method": "gemini_only",
+        "_catalog_confidence": 0.4,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 23,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 23,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "CONFLICT",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      }
+    ],
+    "totals": {
+      "total_amount": 26.93,
+      "tax_amount": 4.29,
+      "item_count": null
+    }
+  },
+  "promo_status": "NO_PROMO",
+  "metadata": {
+    "version": "2.0.0+6c131bf",
+    "pars_dt": "2026-04-21T19:16:51.353+00:00",
+    "processing_status": "CLEAN",
+    "flags": [],
+    "preprocessing": [
+      {
+        "image_index": 0,
+        "tile_index": 0,
+        "steps": [
+          "GRAYSCALE(sat=19)",
+          "CLAHE(std=32,clip=0.00)"
+        ],
+        "stats": {
+          "mean_brightness": 157.3,
+          "std_brightness": 31.8,
+          "noise_level": 146.0,
+          "skew_angle": 0.0,
+          "avg_saturation": 18.6,
+          "width": 1920,
+          "height": 2560,
+          "contrast_ratio": 105.0,
+          "is_bimodal": false,
+          "histogram_clipping": 0.0,
+          "content_coverage": 0.64,
+          "applied_steps": [
+            "GRAYSCALE(sat=19)",
+            "CLAHE(std=32,clip=0.00)"
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_token_count": 6283,
+      "candidates_token_count": 1254,
+      "total_token_count": 9438,
+      "thinking_token_count": 1901
+    },
+    "cost_info": {
+      "total_cost": 0.0050199,
+      "model_name": "Gemini 2.5 Flash",
+      "input_cost": 0.0018849,
+      "output_cost": 0.003135
+    },
+    "retry_count": 0
+  }
+}

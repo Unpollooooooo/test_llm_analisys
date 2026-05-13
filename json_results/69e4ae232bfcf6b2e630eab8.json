@@ -1,0 +1,259 @@
+{
+  "receipt_guid": "69e4ae232bfcf6b2e630eab8",
+  "shop_brand": null,
+  "analysis": {
+    "document_type": "receipt",
+    "merchant": {
+      "name": "GDA S.R.L.",
+      "brand_name": "CONAD SUPERSTORE",
+      "address": "VIA VILLAGRAZIA,77 90124 PALERMO",
+      "vat_number": "06725030826",
+      "date": "2026-04-19",
+      "receipt_number": "2570-0058",
+      "notes": ""
+    },
+    "items": [
+      {
+        "description": "OLIO CONAD ARACHIDI PET L",
+        "description_full": "Olio Conad Arachidi PET Litro",
+        "category": "pantry",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 3.09,
+        "discount": 0.0,
+        "total_price": 3.09,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 35,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 35,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "MATCH",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "VINO CONAD BIANCO BRICK C",
+        "description_full": "Vino Conad Bianco Brick Cartone",
+        "category": "beverages",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 1.99,
+        "discount": 0.0,
+        "total_price": 1.99,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": "8003650019714",
+        "is_promo_item": false,
+        "match_confidence": 74,
+        "promo_match": {
+          "publisher_guid": "6939bd34e84bd0409997e7c9",
+          "product_guid": "6939c6789cf06812292571d8",
+          "product_name": "Candeggina Delicata Muschio Bianco",
+          "brand_name": "Omino Bianco",
+          "match_confidence": 74,
+          "size_conflict": null,
+          "price_conflict": null
+        },
+        "match_signals": {
+          "brand": "MATCH",
+          "text": "HIGH",
+          "text_score": 80,
+          "variant": "PARTIAL",
+          "variant_jw": 0.579,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK",
+          "decision": "AMBIGUOUS"
+        }
+      },
+      {
+        "description": "C) CIPOLLA DORATA OR. FRAN",
+        "description_full": "Cipolla Dorata Origine Francia",
+        "category": "produce",
+        "quantity": 0.157,
+        "unit_of_measure": "kg",
+        "unit_price": 1.59,
+        "discount": 0.0,
+        "total_price": 0.25,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 32,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 32,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "INCOMPATIBLE"
+        }
+      },
+      {
+        "description": "*FUNGHI CHAMP.AFF.GR500 N",
+        "description_full": "Funghi Champignon Affettati 500g",
+        "category": "produce",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 2.49,
+        "discount": 0.0,
+        "total_price": 2.49,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 36,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 36,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "SALSICCIA DI SUINO PIZZAI",
+        "description_full": "Salsiccia di Suino Pizzaiola",
+        "category": "meat_fish",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 3.55,
+        "discount": 0.0,
+        "total_price": 3.55,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 30,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 30,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "COPPA CONAD CAC.C/PAN.MON",
+        "description_full": "Coppa Conad Cacciatore con Pane Montagna",
+        "category": "meat_fish",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 1.49,
+        "discount": 0.0,
+        "total_price": 1.49,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 29,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 29,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "SHOPP.BIO.OMNI.CONAD 32X9",
+        "description_full": "Shopper Bio Omnicomprensiva Conad 32x9",
+        "category": "other",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 0.12,
+        "discount": 0.0,
+        "total_price": 0.12,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 25,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 25,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      }
+    ],
+    "totals": {
+      "total_amount": 12.98,
+      "tax_amount": 0.0,
+      "item_count": 7
+    }
+  },
+  "promo_status": "PROMO_AMBIGUOUS",
+  "metadata": {
+    "version": "2.0.0+6c131bf",
+    "pars_dt": "2026-04-19T10:28:17.638+00:00",
+    "processing_status": "CLEAN",
+    "flags": [],
+    "preprocessing": [
+      {
+        "image_index": 0,
+        "tile_index": 0,
+        "steps": [
+          "PASSTHROUGH(no preprocessing needed)"
+        ],
+        "stats": {
+          "mean_brightness": 174.7,
+          "std_brightness": 50.0,
+          "noise_level": 1881.0,
+          "skew_angle": 0.0,
+          "avg_saturation": 47.6,
+          "width": 1867,
+          "height": 482,
+          "contrast_ratio": 150.0,
+          "is_bimodal": false,
+          "histogram_clipping": 0.002,
+          "content_coverage": 0.92,
+          "applied_steps": [
+            "PASSTHROUGH(no preprocessing needed)"
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_token_count": 6283,
+      "candidates_token_count": 955,
+      "total_token_count": 8531,
+      "thinking_token_count": 1293
+    },
+    "cost_info": {
+      "total_cost": 0.0042724,
+      "model_name": "Gemini 2.5 Flash",
+      "input_cost": 0.0018849,
+      "output_cost": 0.0023875000000000003
+    },
+    "retry_count": 0
+  }
+}

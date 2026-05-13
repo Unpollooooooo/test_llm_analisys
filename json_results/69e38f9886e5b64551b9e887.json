@@ -1,0 +1,236 @@
+{
+  "receipt_guid": "69e38f9886e5b64551b9e887",
+  "shop_brand": null,
+  "analysis": {
+    "document_type": "receipt",
+    "merchant": {
+      "name": "Penny Market S. R. L. a.s.u.",
+      "brand_name": "Penny",
+      "address": "S. S. 429 PISANA, 2 50021 BARBERINO V.E.",
+      "vat_number": "IT12619750156",
+      "date": "2026-04-14",
+      "receipt_number": "0021-20260414-02-8603",
+      "notes": ""
+    },
+    "items": [
+      {
+        "description": "CROISSANT CREMA 500G",
+        "description_full": "Croissant Crema 500g",
+        "category": "bakery",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 2.29,
+        "discount": 0.0,
+        "total_price": 2.29,
+        "_catalog_method": "gemini_only",
+        "_catalog_confidence": 0.4,
+        "_alignment_override": true,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 31,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 31,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "SPAZZ. TECN MENTADENT",
+        "description_full": "Spazzolino Tecnico Mentadent",
+        "category": "personal_care",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 1.59,
+        "discount": 0.0,
+        "total_price": 1.59,
+        "_catalog_method": "gemini_only",
+        "_catalog_confidence": 0.63,
+        "_alignment_override": true,
+        "barcode": "8720181226793",
+        "is_promo_item": true,
+        "match_confidence": 87,
+        "promo_match": {
+          "publisher_guid": "6908893d7cb8558c28a80692",
+          "product_guid": "694942b19cf0681229257f59",
+          "product_name": "Mentadent Tecnic Delicato soft",
+          "brand_name": "Mentadent",
+          "match_confidence": 87,
+          "size_conflict": null,
+          "price_conflict": null
+        },
+        "match_signals": {
+          "brand": "MATCH",
+          "text": "HIGH",
+          "text_score": 87,
+          "variant": "MATCH",
+          "variant_jw": 0.769,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK",
+          "decision": "PROMO_FOUND"
+        }
+      },
+      {
+        "description": "TY SPAZZ. MEDIO 2PZ",
+        "description_full": "TY Spazzolino MEDIO 2PZ",
+        "category": "personal_care",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 1.29,
+        "discount": 0.2,
+        "total_price": 1.09,
+        "_catalog_method": "abbreviation",
+        "_catalog_confidence": 0.7,
+        "_gemini_original": "Tipo Spazzolino Medio 2 Pezzi",
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 26,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 26,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "CHIANTI TOSCANA DOCG",
+        "description_full": "Chianti Toscana DOCG",
+        "category": "beverages",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 2.69,
+        "discount": 0.2,
+        "total_price": 2.49,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 28,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 28,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "SAPONE SOLIDO 150G",
+        "description_full": "Sapone Solido 150g",
+        "category": "personal_care",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 1.19,
+        "discount": 0.2,
+        "total_price": 0.99,
+        "_catalog_method": "gemini_only",
+        "_catalog_confidence": 0.4,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 26,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 26,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "CONFLICT",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "TOVAGLIOLI PY 2VELI",
+        "description_full": "Tovaglioli Pura 2 Veli",
+        "category": "home_care",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 1.99,
+        "discount": 0.4,
+        "total_price": 1.59,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 28,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 28,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      }
+    ],
+    "totals": {
+      "total_amount": 10.04,
+      "tax_amount": 1.61,
+      "item_count": null
+    }
+  },
+  "promo_status": "PROMO_FOUND",
+  "metadata": {
+    "version": "2.0.0+6c131bf",
+    "pars_dt": "2026-04-18T14:05:50.634+00:00",
+    "processing_status": "CLEAN",
+    "flags": [],
+    "preprocessing": [
+      {
+        "image_index": 0,
+        "tile_index": 0,
+        "steps": [
+          "GRAYSCALE(sat=29)"
+        ],
+        "stats": {
+          "mean_brightness": 174.8,
+          "std_brightness": 49.4,
+          "noise_level": 103.0,
+          "skew_angle": 0.0,
+          "avg_saturation": 28.7,
+          "width": 1071,
+          "height": 2448,
+          "contrast_ratio": 151.0,
+          "is_bimodal": false,
+          "histogram_clipping": 0.0,
+          "content_coverage": 0.88,
+          "applied_steps": [
+            "GRAYSCALE(sat=29)"
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_token_count": 5251,
+      "candidates_token_count": 682,
+      "total_token_count": 7755,
+      "thinking_token_count": 1822
+    },
+    "cost_info": {
+      "total_cost": 0.0032803,
+      "model_name": "Gemini 2.5 Flash",
+      "input_cost": 0.0015753,
+      "output_cost": 0.0017050000000000001
+    },
+    "retry_count": 0
+  }
+}

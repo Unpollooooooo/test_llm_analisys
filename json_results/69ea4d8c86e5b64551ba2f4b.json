@@ -1,0 +1,306 @@
+{
+  "receipt_guid": "69ea4d8c86e5b64551ba2f4b",
+  "shop_brand": null,
+  "analysis": {
+    "document_type": "receipt",
+    "merchant": {
+      "name": "null",
+      "brand_name": "null",
+      "address": "null",
+      "vat_number": "null",
+      "date": "2026-04-23",
+      "receipt_number": "0851-0217",
+      "notes": "null"
+    },
+    "items": [
+      {
+        "description": "NILI TANSKAU PILS",
+        "description_full": "Nili Tanskan Pils",
+        "category": "beverages",
+        "quantity": 1,
+        "unit_of_measure": "pz",
+        "unit_price": 0.89,
+        "discount": 0,
+        "total_price": 0.89,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 26,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 26,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "NILI TANSKAU PILS",
+        "description_full": "Nili Tanskan Pils",
+        "category": "beverages",
+        "quantity": 1,
+        "unit_of_measure": "pz",
+        "unit_price": 0.89,
+        "discount": 0,
+        "total_price": 0.89,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 26,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 26,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "NILI TANSKAU PILS",
+        "description_full": "Nili Tanskan Pils",
+        "category": "beverages",
+        "quantity": 1,
+        "unit_of_measure": "pz",
+        "unit_price": 0.89,
+        "discount": 0,
+        "total_price": 0.89,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 26,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 26,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "NILI TANSKAU PILS",
+        "description_full": "Nili Tanskan Pils",
+        "category": "beverages",
+        "quantity": 1,
+        "unit_of_measure": "pz",
+        "unit_price": 0.89,
+        "discount": 0,
+        "total_price": 0.89,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 26,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 26,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "HESPOLL BAL I PRAC",
+        "description_full": "Hespol Bal I Prac",
+        "category": "other",
+        "quantity": 1,
+        "unit_of_measure": "pz",
+        "unit_price": 0.99,
+        "discount": 0,
+        "total_price": 0.99,
+        "_catalog_method": "gemini_only",
+        "_catalog_confidence": 0.4,
+        "_alignment_override": true,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 25,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 25,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "PETTO TACCHINO FORNO",
+        "description_full": "Petto Tacchino Forno",
+        "category": "meat_fish",
+        "quantity": 1,
+        "unit_of_measure": "pz",
+        "unit_price": 3.99,
+        "discount": 0,
+        "total_price": 3.99,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 32,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 32,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "PANFOCACCTA",
+        "description_full": "Panfocaccia",
+        "category": "bakery",
+        "quantity": 1,
+        "unit_of_measure": "pz",
+        "unit_price": 2.5,
+        "discount": 0,
+        "total_price": 2.5,
+        "_catalog_method": "fuzzy",
+        "_catalog_confidence": 0.91,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 25,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 25,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "MATCH",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "BISCOTTI 3G O",
+        "description_full": "Biscotti 3Gocce",
+        "category": "bakery",
+        "quantity": 1,
+        "unit_of_measure": "pz",
+        "unit_price": 2.99,
+        "discount": 0,
+        "total_price": 2.99,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 28,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 28,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "CONFLICT",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "DET PIATTI LINONE AN",
+        "description_full": "Detergente Piatti Limone",
+        "category": "home_care",
+        "quantity": 1,
+        "unit_of_measure": "pz",
+        "unit_price": 1.99,
+        "discount": 0,
+        "total_price": 1.99,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 32,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 32,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      }
+    ],
+    "totals": {
+      "total_amount": 16.98,
+      "tax_amount": 1.47,
+      "item_count": 9
+    }
+  },
+  "promo_status": "NO_PROMO",
+  "metadata": {
+    "version": "2.0.0+6c131bf",
+    "pars_dt": "2026-04-23T16:50:32.932+00:00",
+    "processing_status": "CLEAN",
+    "flags": [
+      "NOT_A_RECEIPT_RETRY",
+      "MARGIN_CROP"
+    ],
+    "preprocessing": [
+      {
+        "image_index": 0,
+        "tile_index": 0,
+        "steps": [
+          "DENOISE+SHARPEN(noise=2090)"
+        ],
+        "stats": {
+          "mean_brightness": 129.6,
+          "std_brightness": 35.3,
+          "noise_level": 2090.0,
+          "skew_angle": 0.0,
+          "avg_saturation": 47.1,
+          "width": 848,
+          "height": 2055,
+          "contrast_ratio": 115.0,
+          "is_bimodal": false,
+          "histogram_clipping": 0.001,
+          "content_coverage": 1.0,
+          "applied_steps": [
+            "DENOISE+SHARPEN(noise=2090)"
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_token_count": 6283,
+      "candidates_token_count": 1029,
+      "total_token_count": 10247,
+      "thinking_token_count": 2935
+    },
+    "cost_info": {
+      "total_cost": 0.0044574,
+      "model_name": "Gemini 2.5 Flash",
+      "input_cost": 0.0018849,
+      "output_cost": 0.0025725
+    },
+    "retry_count": 0
+  }
+}

@@ -1,0 +1,95 @@
+{
+  "receipt_guid": "69f0754986e5b64551ba65be",
+  "shop_brand": null,
+  "analysis": {
+    "document_type": "receipt",
+    "merchant": {
+      "name": "PULITO ALESSANDRO",
+      "brand_name": "WIRED SOLUZIONI INFORMATICHE",
+      "address": "VIA DALMAZIA 90 74121 TARANTO",
+      "vat_number": "01097100737",
+      "date": "2026-04-28",
+      "receipt_number": "DOC.0528-0002",
+      "notes": "RT: 96EBN005449"
+    },
+    "items": [
+      {
+        "description": "REPARTO 01",
+        "description_full": "Reparto 01",
+        "category": "other",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 14.9,
+        "discount": 0.0,
+        "total_price": 14.9,
+        "_catalog_method": "gemini_only",
+        "_catalog_confidence": 0.4,
+        "_alignment_override": true,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 23,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 23,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "MATCH",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      }
+    ],
+    "totals": {
+      "total_amount": 14.9,
+      "tax_amount": 2.69,
+      "item_count": null
+    }
+  },
+  "promo_status": "NO_PROMO",
+  "metadata": {
+    "version": "2.0.0+unknown",
+    "pars_dt": "2026-04-28T08:53:16.508+00:00",
+    "processing_status": "CLEAN",
+    "flags": [],
+    "preprocessing": [
+      {
+        "image_index": 0,
+        "tile_index": 0,
+        "steps": [
+          "PASSTHROUGH(no preprocessing needed)"
+        ],
+        "stats": {
+          "mean_brightness": 152.4,
+          "std_brightness": 50.8,
+          "noise_level": 36.0,
+          "skew_angle": 0.0,
+          "avg_saturation": 67.4,
+          "width": 1920,
+          "height": 2560,
+          "contrast_ratio": 161.0,
+          "is_bimodal": true,
+          "histogram_clipping": 0.003,
+          "content_coverage": 0.48,
+          "applied_steps": [
+            "PASSTHROUGH(no preprocessing needed)"
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_token_count": 6283,
+      "candidates_token_count": 308,
+      "total_token_count": 7684,
+      "thinking_token_count": 1093
+    },
+    "cost_info": {
+      "total_cost": 0.0026549,
+      "model_name": "Gemini 2.5 Flash",
+      "input_cost": 0.0018849,
+      "output_cost": 0.0007700000000000001
+    },
+    "retry_count": 0
+  }
+}

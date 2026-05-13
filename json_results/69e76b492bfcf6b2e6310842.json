@@ -1,0 +1,94 @@
+{
+  "receipt_guid": "69e76b492bfcf6b2e6310842",
+  "shop_brand": null,
+  "analysis": {
+    "document_type": "receipt",
+    "merchant": {
+      "name": "ALASTRO SOC.COOP. A.R.L.",
+      "brand_name": "SUPERMERCATI",
+      "address": "VIA VITTORIO VENETO, 114 98071 CAPO DEORLANDO (ME)",
+      "vat_number": "03359260837",
+      "date": "2026-04-20",
+      "receipt_number": "2335-0261",
+      "notes": ""
+    },
+    "items": [
+      {
+        "description": "ROSSOTONO PIZZA MARG",
+        "description_full": "Rossotono Pizza Margherita",
+        "category": "pantry",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 3.99,
+        "discount": 0.0,
+        "total_price": 3.99,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 27,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 27,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      }
+    ],
+    "totals": {
+      "total_amount": 3.99,
+      "tax_amount": 0.0,
+      "item_count": 1
+    }
+  },
+  "promo_status": "NO_PROMO",
+  "metadata": {
+    "version": "2.0.0+6c131bf",
+    "pars_dt": "2026-04-21T12:19:46.698+00:00",
+    "processing_status": "CLEAN",
+    "flags": [],
+    "preprocessing": [
+      {
+        "image_index": 0,
+        "tile_index": 0,
+        "steps": [
+          "PASSTHROUGH(no preprocessing needed)"
+        ],
+        "stats": {
+          "mean_brightness": 149.7,
+          "std_brightness": 40.7,
+          "noise_level": 312.0,
+          "skew_angle": 0.0,
+          "avg_saturation": 53.6,
+          "width": 1740,
+          "height": 1440,
+          "contrast_ratio": 112.0,
+          "is_bimodal": true,
+          "histogram_clipping": 0.003,
+          "content_coverage": 1.0,
+          "applied_steps": [
+            "PASSTHROUGH(no preprocessing needed)"
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_token_count": 4735,
+      "candidates_token_count": 303,
+      "total_token_count": 5641,
+      "thinking_token_count": 603
+    },
+    "cost_info": {
+      "total_cost": 0.002178,
+      "model_name": "Gemini 2.5 Flash",
+      "input_cost": 0.0014204999999999999,
+      "output_cost": 0.0007575
+    },
+    "retry_count": 0
+  }
+}

@@ -1,0 +1,234 @@
+{
+  "receipt_guid": "69ef2612e593340322ec8501",
+  "shop_brand": null,
+  "analysis": {
+    "document_type": "receipt",
+    "merchant": {
+      "name": "SUPERMERCATO CONAD Silan Market s.r.1.",
+      "brand_name": "Conad",
+      "address": "Viale Kennedy - 87060 Mirto (CS)",
+      "vat_number": "03612590780",
+      "date": "null",
+      "receipt_number": "null",
+      "notes": "null"
+    },
+    "items": [
+      {
+        "description": "BAST.MERLUZ.FROSTA",
+        "description_full": "Bastoncini Merluzzo Frosta",
+        "category": "meat_fish",
+        "quantity": 1,
+        "unit_of_measure": "pz",
+        "unit_price": 5.99,
+        "discount": 2.01,
+        "total_price": 3.98,
+        "_catalog_method": "gemini_only",
+        "_catalog_confidence": 0.63,
+        "_alignment_override": true,
+        "barcode": "8052789532878",
+        "is_promo_item": true,
+        "match_confidence": 99,
+        "promo_match": {
+          "publisher_guid": "6894af7f79abb7f7561d5897",
+          "product_guid": "6895d333ce8bbb15b6624ac4",
+          "product_name": "10 Bastoncini di merluzzo",
+          "brand_name": "FRoSTA",
+          "match_confidence": 99,
+          "size_conflict": null,
+          "price_conflict": null
+        },
+        "match_signals": {
+          "brand": "MATCH",
+          "text": "HIGH",
+          "text_score": 99,
+          "variant": "MATCH",
+          "variant_jw": 1.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK",
+          "decision": "PROMO_FOUND"
+        }
+      },
+      {
+        "description": "NESQUIK DESSERT 4X65",
+        "description_full": "Nesquik Dessert 4x65g",
+        "category": "dairy",
+        "quantity": 1,
+        "unit_of_measure": "pz",
+        "unit_price": 2.29,
+        "discount": 0.5,
+        "total_price": 1.79,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 24,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 24,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "MATCH",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "LATTE FRESCO CALABRI",
+        "description_full": "Latte Fresco Calabri",
+        "category": "dairy",
+        "quantity": 2,
+        "unit_of_measure": "pz",
+        "unit_price": 1.99,
+        "discount": 0,
+        "total_price": 3.98,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 29,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 29,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "MATCH",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "ARACHIDI TOSTATE GR.",
+        "description_full": "Arachidi Tostate",
+        "category": "pantry",
+        "quantity": 1,
+        "unit_of_measure": "pz",
+        "unit_price": 3.49,
+        "discount": 0,
+        "total_price": 3.49,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 35,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 35,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "CONAD SEM.RIGATONI",
+        "description_full": "Conad Semola Rigatoni",
+        "category": "pantry",
+        "quantity": 1,
+        "unit_of_measure": "pz",
+        "unit_price": 0.59,
+        "discount": 0,
+        "total_price": 0.59,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 29,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 29,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "CONFLICT",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "CONAD SEM.FUSILLI",
+        "description_full": "Conad Semola Fusilli",
+        "category": "pantry",
+        "quantity": 1,
+        "unit_of_measure": "pz",
+        "unit_price": 0.59,
+        "discount": 0,
+        "total_price": 0.59,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 29,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 29,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "CONFLICT",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      }
+    ],
+    "totals": {
+      "total_amount": 14.42,
+      "tax_amount": 1.04,
+      "item_count": 7
+    }
+  },
+  "promo_status": "PROMO_FOUND",
+  "metadata": {
+    "version": "2.0.0+unknown",
+    "pars_dt": "2026-04-27T09:02:55.815+00:00",
+    "processing_status": "CLEAN",
+    "flags": [],
+    "preprocessing": [
+      {
+        "image_index": 0,
+        "tile_index": 0,
+        "steps": [
+          "GRAYSCALE(sat=31)"
+        ],
+        "stats": {
+          "mean_brightness": 175.5,
+          "std_brightness": 38.8,
+          "noise_level": 667.0,
+          "skew_angle": 0.0,
+          "avg_saturation": 31.4,
+          "width": 1714,
+          "height": 960,
+          "contrast_ratio": 133.0,
+          "is_bimodal": false,
+          "histogram_clipping": 0.0,
+          "content_coverage": 0.92,
+          "applied_steps": [
+            "GRAYSCALE(sat=31)"
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_token_count": 4735,
+      "candidates_token_count": 776,
+      "total_token_count": 7613,
+      "thinking_token_count": 2102
+    },
+    "cost_info": {
+      "total_cost": 0.0033604999999999998,
+      "model_name": "Gemini 2.5 Flash",
+      "input_cost": 0.0014204999999999999,
+      "output_cost": 0.00194
+    },
+    "retry_count": 0
+  }
+}

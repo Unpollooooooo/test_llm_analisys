@@ -1,0 +1,157 @@
+{
+  "receipt_guid": "69f0b16c3da34a89f7057303",
+  "shop_brand": null,
+  "analysis": {
+    "document_type": "receipt",
+    "merchant": {
+      "name": "ALI SPA",
+      "brand_name": "Ali",
+      "address": "VIA MAGGIORE & PIQUESANA, 71 31015 CONEGLIANO (TV)",
+      "vat_number": "00348980285",
+      "date": "2026-04-27",
+      "receipt_number": "1669-0024",
+      "notes": ""
+    },
+    "items": [
+      {
+        "description": "NUTELLA B-READY T2 GR.22X2",
+        "description_full": "Nutella B-Ready T2 Gr. 22x2",
+        "category": "pantry",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 1.29,
+        "discount": 0.0,
+        "total_price": 1.29,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 24,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 24,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "METT. MELA MIRTIL BIOL. 3X2",
+        "description_full": "Mettler Mela Mirtillo Biologico 3x2",
+        "category": "pantry",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 2.69,
+        "discount": 0.0,
+        "total_price": 2.69,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 27,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 27,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "BIOTTO DEI GRANDI PLASNON",
+        "description_full": "Biscotto dei grandi il classico",
+        "category": "pantry",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 2.09,
+        "discount": 0.0,
+        "total_price": 2.09,
+        "_catalog_method": "fuzzy",
+        "_catalog_confidence": 0.7,
+        "_gemini_original": "Biscotto dei Grandi Plasmon",
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 30,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 30,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      }
+    ],
+    "totals": {
+      "total_amount": 6.02,
+      "tax_amount": 0.8,
+      "item_count": null
+    },
+    "quality_flags": []
+  },
+  "promo_status": "NO_PROMO",
+  "metadata": {
+    "version": "2.1.0+bbfe08e",
+    "pars_dt": "2026-04-28T13:10:21.258+00:00",
+    "processing_status": "CLEAN",
+    "flags": [],
+    "preprocessing": [
+      {
+        "image_index": 0,
+        "tile_index": 0,
+        "steps": [
+          "DENOISE+SHARPEN(noise=5566)",
+          "CLAHE(std=83,clip=0.16)"
+        ],
+        "stats": {
+          "mean_brightness": 124.3,
+          "std_brightness": 82.8,
+          "noise_level": 5566.0,
+          "skew_angle": 0.0,
+          "avg_saturation": 48.8,
+          "width": 1341,
+          "height": 2372,
+          "contrast_ratio": 240.0,
+          "is_bimodal": true,
+          "histogram_clipping": 0.157,
+          "content_coverage": 1.0,
+          "applied_steps": [
+            "DENOISE+SHARPEN(noise=5566)",
+            "CLAHE(std=83,clip=0.16)"
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_token_count": 5498,
+      "candidates_token_count": 427,
+      "total_token_count": 9502,
+      "thinking_token_count": 3577
+    },
+    "cost_info": {
+      "total_cost": 0.0027169,
+      "model_name": "Gemini 2.5 Flash",
+      "input_cost": 0.0016493999999999999,
+      "output_cost": 0.0010675
+    },
+    "retry_count": 0,
+    "validation_errors": [
+      {
+        "code": "NO_PREMIUM_PRODUCTS",
+        "message": "Lo scontrino non contiene prodotti premianti"
+      }
+    ],
+    "is_valid": false
+  }
+}

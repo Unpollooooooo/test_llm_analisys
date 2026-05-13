@@ -1,0 +1,96 @@
+{
+  "receipt_guid": "69e9df75551a2cb157c0bf86",
+  "shop_brand": null,
+  "analysis": {
+    "document_type": "receipt",
+    "merchant": {
+      "name": "CENTRO ORTOPEDICO SANITARIA BRESCIANA",
+      "brand_name": "CENTRO ORTOPEDICO SANITARIA BRESCIANA",
+      "address": "VIALE DEL PIAVE, 201 - 25123 BRESCIA",
+      "vat_number": "03608120170",
+      "date": "2026-04-10",
+      "receipt_number": "1049-0012",
+      "notes": ""
+    },
+    "items": [
+      {
+        "description": "TALUS PODALUX II Taglia L 39/40",
+        "description_full": "TALUS PODALUX II Taglia L 39/40 #MDD 93/42/CEE-MDR UE 2017/745",
+        "category": "other",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 54.0,
+        "discount": 0.0,
+        "total_price": 54.0,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 23,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 23,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      }
+    ],
+    "totals": {
+      "total_amount": 54.0,
+      "tax_amount": 2.08,
+      "item_count": null
+    }
+  },
+  "promo_status": "NO_PROMO",
+  "metadata": {
+    "version": "2.0.0+6c131bf",
+    "pars_dt": "2026-04-23T09:00:01.226+00:00",
+    "processing_status": "CLEAN",
+    "flags": [],
+    "preprocessing": [
+      {
+        "image_index": 0,
+        "tile_index": 0,
+        "steps": [
+          "GRAYSCALE(sat=33)",
+          "THRESHOLD(contrast=68,bright=171)"
+        ],
+        "stats": {
+          "mean_brightness": 171.4,
+          "std_brightness": 22.8,
+          "noise_level": 112.0,
+          "skew_angle": -0.86,
+          "avg_saturation": 32.6,
+          "width": 893,
+          "height": 1984,
+          "contrast_ratio": 68.0,
+          "is_bimodal": false,
+          "histogram_clipping": 0.0,
+          "content_coverage": 0.76,
+          "applied_steps": [
+            "GRAYSCALE(sat=33)",
+            "THRESHOLD(contrast=68,bright=171)"
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_token_count": 5251,
+      "candidates_token_count": 282,
+      "total_token_count": 6700,
+      "thinking_token_count": 1167
+    },
+    "cost_info": {
+      "total_cost": 0.0022803,
+      "model_name": "Gemini 2.5 Flash",
+      "input_cost": 0.0015753,
+      "output_cost": 0.000705
+    },
+    "retry_count": 0
+  }
+}

@@ -1,0 +1,223 @@
+{
+  "receipt_guid": "69e8599b86e5b64551ba1838",
+  "shop_brand": null,
+  "analysis": {
+    "document_type": "receipt",
+    "merchant": {
+      "name": "D.R.G. PET CARE S.R.L.",
+      "brand_name": "L'ISOLA DEI TESORI",
+      "address": "VIA G. GALILEI 13 40026 IMOLA (BO)",
+      "vat_number": "02542620354",
+      "date": "2026-04-21",
+      "receipt_number": "DOC.0058-0073",
+      "notes": ""
+    },
+    "items": [
+      {
+        "description": "ISOLA SHOPPER MATERB",
+        "description_full": "Isola Shopper Mater-Bi",
+        "category": "other",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 0.15,
+        "discount": 0.0,
+        "total_price": 0.15,
+        "_catalog_method": "gemini_only",
+        "_catalog_confidence": 0.4,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 26,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 26,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "GASY CAT LT 85G DADI",
+        "description_full": "Gasy Cat Lattina 85g Dadi",
+        "category": "other",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 0.85,
+        "discount": 0.22,
+        "total_price": 0.63,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 26,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 26,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "GASY CAT LT 85G DADI",
+        "description_full": "Gasy Cat Lattina 85g Dadi",
+        "category": "other",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 0.85,
+        "discount": 0.22,
+        "total_price": 0.63,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 26,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 26,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "GASY CAT LT 85G DADI",
+        "description_full": "Gasy Cat Lattina 85g Dadi",
+        "category": "other",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 0.85,
+        "discount": 0.22,
+        "total_price": 0.63,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 26,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 26,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "GASY CAT LT 85G DADI",
+        "description_full": "Gasy Cat Lattina 85g Dadi",
+        "category": "other",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 0.85,
+        "discount": 0.22,
+        "total_price": 0.63,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 26,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 26,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      }
+    ],
+    "totals": {
+      "total_amount": 58.06,
+      "tax_amount": 10.11,
+      "item_count": 35
+    }
+  },
+  "promo_status": "NO_PROMO",
+  "metadata": {
+    "version": "2.0.0+6c131bf",
+    "pars_dt": "2026-04-22T05:17:49.369+00:00",
+    "processing_status": "CLEAN",
+    "flags": [],
+    "preprocessing": [
+      {
+        "image_index": 0,
+        "tile_index": 0,
+        "steps": [
+          "DESKEW(angle=10.0°)",
+          "GRAYSCALE(sat=27)"
+        ],
+        "stats": {
+          "mean_brightness": 152.4,
+          "std_brightness": 37.9,
+          "noise_level": 28.0,
+          "skew_angle": 9.99,
+          "avg_saturation": 26.8,
+          "width": 1106,
+          "height": 1587,
+          "contrast_ratio": 114.0,
+          "is_bimodal": true,
+          "histogram_clipping": 0.0,
+          "content_coverage": 0.68,
+          "applied_steps": [
+            "DESKEW(angle=10.0°)",
+            "GRAYSCALE(sat=27)"
+          ]
+        }
+      },
+      {
+        "image_index": 1,
+        "tile_index": 1,
+        "steps": [
+          "GRAYSCALE(sat=28)"
+        ],
+        "stats": {
+          "mean_brightness": 135.2,
+          "std_brightness": 44.7,
+          "noise_level": 16.0,
+          "skew_angle": 0.0,
+          "avg_saturation": 27.6,
+          "width": 960,
+          "height": 2368,
+          "contrast_ratio": 158.0,
+          "is_bimodal": false,
+          "histogram_clipping": 0.001,
+          "content_coverage": 0.6,
+          "applied_steps": [
+            "GRAYSCALE(sat=28)"
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_token_count": 3445,
+      "candidates_token_count": 598,
+      "total_token_count": 10269,
+      "thinking_token_count": 6226
+    },
+    "cost_info": {
+      "total_cost": 0.0025285,
+      "model_name": "Gemini 2.5 Flash",
+      "input_cost": 0.0010335,
+      "output_cost": 0.001495
+    },
+    "retry_count": 0
+  }
+}

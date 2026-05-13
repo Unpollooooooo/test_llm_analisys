@@ -1,0 +1,263 @@
+{
+  "receipt_guid": "69e5ba382bfcf6b2e630f2b1",
+  "shop_brand": null,
+  "analysis": {
+    "document_type": "receipt",
+    "merchant": {
+      "name": "CONAD",
+      "brand_name": "Conad",
+      "address": "",
+      "vat_number": "",
+      "date": "2026-04-19",
+      "receipt_number": "DOC.1994-0023",
+      "notes": ""
+    },
+    "items": [
+      {
+        "description": "TUC BAK.ROLLS PIZZA",
+        "description_full": "Tuc Baked Rolls Pizza",
+        "category": "pantry",
+        "quantity": 2.0,
+        "unit_of_measure": "pz",
+        "unit_price": 0.99,
+        "discount": 0.0,
+        "total_price": 1.98,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 28,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 28,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "MATCH",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "VICENZI",
+        "description_full": "Vicenzi",
+        "category": "bakery",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 2.7,
+        "discount": 0.0,
+        "total_price": 2.7,
+        "_catalog_method": "gemini_only",
+        "_catalog_confidence": 0.85,
+        "_alignment_override": true,
+        "barcode": "8000350000462",
+        "is_promo_item": true,
+        "match_confidence": 100,
+        "promo_match": {
+          "publisher_guid": "68dd28b454c085c2c77c7ac1",
+          "product_guid": "68dd4b003503359af85fd795",
+          "product_name": "Vicenzovo 400",
+          "brand_name": "Pasticceria Matilde Vicenzi",
+          "match_confidence": 100,
+          "size_conflict": null,
+          "price_conflict": false
+        },
+        "match_signals": {
+          "brand": "MATCH",
+          "text": "HIGH",
+          "text_score": 100,
+          "variant": "PARTIAL",
+          "variant_jw": 0.5,
+          "price": "MATCH",
+          "size": "UNKNOWN",
+          "category": "OK",
+          "decision": "PROMO_FOUND"
+        }
+      },
+      {
+        "description": "ENERGADE ARANCIA LT.",
+        "description_full": "Energade Arancia Litro",
+        "category": "beverages",
+        "quantity": 2.0,
+        "unit_of_measure": "pz",
+        "unit_price": 1.69,
+        "discount": 0.0,
+        "total_price": 3.38,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 31,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 31,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "POTTO A.O. AFF TA",
+        "description_full": "POTTO A O AFF TA",
+        "category": "meat_fish",
+        "quantity": 2.0,
+        "unit_of_measure": "pz",
+        "unit_price": 1.99,
+        "discount": 0.0,
+        "total_price": 3.98,
+        "_catalog_method": "abbreviation",
+        "_catalog_confidence": 0.7,
+        "_gemini_original": "Potto Affettato",
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 30,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 30,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "MATCH",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "POLPA EXTRA SVIZZERE",
+        "description_full": "Polpa Extra Svizzere",
+        "category": "pantry",
+        "quantity": 2.0,
+        "unit_of_measure": "pz",
+        "unit_price": 0.492,
+        "discount": 0.0,
+        "total_price": 0.984,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 26,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 26,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "MATCH",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "ES.A. TRACCHINO FETTE",
+        "description_full": "Es.A. Tracchino Fette",
+        "category": "meat_fish",
+        "quantity": 2.0,
+        "unit_of_measure": "pz",
+        "unit_price": 0.84,
+        "discount": 0.0,
+        "total_price": 1.68,
+        "_catalog_method": "gemini_only",
+        "_catalog_confidence": 0.52,
+        "_alignment_override": true,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 30,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 30,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      }
+    ],
+    "totals": {
+      "total_amount": 131.9,
+      "tax_amount": 0.0,
+      "item_count": null
+    }
+  },
+  "promo_status": "PROMO_FOUND",
+  "metadata": {
+    "version": "2.0.0+6c131bf",
+    "pars_dt": "2026-04-20T05:33:21.065+00:00",
+    "processing_status": "CLEAN",
+    "flags": [],
+    "preprocessing": [
+      {
+        "image_index": 0,
+        "tile_index": 0,
+        "steps": [
+          "GRAYSCALE(sat=17)",
+          "CLAHE(std=33,clip=0.00)",
+          "RESIZE(399→800)"
+        ],
+        "stats": {
+          "mean_brightness": 125.3,
+          "std_brightness": 32.9,
+          "noise_level": 291.0,
+          "skew_angle": 0.0,
+          "avg_saturation": 16.7,
+          "width": 399,
+          "height": 2139,
+          "contrast_ratio": 109.0,
+          "is_bimodal": false,
+          "histogram_clipping": 0.0,
+          "content_coverage": 1.0,
+          "applied_steps": [
+            "GRAYSCALE(sat=17)",
+            "CLAHE(std=33,clip=0.00)",
+            "RESIZE(399→800)"
+          ]
+        }
+      },
+      {
+        "image_index": 1,
+        "tile_index": 1,
+        "steps": [
+          "CLAHE(std=35,clip=0.00)"
+        ],
+        "stats": {
+          "mean_brightness": 124.2,
+          "std_brightness": 34.9,
+          "noise_level": 574.0,
+          "skew_angle": -0.97,
+          "avg_saturation": 65.7,
+          "width": 788,
+          "height": 2136,
+          "contrast_ratio": 111.0,
+          "is_bimodal": false,
+          "histogram_clipping": 0.0,
+          "content_coverage": 0.92,
+          "applied_steps": [
+            "CLAHE(std=35,clip=0.00)"
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_token_count": 3445,
+      "candidates_token_count": 758,
+      "total_token_count": 9747,
+      "thinking_token_count": 5544
+    },
+    "cost_info": {
+      "total_cost": 0.0029285,
+      "model_name": "Gemini 2.5 Flash",
+      "input_cost": 0.0010335,
+      "output_cost": 0.0018950000000000002
+    },
+    "retry_count": 0
+  }
+}

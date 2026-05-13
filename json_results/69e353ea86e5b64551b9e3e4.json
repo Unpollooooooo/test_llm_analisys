@@ -1,0 +1,158 @@
+{
+  "receipt_guid": "69e353ea86e5b64551b9e3e4",
+  "shop_brand": null,
+  "analysis": {
+    "document_type": "receipt",
+    "merchant": {
+      "name": "FRATELLI ARENA S.R.L.",
+      "brand_name": "SUPERConveniente",
+      "address": "VIA GIORGIO LA PIRA 7 97100 - RAGUSA",
+      "vat_number": "00097560866",
+      "date": "2026-04-17",
+      "receipt_number": "0230-0059",
+      "notes": ""
+    },
+    "items": [
+      {
+        "description": "KINDER HAPPY HIPPO CACAO",
+        "description_full": "Kinder Happy Hippo Cacao",
+        "category": "pantry",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 2.69,
+        "discount": 0.0,
+        "total_price": 2.69,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 32,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 32,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "RED BULL CL.25X4#",
+        "description_full": "Red Bull Sugarfree 250 ml x 4",
+        "category": "beverages",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 3.99,
+        "discount": 0.0,
+        "total_price": 3.99,
+        "_catalog_method": "promo_catalog",
+        "_catalog_confidence": 0.7,
+        "_gemini_original": "Red Bull 25cl x 4",
+        "barcode": "9002490265465",
+        "is_promo_item": true,
+        "match_confidence": 85,
+        "promo_match": {
+          "publisher_guid": "6720a7b2c522bbb00d0651a1",
+          "product_guid": "6723584956329e8499ff216c",
+          "product_name": "Red Bull Sugarfree 250 ml x 4",
+          "brand_name": "Red Bull",
+          "match_confidence": 85,
+          "size_conflict": null,
+          "price_conflict": false
+        },
+        "match_signals": {
+          "brand": "MATCH",
+          "text": "HIGH",
+          "text_score": 85,
+          "variant": "MATCH",
+          "variant_jw": 1.0,
+          "price": "MATCH",
+          "size": "UNKNOWN",
+          "category": "OK",
+          "decision": "PROMO_FOUND"
+        }
+      },
+      {
+        "description": "ARROTONDAMENTO IN ECCESSO",
+        "description_full": "Arrotondamento in eccesso",
+        "category": "other",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 0.02,
+        "discount": 0.0,
+        "total_price": 0.02,
+        "_catalog_method": "gemini_only",
+        "_catalog_confidence": 0.4,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 26,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 26,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "CONFLICT",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      }
+    ],
+    "totals": {
+      "total_amount": 6.7,
+      "tax_amount": 0.96,
+      "item_count": 3
+    }
+  },
+  "promo_status": "PROMO_FOUND",
+  "metadata": {
+    "version": "2.0.0+6c131bf",
+    "pars_dt": "2026-04-18T09:51:02.228+00:00",
+    "processing_status": "CLEAN",
+    "flags": [],
+    "preprocessing": [
+      {
+        "image_index": 0,
+        "tile_index": 0,
+        "steps": [
+          "GRAYSCALE(sat=11)",
+          "CLAHE(std=35,clip=0.00)"
+        ],
+        "stats": {
+          "mean_brightness": 171.6,
+          "std_brightness": 34.6,
+          "noise_level": 289.0,
+          "skew_angle": 0.0,
+          "avg_saturation": 10.9,
+          "width": 1920,
+          "height": 3705,
+          "contrast_ratio": 116.0,
+          "is_bimodal": false,
+          "histogram_clipping": 0.0,
+          "content_coverage": 0.72,
+          "applied_steps": [
+            "GRAYSCALE(sat=11)",
+            "CLAHE(std=35,clip=0.00)"
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_token_count": 5251,
+      "candidates_token_count": 396,
+      "total_token_count": 6580,
+      "thinking_token_count": 933
+    },
+    "cost_info": {
+      "total_cost": 0.0025653,
+      "model_name": "Gemini 2.5 Flash",
+      "input_cost": 0.0015753,
+      "output_cost": 0.00099
+    },
+    "retry_count": 0
+  }
+}

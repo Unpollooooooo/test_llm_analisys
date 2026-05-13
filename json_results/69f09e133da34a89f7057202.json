@@ -1,0 +1,350 @@
+{
+  "receipt_guid": "69f09e133da34a89f7057202",
+  "shop_brand": null,
+  "analysis": {
+    "document_type": "receipt",
+    "merchant": {
+      "name": "MARIDE S.R.L.",
+      "brand_name": "IRYS",
+      "address": "VIALE LEONARDO SCIASCIA N.214 92:00 AGRIGENTO",
+      "vat_number": "02978990840",
+      "date": "2026-04-28",
+      "receipt_number": "1813-0101",
+      "notes": ""
+    },
+    "items": [
+      {
+        "description": "SANT ANNA ACQUA NATURALE 2LT",
+        "description_full": "Sant'Anna Acqua Naturale 2 Litri",
+        "category": "beverages",
+        "quantity": 12.0,
+        "unit_of_measure": "pz",
+        "unit_price": 0.59,
+        "discount": 0.0,
+        "total_price": 7.08,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 30,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 30,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "INCOMPATIBLE"
+        }
+      },
+      {
+        "description": "ADIDAS VIBES HAPPY FEELBMIST 150",
+        "description_full": "Adidas Vibes Happy Feel Mist 150ml",
+        "category": "personal_care",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 5.9,
+        "discount": 0.0,
+        "total_price": 5.9,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 24,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 24,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "SCALA ASCIUGATUTTO 4 ROTOLI",
+        "description_full": "Scala Asciugatutto 4 Rotoli",
+        "category": "home_care",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 1.09,
+        "discount": 0.0,
+        "total_price": 1.09,
+        "_catalog_method": "gemini_only",
+        "_catalog_confidence": 0.4,
+        "_alignment_override": true,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 34,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 34,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "BULKYSOFT CARTA IGIEN.MIA TALC04",
+        "description_full": "Bulkysoft Carta Igienica Talco 4",
+        "category": "home_care",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 0.89,
+        "discount": 0.0,
+        "total_price": 0.89,
+        "_catalog_method": "gemini_only",
+        "_catalog_confidence": 0.85,
+        "_alignment_override": true,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 27,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 27,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "INCOMPATIBLE"
+        }
+      },
+      {
+        "description": "BULKYSOFT CARTA IGIEN.MIA TALCO4",
+        "description_full": "Bulkysoft Carta Igienica Talco 4",
+        "category": "home_care",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 0.89,
+        "discount": 0.0,
+        "total_price": 0.89,
+        "_catalog_method": "gemini_only",
+        "_catalog_confidence": 0.85,
+        "_alignment_override": true,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 27,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 27,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "INCOMPATIBLE"
+        }
+      },
+      {
+        "description": "MALIZIA DEO UOMO AMBER 150ML.",
+        "description_full": "Malizia Deodorante Uomo Amber 150ml",
+        "category": "personal_care",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 2.59,
+        "discount": 0.0,
+        "total_price": 2.59,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 26,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 26,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "MATCH",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "PINO SILVESTRE BE MUSCHIO B.750M",
+        "description_full": "Pino Silvestre Bagnoschiuma Muschio Bianco 750ml",
+        "category": "personal_care",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 1.59,
+        "discount": 0.0,
+        "total_price": 1.59,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": "8003650022127",
+        "is_promo_item": false,
+        "match_confidence": 74,
+        "promo_match": {
+          "publisher_guid": "6939bd34e84bd0409997e7c9",
+          "product_guid": "6939c6789cf06812292571dd",
+          "product_name": "Additivo Smacchiante Polvere",
+          "brand_name": "Omino Bianco",
+          "match_confidence": 74,
+          "size_conflict": null,
+          "price_conflict": null
+        },
+        "match_signals": {
+          "brand": "MATCH",
+          "text": "MED",
+          "text_score": 77,
+          "variant": "PARTIAL",
+          "variant_jw": 0.651,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK",
+          "decision": "AMBIGUOUS"
+        }
+      },
+      {
+        "description": "PINO SILVESTRE BE FLORA SELV 750",
+        "description_full": "Pino Silvestre Bagnoschiuma Flora Selvaggia 750ml",
+        "category": "personal_care",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 1.59,
+        "discount": 0.0,
+        "total_price": 1.59,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 29,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 29,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "DOVE BS TALCO 700ML",
+        "description_full": "Dove bagnodoccia talco al delicato profumo di talco 450 ml",
+        "category": "personal_care",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 3.79,
+        "discount": 0.0,
+        "total_price": 3.79,
+        "_catalog_method": "promo_catalog",
+        "_catalog_confidence": 0.7,
+        "_gemini_original": "Dove Bagnoschiuma Talco 700ml",
+        "barcode": "8720181493263",
+        "is_promo_item": true,
+        "match_confidence": 85,
+        "promo_match": {
+          "publisher_guid": "6908893d7cb8558c28a80692",
+          "product_guid": "694942b39cf0681229257f87",
+          "product_name": "Dove bagnodoccia talco al delicato profumo di talco 700 ml",
+          "brand_name": "Dove",
+          "match_confidence": 85,
+          "size_conflict": false,
+          "price_conflict": null
+        },
+        "match_signals": {
+          "brand": "MATCH",
+          "text": "HIGH",
+          "text_score": 85,
+          "variant": "MATCH",
+          "variant_jw": 1.0,
+          "price": "UNKNOWN",
+          "size": "MATCH",
+          "category": "OK",
+          "decision": "PROMO_FOUND"
+        }
+      },
+      {
+        "description": "MALIZIA DEO UOMO AMBER 150ML.",
+        "description_full": "Malizia Deodorante Uomo Amber 150ml",
+        "category": "personal_care",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 2.59,
+        "discount": 0.0,
+        "total_price": 2.59,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 26,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 26,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "MATCH",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      }
+    ],
+    "totals": {
+      "total_amount": 28.0,
+      "tax_amount": 5.05,
+      "item_count": null
+    }
+  },
+  "promo_status": "PROMO_FOUND",
+  "metadata": {
+    "version": "2.0.0+unknown",
+    "pars_dt": "2026-04-28T11:47:22.715+00:00",
+    "processing_status": "CLEAN",
+    "flags": [],
+    "preprocessing": [
+      {
+        "image_index": 0,
+        "tile_index": 0,
+        "steps": [
+          "PASSTHROUGH(no preprocessing needed)"
+        ],
+        "stats": {
+          "mean_brightness": 124.0,
+          "std_brightness": 49.7,
+          "noise_level": 239.0,
+          "skew_angle": 0.0,
+          "avg_saturation": 61.0,
+          "width": 1920,
+          "height": 2560,
+          "contrast_ratio": 152.0,
+          "is_bimodal": true,
+          "histogram_clipping": 0.026,
+          "content_coverage": 0.68,
+          "applied_steps": [
+            "PASSTHROUGH(no preprocessing needed)"
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_token_count": 6283,
+      "candidates_token_count": 1335,
+      "total_token_count": 9596,
+      "thinking_token_count": 1978
+    },
+    "cost_info": {
+      "total_cost": 0.0052224,
+      "model_name": "Gemini 2.5 Flash",
+      "input_cost": 0.0018849,
+      "output_cost": 0.0033375
+    },
+    "retry_count": 0
+  }
+}

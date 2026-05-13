@@ -1,0 +1,227 @@
+{
+  "receipt_guid": "69e5e9da86e5b64551b9fde8",
+  "shop_brand": null,
+  "analysis": {
+    "document_type": "receipt",
+    "merchant": {
+      "name": "SUPERMERCATI META' MULTIFOOD SRL",
+      "brand_name": "META'",
+      "address": "PIAZZA REPUBBLICA ALLUMIERE",
+      "vat_number": "11991721009",
+      "date": "2026-04-20",
+      "receipt_number": "2347-0023",
+      "notes": ""
+    },
+    "items": [
+      {
+        "description": "PEP ACQUA TONICA",
+        "description_full": "Pepsi Acqua Tonica",
+        "category": "beverages",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 1.0,
+        "discount": 0.0,
+        "total_price": 1.0,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 32,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 32,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "PEP MISTICANZA G89",
+        "description_full": "Pepsi Misticanza G89",
+        "category": "produce",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 0.99,
+        "discount": 0.0,
+        "total_price": 0.99,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 26,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 26,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "CONFLICT",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "PEP BIO ACETO MELE",
+        "description_full": "Pepsi Bio Aceto di Mele",
+        "category": "pantry",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 2.19,
+        "discount": 0.0,
+        "total_price": 2.19,
+        "_catalog_method": "gemini_only",
+        "_catalog_confidence": 0.49,
+        "_alignment_override": true,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 29,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 29,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "REP. TAGLIO/PESO",
+        "description_full": "REP TAGLIO PESO",
+        "category": "meat_fish",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 2.28,
+        "discount": 0.0,
+        "total_price": 2.28,
+        "_catalog_method": "abbreviation",
+        "_catalog_confidence": 0.7,
+        "_gemini_original": "Reparto Taglio/Peso",
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 25,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 25,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "PEPERONINO INTERO",
+        "description_full": "Peperoncino Intero",
+        "category": "produce",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 1.0,
+        "discount": 0.0,
+        "total_price": 1.0,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 31,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 31,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "N.MARIO CROISSANT",
+        "description_full": "N. Mario Croissant",
+        "category": "bakery",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 1.5,
+        "discount": 0.0,
+        "total_price": 1.5,
+        "_catalog_method": "gemini_only",
+        "_catalog_confidence": 0.85,
+        "_alignment_override": true,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 30,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 30,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      }
+    ],
+    "totals": {
+      "total_amount": 8.96,
+      "tax_amount": 0.85,
+      "item_count": 6
+    }
+  },
+  "promo_status": "NO_PROMO",
+  "metadata": {
+    "version": "2.0.0+6c131bf",
+    "pars_dt": "2026-04-20T08:55:21.062+00:00",
+    "processing_status": "CLEAN",
+    "flags": [],
+    "preprocessing": [
+      {
+        "image_index": 0,
+        "tile_index": 0,
+        "steps": [
+          "GRAYSCALE(sat=14)"
+        ],
+        "stats": {
+          "mean_brightness": 161.7,
+          "std_brightness": 45.2,
+          "noise_level": 479.0,
+          "skew_angle": 0.0,
+          "avg_saturation": 14.2,
+          "width": 1364,
+          "height": 2305,
+          "contrast_ratio": 153.0,
+          "is_bimodal": false,
+          "histogram_clipping": 0.0,
+          "content_coverage": 0.96,
+          "applied_steps": [
+            "GRAYSCALE(sat=14)"
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_token_count": 5251,
+      "candidates_token_count": 792,
+      "total_token_count": 7363,
+      "thinking_token_count": 1320
+    },
+    "cost_info": {
+      "total_cost": 0.0035553,
+      "model_name": "Gemini 2.5 Flash",
+      "input_cost": 0.0015753,
+      "output_cost": 0.00198
+    },
+    "retry_count": 0
+  }
+}

@@ -1,0 +1,175 @@
+{
+  "receipt_guid": "69e0f3898a7fcbbf8e292fde",
+  "shop_brand": null,
+  "analysis": {
+    "document_type": "receipt",
+    "merchant": {
+      "name": "UNICOOP ETRURIA s.c",
+      "brand_name": "Unicoop Etruria",
+      "address": "286-RIOTORTO VIA DE AMICIS PIOMBINO (LI)",
+      "vat_number": "00103530499",
+      "date": "null",
+      "receipt_number": "056520830",
+      "notes": "null"
+    },
+    "items": [
+      {
+        "description": "UOVA M TERRA S/ANT X6",
+        "description_full": "Uova medie da terra senza antibiotici x 6",
+        "category": "dairy",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 1.99,
+        "discount": 0.0,
+        "total_price": 1.99,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 33,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 33,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "MIRTILLI ESTERO I VH",
+        "description_full": "Mirtilli estero I categoria",
+        "category": "produce",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 2.64,
+        "discount": 0.0,
+        "total_price": 2.64,
+        "_catalog_method": "gemini_only",
+        "_catalog_confidence": 0.85,
+        "_alignment_override": true,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 27,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 27,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "MATCH",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "HAMBUR POL DELIC AMADOR",
+        "description_full": "Hamburger di pollo delicato Amadori",
+        "category": "meat_fish",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 2.48,
+        "discount": 0.0,
+        "total_price": 2.48,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 30,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 30,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "FOCACCINA MULTIC.CER. G",
+        "description_full": "Focaccina multicereali",
+        "category": "bakery",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 1.24,
+        "discount": 0.0,
+        "total_price": 1.24,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 29,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 29,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      }
+    ],
+    "totals": {
+      "total_amount": 8.35,
+      "tax_amount": 0.62,
+      "item_count": null
+    }
+  },
+  "promo_status": "NO_PROMO",
+  "metadata": {
+    "version": "1.0.0+6c131bf",
+    "pars_dt": "2026-04-16T14:35:16.579+00:00",
+    "processing_status": "CLEAN",
+    "flags": [],
+    "preprocessing": [
+      {
+        "image_index": 0,
+        "tile_index": 0,
+        "steps": [
+          "GRAYSCALE(sat=24)",
+          "THRESHOLD(contrast=63,bright=146)"
+        ],
+        "stats": {
+          "mean_brightness": 146.1,
+          "std_brightness": 25.2,
+          "noise_level": 684.0,
+          "skew_angle": 0.0,
+          "avg_saturation": 23.7,
+          "width": 741,
+          "height": 970,
+          "contrast_ratio": 63.0,
+          "is_bimodal": false,
+          "histogram_clipping": 0.005,
+          "content_coverage": 0.76,
+          "applied_steps": [
+            "GRAYSCALE(sat=24)",
+            "THRESHOLD(contrast=63,bright=146)"
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_token_count": 4219,
+      "candidates_token_count": 476,
+      "total_token_count": 5696,
+      "thinking_token_count": 1001
+    },
+    "cost_info": {
+      "total_cost": 0.0024557,
+      "model_name": "Gemini 2.5 Flash",
+      "input_cost": 0.0012657,
+      "output_cost": 0.00119
+    },
+    "retry_count": 0
+  }
+}

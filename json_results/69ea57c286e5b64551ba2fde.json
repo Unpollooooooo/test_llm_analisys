@@ -1,0 +1,239 @@
+{
+  "receipt_guid": "69ea57c286e5b64551ba2fde",
+  "shop_brand": null,
+  "analysis": {
+    "document_type": "receipt",
+    "merchant": {
+      "name": "BORELLO SRL",
+      "brand_name": "BORELLO",
+      "address": "Corso Racconigi 5/B 10121 Torino (TO)",
+      "vat_number": "04890700018",
+      "date": "2026-04-23",
+      "receipt_number": "0359-0107",
+      "notes": ""
+    },
+    "items": [
+      {
+        "description": "GEWURZTR DOC CAVIT",
+        "description_full": "Gewürztraminer DOC Cavit",
+        "category": "beverages",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 7.49,
+        "discount": 0.0,
+        "total_price": 7.49,
+        "_catalog_method": "gemini_only",
+        "_catalog_confidence": 0.85,
+        "_alignment_override": true,
+        "barcode": "8007890216643",
+        "is_promo_item": true,
+        "match_confidence": 100,
+        "promo_match": {
+          "publisher_guid": "6513f43860b55747dd7fc26a",
+          "product_guid": "65689d93036ecb11a785cfce",
+          "product_name": "Gewürztraminer Trentino DOC Mastri Vernacoli",
+          "brand_name": "Cavit",
+          "match_confidence": 100,
+          "size_conflict": null,
+          "price_conflict": null
+        },
+        "match_signals": {
+          "brand": "MATCH",
+          "text": "HIGH",
+          "text_score": 100,
+          "variant": "MATCH",
+          "variant_jw": 1.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK",
+          "decision": "PROMO_FOUND"
+        }
+      },
+      {
+        "description": "COCACOLA BI-PACK",
+        "description_full": "Cocacola",
+        "category": "beverages",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 3.99,
+        "discount": 0.0,
+        "total_price": 3.99,
+        "_catalog_method": "fuzzy",
+        "_catalog_confidence": 0.7,
+        "_gemini_original": "Coca-Cola Bi-Pack",
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 31,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 31,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "SCHWEPPES",
+        "description_full": "Schweppes",
+        "category": "beverages",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 1.49,
+        "discount": 0.0,
+        "total_price": 1.49,
+        "_catalog_method": "gemini_only",
+        "_catalog_confidence": 0.85,
+        "_alignment_override": true,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 22,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 22,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "SCHWEPPES",
+        "description_full": "Schweppes",
+        "category": "beverages",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 1.49,
+        "discount": 0.0,
+        "total_price": 1.49,
+        "_catalog_method": "gemini_only",
+        "_catalog_confidence": 0.85,
+        "_alignment_override": true,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 22,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 22,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "SCHWEPPES",
+        "description_full": "Schweppes",
+        "category": "beverages",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 1.49,
+        "discount": 0.0,
+        "total_price": 1.49,
+        "_catalog_method": "gemini_only",
+        "_catalog_confidence": 0.85,
+        "_alignment_override": true,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 22,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 22,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "SHOPPER BIANCHE BIO",
+        "description_full": "Shopper Bianche Bio",
+        "category": "other",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 0.1,
+        "discount": 0.0,
+        "total_price": 0.1,
+        "_catalog_method": "gemini_only",
+        "_catalog_confidence": 0.4,
+        "_alignment_override": true,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 25,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 25,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      }
+    ],
+    "totals": {
+      "total_amount": 16.05,
+      "tax_amount": 0.0,
+      "item_count": 6
+    }
+  },
+  "promo_status": "PROMO_FOUND",
+  "metadata": {
+    "version": "2.0.0+6c131bf",
+    "pars_dt": "2026-04-23T17:33:23.061+00:00",
+    "processing_status": "CLEAN",
+    "flags": [],
+    "preprocessing": [
+      {
+        "image_index": 0,
+        "tile_index": 0,
+        "steps": [
+          "GRAYSCALE(sat=23)"
+        ],
+        "stats": {
+          "mean_brightness": 158.9,
+          "std_brightness": 39.8,
+          "noise_level": 86.0,
+          "skew_angle": 0.0,
+          "avg_saturation": 23.1,
+          "width": 1920,
+          "height": 3690,
+          "contrast_ratio": 121.0,
+          "is_bimodal": true,
+          "histogram_clipping": 0.0,
+          "content_coverage": 0.44,
+          "applied_steps": [
+            "GRAYSCALE(sat=23)"
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_token_count": 5251,
+      "candidates_token_count": 775,
+      "total_token_count": 7261,
+      "thinking_token_count": 1235
+    },
+    "cost_info": {
+      "total_cost": 0.0035128,
+      "model_name": "Gemini 2.5 Flash",
+      "input_cost": 0.0015753,
+      "output_cost": 0.0019375000000000002
+    },
+    "retry_count": 0
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "receipt_guid": "69e7dfa486e5b64551ba177a",
+  "shop_brand": null,
+  "analysis": {
+    "document_type": "receipt",
+    "merchant": {
+      "name": "Lidl Italia S.r.l. a socio unico",
+      "brand_name": "Lidl",
+      "address": "Piove di Sacco (PD) 35028-via Alessio Valerio 27/A",
+      "vat_number": "PI02275030233",
+      "date": "2026-04-21",
+      "receipt_number": "2480-9235",
+      "notes": ""
+    },
+    "items": [
+      {
+        "description": "TERRICCIO VERDURE20L",
+        "description_full": "Terriccio Verdure 20L",
+        "category": "home_care",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 2.49,
+        "discount": 0.0,
+        "total_price": 2.49,
+        "_catalog_method": "gemini_only",
+        "_catalog_confidence": 0.4,
+        "_alignment_override": true,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 29,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 29,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "MATCH",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      }
+    ],
+    "totals": {
+      "total_amount": 2.49,
+      "tax_amount": 0.1,
+      "item_count": null
+    }
+  },
+  "promo_status": "NO_PROMO",
+  "metadata": {
+    "version": "2.0.0+6c131bf",
+    "pars_dt": "2026-04-21T20:36:12.880+00:00",
+    "processing_status": "CLEAN",
+    "flags": [],
+    "preprocessing": [
+      {
+        "image_index": 0,
+        "tile_index": 0,
+        "steps": [
+          "DESKEW(angle=14.9°)",
+          "GRAYSCALE(sat=22)"
+        ],
+        "stats": {
+          "mean_brightness": 167.7,
+          "std_brightness": 64.0,
+          "noise_level": 610.0,
+          "skew_angle": 14.94,
+          "avg_saturation": 22.0,
+          "width": 1673,
+          "height": 3705,
+          "contrast_ratio": 186.0,
+          "is_bimodal": true,
+          "histogram_clipping": 0.036,
+          "content_coverage": 0.92,
+          "applied_steps": [
+            "DESKEW(angle=14.9°)",
+            "GRAYSCALE(sat=22)"
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_token_count": 5251,
+      "candidates_token_count": 243,
+      "total_token_count": 6289,
+      "thinking_token_count": 795
+    },
+    "cost_info": {
+      "total_cost": 0.0021828,
+      "model_name": "Gemini 2.5 Flash",
+      "input_cost": 0.0015753,
+      "output_cost": 0.0006075000000000001
+    },
+    "retry_count": 0
+  }
+}

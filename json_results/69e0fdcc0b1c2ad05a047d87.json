@@ -1,0 +1,167 @@
+{
+  "receipt_guid": "69e0fdcc0b1c2ad05a047d87",
+  "shop_brand": null,
+  "analysis": {
+    "document_type": "receipt",
+    "merchant": {
+      "name": "SIF srl",
+      "brand_name": "EUROSPAR",
+      "address": "Via Vittorio Veneto 29, 04026 01018 (35)",
+      "vat_number": "03222990925",
+      "date": "2026-04-16",
+      "receipt_number": "2562-0335",
+      "notes": ""
+    },
+    "items": [
+      {
+        "description": "LATTE PARMALAT ZYMIL",
+        "description_full": "Latte Parmalat Zymil",
+        "category": "dairy",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 1.99,
+        "discount": 0.0,
+        "total_price": 1.99,
+        "_catalog_method": "gemini_only",
+        "_catalog_confidence": 0.4,
+        "_alignment_override": true,
+        "barcode": "8002580322475",
+        "is_promo_item": true,
+        "match_confidence": 91,
+        "promo_match": {
+          "publisher_guid": "68f0f6bb00cc667d09dd07fe",
+          "product_guid": "69314a846f6ada34183f7062",
+          "product_name": "Parmalat Latte Parzialmente Scremato 100% Latte d'Italia",
+          "brand_name": "Parmalat",
+          "match_confidence": 91,
+          "size_conflict": false,
+          "price_conflict": false
+        },
+        "match_signals": {
+          "brand": "MATCH",
+          "text": "HIGH",
+          "text_score": 91,
+          "variant": "MATCH",
+          "variant_jw": 0.814,
+          "price": "MATCH",
+          "size": "UNKNOWN",
+          "category": "OK",
+          "decision": "PROMO_FOUND"
+        }
+      },
+      {
+        "description": "LATTE PARMALAT ZYMIL",
+        "description_full": "Latte Parmalat Zymil",
+        "category": "dairy",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 1.99,
+        "discount": 0.0,
+        "total_price": 1.99,
+        "_catalog_method": "gemini_only",
+        "_catalog_confidence": 0.4,
+        "_alignment_override": true,
+        "barcode": "8002580322475",
+        "is_promo_item": true,
+        "match_confidence": 91,
+        "promo_match": {
+          "publisher_guid": "68f0f6bb00cc667d09dd07fe",
+          "product_guid": "69314a846f6ada34183f7062",
+          "product_name": "Parmalat Latte Parzialmente Scremato 100% Latte d'Italia",
+          "brand_name": "Parmalat",
+          "match_confidence": 91,
+          "size_conflict": false,
+          "price_conflict": false
+        },
+        "match_signals": {
+          "brand": "MATCH",
+          "text": "HIGH",
+          "text_score": 91,
+          "variant": "MATCH",
+          "variant_jw": 0.814,
+          "price": "MATCH",
+          "size": "UNKNOWN",
+          "category": "OK",
+          "decision": "PROMO_FOUND"
+        }
+      },
+      {
+        "description": "SHOPP EUR DESP BIO 3.",
+        "description_full": "Shopping Euro Desp Bio 3",
+        "category": "other",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 0.15,
+        "discount": 0.0,
+        "total_price": 0.15,
+        "_catalog_method": "gemini_only",
+        "_catalog_confidence": 0.85,
+        "_alignment_override": true,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 25,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 25,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "CONFLICT",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      }
+    ],
+    "totals": {
+      "total_amount": 4.13,
+      "tax_amount": 0.18,
+      "item_count": 3
+    }
+  },
+  "promo_status": "PROMO_FOUND",
+  "metadata": {
+    "version": "1.0.0+6c131bf",
+    "pars_dt": "2026-04-16T15:19:02.454+00:00",
+    "processing_status": "CLEAN",
+    "flags": [],
+    "preprocessing": [
+      {
+        "image_index": 0,
+        "tile_index": 0,
+        "steps": [
+          "GRAYSCALE(sat=39)"
+        ],
+        "stats": {
+          "mean_brightness": 130.4,
+          "std_brightness": 51.8,
+          "noise_level": 99.0,
+          "skew_angle": 0.0,
+          "avg_saturation": 39.3,
+          "width": 1641,
+          "height": 1074,
+          "contrast_ratio": 159.0,
+          "is_bimodal": true,
+          "histogram_clipping": 0.01,
+          "content_coverage": 0.6,
+          "applied_steps": [
+            "GRAYSCALE(sat=39)"
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_token_count": 4735,
+      "candidates_token_count": 390,
+      "total_token_count": 6254,
+      "thinking_token_count": 1129
+    },
+    "cost_info": {
+      "total_cost": 0.0023955,
+      "model_name": "Gemini 2.5 Flash",
+      "input_cost": 0.0014204999999999999,
+      "output_cost": 0.0009750000000000001
+    },
+    "retry_count": 0
+  }
+}

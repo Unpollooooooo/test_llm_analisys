@@ -1,0 +1,183 @@
+{
+  "receipt_guid": "69f0ad9186e5b64551ba699a",
+  "shop_brand": null,
+  "analysis": {
+    "document_type": "receipt",
+    "merchant": {
+      "name": "MELOTTO ENRICO",
+      "brand_name": "SUPERMERCATO MELOTTO",
+      "address": "37050 ISOLA RIZZA (VR)",
+      "vat_number": "03593370236",
+      "date": "2026-04-28",
+      "receipt_number": "0695-0096",
+      "notes": ""
+    },
+    "items": [
+      {
+        "description": "POMODORO DATTERINO",
+        "description_full": "Pomodoro Datterino",
+        "category": "produce",
+        "quantity": 1,
+        "unit_of_measure": "pz",
+        "unit_price": 1.81,
+        "discount": 0,
+        "total_price": 1.81,
+        "_catalog_method": "gemini_only",
+        "_catalog_confidence": 0.85,
+        "_alignment_override": true,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 28,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 28,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "MATCH",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "PANE FRESCO",
+        "description_full": "Pane Fresco",
+        "category": "bakery",
+        "quantity": 1,
+        "unit_of_measure": "pz",
+        "unit_price": 2.45,
+        "discount": 0,
+        "total_price": 2.45,
+        "_catalog_method": "gemini_only",
+        "_catalog_confidence": 0.85,
+        "_alignment_override": true,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 32,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 32,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "PETTO POLLO LAVORATO",
+        "description_full": "Petto Pollo Lavorato",
+        "category": "meat_fish",
+        "quantity": 1,
+        "unit_of_measure": "pz",
+        "unit_price": 9.63,
+        "discount": 0,
+        "total_price": 9.63,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 30,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 30,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "LEV SAL UNGHERESE",
+        "description_full": "Lievito Sale Ungherese",
+        "category": "pantry",
+        "quantity": 1,
+        "unit_of_measure": "pz",
+        "unit_price": 5.28,
+        "discount": 0,
+        "total_price": 5.28,
+        "_catalog_method": "gemini_only",
+        "_catalog_confidence": 0.52,
+        "_alignment_override": true,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 27,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 27,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      }
+    ],
+    "totals": {
+      "total_amount": 19.17,
+      "tax_amount": 0.0,
+      "item_count": 4
+    },
+    "quality_flags": []
+  },
+  "promo_status": "NO_PROMO",
+  "metadata": {
+    "version": "2.1.0+unknown",
+    "pars_dt": "2026-04-28T12:53:02.183+00:00",
+    "processing_status": "CLEAN",
+    "flags": [],
+    "preprocessing": [
+      {
+        "image_index": 0,
+        "tile_index": 0,
+        "steps": [
+          "GRAYSCALE(sat=24)"
+        ],
+        "stats": {
+          "mean_brightness": 161.7,
+          "std_brightness": 38.8,
+          "noise_level": 263.0,
+          "skew_angle": 0.0,
+          "avg_saturation": 23.7,
+          "width": 1920,
+          "height": 2560,
+          "contrast_ratio": 119.0,
+          "is_bimodal": false,
+          "histogram_clipping": 0.0,
+          "content_coverage": 0.6,
+          "applied_steps": [
+            "GRAYSCALE(sat=24)"
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_token_count": 6530,
+      "candidates_token_count": 573,
+      "total_token_count": 8149,
+      "thinking_token_count": 1046
+    },
+    "cost_info": {
+      "total_cost": 0.0033915,
+      "model_name": "Gemini 2.5 Flash",
+      "input_cost": 0.001959,
+      "output_cost": 0.0014325000000000002
+    },
+    "retry_count": 0,
+    "validation_errors": [
+      {
+        "code": "NO_PREMIUM_PRODUCTS",
+        "message": "Lo scontrino non contiene prodotti premianti"
+      }
+    ],
+    "is_valid": false
+  }
+}

@@ -1,0 +1,225 @@
+{
+  "receipt_guid": "69ef580d86e5b64551ba5bc2",
+  "shop_brand": null,
+  "analysis": {
+    "document_type": "receipt",
+    "merchant": {
+      "name": "CARREFOUR IPER 2153",
+      "brand_name": "Carrefour",
+      "address": "Borgosesia\\13011",
+      "vat_number": "1283790133",
+      "date": "2026-04-27",
+      "receipt_number": "",
+      "notes": ""
+    },
+    "items": [
+      {
+        "description": "STICK DI PRI CREATIV G",
+        "description_full": "Stick di Primi Creativi",
+        "category": "other",
+        "quantity": 1,
+        "unit_of_measure": "pz",
+        "unit_price": 1.38,
+        "discount": 0.2,
+        "total_price": 1.18,
+        "_catalog_method": "gemini_only",
+        "_catalog_confidence": 0.85,
+        "_alignment_override": true,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 28,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 28,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "APG CRF STICK DI SPECK",
+        "description_full": "Stick di speck",
+        "category": "meat_fish",
+        "quantity": 1,
+        "unit_of_measure": "pz",
+        "unit_price": 1.0,
+        "discount": 0.2,
+        "total_price": 0.8,
+        "_catalog_method": "fuzzy",
+        "_catalog_confidence": 1.0,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 23,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 23,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "MATCH",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "TORTELL.CRUDO MAMMA",
+        "description_full": "Tortellini Crudo Mamma",
+        "category": "pantry",
+        "quantity": 1,
+        "unit_of_measure": "pz",
+        "unit_price": 0.99,
+        "discount": 0.2,
+        "total_price": 0.79,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 28,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 28,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "CONFLICT",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "ACQUA NATUR.ALPE GUI",
+        "description_full": "Acqua Naturale Alpe Guizza",
+        "category": "beverages",
+        "quantity": 1,
+        "unit_of_measure": "pz",
+        "unit_price": 0.99,
+        "discount": 0.2,
+        "total_price": 0.79,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 27,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 27,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "CAROTE SACCHETTO CON",
+        "description_full": "Carote Sacchetto",
+        "category": "produce",
+        "quantity": 1,
+        "unit_of_measure": "pz",
+        "unit_price": 0.99,
+        "discount": 0.2,
+        "total_price": 0.79,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 27,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 27,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "CONFLICT",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "CREMA DA CUCINA VEDE",
+        "description_full": "Crema da Cucina Vegetale",
+        "category": "dairy",
+        "quantity": 1,
+        "unit_of_measure": "pz",
+        "unit_price": 0.99,
+        "discount": 0.2,
+        "total_price": 0.79,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 27,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 27,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      }
+    ],
+    "totals": {
+      "total_amount": 12.22,
+      "tax_amount": 1.02,
+      "item_count": null
+    }
+  },
+  "promo_status": "NO_PROMO",
+  "metadata": {
+    "version": "2.0.0+unknown",
+    "pars_dt": "2026-04-27T12:38:26.950+00:00",
+    "processing_status": "CLEAN",
+    "flags": [],
+    "preprocessing": [
+      {
+        "image_index": 0,
+        "tile_index": 0,
+        "steps": [
+          "THRESHOLD(contrast=63,bright=190)"
+        ],
+        "stats": {
+          "mean_brightness": 190.1,
+          "std_brightness": 24.7,
+          "noise_level": 97.0,
+          "skew_angle": 0.0,
+          "avg_saturation": 62.7,
+          "width": 1514,
+          "height": 1036,
+          "contrast_ratio": 63.0,
+          "is_bimodal": false,
+          "histogram_clipping": 0.0,
+          "content_coverage": 0.68,
+          "applied_steps": [
+            "THRESHOLD(contrast=63,bright=190)"
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_token_count": 4735,
+      "candidates_token_count": 761,
+      "total_token_count": 18553,
+      "thinking_token_count": 13057
+    },
+    "cost_info": {
+      "total_cost": 0.003323,
+      "model_name": "Gemini 2.5 Flash",
+      "input_cost": 0.0014204999999999999,
+      "output_cost": 0.0019025000000000001
+    },
+    "retry_count": 0
+  }
+}

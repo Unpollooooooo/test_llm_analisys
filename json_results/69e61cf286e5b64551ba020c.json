@@ -1,0 +1,252 @@
+{
+  "receipt_guid": "69e61cf286e5b64551ba020c",
+  "shop_brand": null,
+  "analysis": {
+    "document_type": "receipt",
+    "merchant": {
+      "name": "GUSTO S.r.l.",
+      "brand_name": "ROSSOTONO market",
+      "address": "Via della Libertà, snc-81030 Sant'Arpino (CE)",
+      "vat_number": "04195980612",
+      "date": "2026-04-20",
+      "receipt_number": "0522-0107",
+      "notes": ""
+    },
+    "items": [
+      {
+        "description": "HAMBURGER DI VITELL",
+        "description_full": "Hamburger di vitello",
+        "category": "meat_fish",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 2.81,
+        "discount": 0.0,
+        "total_price": 2.81,
+        "_catalog_method": "abbreviation",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 33,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 33,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "MATCH",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "HAMBURGER DI VITELL",
+        "description_full": "Hamburger di vitello",
+        "category": "meat_fish",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 2.71,
+        "discount": 0.0,
+        "total_price": 2.71,
+        "_catalog_method": "cache",
+        "_catalog_confidence": 0.9,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 33,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 33,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "MATCH",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "HAMBURGER DI VITELL",
+        "description_full": "Hamburger di vitello",
+        "category": "meat_fish",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 2.86,
+        "discount": 0.0,
+        "total_price": 2.86,
+        "_catalog_method": "cache",
+        "_catalog_confidence": 0.9,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 33,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 33,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "MATCH",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "SHOPPER BIO M",
+        "description_full": "Shopper Bio Media",
+        "category": "home_care",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 0.1,
+        "discount": 0.0,
+        "total_price": 0.1,
+        "_catalog_method": "gemini_only",
+        "_catalog_confidence": 0.4,
+        "_alignment_override": true,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 29,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 29,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "CONFLICT",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "FRAGOLE 500 GR MONOS",
+        "description_full": "Fragole 500 grammi Monosano",
+        "category": "produce",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 2.99,
+        "discount": 0.0,
+        "total_price": 2.99,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 28,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 28,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "PUGLIAMIA PICC",
+        "description_full": "Pugliamia Piccola",
+        "category": "pantry",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 1.05,
+        "discount": 0.0,
+        "total_price": 1.05,
+        "_catalog_method": "gemini_only",
+        "_catalog_confidence": 0.57,
+        "_alignment_override": true,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 28,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 28,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "MASTROMATTEO T",
+        "description_full": "Mastromatteo T",
+        "category": "pantry",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 2.29,
+        "discount": 0.0,
+        "total_price": 2.29,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 27,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 27,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      }
+    ],
+    "totals": {
+      "total_amount": 14.81,
+      "tax_amount": 0.0,
+      "item_count": 8
+    }
+  },
+  "promo_status": "NO_PROMO",
+  "metadata": {
+    "version": "2.0.0+6c131bf",
+    "pars_dt": "2026-04-20T12:33:38.814+00:00",
+    "processing_status": "CLEAN",
+    "flags": [],
+    "preprocessing": [
+      {
+        "image_index": 0,
+        "tile_index": 0,
+        "steps": [
+          "CLAHE(std=33,clip=0.00)"
+        ],
+        "stats": {
+          "mean_brightness": 148.2,
+          "std_brightness": 33.4,
+          "noise_level": 1500.0,
+          "skew_angle": 0.0,
+          "avg_saturation": 59.1,
+          "width": 1920,
+          "height": 2247,
+          "contrast_ratio": 111.0,
+          "is_bimodal": false,
+          "histogram_clipping": 0.0,
+          "content_coverage": 1.0,
+          "applied_steps": [
+            "CLAHE(std=33,clip=0.00)"
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_token_count": 5509,
+      "candidates_token_count": 896,
+      "total_token_count": 8341,
+      "thinking_token_count": 1936
+    },
+    "cost_info": {
+      "total_cost": 0.0038927000000000002,
+      "model_name": "Gemini 2.5 Flash",
+      "input_cost": 0.0016527,
+      "output_cost": 0.0022400000000000002
+    },
+    "retry_count": 0
+  }
+}

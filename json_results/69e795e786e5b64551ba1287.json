@@ -1,0 +1,334 @@
+{
+  "receipt_guid": "69e795e786e5b64551ba1287",
+  "shop_brand": null,
+  "analysis": {
+    "document_type": "receipt",
+    "merchant": {
+      "name": "TIGOTA",
+      "brand_name": "TIGOTA",
+      "address": "LARGO ALBERAZZA 4, 43055 SORBOLO MEZZANI (PR)",
+      "vat_number": "02466210289",
+      "date": "2026-04-18",
+      "receipt_number": "1129-0306",
+      "notes": ""
+    },
+    "items": [
+      {
+        "description": "DENTASK MZ DENT MICROC",
+        "description_full": "Dentask Microconi Dental",
+        "category": "personal_care",
+        "quantity": 1,
+        "unit_of_measure": "pz",
+        "unit_price": 1.19,
+        "discount": 0,
+        "total_price": 1.19,
+        "_catalog_method": "gemini_only",
+        "_catalog_confidence": 0.85,
+        "_alignment_override": true,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 33,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 33,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "CONFLICT",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "SKIN S.PATCH BRUF IDRO",
+        "description_full": "SKIN S PATCH BRUF IDRO",
+        "category": "personal_care",
+        "quantity": 1,
+        "unit_of_measure": "pz",
+        "unit_price": 3.99,
+        "discount": 0,
+        "total_price": 3.99,
+        "_catalog_method": "abbreviation",
+        "_catalog_confidence": 0.7,
+        "_gemini_original": "Skin Spot Patch Brufoli Idrocolloide",
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 26,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 26,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "PANTENE MZ SH RIG&PROT",
+        "description_full": "PANTENE",
+        "category": "personal_care",
+        "quantity": 1,
+        "unit_of_measure": "pz",
+        "unit_price": 1.95,
+        "discount": 0,
+        "total_price": 1.95,
+        "_catalog_method": "fuzzy",
+        "_catalog_confidence": 0.7,
+        "_gemini_original": "Pantene Shampoo Rigenera & Protegge",
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 22,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 22,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "MATCH",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "BIOLIS MZ DS COCCO",
+        "description_full": "Biolis Doccia Schiuma Cocco",
+        "category": "personal_care",
+        "quantity": 1,
+        "unit_of_measure": "pz",
+        "unit_price": 1.49,
+        "discount": 0,
+        "total_price": 1.49,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 26,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 26,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "LA BIOTECA SUN MZ LAT",
+        "description_full": "La Bioteca Solare Latte",
+        "category": "personal_care",
+        "quantity": 1,
+        "unit_of_measure": "pz",
+        "unit_price": 3.99,
+        "discount": 0,
+        "total_price": 3.99,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 31,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 31,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "NIVEA MEN MZ DEO INV.B",
+        "description_full": "NIVEA MEN MZ DEO INV B",
+        "category": "personal_care",
+        "quantity": 1,
+        "unit_of_measure": "pz",
+        "unit_price": 1.49,
+        "discount": 0,
+        "total_price": 1.49,
+        "_catalog_method": "abbreviation",
+        "_catalog_confidence": 0.7,
+        "_gemini_original": "Nivea Men Deodorante Invisible Black & White",
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 27,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 27,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "PANTENE G.OL CHER.RIG&",
+        "description_full": "Pantene Gold Series Olio Cheratina Rigenerante",
+        "category": "personal_care",
+        "quantity": 1,
+        "unit_of_measure": "pz",
+        "unit_price": 6.48,
+        "discount": 0,
+        "total_price": 6.48,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 27,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 27,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "NOVON CERA IN POLV.STY",
+        "description_full": "Novon Cera in Polvere Styling",
+        "category": "personal_care",
+        "quantity": 1,
+        "unit_of_measure": "pz",
+        "unit_price": 6.65,
+        "discount": 0,
+        "total_price": 6.65,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 29,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 29,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "LA BIOTECA BIO BC COCC",
+        "description_full": "La Bioteca Bio Balsamo Capelli Cocco",
+        "category": "personal_care",
+        "quantity": 1,
+        "unit_of_measure": "pz",
+        "unit_price": 2.99,
+        "discount": 0,
+        "total_price": 2.99,
+        "_catalog_method": "gemini_only",
+        "_catalog_confidence": 0.54,
+        "_alignment_override": true,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 28,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 28,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "MATCH",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "COUPON 5 SU 25 TGT 2026",
+        "description_full": "Coupon",
+        "category": "other",
+        "quantity": 1,
+        "unit_of_measure": "pz",
+        "unit_price": 0,
+        "discount": 5,
+        "total_price": -5,
+        "_catalog_method": "fuzzy",
+        "_catalog_confidence": 0.7,
+        "_gemini_original": "Coupon sconto 5 euro su 25 euro Tigota 2026",
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 22,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 22,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      }
+    ],
+    "totals": {
+      "total_amount": 25.22,
+      "tax_amount": 4.55,
+      "item_count": 10
+    }
+  },
+  "promo_status": "NO_PROMO",
+  "metadata": {
+    "version": "2.0.0+6c131bf",
+    "pars_dt": "2026-04-21T15:21:58.233+00:00",
+    "processing_status": "CLEAN",
+    "flags": [],
+    "preprocessing": [
+      {
+        "image_index": 0,
+        "tile_index": 0,
+        "steps": [
+          "GRAYSCALE(sat=20)"
+        ],
+        "stats": {
+          "mean_brightness": 133.5,
+          "std_brightness": 55.7,
+          "noise_level": 288.0,
+          "skew_angle": 0.0,
+          "avg_saturation": 20.4,
+          "width": 1920,
+          "height": 2560,
+          "contrast_ratio": 190.0,
+          "is_bimodal": false,
+          "histogram_clipping": 0.019,
+          "content_coverage": 1.0,
+          "applied_steps": [
+            "GRAYSCALE(sat=20)"
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_token_count": 6283,
+      "candidates_token_count": 1222,
+      "total_token_count": 9617,
+      "thinking_token_count": 2112
+    },
+    "cost_info": {
+      "total_cost": 0.0049399000000000005,
+      "model_name": "Gemini 2.5 Flash",
+      "input_cost": 0.0018849,
+      "output_cost": 0.0030550000000000004
+    },
+    "retry_count": 0
+  }
+}

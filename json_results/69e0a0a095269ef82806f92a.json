@@ -1,0 +1,329 @@
+{
+  "receipt_guid": "69e0a0a095269ef82806f92a",
+  "shop_brand": null,
+  "analysis": {
+    "document_type": "receipt",
+    "merchant": {
+      "name": "Euro Alimentari SRL",
+      "brand_name": "pellicano",
+      "address": "Viale Margherita, 263 81034 Mondragone -CE-",
+      "vat_number": "04348720618",
+      "date": "2026-04-16",
+      "receipt_number": "2559-0086",
+      "notes": "null"
+    },
+    "items": [
+      {
+        "description": "PETTO DI POLLO INTERO AL",
+        "description_full": "Petto di Pollo Intero al",
+        "category": "meat_fish",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 6.95,
+        "discount": 0.0,
+        "total_price": 6.95,
+        "_catalog_method": "gemini_only",
+        "_catalog_confidence": 0.4,
+        "_alignment_override": true,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 37,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 37,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "FETTINE SCOTTONA",
+        "description_full": "Fettine Scottona",
+        "category": "meat_fish",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 7.38,
+        "discount": 0.0,
+        "total_price": 7.38,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 26,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 26,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "PROSCIUTTO DI MAIALE AL K",
+        "description_full": "Prosciutto di Maiale al Kg",
+        "category": "meat_fish",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 3.48,
+        "discount": 0.0,
+        "total_price": 3.48,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 33,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 33,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "M.BIANCO PLUMCAKE YOGURT",
+        "description_full": "Mulino Bianco Plumcake Yogurt",
+        "category": "bakery",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 2.09,
+        "discount": 0.3,
+        "total_price": 1.79,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 29,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 29,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "MELE UOVA CHILOMETROZERO",
+        "description_full": "Mele Uova Chilometrozero",
+        "category": "produce",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 1.65,
+        "discount": 0.0,
+        "total_price": 1.65,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 26,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 26,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "YOGA SUCCO PERA 1LT PET",
+        "description_full": "Yoga Succo Pera 1 Litro PET",
+        "category": "beverages",
+        "quantity": 1.0,
+        "unit_of_measure": "l",
+        "unit_price": 1.49,
+        "discount": 0.0,
+        "total_price": 1.49,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 29,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 29,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "MATCH",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "SAN BENEDETTO ACQUA BABY",
+        "description_full": "San Benedetto Acqua Baby",
+        "category": "beverages",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 0.45,
+        "discount": 0.0,
+        "total_price": 0.45,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 28,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 28,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "CONFLICT",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "SAN BENEDETTO ACQUA BABY",
+        "description_full": "San Benedetto Acqua Baby",
+        "category": "beverages",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 0.45,
+        "discount": 0.0,
+        "total_price": 0.45,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 28,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 28,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "CONFLICT",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "VALFRUTTA PESCA TRIAN.8X1",
+        "description_full": "Valfrutta Pesca Triangolare 8x1",
+        "category": "beverages",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 2.49,
+        "discount": 0.0,
+        "total_price": 2.49,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 30,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 30,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "MATCH",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "SHOPPER COMP. 34X65 500P",
+        "description_full": "Shopper Compostabile 34x65 500 Pezzi",
+        "category": "home_care",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 0.12,
+        "discount": 0.0,
+        "total_price": 0.12,
+        "_catalog_method": "gemini_only",
+        "_catalog_confidence": 0.49,
+        "_alignment_override": true,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 27,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 27,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "CONFLICT",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      }
+    ],
+    "totals": {
+      "total_amount": 26.25,
+      "tax_amount": 2.85,
+      "item_count": 10
+    }
+  },
+  "promo_status": "NO_PROMO",
+  "metadata": {
+    "version": "1.0.0+e1ba314",
+    "processing_status": "CLEAN",
+    "flags": [],
+    "preprocessing": [
+      {
+        "image_index": 0,
+        "tile_index": 0,
+        "steps": [
+          "GRAYSCALE(sat=20)"
+        ],
+        "stats": {
+          "mean_brightness": 158.4,
+          "std_brightness": 60.6,
+          "noise_level": 441.0,
+          "skew_angle": 0.0,
+          "avg_saturation": 19.9,
+          "width": 1920,
+          "height": 1364,
+          "contrast_ratio": 184.0,
+          "is_bimodal": false,
+          "histogram_clipping": 0.003,
+          "content_coverage": 0.52,
+          "applied_steps": [
+            "GRAYSCALE(sat=20)"
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_token_count": 4735,
+      "candidates_token_count": 1004,
+      "total_token_count": 8553,
+      "thinking_token_count": 2814
+    },
+    "cost_info": {
+      "total_cost": 0.0039305,
+      "model_name": "Gemini 2.5 Flash",
+      "input_cost": 0.0014204999999999999,
+      "output_cost": 0.00251
+    },
+    "retry_count": 0
+  }
+}

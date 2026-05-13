@@ -1,0 +1,417 @@
+{
+  "receipt_guid": "69f1098a86e5b64551ba6eae",
+  "shop_brand": null,
+  "analysis": {
+    "document_type": "receipt",
+    "merchant": {
+      "name": "INTERSPAR",
+      "brand_name": "Interspar",
+      "address": "VIA GUAINA 37036 SAN MARTINO B. (VR)",
+      "vat_number": "00882800212",
+      "date": "2026-04-20",
+      "receipt_number": "2815-0268",
+      "notes": ""
+    },
+    "items": [
+      {
+        "description": "FRAGOLE GR500",
+        "description_full": "Fragole 500 grammi",
+        "category": "produce",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 2.29,
+        "discount": 0.0,
+        "total_price": 2.29,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 33,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 33,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "POLLO CAMPESE",
+        "description_full": "Pollo Campese",
+        "category": "meat_fish",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 8.4,
+        "discount": 0.0,
+        "total_price": 8.4,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 25,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 25,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "MATCH",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "SHOPPER GRANDE",
+        "description_full": "Shopper Grande",
+        "category": "other",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 0.4,
+        "discount": 0.0,
+        "total_price": 0.4,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 24,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 24,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "CONFLICT",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "BAGUETTE PREMIUM",
+        "description_full": "Baguette Premium",
+        "category": "bakery",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 0.89,
+        "discount": 0.0,
+        "total_price": 0.89,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 26,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 26,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "CONFLICT",
+          "size": "UNKNOWN",
+          "category": "INCOMPATIBLE"
+        }
+      },
+      {
+        "description": "TRANCINI CACAO DESP",
+        "description_full": "Trancini Cacao Despar",
+        "category": "bakery",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 1.29,
+        "discount": 0.0,
+        "total_price": 1.29,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 28,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 28,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "OLIO EVO UE/NON/UE",
+        "description_full": "Olio",
+        "category": "pantry",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 4.79,
+        "discount": 0.0,
+        "total_price": 4.79,
+        "_catalog_method": "fuzzy",
+        "_catalog_confidence": 0.7,
+        "_gemini_original": "Olio Extra Vergine di Oliva UE/Non UE",
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 20,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 20,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "MATCH",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "COTTO EFFE FERRARINI",
+        "description_full": "Cotto F.lli Ferrarini",
+        "category": "meat_fish",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 3.2,
+        "discount": 0.0,
+        "total_price": 3.2,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 27,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 27,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "MATCH",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "ANACARDI DESPAR G100",
+        "description_full": "Anacardi Despar 100 grammi",
+        "category": "pantry",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 1.89,
+        "discount": 0.0,
+        "total_price": 1.89,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 27,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 27,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "PATATINE GR 180",
+        "description_full": "Patatine 180 grammi",
+        "category": "pantry",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 0.85,
+        "discount": 0.0,
+        "total_price": 0.85,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 29,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 29,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "SANTA PERA 200X6",
+        "description_full": "Santa Pera 200x6",
+        "category": "produce",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 2.69,
+        "discount": 0.0,
+        "total_price": 2.69,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 33,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 33,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "SPINACI DESPAR GR500",
+        "description_full": "Spinaci Despar 500 grammi",
+        "category": "produce",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 2.49,
+        "discount": 0.0,
+        "total_price": 2.49,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 31,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 31,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "ASIAGO",
+        "description_full": "Asiago",
+        "category": "dairy",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 2.83,
+        "discount": 0.0,
+        "total_price": 2.83,
+        "_catalog_method": "gemini_only",
+        "_catalog_confidence": 0.85,
+        "_alignment_override": true,
+        "barcode": "8052575092333",
+        "is_promo_item": true,
+        "match_confidence": 100,
+        "promo_match": {
+          "publisher_guid": "665064e313f7055beaea8dc4",
+          "product_guid": "66f56f700075f4ecd56de68c",
+          "product_name": "Le Frollette Nocciolata La Bianca",
+          "brand_name": "Rigoni di Asiago",
+          "match_confidence": 100,
+          "size_conflict": null,
+          "price_conflict": false
+        },
+        "match_signals": {
+          "brand": "MATCH",
+          "text": "HIGH",
+          "text_score": 100,
+          "variant": "PARTIAL",
+          "variant_jw": 0.5,
+          "price": "MATCH",
+          "size": "UNKNOWN",
+          "category": "OK",
+          "decision": "PROMO_FOUND"
+        }
+      }
+    ],
+    "totals": {
+      "total_amount": 32.01,
+      "tax_amount": 2.49,
+      "item_count": 18
+    },
+    "quality_flags": []
+  },
+  "promo_status": "PROMO_FOUND",
+  "metadata": {
+    "version": "2.1.0+bbfe08e",
+    "pars_dt": "2026-04-28T19:26:03.150+00:00",
+    "processing_status": "CLEAN",
+    "flags": [],
+    "preprocessing": [
+      {
+        "image_index": 0,
+        "tile_index": 0,
+        "steps": [
+          "GRAYSCALE(sat=14)"
+        ],
+        "stats": {
+          "mean_brightness": 162.5,
+          "std_brightness": 43.6,
+          "noise_level": 209.0,
+          "skew_angle": 0.0,
+          "avg_saturation": 14.1,
+          "width": 1317,
+          "height": 2341,
+          "contrast_ratio": 131.0,
+          "is_bimodal": false,
+          "histogram_clipping": 0.0,
+          "content_coverage": 0.88,
+          "applied_steps": [
+            "GRAYSCALE(sat=14)"
+          ]
+        }
+      },
+      {
+        "image_index": 1,
+        "tile_index": 1,
+        "steps": [
+          "GRAYSCALE(sat=11)"
+        ],
+        "stats": {
+          "mean_brightness": 161.8,
+          "std_brightness": 38.5,
+          "noise_level": 149.0,
+          "skew_angle": 0.0,
+          "avg_saturation": 11.3,
+          "width": 1232,
+          "height": 2472,
+          "contrast_ratio": 117.0,
+          "is_bimodal": false,
+          "histogram_clipping": 0.0,
+          "content_coverage": 0.92,
+          "applied_steps": [
+            "GRAYSCALE(sat=11)"
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_token_count": 3692,
+      "candidates_token_count": 1410,
+      "total_token_count": 8163,
+      "thinking_token_count": 3061
+    },
+    "cost_info": {
+      "total_cost": 0.004632600000000001,
+      "model_name": "Gemini 2.5 Flash",
+      "input_cost": 0.0011076,
+      "output_cost": 0.0035250000000000004
+    },
+    "retry_count": 0,
+    "validation_errors": [],
+    "is_valid": true
+  }
+}

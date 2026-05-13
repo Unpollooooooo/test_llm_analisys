@@ -1,0 +1,149 @@
+{
+  "receipt_guid": "69f0808b86e5b64551ba668b",
+  "shop_brand": null,
+  "analysis": {
+    "document_type": "receipt",
+    "merchant": {
+      "name": "COOP ALLEANZA 3.0",
+      "brand_name": "Coop",
+      "address": "Via Trani, 19",
+      "vat_number": "03N0111/03",
+      "date": "2026-04-28",
+      "receipt_number": "2468-0013",
+      "notes": ""
+    },
+    "items": [
+      {
+        "description": "T LATTE UNT DEL.IN O",
+        "description_full": "Latte",
+        "category": "dairy",
+        "quantity": 12.0,
+        "unit_of_measure": "pz",
+        "unit_price": 0.89,
+        "discount": 0.0,
+        "total_price": 10.68,
+        "_catalog_method": "fuzzy",
+        "_catalog_confidence": 0.7,
+        "_gemini_original": "Latte UHT Delicato Intero",
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 22,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 22,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "CONFLICT",
+          "size": "UNKNOWN",
+          "category": "INCOMPATIBLE"
+        }
+      },
+      {
+        "description": "T BIBITA PEPSI COLA",
+        "description_full": "Bibita Pepsi Cola",
+        "category": "beverages",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 1.18,
+        "discount": 0.0,
+        "total_price": 1.18,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 27,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 27,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "M-COOP PIAT LIM. 1200",
+        "description_full": "M-Coop Piatto Limone 1200",
+        "category": "pantry",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 1.22,
+        "discount": 0.0,
+        "total_price": 1.22,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 27,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 27,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      }
+    ],
+    "totals": {
+      "total_amount": 13.05,
+      "tax_amount": 0.84,
+      "item_count": null
+    }
+  },
+  "promo_status": "NO_PROMO",
+  "metadata": {
+    "version": "2.0.0+unknown",
+    "pars_dt": "2026-04-28T09:41:06.239+00:00",
+    "processing_status": "CLEAN",
+    "flags": [],
+    "preprocessing": [
+      {
+        "image_index": 0,
+        "tile_index": 0,
+        "steps": [
+          "GRAYSCALE(sat=31)",
+          "THRESHOLD(contrast=66,bright=164)"
+        ],
+        "stats": {
+          "mean_brightness": 164.2,
+          "std_brightness": 22.8,
+          "noise_level": 169.0,
+          "skew_angle": 0.0,
+          "avg_saturation": 30.8,
+          "width": 1920,
+          "height": 2560,
+          "contrast_ratio": 66.0,
+          "is_bimodal": false,
+          "histogram_clipping": 0.0,
+          "content_coverage": 0.76,
+          "applied_steps": [
+            "GRAYSCALE(sat=31)",
+            "THRESHOLD(contrast=66,bright=164)"
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_token_count": 6283,
+      "candidates_token_count": 392,
+      "total_token_count": 8290,
+      "thinking_token_count": 1615
+    },
+    "cost_info": {
+      "total_cost": 0.0028649,
+      "model_name": "Gemini 2.5 Flash",
+      "input_cost": 0.0018849,
+      "output_cost": 0.0009800000000000002
+    },
+    "retry_count": 0
+  }
+}

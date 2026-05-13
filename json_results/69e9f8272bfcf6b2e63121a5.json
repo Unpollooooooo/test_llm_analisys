@@ -1,0 +1,183 @@
+{
+  "receipt_guid": "69e9f8272bfcf6b2e63121a5",
+  "shop_brand": null,
+  "analysis": {
+    "document_type": "receipt",
+    "merchant": {
+      "name": "ERGON S.P.A.",
+      "brand_name": "ALTA SFERA",
+      "address": "C.da Bettafilava snc Ragusa (RG) P.V. C.da Targia, 64 96100 Siracusa",
+      "vat_number": "01220100885",
+      "date": "2026-04-11",
+      "receipt_number": "0440-0097",
+      "notes": ""
+    },
+    "items": [
+      {
+        "description": "*LATTE 11.1 P.S.C/TA",
+        "description_full": "*LATTE 11 1 P S C TA",
+        "category": "dairy",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 0.5,
+        "discount": 0.0,
+        "total_price": 0.5,
+        "_catalog_method": "abbreviation",
+        "_catalog_confidence": 0.7,
+        "_gemini_original": "Latte 1 litro Parzialmente Scremato",
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 23,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 23,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "*ACE DET.LIQ.CLASS.I",
+        "description_full": "Ace Detersivo Liquido Classico",
+        "category": "home_care",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 7.31,
+        "discount": 0.0,
+        "total_price": 7.31,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 31,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 31,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "*ACE DET.LIQ.COLOR I",
+        "description_full": "Ace Detersivo Liquido Colori",
+        "category": "home_care",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 7.31,
+        "discount": 0.0,
+        "total_price": 7.31,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 31,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 31,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "*B.SCH. ML.700 DOVE X 6",
+        "description_full": "Bagnoschiuma 700ml Dove Confezione da 6",
+        "category": "personal_care",
+        "quantity": 6.0,
+        "unit_of_measure": "pz",
+        "unit_price": 2.79,
+        "discount": 0.0,
+        "total_price": 16.74,
+        "_catalog_method": "gemini_only",
+        "_catalog_confidence": 0.47,
+        "_alignment_override": true,
+        "barcode": "8720181493386",
+        "is_promo_item": false,
+        "match_confidence": 74,
+        "promo_match": {
+          "publisher_guid": "6908893d7cb8558c28a80692",
+          "product_guid": "694942b29cf0681229257f77",
+          "product_name": "Dove bagnodoccia floreale con fiori di loto e al profumo di frutti rossi 700 ml",
+          "brand_name": "Dove",
+          "match_confidence": 74,
+          "size_conflict": false,
+          "price_conflict": true
+        },
+        "match_signals": {
+          "brand": "MATCH",
+          "text": "HIGH",
+          "text_score": 80,
+          "variant": "MATCH",
+          "variant_jw": 0.794,
+          "price": "CONFLICT",
+          "size": "MATCH",
+          "category": "OK",
+          "decision": "AMBIGUOUS"
+        }
+      }
+    ],
+    "totals": {
+      "total_amount": 31.86,
+      "tax_amount": 5.68,
+      "item_count": null
+    }
+  },
+  "promo_status": "PROMO_AMBIGUOUS",
+  "metadata": {
+    "version": "2.0.0+6c131bf",
+    "pars_dt": "2026-04-23T10:45:34.129+00:00",
+    "processing_status": "CLEAN",
+    "flags": [],
+    "preprocessing": [
+      {
+        "image_index": 0,
+        "tile_index": 0,
+        "steps": [
+          "GRAYSCALE(sat=28)"
+        ],
+        "stats": {
+          "mean_brightness": 206.1,
+          "std_brightness": 54.6,
+          "noise_level": 294.0,
+          "skew_angle": 0.0,
+          "avg_saturation": 28.4,
+          "width": 871,
+          "height": 3220,
+          "contrast_ratio": 178.0,
+          "is_bimodal": false,
+          "histogram_clipping": 0.077,
+          "content_coverage": 0.72,
+          "applied_steps": [
+            "GRAYSCALE(sat=28)"
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_token_count": 6283,
+      "candidates_token_count": 525,
+      "total_token_count": 7920,
+      "thinking_token_count": 1112
+    },
+    "cost_info": {
+      "total_cost": 0.0031974,
+      "model_name": "Gemini 2.5 Flash",
+      "input_cost": 0.0018849,
+      "output_cost": 0.0013125
+    },
+    "retry_count": 0
+  }
+}

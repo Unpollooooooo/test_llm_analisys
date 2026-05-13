@@ -1,0 +1,173 @@
+{
+  "receipt_guid": "69f082a5e593340322ec93f4",
+  "shop_brand": null,
+  "analysis": {
+    "document_type": "receipt",
+    "merchant": {
+      "name": "CESAR S.P.A.",
+      "brand_name": "ACQUA & SAPONE",
+      "address": "Via T.Labriola 27,29 Santeramo in colle (BA)",
+      "vat_number": "00239870686",
+      "date": "2026-04-28",
+      "receipt_number": "null",
+      "notes": "null"
+    },
+    "items": [
+      {
+        "description": "ROYAL B POCH BEAUTY AS PZ",
+        "description_full": "Royal Beauty Pouch Beauty Assorted Pieces",
+        "category": "personal_care",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 7.9,
+        "discount": 0.0,
+        "total_price": 7.9,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 27,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 27,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "GUM SIST INT SOF P A S BL",
+        "description_full": "Integrale",
+        "category": "personal_care",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 4.29,
+        "discount": 0.0,
+        "total_price": 4.29,
+        "_catalog_method": "fuzzy",
+        "_catalog_confidence": 0.7,
+        "_gemini_original": "Gum System Interdental Soft Pick Assorted Blue",
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 28,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 28,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "INCOMPATIBLE"
+        }
+      },
+      {
+        "description": "COTTON S ARG FAZ C ANT CF",
+        "description_full": "Cotton Silver Argento Fazzoletti Anti-Crespo",
+        "category": "personal_care",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 1.79,
+        "discount": 0.0,
+        "total_price": 1.79,
+        "_catalog_method": "gemini_only",
+        "_catalog_confidence": 0.61,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 26,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 26,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "MATCH",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "NICKY ASCIUGAM IG M EL C",
+        "description_full": "Nicky Asciugamani Igienici Maxi Rotolo",
+        "category": "home_care",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 2.49,
+        "discount": 0.0,
+        "total_price": 2.49,
+        "_catalog_method": "gemini_only",
+        "_catalog_confidence": 0.85,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 25,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 25,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "MATCH",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      }
+    ],
+    "totals": {
+      "total_amount": 16.47,
+      "tax_amount": 2.97,
+      "item_count": null
+    }
+  },
+  "promo_status": "NO_PROMO",
+  "metadata": {
+    "version": "2.0.0+unknown",
+    "pars_dt": "2026-04-28T09:50:01.407+00:00",
+    "processing_status": "CLEAN",
+    "flags": [],
+    "preprocessing": [
+      {
+        "image_index": 0,
+        "tile_index": 0,
+        "steps": [
+          "GRAYSCALE(sat=20)"
+        ],
+        "stats": {
+          "mean_brightness": 163.9,
+          "std_brightness": 58.5,
+          "noise_level": 389.0,
+          "skew_angle": 0.0,
+          "avg_saturation": 19.5,
+          "width": 1920,
+          "height": 3726,
+          "contrast_ratio": 171.0,
+          "is_bimodal": true,
+          "histogram_clipping": 0.002,
+          "content_coverage": 0.88,
+          "applied_steps": [
+            "GRAYSCALE(sat=20)"
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_token_count": 5251,
+      "candidates_token_count": 492,
+      "total_token_count": 6893,
+      "thinking_token_count": 1150
+    },
+    "cost_info": {
+      "total_cost": 0.0028053,
+      "model_name": "Gemini 2.5 Flash",
+      "input_cost": 0.0015753,
+      "output_cost": 0.0012300000000000002
+    },
+    "retry_count": 0
+  }
+}

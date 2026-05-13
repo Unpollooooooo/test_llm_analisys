@@ -1,0 +1,97 @@
+{
+  "receipt_guid": "69ef0de186e5b64551ba5739",
+  "shop_brand": null,
+  "analysis": {
+    "document_type": "receipt",
+    "merchant": {
+      "name": "COLORIFICIO BOSI CARLO E C. snc",
+      "brand_name": "COLORIFICIO",
+      "address": "VIA DEL PONTE SOSPESO, 10R 50142 - FIRENZE - FI",
+      "vat_number": "03673430488",
+      "date": "2026-03-16",
+      "receipt_number": "0092-0020",
+      "notes": ""
+    },
+    "items": [
+      {
+        "description": "VARIE",
+        "description_full": "Varie",
+        "category": "other",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 65.0,
+        "discount": 0.0,
+        "total_price": 65.0,
+        "_catalog_method": "gemini_only",
+        "_catalog_confidence": 0.85,
+        "_alignment_override": true,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 23,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 23,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "CONFLICT",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      }
+    ],
+    "totals": {
+      "total_amount": 65.0,
+      "tax_amount": 11.72,
+      "item_count": null
+    }
+  },
+  "promo_status": "NO_PROMO",
+  "metadata": {
+    "version": "2.0.0+6c131bf",
+    "pars_dt": "2026-04-27T07:19:23.753+00:00",
+    "processing_status": "CLEAN",
+    "flags": [],
+    "preprocessing": [
+      {
+        "image_index": 0,
+        "tile_index": 0,
+        "steps": [
+          "DESKEW(angle=-1.0°)",
+          "GRAYSCALE(sat=16)"
+        ],
+        "stats": {
+          "mean_brightness": 193.4,
+          "std_brightness": 44.3,
+          "noise_level": 183.0,
+          "skew_angle": -1.03,
+          "avg_saturation": 16.2,
+          "width": 1039,
+          "height": 2347,
+          "contrast_ratio": 146.0,
+          "is_bimodal": false,
+          "histogram_clipping": 0.0,
+          "content_coverage": 0.88,
+          "applied_steps": [
+            "DESKEW(angle=-1.0°)",
+            "GRAYSCALE(sat=16)"
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_token_count": 5251,
+      "candidates_token_count": 227,
+      "total_token_count": 6349,
+      "thinking_token_count": 871
+    },
+    "cost_info": {
+      "total_cost": 0.0021428000000000003,
+      "model_name": "Gemini 2.5 Flash",
+      "input_cost": 0.0015753,
+      "output_cost": 0.0005675000000000001
+    },
+    "retry_count": 0
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "receipt_guid": "69e8b980551a2cb157c0b5d6",
+  "shop_brand": null,
+  "analysis": {
+    "document_type": "receipt",
+    "merchant": {
+      "name": "AURORA S.R.L.",
+      "brand_name": "MAGAZZINI MAURYS",
+      "address": "VIA ENRICO FERRI 48/A C.C. ROMANINA 00173 ROMA (RM)",
+      "vat_number": "13408781006",
+      "date": "2026-04-22",
+      "receipt_number": "1919-0076",
+      "notes": ""
+    },
+    "items": [
+      {
+        "description": "Servito gentilmente da Op. 6 0401040884795 Barbara C. DP ELSA CANTANTE",
+        "description_full": "Servito gentilmente da Op 6 0401040884795 Barbara C DP ELSA CANTANTE",
+        "category": "other",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 19.9,
+        "discount": 0.0,
+        "total_price": 19.9,
+        "_catalog_method": "abbreviation",
+        "_catalog_confidence": 0.7,
+        "_gemini_original": "Servizio gentilmente offerto da Operatore 6, codice 0401040884795, Barbara C. DP Elsa Cantante",
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 25,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 25,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      }
+    ],
+    "totals": {
+      "total_amount": 19.9,
+      "tax_amount": 0.0,
+      "item_count": 1
+    }
+  },
+  "promo_status": "NO_PROMO",
+  "metadata": {
+    "version": "2.0.0+6c131bf",
+    "pars_dt": "2026-04-22T12:05:50.390+00:00",
+    "processing_status": "CLEAN",
+    "flags": [],
+    "preprocessing": [
+      {
+        "image_index": 0,
+        "tile_index": 0,
+        "steps": [
+          "GRAYSCALE(sat=31)",
+          "CLAHE(std=34,clip=0.00)"
+        ],
+        "stats": {
+          "mean_brightness": 167.9,
+          "std_brightness": 34.2,
+          "noise_level": 274.0,
+          "skew_angle": 0.0,
+          "avg_saturation": 31.2,
+          "width": 1920,
+          "height": 3693,
+          "contrast_ratio": 107.0,
+          "is_bimodal": false,
+          "histogram_clipping": 0.0,
+          "content_coverage": 0.84,
+          "applied_steps": [
+            "GRAYSCALE(sat=31)",
+            "CLAHE(std=34,clip=0.00)"
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_token_count": 5251,
+      "candidates_token_count": 291,
+      "total_token_count": 6740,
+      "thinking_token_count": 1198
+    },
+    "cost_info": {
+      "total_cost": 0.0023028,
+      "model_name": "Gemini 2.5 Flash",
+      "input_cost": 0.0015753,
+      "output_cost": 0.0007275000000000001
+    },
+    "retry_count": 0
+  }
+}

@@ -1,0 +1,104 @@
+{
+  "receipt_guid": "69eb90fc86e5b64551ba3bf0",
+  "shop_brand": null,
+  "analysis": {
+    "document_type": "receipt",
+    "merchant": {
+      "name": "CARREFOUR LIMBIATE GS SPA",
+      "brand_name": "Carrefour",
+      "address": "VIA ISONZO, 5 20812 LIMBIATE",
+      "vat_number": "12683790153",
+      "date": "2026-04-24",
+      "receipt_number": "0539-0101",
+      "notes": ""
+    },
+    "items": [
+      {
+        "description": "RED BULL ENERGY DRIN",
+        "description_full": "Red Bull Energy Drink 250 ml x 2",
+        "category": "beverages",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 1.35,
+        "discount": 0.0,
+        "total_price": 1.35,
+        "_catalog_method": "promo_catalog",
+        "_catalog_confidence": 0.7,
+        "_gemini_original": "Red Bull Energy Drink",
+        "barcode": "9002490210939",
+        "is_promo_item": true,
+        "match_confidence": 85,
+        "promo_match": {
+          "publisher_guid": "6720a7b2c522bbb00d0651a1",
+          "product_guid": "6723567e56329e8499ff215a",
+          "product_name": "Red Bull Energy Drink 355 ml",
+          "brand_name": "Red Bull",
+          "match_confidence": 85,
+          "size_conflict": null,
+          "price_conflict": null
+        },
+        "match_signals": {
+          "brand": "MATCH",
+          "text": "HIGH",
+          "text_score": 85,
+          "variant": "MATCH",
+          "variant_jw": 1.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK",
+          "decision": "PROMO_FOUND"
+        }
+      }
+    ],
+    "totals": {
+      "total_amount": 1.35,
+      "tax_amount": 0.24,
+      "item_count": null
+    }
+  },
+  "promo_status": "PROMO_FOUND",
+  "metadata": {
+    "version": "2.0.0+6c131bf",
+    "pars_dt": "2026-04-24T15:49:34.147+00:00",
+    "processing_status": "CLEAN",
+    "flags": [],
+    "preprocessing": [
+      {
+        "image_index": 0,
+        "tile_index": 0,
+        "steps": [
+          "GRAYSCALE(sat=32)"
+        ],
+        "stats": {
+          "mean_brightness": 158.8,
+          "std_brightness": 36.0,
+          "noise_level": 328.0,
+          "skew_angle": 0.0,
+          "avg_saturation": 31.5,
+          "width": 1748,
+          "height": 1965,
+          "contrast_ratio": 120.0,
+          "is_bimodal": false,
+          "histogram_clipping": 0.002,
+          "content_coverage": 0.64,
+          "applied_steps": [
+            "GRAYSCALE(sat=32)"
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_token_count": 5509,
+      "candidates_token_count": 219,
+      "total_token_count": 6125,
+      "thinking_token_count": 397
+    },
+    "cost_info": {
+      "total_cost": 0.0022002000000000002,
+      "model_name": "Gemini 2.5 Flash",
+      "input_cost": 0.0016527,
+      "output_cost": 0.0005475
+    },
+    "retry_count": 0
+  }
+}

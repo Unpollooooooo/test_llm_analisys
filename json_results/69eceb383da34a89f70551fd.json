@@ -1,0 +1,200 @@
+{
+  "receipt_guid": "69eceb383da34a89f70551fd",
+  "shop_brand": null,
+  "analysis": {
+    "document_type": "receipt",
+    "merchant": {
+      "name": "TIGOTA",
+      "brand_name": "TIGOTA",
+      "address": "VIA LEONARDO DA VINCI 21016 LUINO VA",
+      "vat_number": "02466210289",
+      "date": "2026-04-25",
+      "receipt_number": "0886-0157",
+      "notes": ""
+    },
+    "items": [
+      {
+        "description": "LOVE FRAGR.AMM.FIOR.OR",
+        "description_full": "Love Fragranza Ambiente Fiori d'Oriente",
+        "category": "home_care",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 2.48,
+        "discount": 0.0,
+        "total_price": 2.48,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 28,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 28,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "SKIN S.MASC.HYD.ORO IL",
+        "description_full": "Skin Siero Maschera Idratante Oro Illuminante",
+        "category": "personal_care",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 1.99,
+        "discount": 0.0,
+        "total_price": 1.99,
+        "_catalog_method": "gemini_only",
+        "_catalog_confidence": 0.85,
+        "_alignment_override": true,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 29,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 29,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "AMARILLIS P/S MAXI",
+        "description_full": "Amarillis Pannolini/Salviette Maxi",
+        "category": "personal_care",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 1.65,
+        "discount": 0.0,
+        "total_price": 1.65,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 29,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 29,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "W.CASTLE SAP.TEA TREE",
+        "description_full": "White Castle Sapone Tea Tree",
+        "category": "personal_care",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 1.79,
+        "discount": 0.0,
+        "total_price": 1.79,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 29,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 29,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "DELID.ARG&DATT.SIER.A/",
+        "description_full": "Delidor",
+        "category": "personal_care",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 12.9,
+        "discount": 0.0,
+        "total_price": 12.9,
+        "_catalog_method": "fuzzy",
+        "_catalog_confidence": 0.7,
+        "_gemini_original": "Delidea Argento & Dattero Siero Anti-età",
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 19,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 19,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "CONFLICT",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      }
+    ],
+    "totals": {
+      "total_amount": 20.81,
+      "tax_amount": 3.61,
+      "item_count": 5
+    }
+  },
+  "promo_status": "NO_PROMO",
+  "metadata": {
+    "version": "2.0.0+6c131bf",
+    "pars_dt": "2026-04-25T16:27:59.781+00:00",
+    "processing_status": "CLEAN",
+    "flags": [],
+    "preprocessing": [
+      {
+        "image_index": 0,
+        "tile_index": 0,
+        "steps": [
+          "PASSTHROUGH(no preprocessing needed)"
+        ],
+        "stats": {
+          "mean_brightness": 167.4,
+          "std_brightness": 53.8,
+          "noise_level": 424.0,
+          "skew_angle": 0.0,
+          "avg_saturation": 43.4,
+          "width": 968,
+          "height": 2984,
+          "contrast_ratio": 186.0,
+          "is_bimodal": true,
+          "histogram_clipping": 0.038,
+          "content_coverage": 0.96,
+          "applied_steps": [
+            "PASSTHROUGH(no preprocessing needed)"
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_token_count": 5767,
+      "candidates_token_count": 585,
+      "total_token_count": 7516,
+      "thinking_token_count": 1164
+    },
+    "cost_info": {
+      "total_cost": 0.0031926,
+      "model_name": "Gemini 2.5 Flash",
+      "input_cost": 0.0017300999999999998,
+      "output_cost": 0.0014625
+    },
+    "retry_count": 0
+  }
+}

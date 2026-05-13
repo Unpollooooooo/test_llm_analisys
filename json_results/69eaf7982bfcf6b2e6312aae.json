@@ -1,0 +1,347 @@
+{
+  "receipt_guid": "69eaf7982bfcf6b2e6312aae",
+  "shop_brand": null,
+  "analysis": {
+    "document_type": "receipt",
+    "merchant": {
+      "name": "GESTIONE E SVILUPPO COMM.LE SRL",
+      "brand_name": "CRAI",
+      "address": "VIA ENRICO FOTI, 29 PEREUGAS 55",
+      "vat_number": "02513300903",
+      "date": "2023-04-26",
+      "receipt_number": "1974 0003",
+      "notes": ""
+    },
+    "items": [
+      {
+        "description": "SAN CARLO PATATINE L",
+        "description_full": "San Carlo Patatine Large",
+        "category": "pantry",
+        "quantity": 1,
+        "unit_of_measure": "pz",
+        "unit_price": 0.95,
+        "discount": 0,
+        "total_price": 0.95,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 33,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 33,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "CONFLICT",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "PASTA DE CECCO N41 P",
+        "description_full": "Pasta De Cecco N.41 Penne",
+        "category": "pantry",
+        "quantity": 1,
+        "unit_of_measure": "pz",
+        "unit_price": 1.69,
+        "discount": 0,
+        "total_price": 1.69,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 26,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 26,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "MATCH",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "PANING HISTO",
+        "description_full": "Panino History Discount",
+        "category": "other",
+        "quantity": 1,
+        "unit_of_measure": "pz",
+        "unit_price": -0.8,
+        "discount": 0,
+        "total_price": -0.8,
+        "_catalog_method": "gemini_only",
+        "_catalog_confidence": 0.85,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 28,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 28,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "FOCACCIA ALLA LIGURE",
+        "description_full": "Focaccia alla Ligure",
+        "category": "bakery",
+        "quantity": 1,
+        "unit_of_measure": "pz",
+        "unit_price": 2.0,
+        "discount": 0,
+        "total_price": 2.0,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 29,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 29,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "BALSAM ELVIVE 101",
+        "description_full": "Balsamo Elvive 101",
+        "category": "personal_care",
+        "quantity": 1,
+        "unit_of_measure": "pz",
+        "unit_price": 1.56,
+        "discount": 0,
+        "total_price": 1.56,
+        "_catalog_method": "gemini_only",
+        "_catalog_confidence": 0.52,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 28,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 28,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "ACQUA MICELL GARNIER",
+        "description_full": "Acqua Micellare Garnier",
+        "category": "personal_care",
+        "quantity": 1,
+        "unit_of_measure": "pz",
+        "unit_price": 3.95,
+        "discount": 0,
+        "total_price": 3.95,
+        "_catalog_method": "gemini_only",
+        "_catalog_confidence": 0.85,
+        "_alignment_override": true,
+        "barcode": "3600542540742",
+        "is_promo_item": false,
+        "match_confidence": 74,
+        "promo_match": {
+          "publisher_guid": "6977b0c2fc7f1b23d3ed374e",
+          "product_guid": "6977becaf090cc4a9486eb69",
+          "product_name": "Garnier Ultradolce Balsamo Meraviglioso",
+          "brand_name": "Garnier",
+          "match_confidence": 74,
+          "size_conflict": null,
+          "price_conflict": null
+        },
+        "match_signals": {
+          "brand": "MATCH",
+          "text": "HIGH",
+          "text_score": 81,
+          "variant": "PARTIAL",
+          "variant_jw": 0.597,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK",
+          "decision": "AMBIGUOUS"
+        }
+      },
+      {
+        "description": "CARTA IG CRAI SV TAL",
+        "description_full": "Carta Igienica Crai Svelto Talco",
+        "category": "home_care",
+        "quantity": 1,
+        "unit_of_measure": "pz",
+        "unit_price": 0.45,
+        "discount": 0,
+        "total_price": 0.45,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 26,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 26,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "AP10 TANTI PRODOTTI",
+        "description_full": "Aperitivo Tanti Prodotti",
+        "category": "pantry",
+        "quantity": 1,
+        "unit_of_measure": "pz",
+        "unit_price": 3.09,
+        "discount": 0,
+        "total_price": 3.09,
+        "_catalog_method": "gemini_only",
+        "_catalog_confidence": 0.85,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 30,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 30,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "UNKNOWN ITEM",
+        "description_full": "Unknown Item",
+        "category": "other",
+        "quantity": 1,
+        "unit_of_measure": "pz",
+        "unit_price": 1.2,
+        "discount": 0,
+        "total_price": 1.2,
+        "_catalog_method": "gemini_only",
+        "_catalog_confidence": 0.4,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 22,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 22,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "RED BULL LATT 25CL",
+        "description_full": "Red Bull Lattina 25cl",
+        "category": "beverages",
+        "quantity": 1,
+        "unit_of_measure": "pz",
+        "unit_price": 1.69,
+        "discount": 0,
+        "total_price": 1.69,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": "9002490446870",
+        "is_promo_item": true,
+        "match_confidence": 79,
+        "promo_match": {
+          "publisher_guid": "6720a7b2c522bbb00d0651a1",
+          "product_guid": "67235f8c56329e8499ff2178",
+          "product_name": "Red Bull Green Edition Gusto Dragon Fruit 250 ml",
+          "brand_name": "Red Bull",
+          "match_confidence": 79,
+          "size_conflict": false,
+          "price_conflict": null
+        },
+        "match_signals": {
+          "brand": "MATCH",
+          "text": "MED",
+          "text_score": 79,
+          "variant": "PARTIAL",
+          "variant_jw": 0.54,
+          "price": "UNKNOWN",
+          "size": "MATCH",
+          "category": "OK",
+          "decision": "PROMO_FOUND"
+        }
+      }
+    ],
+    "totals": {
+      "total_amount": 17.98,
+      "tax_amount": 2.1,
+      "item_count": 8
+    }
+  },
+  "promo_status": "PROMO_FOUND",
+  "metadata": {
+    "version": "2.0.0+6c131bf",
+    "pars_dt": "2026-04-24T04:57:10.239+00:00",
+    "processing_status": "CLEAN",
+    "flags": [],
+    "preprocessing": [
+      {
+        "image_index": 0,
+        "tile_index": 0,
+        "steps": [
+          "PASSTHROUGH(no preprocessing needed)"
+        ],
+        "stats": {
+          "mean_brightness": 125.5,
+          "std_brightness": 64.9,
+          "noise_level": 627.0,
+          "skew_angle": 0.0,
+          "avg_saturation": 59.7,
+          "width": 1127,
+          "height": 2560,
+          "contrast_ratio": 166.0,
+          "is_bimodal": true,
+          "histogram_clipping": 0.002,
+          "content_coverage": 0.96,
+          "applied_steps": [
+            "PASSTHROUGH(no preprocessing needed)"
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_token_count": 5251,
+      "candidates_token_count": 1167,
+      "total_token_count": 14524,
+      "thinking_token_count": 8106
+    },
+    "cost_info": {
+      "total_cost": 0.0044928,
+      "model_name": "Gemini 2.5 Flash",
+      "input_cost": 0.0015753,
+      "output_cost": 0.0029175000000000004
+    },
+    "retry_count": 0
+  }
+}

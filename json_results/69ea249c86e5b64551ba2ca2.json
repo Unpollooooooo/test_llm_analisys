@@ -1,0 +1,96 @@
+{
+  "receipt_guid": "69ea249c86e5b64551ba2ca2",
+  "shop_brand": null,
+  "analysis": {
+    "document_type": "receipt",
+    "merchant": {
+      "name": "FC SAVONA SAS Di Cirillo Pietro & C.",
+      "brand_name": "FC SAVONA",
+      "address": "Corso Savona 46 10024 Moncalieri",
+      "vat_number": "12088900019",
+      "date": "2026-04-23",
+      "receipt_number": "2047-0029",
+      "notes": ""
+    },
+    "items": [
+      {
+        "description": "1 LAVAGGIO AUTO GRA",
+        "description_full": "Lavaggio Auto Grande",
+        "category": "other",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 18.0,
+        "discount": 0.0,
+        "total_price": 18.0,
+        "_catalog_method": "gemini_only",
+        "_catalog_confidence": 0.85,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 28,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 28,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      }
+    ],
+    "totals": {
+      "total_amount": 18.0,
+      "tax_amount": 3.25,
+      "item_count": null
+    }
+  },
+  "promo_status": "NO_PROMO",
+  "metadata": {
+    "version": "2.0.0+6c131bf",
+    "pars_dt": "2026-04-23T13:54:54.694+00:00",
+    "processing_status": "CLEAN",
+    "flags": [],
+    "preprocessing": [
+      {
+        "image_index": 0,
+        "tile_index": 0,
+        "steps": [
+          "GRAYSCALE(sat=17)",
+          "THRESHOLD(contrast=71,bright=152)"
+        ],
+        "stats": {
+          "mean_brightness": 152.2,
+          "std_brightness": 22.9,
+          "noise_level": 70.0,
+          "skew_angle": 0.0,
+          "avg_saturation": 16.9,
+          "width": 1760,
+          "height": 2328,
+          "contrast_ratio": 71.0,
+          "is_bimodal": false,
+          "histogram_clipping": 0.0,
+          "content_coverage": 0.4,
+          "applied_steps": [
+            "GRAYSCALE(sat=17)",
+            "THRESHOLD(contrast=71,bright=152)"
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_token_count": 6283,
+      "candidates_token_count": 287,
+      "total_token_count": 7177,
+      "thinking_token_count": 607
+    },
+    "cost_info": {
+      "total_cost": 0.0026024,
+      "model_name": "Gemini 2.5 Flash",
+      "input_cost": 0.0018849,
+      "output_cost": 0.0007175
+    },
+    "retry_count": 0
+  }
+}

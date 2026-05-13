@@ -1,0 +1,313 @@
+{
+  "receipt_guid": "69e324852bfcf6b2e630d7e8",
+  "shop_brand": null,
+  "analysis": {
+    "document_type": "receipt",
+    "merchant": {
+      "name": "ASPIAG SERVICE S.R.L.",
+      "brand_name": "INTERSPAR",
+      "address": "CENTRO COMMERCIALE LA FATTORIA S.S. 16 BORSEA 2 ROVIGO",
+      "vat_number": "00882800212",
+      "date": "null",
+      "receipt_number": "null",
+      "notes": "null"
+    },
+    "items": [
+      {
+        "description": "CR.ARACHIDI PROZIS",
+        "description_full": "Crema Arachidi Prozis",
+        "category": "pantry",
+        "quantity": 1,
+        "unit_of_measure": "pz",
+        "unit_price": 4.39,
+        "discount": 0.0,
+        "total_price": 4.39,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 26,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 26,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "MATCH",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "POMODORI SECCHI ITAL",
+        "description_full": "Pomodori Secchi Italiani",
+        "category": "pantry",
+        "quantity": 1,
+        "unit_of_measure": "pz",
+        "unit_price": 3.99,
+        "discount": 0.0,
+        "total_price": 3.99,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 32,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 32,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "CREMA MANDORLA EURO.",
+        "description_full": "Crema Mandorla Euro",
+        "category": "pantry",
+        "quantity": 1,
+        "unit_of_measure": "pz",
+        "unit_price": 5.39,
+        "discount": 0.0,
+        "total_price": 5.39,
+        "_catalog_method": "gemini_only",
+        "_catalog_confidence": 0.4,
+        "_alignment_override": true,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 28,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 28,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "MATCH",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "CREMA NOCCIOLE EURO.",
+        "description_full": "Crema Nocciole Euro",
+        "category": "pantry",
+        "quantity": 1,
+        "unit_of_measure": "pz",
+        "unit_price": 7.49,
+        "discount": 0.75,
+        "total_price": 6.74,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 31,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 31,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "BANANE DESPAR",
+        "description_full": "Banane Despar",
+        "category": "produce",
+        "quantity": 1,
+        "unit_of_measure": "pz",
+        "unit_price": 1.09,
+        "discount": 0.0,
+        "total_price": 1.09,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 38,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 38,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "SACCHETTO ORTOFRUTTA",
+        "description_full": "Sacchetto Ortofrutta",
+        "category": "other",
+        "quantity": 1,
+        "unit_of_measure": "pz",
+        "unit_price": 0.02,
+        "discount": 0.0,
+        "total_price": 0.02,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 36,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 36,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "CONFLICT",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "ASP.BIANC.12/16 500g",
+        "description_full": "Bianco",
+        "category": "produce",
+        "quantity": 1,
+        "unit_of_measure": "pz",
+        "unit_price": 3.99,
+        "discount": 0.0,
+        "total_price": 3.99,
+        "_catalog_method": "fuzzy",
+        "_catalog_confidence": 0.7,
+        "_gemini_original": "Asparagi Bianchi 12/16 500g",
+        "barcode": "8003650018069",
+        "is_promo_item": false,
+        "match_confidence": 74,
+        "promo_match": {
+          "publisher_guid": "6939bd34e84bd0409997e7c9",
+          "product_guid": "6939c6789cf06812292571d5",
+          "product_name": "Detersivo Lavatrice Liquido Marsiglia, 23 Lavaggi",
+          "brand_name": "Omino Bianco",
+          "match_confidence": 74,
+          "size_conflict": null,
+          "price_conflict": null
+        },
+        "match_signals": {
+          "brand": "MATCH",
+          "text": "HIGH",
+          "text_score": 100,
+          "variant": "PARTIAL",
+          "variant_jw": 0.5,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK",
+          "decision": "AMBIGUOUS"
+        }
+      },
+      {
+        "description": "AVOCADO VERDE S-BUDG",
+        "description_full": "Avocado Verde Smart Budget",
+        "category": "produce",
+        "quantity": 1,
+        "unit_of_measure": "pz",
+        "unit_price": 0.99,
+        "discount": 0.0,
+        "total_price": 0.99,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 25,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 25,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "SPINACI CUBELLO",
+        "description_full": "Spinaci Cubello",
+        "category": "pantry",
+        "quantity": 1,
+        "unit_of_measure": "pz",
+        "unit_price": 2.19,
+        "discount": 0.0,
+        "total_price": 2.19,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 25,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 25,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "MATCH",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      }
+    ],
+    "totals": {
+      "total_amount": 24.79,
+      "tax_amount": 1.88,
+      "item_count": 14
+    }
+  },
+  "promo_status": "PROMO_AMBIGUOUS",
+  "metadata": {
+    "version": "2.0.0+6c131bf",
+    "pars_dt": "2026-04-18T06:29:48.083+00:00",
+    "processing_status": "CLEAN",
+    "flags": [],
+    "preprocessing": [
+      {
+        "image_index": 0,
+        "tile_index": 0,
+        "steps": [
+          "GRAYSCALE(sat=37)"
+        ],
+        "stats": {
+          "mean_brightness": 189.6,
+          "std_brightness": 48.3,
+          "noise_level": 172.0,
+          "skew_angle": 0.0,
+          "avg_saturation": 37.2,
+          "width": 1227,
+          "height": 2507,
+          "contrast_ratio": 164.0,
+          "is_bimodal": false,
+          "histogram_clipping": 0.0,
+          "content_coverage": 0.76,
+          "applied_steps": [
+            "GRAYSCALE(sat=37)"
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_token_count": 5251,
+      "candidates_token_count": 861,
+      "total_token_count": 11200,
+      "thinking_token_count": 5088
+    },
+    "cost_info": {
+      "total_cost": 0.0037278000000000003,
+      "model_name": "Gemini 2.5 Flash",
+      "input_cost": 0.0015753,
+      "output_cost": 0.0021525000000000003
+    },
+    "retry_count": 0
+  }
+}

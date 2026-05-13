@@ -1,0 +1,104 @@
+{
+  "receipt_guid": "69e5e3de551a2cb157c094f4",
+  "shop_brand": null,
+  "analysis": {
+    "document_type": "receipt",
+    "merchant": {
+      "name": "ORTOFRUTTA DA MICHELE",
+      "brand_name": "Ortofrutta da Michele",
+      "address": "PIAZZA G. MATTEOTTI 2 BICCARI (FG)",
+      "vat_number": "04088130713",
+      "date": "2026-04-20",
+      "receipt_number": "0514-0012",
+      "notes": ""
+    },
+    "items": [
+      {
+        "description": "BORBONE DECISA",
+        "description_full": "Caffè Borbone Decisa",
+        "category": "pantry",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 4.9,
+        "discount": 0.0,
+        "total_price": 4.9,
+        "_catalog_method": "gemini_only",
+        "_catalog_confidence": 0.4,
+        "_alignment_override": true,
+        "barcode": "8034028337390",
+        "is_promo_item": true,
+        "match_confidence": 96,
+        "promo_match": {
+          "publisher_guid": "68f0c99a00cc667d09dd07fd",
+          "product_guid": "690da7b968b41bca3fbdad5b",
+          "product_name": "Cialda Miscela Decisa 30Pz",
+          "brand_name": "Caffè Borbone",
+          "match_confidence": 96,
+          "size_conflict": null,
+          "price_conflict": null
+        },
+        "match_signals": {
+          "brand": "MATCH",
+          "text": "HIGH",
+          "text_score": 96,
+          "variant": "MATCH",
+          "variant_jw": 1.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK",
+          "decision": "PROMO_FOUND"
+        }
+      }
+    ],
+    "totals": {
+      "total_amount": 4.9,
+      "tax_amount": 0.0,
+      "item_count": null
+    }
+  },
+  "promo_status": "PROMO_FOUND",
+  "metadata": {
+    "version": "2.0.0+6c131bf",
+    "pars_dt": "2026-04-20T08:29:42.140+00:00",
+    "processing_status": "CLEAN",
+    "flags": [],
+    "preprocessing": [
+      {
+        "image_index": 0,
+        "tile_index": 0,
+        "steps": [
+          "THRESHOLD(contrast=39,bright=169)"
+        ],
+        "stats": {
+          "mean_brightness": 169.0,
+          "std_brightness": 19.0,
+          "noise_level": 326.0,
+          "skew_angle": 0.0,
+          "avg_saturation": 44.8,
+          "width": 1920,
+          "height": 1440,
+          "contrast_ratio": 39.0,
+          "is_bimodal": false,
+          "histogram_clipping": 0.0,
+          "content_coverage": 0.24,
+          "applied_steps": [
+            "THRESHOLD(contrast=39,bright=169)"
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_token_count": 4735,
+      "candidates_token_count": 223,
+      "total_token_count": 5994,
+      "thinking_token_count": 1036
+    },
+    "cost_info": {
+      "total_cost": 0.0019779999999999997,
+      "model_name": "Gemini 2.5 Flash",
+      "input_cost": 0.0014204999999999999,
+      "output_cost": 0.0005575
+    },
+    "retry_count": 0
+  }
+}

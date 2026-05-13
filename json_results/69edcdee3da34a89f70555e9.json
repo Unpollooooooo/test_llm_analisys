@@ -1,0 +1,287 @@
+{
+  "receipt_guid": "69edcdee3da34a89f70555e9",
+  "shop_brand": null,
+  "analysis": {
+    "document_type": "receipt",
+    "merchant": {
+      "name": "F.LLI ARENA S.R.L.",
+      "brand_name": "SUPERConveniente",
+      "address": "VIA FELICE FONTANA, 38 95122 CATANIA",
+      "vat_number": "00097560866",
+      "date": "2026-04-25",
+      "receipt_number": "2388-0120",
+      "notes": ""
+    },
+    "items": [
+      {
+        "description": "TERRAB.OLIVE NERE CONDIT.",
+        "description_full": "Terrabianca Olive Nere Condite",
+        "category": "pantry",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 3.39,
+        "discount": 0.0,
+        "total_price": 3.39,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 27,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 27,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "VALFRUTTA POLPA G.CUB.GR. 400X3",
+        "description_full": "Valfrutta Polpa di Pomodoro a Cubetti 400g x 3",
+        "category": "pantry",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 1.79,
+        "discount": 0.0,
+        "total_price": 1.79,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 29,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 29,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "MATCH",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "SCHIACCIATELLE PANE",
+        "description_full": "Schiacciatelle Pane",
+        "category": "bakery",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 1.59,
+        "discount": 0.0,
+        "total_price": 1.59,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 29,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 29,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "MENTADENT DENT.IG.QUOTID. ML75#",
+        "description_full": "Mentadent Dentifricio Igiene Quotidiana 75ml",
+        "category": "personal_care",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 1.59,
+        "discount": 0.0,
+        "total_price": 1.59,
+        "_catalog_method": "gemini_only",
+        "_catalog_confidence": 0.85,
+        "_alignment_override": true,
+        "barcode": "8717163733660",
+        "is_promo_item": true,
+        "match_confidence": 82,
+        "promo_match": {
+          "publisher_guid": "6908893d7cb8558c28a80692",
+          "product_guid": "694942b19cf0681229257f5e",
+          "product_name": "Mentadent Protezione Famiglia Igiene Quotidiana 75 ml",
+          "brand_name": "Mentadent",
+          "match_confidence": 82,
+          "size_conflict": false,
+          "price_conflict": false
+        },
+        "match_signals": {
+          "brand": "MATCH",
+          "text": "HIGH",
+          "text_score": 82,
+          "variant": "MATCH",
+          "variant_jw": 0.841,
+          "price": "MATCH",
+          "size": "MATCH",
+          "category": "OK",
+          "decision": "PROMO_FOUND"
+        }
+      },
+      {
+        "description": "GUSTOMANNO POLPA POM.GR.400",
+        "description_full": "Gustomanno Polpa di Pomodoro 400g",
+        "category": "pantry",
+        "quantity": 2.0,
+        "unit_of_measure": "pz",
+        "unit_price": 0.69,
+        "discount": 0.0,
+        "total_price": 1.38,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 27,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 27,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "GAZZARA FORM.STAG.PEPATO",
+        "description_full": "Gazzara Formaggio Stagionato Pepato",
+        "category": "dairy",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 3.62,
+        "discount": 0.0,
+        "total_price": 3.62,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 27,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 27,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "MATCH",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "DIVELLA LINGUINE N.14 KG.1",
+        "description_full": "Divella Linguine N.14 1kg",
+        "category": "pantry",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 0.99,
+        "discount": 0.0,
+        "total_price": 0.99,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 23,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 23,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "CONFLICT",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "DIVELLA CANNERONI RIG N21 KG.1",
+        "description_full": "Divella Canneroni Rigati N.21 1kg",
+        "category": "pantry",
+        "quantity": 2.0,
+        "unit_of_measure": "pz",
+        "unit_price": 0.99,
+        "discount": 0.0,
+        "total_price": 1.98,
+        "_catalog_method": "gemini_only",
+        "_catalog_confidence": 0.85,
+        "_alignment_override": true,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 26,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 26,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      }
+    ],
+    "totals": {
+      "total_amount": 16.33,
+      "tax_amount": 1.04,
+      "item_count": 10
+    }
+  },
+  "promo_status": "PROMO_FOUND",
+  "metadata": {
+    "version": "2.0.0+6c131bf",
+    "pars_dt": "2026-04-26T08:34:40.060+00:00",
+    "processing_status": "CLEAN",
+    "flags": [],
+    "preprocessing": [
+      {
+        "image_index": 0,
+        "tile_index": 0,
+        "steps": [
+          "GRAYSCALE(sat=24)"
+        ],
+        "stats": {
+          "mean_brightness": 186.4,
+          "std_brightness": 53.8,
+          "noise_level": 577.0,
+          "skew_angle": 0.0,
+          "avg_saturation": 23.8,
+          "width": 1571,
+          "height": 3627,
+          "contrast_ratio": 193.0,
+          "is_bimodal": false,
+          "histogram_clipping": 0.009,
+          "content_coverage": 0.92,
+          "applied_steps": [
+            "GRAYSCALE(sat=24)"
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_token_count": 5251,
+      "candidates_token_count": 1094,
+      "total_token_count": 8215,
+      "thinking_token_count": 1870
+    },
+    "cost_info": {
+      "total_cost": 0.0043102999999999995,
+      "model_name": "Gemini 2.5 Flash",
+      "input_cost": 0.0015753,
+      "output_cost": 0.002735
+    },
+    "retry_count": 0
+  }
+}

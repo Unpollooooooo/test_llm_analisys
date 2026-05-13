@@ -1,0 +1,173 @@
+{
+  "receipt_guid": "69e28aa086e5b64551b9de68",
+  "shop_brand": null,
+  "analysis": {
+    "document_type": "receipt",
+    "merchant": {
+      "name": "A. & G. s.r.l.s.",
+      "brand_name": "CONAD CITY",
+      "address": "V.le della Resistenza 75 Castroliber 87040-CS-",
+      "vat_number": "03316030786",
+      "date": "2026-04-17",
+      "receipt_number": "2456-0306",
+      "notes": ""
+    },
+    "items": [
+      {
+        "description": "AROMA PANEANGELI",
+        "description_full": "Aroma Paneangeli",
+        "category": "pantry",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 0.79,
+        "discount": 0.0,
+        "total_price": 0.79,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 32,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 32,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "LATTE UHT INTERO",
+        "description_full": "Latte UHT Intero",
+        "category": "dairy",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 1.19,
+        "discount": 0.0,
+        "total_price": 1.19,
+        "_catalog_method": "gemini_only",
+        "_catalog_confidence": 0.85,
+        "_alignment_override": true,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 30,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 30,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "ACETO CONAD ROSSO",
+        "description_full": "Aceto Conad Rosso",
+        "category": "pantry",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 0.8,
+        "discount": 0.0,
+        "total_price": 0.8,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 29,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 29,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "CONFLICT",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "UOVA EXTRA FRES.A/TE",
+        "description_full": "Uova Extra Fresche A/Te",
+        "category": "dairy",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 1.85,
+        "discount": 0.0,
+        "total_price": 1.85,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 28,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 28,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      }
+    ],
+    "totals": {
+      "total_amount": 4.63,
+      "tax_amount": 0.43,
+      "item_count": 4
+    }
+  },
+  "promo_status": "NO_PROMO",
+  "metadata": {
+    "version": "2.0.0+6c131bf",
+    "pars_dt": "2026-04-17T19:32:06.807+00:00",
+    "processing_status": "CLEAN",
+    "flags": [],
+    "preprocessing": [
+      {
+        "image_index": 0,
+        "tile_index": 0,
+        "steps": [
+          "PASSTHROUGH(no preprocessing needed)"
+        ],
+        "stats": {
+          "mean_brightness": 159.0,
+          "std_brightness": 55.1,
+          "noise_level": 1528.0,
+          "skew_angle": 0.0,
+          "avg_saturation": 83.5,
+          "width": 1625,
+          "height": 853,
+          "contrast_ratio": 162.0,
+          "is_bimodal": true,
+          "histogram_clipping": 0.0,
+          "content_coverage": 0.96,
+          "applied_steps": [
+            "PASSTHROUGH(no preprocessing needed)"
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_token_count": 4735,
+      "candidates_token_count": 469,
+      "total_token_count": 6081,
+      "thinking_token_count": 877
+    },
+    "cost_info": {
+      "total_cost": 0.002593,
+      "model_name": "Gemini 2.5 Flash",
+      "input_cost": 0.0014204999999999999,
+      "output_cost": 0.0011725000000000001
+    },
+    "retry_count": 0
+  }
+}

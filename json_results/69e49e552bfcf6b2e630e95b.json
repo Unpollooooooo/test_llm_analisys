@@ -1,0 +1,106 @@
+{
+  "receipt_guid": "69e49e552bfcf6b2e630e95b",
+  "shop_brand": null,
+  "analysis": {
+    "document_type": "receipt",
+    "merchant": {
+      "name": "DIMAR S.P.A.",
+      "brand_name": "MERCATO' local",
+      "address": "VIA ROMA, 160 12043 CANALE (CN)",
+      "vat_number": "00294760046",
+      "date": "2026-04-18",
+      "receipt_number": "2502 - 0050",
+      "notes": ""
+    },
+    "items": [
+      {
+        "description": "ACETO BIANCO P",
+        "description_full": "Aceto Bianco",
+        "category": "pantry",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 0.99,
+        "discount": 0.0,
+        "total_price": 0.99,
+        "_catalog_method": "gemini_only",
+        "_catalog_confidence": 0.85,
+        "_alignment_override": true,
+        "barcode": "8003650015518",
+        "is_promo_item": false,
+        "match_confidence": 74,
+        "promo_match": {
+          "publisher_guid": "6939bd34e84bd0409997e7c9",
+          "product_guid": "6939c6789cf06812292571d6",
+          "product_name": "Detersivo Lavatrice Liquido Muschio Bianco, 23 Lavaggi",
+          "brand_name": "Omino Bianco",
+          "match_confidence": 74,
+          "size_conflict": null,
+          "price_conflict": null
+        },
+        "match_signals": {
+          "brand": "MATCH",
+          "text": "HIGH",
+          "text_score": 90,
+          "variant": "PARTIAL",
+          "variant_jw": 0.562,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK",
+          "decision": "AMBIGUOUS"
+        }
+      }
+    ],
+    "totals": {
+      "total_amount": 0.99,
+      "tax_amount": 0.09,
+      "item_count": 1
+    }
+  },
+  "promo_status": "PROMO_AMBIGUOUS",
+  "metadata": {
+    "version": "2.0.0+6c131bf",
+    "pars_dt": "2026-04-19T09:20:53.985+00:00",
+    "processing_status": "CLEAN",
+    "flags": [],
+    "preprocessing": [
+      {
+        "image_index": 0,
+        "tile_index": 0,
+        "steps": [
+          "CLAHE(std=35,clip=0.00)",
+          "RESIZE(560→800)"
+        ],
+        "stats": {
+          "mean_brightness": 190.9,
+          "std_brightness": 34.5,
+          "noise_level": 310.0,
+          "skew_angle": 0.0,
+          "avg_saturation": 56.2,
+          "width": 560,
+          "height": 1642,
+          "contrast_ratio": 126.0,
+          "is_bimodal": false,
+          "histogram_clipping": 0.002,
+          "content_coverage": 0.88,
+          "applied_steps": [
+            "CLAHE(std=35,clip=0.00)",
+            "RESIZE(560→800)"
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_token_count": 5767,
+      "candidates_token_count": 225,
+      "total_token_count": 6777,
+      "thinking_token_count": 785
+    },
+    "cost_info": {
+      "total_cost": 0.0022925999999999997,
+      "model_name": "Gemini 2.5 Flash",
+      "input_cost": 0.0017300999999999998,
+      "output_cost": 0.0005625000000000001
+    },
+    "retry_count": 0
+  }
+}

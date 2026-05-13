@@ -1,0 +1,269 @@
+{
+  "receipt_guid": "69f0ec9d3da34a89f70575ae",
+  "shop_brand": null,
+  "analysis": {
+    "document_type": "receipt",
+    "merchant": {
+      "name": "CESAR S.P.A.",
+      "brand_name": "ACQUA & SAPONE",
+      "address": "Via Giovanni Suzzani, 239 Milano (MI)",
+      "vat_number": "00239870686",
+      "date": "2026-04-28",
+      "receipt_number": "0930-0116",
+      "notes": ""
+    },
+    "items": [
+      {
+        "description": "SENSODYNE DENT.PROS.BI",
+        "description_full": "Sensodyne Denti Prostata Bianco",
+        "category": "personal_care",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 3.39,
+        "discount": 0.0,
+        "total_price": 3.39,
+        "_catalog_method": "gemini_only",
+        "_catalog_confidence": 0.66,
+        "_alignment_override": true,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 31,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 31,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "HIBROS RIC.MANIP.ROSA",
+        "description_full": "Hibros Ricambio Manipolo Rosa",
+        "category": "personal_care",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 1.69,
+        "discount": 0.0,
+        "total_price": 1.69,
+        "_catalog_method": "gemini_only",
+        "_catalog_confidence": 0.57,
+        "_alignment_override": true,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 29,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 29,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "HIBROS RIC.MANIP.ROSA",
+        "description_full": "Hibros Ricambio Manipolo Rosa",
+        "category": "personal_care",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 1.69,
+        "discount": 0.0,
+        "total_price": 1.69,
+        "_catalog_method": "gemini_only",
+        "_catalog_confidence": 0.57,
+        "_alignment_override": true,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 29,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 29,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "SHOP.A&S.MATER-B.30X60",
+        "description_full": "SHOP A&S MATER B 30X60",
+        "category": "home_care",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 0.15,
+        "discount": 0.0,
+        "total_price": 0.15,
+        "_catalog_method": "cache",
+        "_catalog_confidence": 0.7,
+        "_gemini_original": "Shop Acqua & Sapone Materiale Bagno 30x60",
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 26,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 26,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "CONFLICT",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "VARTA LONGL.ALK.STILO",
+        "description_full": "VARTA LONGL ALK STILO",
+        "category": "home_care",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 2.99,
+        "discount": 0.0,
+        "total_price": 2.99,
+        "_catalog_method": "abbreviation",
+        "_catalog_confidence": 0.7,
+        "_gemini_original": "Varta Longlife Alkaline Stilo",
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 26,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 26,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "MATCH",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "VARTA LONGL.ALK.MINIS",
+        "description_full": "Varta Longlife Alkaline Ministek",
+        "category": "home_care",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 1.99,
+        "discount": 0.0,
+        "total_price": 1.99,
+        "_catalog_method": "gemini_only",
+        "_catalog_confidence": 0.66,
+        "_alignment_override": true,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 28,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 28,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "EQUIL.CAFFE V.METAB.DR",
+        "description_full": "Equilibra Caffeina Verde Metabolismo Drenante",
+        "category": "other",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 7.9,
+        "discount": 0.0,
+        "total_price": 7.9,
+        "_catalog_method": "gemini_only",
+        "_catalog_confidence": 0.85,
+        "_alignment_override": true,
+        "barcode": "8000137001637",
+        "is_promo_item": false,
+        "match_confidence": 74,
+        "promo_match": {
+          "publisher_guid": "68932d0e79abb7f7561d5896",
+          "product_guid": "6894ae9dce8bbb15b66249c6",
+          "product_name": "Magnesio 30 cpr",
+          "brand_name": "Equilibra",
+          "match_confidence": 74,
+          "size_conflict": null,
+          "price_conflict": null
+        },
+        "match_signals": {
+          "brand": "MATCH",
+          "text": "HIGH",
+          "text_score": 88,
+          "variant": "PARTIAL",
+          "variant_jw": 0.583,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK",
+          "decision": "AMBIGUOUS"
+        }
+      }
+    ],
+    "totals": {
+      "total_amount": 19.8,
+      "tax_amount": 2.87,
+      "item_count": null
+    },
+    "quality_flags": []
+  },
+  "promo_status": "PROMO_AMBIGUOUS",
+  "metadata": {
+    "version": "2.1.0+bbfe08e",
+    "pars_dt": "2026-04-28T17:22:16.378+00:00",
+    "processing_status": "CLEAN",
+    "flags": [],
+    "preprocessing": [
+      {
+        "image_index": 0,
+        "tile_index": 0,
+        "steps": [
+          "PASSTHROUGH(no preprocessing needed)"
+        ],
+        "stats": {
+          "mean_brightness": 119.6,
+          "std_brightness": 63.1,
+          "noise_level": 759.0,
+          "skew_angle": 0.0,
+          "avg_saturation": 58.7,
+          "width": 1055,
+          "height": 2560,
+          "contrast_ratio": 167.0,
+          "is_bimodal": true,
+          "histogram_clipping": 0.029,
+          "content_coverage": 0.56,
+          "applied_steps": [
+            "PASSTHROUGH(no preprocessing needed)"
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_token_count": 5498,
+      "candidates_token_count": 755,
+      "total_token_count": 7837,
+      "thinking_token_count": 1584
+    },
+    "cost_info": {
+      "total_cost": 0.0035369,
+      "model_name": "Gemini 2.5 Flash",
+      "input_cost": 0.0016493999999999999,
+      "output_cost": 0.0018875
+    },
+    "retry_count": 0,
+    "validation_errors": [],
+    "is_valid": true
+  }
+}

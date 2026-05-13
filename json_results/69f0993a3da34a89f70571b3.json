@@ -1,0 +1,106 @@
+{
+  "receipt_guid": "69f0993a3da34a89f70571b3",
+  "shop_brand": null,
+  "analysis": {
+    "document_type": "receipt",
+    "merchant": {
+      "name": "ORTOFRUTTA DA MICHELE",
+      "brand_name": "Ortofrutta da Michele",
+      "address": "CURCELLI MICHELE PIAZZA G. MATTEOTTI 2 BICCARI (FG)",
+      "vat_number": "04088130713",
+      "date": "2026-04-28",
+      "receipt_number": "0522-0009",
+      "notes": ""
+    },
+    "items": [
+      {
+        "description": "ARBI GAMBERI",
+        "description_full": "Arbi Gamberi",
+        "category": "meat_fish",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 4.0,
+        "discount": 0.0,
+        "total_price": 4.0,
+        "_catalog_method": "gemini_only",
+        "_catalog_confidence": 0.85,
+        "_alignment_override": true,
+        "barcode": "8002202003638",
+        "is_promo_item": true,
+        "match_confidence": 95,
+        "promo_match": {
+          "publisher_guid": "68d3fe899c9800d05b3cb2eb",
+          "product_guid": "68e39a58719aebebe1426ab2",
+          "product_name": "Sugo ai crostacei - con gamberi argentini",
+          "brand_name": "Arbi",
+          "match_confidence": 95,
+          "size_conflict": null,
+          "price_conflict": null
+        },
+        "match_signals": {
+          "brand": "MATCH",
+          "text": "HIGH",
+          "text_score": 95,
+          "variant": "MATCH",
+          "variant_jw": 1.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK",
+          "decision": "PROMO_FOUND"
+        }
+      }
+    ],
+    "totals": {
+      "total_amount": 4.0,
+      "tax_amount": 0.0,
+      "item_count": null
+    }
+  },
+  "promo_status": "PROMO_FOUND",
+  "metadata": {
+    "version": "2.0.0+unknown",
+    "pars_dt": "2026-04-28T11:26:19.538+00:00",
+    "processing_status": "CLEAN",
+    "flags": [],
+    "preprocessing": [
+      {
+        "image_index": 0,
+        "tile_index": 0,
+        "steps": [
+          "GRAYSCALE(sat=36)",
+          "CLAHE(std=30,clip=0.00)"
+        ],
+        "stats": {
+          "mean_brightness": 140.6,
+          "std_brightness": 30.2,
+          "noise_level": 142.0,
+          "skew_angle": 0.0,
+          "avg_saturation": 35.8,
+          "width": 1588,
+          "height": 3211,
+          "contrast_ratio": 93.0,
+          "is_bimodal": false,
+          "histogram_clipping": 0.0,
+          "content_coverage": 0.44,
+          "applied_steps": [
+            "GRAYSCALE(sat=36)",
+            "CLAHE(std=30,clip=0.00)"
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_token_count": 5251,
+      "candidates_token_count": 228,
+      "total_token_count": 6374,
+      "thinking_token_count": 895
+    },
+    "cost_info": {
+      "total_cost": 0.0021453,
+      "model_name": "Gemini 2.5 Flash",
+      "input_cost": 0.0015753,
+      "output_cost": 0.0005700000000000001
+    },
+    "retry_count": 0
+  }
+}

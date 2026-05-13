@@ -1,0 +1,201 @@
+{
+  "receipt_guid": "69e8bb08551a2cb157c0b5f8",
+  "shop_brand": null,
+  "analysis": {
+    "document_type": "receipt",
+    "merchant": {
+      "name": "ALBA GROUP SRL",
+      "brand_name": "ALBA SUPERMERCATI",
+      "address": "VIA LUIGI STURZO 89046 MARINA DI GIOIOSA JONICA R.C.",
+      "vat_number": "02782360800",
+      "date": "2026-04-13",
+      "receipt_number": "0612-0073",
+      "notes": "null"
+    },
+    "items": [
+      {
+        "description": "FAVE FRESCHE",
+        "description_full": "Fave Fresche",
+        "category": "produce",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 1.81,
+        "discount": 0.0,
+        "total_price": 1.81,
+        "_catalog_method": "fuzzy",
+        "_catalog_confidence": 1.0,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 29,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 29,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "*RED BULL ZERO ML 250",
+        "description_full": "Red Bull Zero 250 ml",
+        "category": "beverages",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 1.0,
+        "discount": 0.0,
+        "total_price": 1.0,
+        "_catalog_method": "promo_catalog",
+        "_catalog_confidence": 1.0,
+        "barcode": "9002490435874",
+        "is_promo_item": true,
+        "match_confidence": 85,
+        "promo_match": {
+          "publisher_guid": "6720a7b2c522bbb00d0651a1",
+          "product_guid": "67235ed856329e8499ff216f",
+          "product_name": "Red Bull Zero 250 ml",
+          "brand_name": "Red Bull",
+          "match_confidence": 85,
+          "size_conflict": null,
+          "price_conflict": false
+        },
+        "match_signals": {
+          "brand": "MATCH",
+          "text": "HIGH",
+          "text_score": 85,
+          "variant": "MATCH",
+          "variant_jw": 1.0,
+          "price": "MATCH",
+          "size": "UNKNOWN",
+          "category": "OK",
+          "decision": "PROMO_FOUND"
+        }
+      },
+      {
+        "description": "*RED BULL ENERGY DRINK ML 250",
+        "description_full": "Red Bull Energy Drink 250 ml",
+        "category": "beverages",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 1.0,
+        "discount": 0.0,
+        "total_price": 1.0,
+        "_catalog_method": "promo_catalog",
+        "_catalog_confidence": 1.0,
+        "barcode": "9002490100070",
+        "is_promo_item": true,
+        "match_confidence": 85,
+        "promo_match": {
+          "publisher_guid": "6720a7b2c522bbb00d0651a1",
+          "product_guid": "6723564556329e8499ff2157",
+          "product_name": "Red Bull Energy Drink 250 ml",
+          "brand_name": "Red Bull",
+          "match_confidence": 85,
+          "size_conflict": null,
+          "price_conflict": false
+        },
+        "match_signals": {
+          "brand": "MATCH",
+          "text": "HIGH",
+          "text_score": 85,
+          "variant": "MATCH",
+          "variant_jw": 1.0,
+          "price": "MATCH",
+          "size": "UNKNOWN",
+          "category": "OK",
+          "decision": "PROMO_FOUND"
+        }
+      },
+      {
+        "description": "*MULINO BIANCO FLAUTI CIOCCOLATO",
+        "description_full": "Mulino Bianco Flauti Cioccolato",
+        "category": "bakery",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 1.99,
+        "discount": 0.0,
+        "total_price": 1.99,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": "8003650019714",
+        "is_promo_item": false,
+        "match_confidence": 74,
+        "promo_match": {
+          "publisher_guid": "6939bd34e84bd0409997e7c9",
+          "product_guid": "6939c6789cf06812292571d8",
+          "product_name": "Candeggina Delicata Muschio Bianco",
+          "brand_name": "Omino Bianco",
+          "match_confidence": 74,
+          "size_conflict": null,
+          "price_conflict": null
+        },
+        "match_signals": {
+          "brand": "MATCH",
+          "text": "MED",
+          "text_score": 75,
+          "variant": "PARTIAL",
+          "variant_jw": 0.692,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK",
+          "decision": "AMBIGUOUS"
+        }
+      }
+    ],
+    "totals": {
+      "total_amount": 5.62,
+      "tax_amount": 0.0,
+      "item_count": null
+    }
+  },
+  "promo_status": "PROMO_FOUND",
+  "metadata": {
+    "version": "2.0.0+6c131bf",
+    "pars_dt": "2026-04-22T12:12:27.159+00:00",
+    "processing_status": "CLEAN",
+    "flags": [],
+    "preprocessing": [
+      {
+        "image_index": 0,
+        "tile_index": 0,
+        "steps": [
+          "DESKEW(angle=2.1°)",
+          "GRAYSCALE(sat=19)"
+        ],
+        "stats": {
+          "mean_brightness": 164.4,
+          "std_brightness": 64.6,
+          "noise_level": 559.0,
+          "skew_angle": 2.06,
+          "avg_saturation": 19.2,
+          "width": 1403,
+          "height": 2524,
+          "contrast_ratio": 198.0,
+          "is_bimodal": true,
+          "histogram_clipping": 0.002,
+          "content_coverage": 0.84,
+          "applied_steps": [
+            "DESKEW(angle=2.1°)",
+            "GRAYSCALE(sat=19)"
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_token_count": 5251,
+      "candidates_token_count": 479,
+      "total_token_count": 7379,
+      "thinking_token_count": 1649
+    },
+    "cost_info": {
+      "total_cost": 0.0027727999999999997,
+      "model_name": "Gemini 2.5 Flash",
+      "input_cost": 0.0015753,
+      "output_cost": 0.0011975
+    },
+    "retry_count": 0
+  }
+}

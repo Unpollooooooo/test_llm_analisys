@@ -1,0 +1,299 @@
+{
+  "receipt_guid": "69e8eacc86e5b64551ba2073",
+  "shop_brand": null,
+  "analysis": {
+    "document_type": "receipt",
+    "merchant": {
+      "name": "SUPERMERCATO PRATO CARNI SRL",
+      "brand_name": "Sigma",
+      "address": "VIALE GALILEO FERRARIS 29/31 59100 PRATO",
+      "vat_number": "01530770971",
+      "date": "2026-04-22",
+      "receipt_number": "2633-0296",
+      "notes": ""
+    },
+    "items": [
+      {
+        "description": "GRAN PURE KNORR GR.225",
+        "description_full": "Gran Puree Knorr 225g",
+        "category": "pantry",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 2.19,
+        "discount": 0.0,
+        "total_price": 2.19,
+        "_catalog_method": "gemini_only",
+        "_catalog_confidence": 0.61,
+        "_alignment_override": true,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 74,
+        "promo_match": {
+          "publisher_guid": "6513f40a60b55747dd7fc268",
+          "product_guid": "659e8568ff7df13930a36ca0",
+          "product_name": "Bonito del Norte",
+          "brand_name": "Consorcio Gran Reserva",
+          "match_confidence": 74,
+          "size_conflict": null,
+          "price_conflict": null
+        },
+        "match_signals": {
+          "brand": "MATCH",
+          "text": "HIGH",
+          "text_score": 86,
+          "variant": "PARTIAL",
+          "variant_jw": 0.667,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK",
+          "decision": "AMBIGUOUS"
+        }
+      },
+      {
+        "description": "BORSA BIO MEDIA",
+        "description_full": "Borsa Bio Media",
+        "category": "other",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 0.1,
+        "discount": 0.0,
+        "total_price": 0.1,
+        "_catalog_method": "gemini_only",
+        "_catalog_confidence": 0.4,
+        "_alignment_override": true,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 29,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 29,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "CONFLICT",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "KINDER PLUMCAKE YOGURT ALLA G",
+        "description_full": "Kinder Plumcake Yogurt alla Greca",
+        "category": "bakery",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 1.99,
+        "discount": 0.0,
+        "total_price": 1.99,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 27,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 27,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "MATCH",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "STRACCHINO NONNO NANNI GR 100",
+        "description_full": "Stracchino Nonno Nanni 100g",
+        "category": "dairy",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 1.79,
+        "discount": 0.0,
+        "total_price": 1.79,
+        "_catalog_method": "promo_catalog",
+        "_catalog_confidence": 1.0,
+        "barcode": "8007222502673",
+        "is_promo_item": true,
+        "match_confidence": 85,
+        "promo_match": {
+          "publisher_guid": "68fa6e0f7cb8558c28a80690",
+          "product_guid": "68fa6e98b82c644e33de2b2e",
+          "product_name": "Stracchino Nonno Nanni con fermento Probiotico 100g",
+          "brand_name": "Nonno Nanni",
+          "match_confidence": 85,
+          "size_conflict": null,
+          "price_conflict": false
+        },
+        "match_signals": {
+          "brand": "MATCH",
+          "text": "HIGH",
+          "text_score": 85,
+          "variant": "MATCH",
+          "variant_jw": 1.0,
+          "price": "MATCH",
+          "size": "UNKNOWN",
+          "category": "OK",
+          "decision": "PROMO_FOUND"
+        }
+      },
+      {
+        "description": "CONF.EXTRA SIGMA ALBICOCCA GR",
+        "description_full": "Confettura Extra Sigma Albicocca",
+        "category": "pantry",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 1.99,
+        "discount": 0.0,
+        "total_price": 1.99,
+        "_catalog_method": "gemini_only",
+        "_catalog_confidence": 0.47,
+        "_alignment_override": true,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 35,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 35,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "KINDER HAPPY HIPPO CACAO T.1",
+        "description_full": "Kinder Happy Hippo Cacao T1",
+        "category": "bakery",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 0.89,
+        "discount": 0.0,
+        "total_price": 0.89,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 23,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 23,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "KINDER HAPPY HIPPO CACAO T.1",
+        "description_full": "Kinder Happy Hippo Cacao T1",
+        "category": "bakery",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 0.89,
+        "discount": 0.0,
+        "total_price": 0.89,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 23,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 23,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "BISC.FROLETTI BATTISTINI SACC",
+        "description_full": "Biscotti Frolletti Battistini Sacco",
+        "category": "bakery",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 2.35,
+        "discount": 0.0,
+        "total_price": 2.35,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 31,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 31,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "MATCH",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      }
+    ],
+    "totals": {
+      "total_amount": 12.19,
+      "tax_amount": 0.0,
+      "item_count": 8
+    }
+  },
+  "promo_status": "PROMO_FOUND",
+  "metadata": {
+    "version": "2.0.0+6c131bf",
+    "pars_dt": "2026-04-22T15:36:40.599+00:00",
+    "processing_status": "CLEAN",
+    "flags": [],
+    "preprocessing": [
+      {
+        "image_index": 0,
+        "tile_index": 0,
+        "steps": [
+          "GRAYSCALE(sat=24)",
+          "CLAHE(std=28,clip=0.01)"
+        ],
+        "stats": {
+          "mean_brightness": 214.7,
+          "std_brightness": 28.3,
+          "noise_level": 100.0,
+          "skew_angle": 0.0,
+          "avg_saturation": 23.7,
+          "width": 893,
+          "height": 3439,
+          "contrast_ratio": 85.0,
+          "is_bimodal": false,
+          "histogram_clipping": 0.006,
+          "content_coverage": 0.76,
+          "applied_steps": [
+            "GRAYSCALE(sat=24)",
+            "CLAHE(std=28,clip=0.01)"
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_token_count": 6283,
+      "candidates_token_count": 833,
+      "total_token_count": 8570,
+      "thinking_token_count": 1454
+    },
+    "cost_info": {
+      "total_cost": 0.0039674,
+      "model_name": "Gemini 2.5 Flash",
+      "input_cost": 0.0018849,
+      "output_cost": 0.0020825
+    },
+    "retry_count": 0
+  }
+}

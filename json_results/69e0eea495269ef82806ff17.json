@@ -1,0 +1,183 @@
+{
+  "receipt_guid": "69e0eea495269ef82806ff17",
+  "shop_brand": null,
+  "analysis": {
+    "document_type": "receipt",
+    "merchant": {
+      "name": "SI.D.I. Piccolo Srl",
+      "brand_name": "piccolo",
+      "address": "Via Benevento, snc 82016 - Montesarchio (BN)",
+      "vat_number": "03160231217",
+      "date": "2026-04-16",
+      "receipt_number": "0424-0079",
+      "notes": ""
+    },
+    "items": [
+      {
+        "description": "BARILLA INT FUSILLI G.",
+        "description_full": "Barilla Integrale Fusilli Grano",
+        "category": "pantry",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 1.0,
+        "discount": 0.0,
+        "total_price": 1.0,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 28,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 28,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "GNOCCHI DI FARINA",
+        "description_full": "Gnocchi di Farina",
+        "category": "pantry",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 1.94,
+        "discount": 0.0,
+        "total_price": 1.94,
+        "_catalog_method": "gemini_only",
+        "_catalog_confidence": 0.85,
+        "_alignment_override": true,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 29,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 29,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "BANANE DEL MONTE",
+        "description_full": "Banane Del Monte",
+        "category": "produce",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 1.83,
+        "discount": 0.0,
+        "total_price": 1.83,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 30,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 30,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "MATCH",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "FRAGOLE GR 500",
+        "description_full": "Natù Fragole",
+        "category": "produce",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 2.2,
+        "discount": 0.0,
+        "total_price": 2.2,
+        "_catalog_method": "promo_catalog",
+        "_catalog_confidence": 0.7,
+        "_gemini_original": "Fragole 500 grammi",
+        "barcode": "8052575090032",
+        "is_promo_item": true,
+        "match_confidence": 85,
+        "promo_match": {
+          "publisher_guid": "665064e313f7055beaea8dc4",
+          "product_guid": "67d83843b7644c38cb08af87",
+          "product_name": "Natù Fragole",
+          "brand_name": "Natù",
+          "match_confidence": 85,
+          "size_conflict": false,
+          "price_conflict": false
+        },
+        "match_signals": {
+          "brand": "MATCH",
+          "text": "HIGH",
+          "text_score": 85,
+          "variant": "MATCH",
+          "variant_jw": 1.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK",
+          "decision": "PROMO_FOUND"
+        }
+      }
+    ],
+    "totals": {
+      "total_amount": 6.97,
+      "tax_amount": 0.37,
+      "item_count": 4
+    }
+  },
+  "promo_status": "PROMO_FOUND",
+  "metadata": {
+    "version": "1.0.0+6c131bf",
+    "pars_dt": "2026-04-16T14:14:34.340+00:00",
+    "processing_status": "CLEAN",
+    "flags": [],
+    "preprocessing": [
+      {
+        "image_index": 0,
+        "tile_index": 0,
+        "steps": [
+          "PASSTHROUGH(no preprocessing needed)"
+        ],
+        "stats": {
+          "mean_brightness": 160.5,
+          "std_brightness": 45.2,
+          "noise_level": 531.0,
+          "skew_angle": -0.98,
+          "avg_saturation": 67.5,
+          "width": 871,
+          "height": 2500,
+          "contrast_ratio": 120.0,
+          "is_bimodal": true,
+          "histogram_clipping": 0.0,
+          "content_coverage": 0.84,
+          "applied_steps": [
+            "PASSTHROUGH(no preprocessing needed)"
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_token_count": 5767,
+      "candidates_token_count": 462,
+      "total_token_count": 7313,
+      "thinking_token_count": 1084
+    },
+    "cost_info": {
+      "total_cost": 0.0028851,
+      "model_name": "Gemini 2.5 Flash",
+      "input_cost": 0.0017300999999999998,
+      "output_cost": 0.001155
+    },
+    "retry_count": 0
+  }
+}

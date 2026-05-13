@@ -1,0 +1,140 @@
+{
+  "receipt_guid": "69e5d89186e5b64551b9fcb0",
+  "shop_brand": null,
+  "analysis": {
+    "document_type": "receipt",
+    "merchant": {
+      "name": "UNICOOP FIRENZE SOC. COOPERATIVA",
+      "brand_name": "Coop",
+      "address": "POGGIBONSI - SALCETO VIA SALCETO, 137 POGGIBONSI (SI)",
+      "vat_number": "00407780485",
+      "date": "2026-04-20",
+      "receipt_number": "N2783-0007",
+      "notes": ""
+    },
+    "items": [
+      {
+        "description": "LTE ZYMIL CIO 250ML",
+        "description_full": "Zymil",
+        "category": "dairy",
+        "quantity": 2,
+        "unit_of_measure": "pz",
+        "unit_price": 1.04,
+        "discount": 1.12,
+        "total_price": 0.96,
+        "_catalog_method": "fuzzy",
+        "_catalog_confidence": 0.7,
+        "_gemini_original": "Latte Zymil Ciao 250ml",
+        "barcode": "8002580003145",
+        "is_promo_item": true,
+        "match_confidence": 100,
+        "promo_match": {
+          "publisher_guid": "68f0f6bb00cc667d09dd07fe",
+          "product_guid": "69314a856f6ada34183f707f",
+          "product_name": "Magro Digeribile 250 ml",
+          "brand_name": "Zymil",
+          "match_confidence": 100,
+          "size_conflict": false,
+          "price_conflict": false
+        },
+        "match_signals": {
+          "brand": "MATCH",
+          "text": "HIGH",
+          "text_score": 100,
+          "variant": "PARTIAL",
+          "variant_jw": 0.5,
+          "price": "MATCH",
+          "size": "MATCH",
+          "category": "OK",
+          "decision": "PROMO_FOUND"
+        }
+      },
+      {
+        "description": "MORTADPOLLO AEQ 130G",
+        "description_full": "AeQuilibrium AIA &me Mortadella di pollo",
+        "category": "meat_fish",
+        "quantity": 2,
+        "unit_of_measure": "pz",
+        "unit_price": 2.79,
+        "discount": 1.12,
+        "total_price": 4.46,
+        "_catalog_method": "promo_catalog",
+        "_catalog_confidence": 0.7,
+        "_gemini_original": "Mortadella di Pollo Aequilibrium 130g",
+        "barcode": "8008110040574",
+        "is_promo_item": true,
+        "match_confidence": 85,
+        "promo_match": {
+          "publisher_guid": "6720a75bc522bbb00d0651a0",
+          "product_guid": "67c5ca11d2ff0649019a2b6f",
+          "product_name": "AeQuilibrium AIA Mortadella di pollo",
+          "brand_name": "AeQuilibrium AIA",
+          "match_confidence": 85,
+          "size_conflict": false,
+          "price_conflict": false
+        },
+        "match_signals": {
+          "brand": "MATCH",
+          "text": "HIGH",
+          "text_score": 85,
+          "variant": "MATCH",
+          "variant_jw": 1.0,
+          "price": "MATCH",
+          "size": "MATCH",
+          "category": "OK",
+          "decision": "PROMO_FOUND"
+        }
+      }
+    ],
+    "totals": {
+      "total_amount": 5.42,
+      "tax_amount": 0.68,
+      "item_count": null
+    }
+  },
+  "promo_status": "PROMO_FOUND",
+  "metadata": {
+    "version": "2.0.0+6c131bf",
+    "pars_dt": "2026-04-20T07:41:47.023+00:00",
+    "processing_status": "CLEAN",
+    "flags": [],
+    "preprocessing": [
+      {
+        "image_index": 0,
+        "tile_index": 0,
+        "steps": [
+          "PASSTHROUGH(no preprocessing needed)"
+        ],
+        "stats": {
+          "mean_brightness": 118.1,
+          "std_brightness": 46.7,
+          "noise_level": 2109.0,
+          "skew_angle": 0.0,
+          "avg_saturation": 64.6,
+          "width": 1910,
+          "height": 2550,
+          "contrast_ratio": 148.0,
+          "is_bimodal": false,
+          "histogram_clipping": 0.005,
+          "content_coverage": 1.0,
+          "applied_steps": [
+            "PASSTHROUGH(no preprocessing needed)"
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_token_count": 6283,
+      "candidates_token_count": 420,
+      "total_token_count": 8309,
+      "thinking_token_count": 1606
+    },
+    "cost_info": {
+      "total_cost": 0.0029349,
+      "model_name": "Gemini 2.5 Flash",
+      "input_cost": 0.0018849,
+      "output_cost": 0.0010500000000000002
+    },
+    "retry_count": 0
+  }
+}

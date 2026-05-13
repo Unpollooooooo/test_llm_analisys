@@ -1,0 +1,333 @@
+{
+  "receipt_guid": "69e73a7d2bfcf6b2e6310459",
+  "shop_brand": null,
+  "analysis": {
+    "document_type": "receipt",
+    "merchant": {
+      "name": "COOPERATIVA AZ ARL",
+      "brand_name": "Conad",
+      "address": "VIA G. AMENDOLA 24 MARIGLIANO(NA)T.081/8414835",
+      "vat_number": "01374411211",
+      "date": "2026-04-21",
+      "receipt_number": "2560-0038",
+      "notes": ""
+    },
+    "items": [
+      {
+        "description": "BROCCOLI **CUOR DI",
+        "description_full": "Vellutata di broccoli",
+        "category": "produce",
+        "quantity": 1,
+        "unit_of_measure": "pz",
+        "unit_price": 1.49,
+        "discount": 0,
+        "total_price": 1.49,
+        "_catalog_method": "fuzzy",
+        "_catalog_confidence": 0.7,
+        "_gemini_original": "Broccoli Cuor di",
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 34,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 34,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "LATTE SCR.ALIMENTUM",
+        "description_full": "Latte Scremato Alimentum",
+        "category": "dairy",
+        "quantity": 1,
+        "unit_of_measure": "pz",
+        "unit_price": 1.39,
+        "discount": 0,
+        "total_price": 1.39,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 33,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 33,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "LATTE CONAD UHT PARZ",
+        "description_full": "Latte Conad UHT Parzialmente Scremato",
+        "category": "dairy",
+        "quantity": 1,
+        "unit_of_measure": "pz",
+        "unit_price": 0.89,
+        "discount": 0,
+        "total_price": 0.89,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 38,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 38,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "PHILADELPHIA MINI",
+        "description_full": "Philadelphia Mini",
+        "category": "dairy",
+        "quantity": 1,
+        "unit_of_measure": "pz",
+        "unit_price": 2.59,
+        "discount": 0,
+        "total_price": 2.59,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 27,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 27,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "MATCH",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "POM.ROSSI GRAPPOLO I",
+        "description_full": "Pomodori Rossi Grappolo I",
+        "category": "produce",
+        "quantity": 1,
+        "unit_of_measure": "pz",
+        "unit_price": 1.01,
+        "discount": 0,
+        "total_price": 1.01,
+        "_catalog_method": "gemini_only",
+        "_catalog_confidence": 0.52,
+        "_alignment_override": true,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 29,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 29,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "CONFLICT",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "REP. SA.FO. LIBERO S",
+        "description_full": "REP SA FO LIBERO S",
+        "category": "meat_fish",
+        "quantity": 1,
+        "unit_of_measure": "pz",
+        "unit_price": 3.8,
+        "discount": 0,
+        "total_price": 3.8,
+        "_catalog_method": "abbreviation",
+        "_catalog_confidence": 0.7,
+        "_gemini_original": "Reparto Salumi Formaggi Libero Servizio",
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 26,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 26,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "MATCH",
+          "size": "UNKNOWN",
+          "category": "INCOMPATIBLE"
+        }
+      },
+      {
+        "description": "PANE DI SEGALE CONAD",
+        "description_full": "Pane di Segale Conad",
+        "category": "bakery",
+        "quantity": 1,
+        "unit_of_measure": "pz",
+        "unit_price": 1.89,
+        "discount": 0,
+        "total_price": 1.89,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 29,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 29,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "INCOMPATIBLE"
+        }
+      },
+      {
+        "description": "TE'CONAD BRIK PESCA",
+        "description_full": "Tè Conad Brik Pesca",
+        "category": "beverages",
+        "quantity": 1,
+        "unit_of_measure": "pz",
+        "unit_price": 0.79,
+        "discount": 0,
+        "total_price": 0.79,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 29,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 29,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "CONFLICT",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "Rettifica ARROTONDAMENTO",
+        "description_full": "Rettifica Arrotondamento",
+        "category": "other",
+        "quantity": 1,
+        "unit_of_measure": "pz",
+        "unit_price": 0.01,
+        "discount": 0,
+        "total_price": 0.01,
+        "_catalog_method": "gemini_only",
+        "_catalog_confidence": 0.4,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 28,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 28,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "CONFLICT",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "FIOCCHI LATTE CONAD",
+        "description_full": "Fiocchi di Latte Conad",
+        "category": "dairy",
+        "quantity": 1,
+        "unit_of_measure": "pz",
+        "unit_price": 1.49,
+        "discount": 0,
+        "total_price": 1.49,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 28,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 28,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      }
+    ],
+    "totals": {
+      "total_amount": 15.35,
+      "tax_amount": 0,
+      "item_count": 9
+    }
+  },
+  "promo_status": "NO_PROMO",
+  "metadata": {
+    "version": "2.0.0+6c131bf",
+    "pars_dt": "2026-04-21T08:51:58.982+00:00",
+    "processing_status": "CLEAN",
+    "flags": [],
+    "preprocessing": [
+      {
+        "image_index": 0,
+        "tile_index": 0,
+        "steps": [
+          "GRAYSCALE(sat=31)",
+          "CLAHE(std=29,clip=0.00)"
+        ],
+        "stats": {
+          "mean_brightness": 164.2,
+          "std_brightness": 29.5,
+          "noise_level": 214.0,
+          "skew_angle": 0.0,
+          "avg_saturation": 31.3,
+          "width": 1920,
+          "height": 2560,
+          "contrast_ratio": 88.0,
+          "is_bimodal": false,
+          "histogram_clipping": 0.0,
+          "content_coverage": 0.92,
+          "applied_steps": [
+            "GRAYSCALE(sat=31)",
+            "CLAHE(std=29,clip=0.00)"
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_token_count": 6283,
+      "candidates_token_count": 1171,
+      "total_token_count": 9947,
+      "thinking_token_count": 2493
+    },
+    "cost_info": {
+      "total_cost": 0.0048124000000000005,
+      "model_name": "Gemini 2.5 Flash",
+      "input_cost": 0.0018849,
+      "output_cost": 0.0029275000000000004
+    },
+    "retry_count": 0
+  }
+}

@@ -1,0 +1,235 @@
+{
+  "receipt_guid": "69e332fb2bfcf6b2e630d8eb",
+  "shop_brand": null,
+  "analysis": {
+    "document_type": "receipt",
+    "merchant": {
+      "name": "SUPERMERCATO CONAD AV PLUDA SRL",
+      "brand_name": "Conad",
+      "address": "Loc. Perolle 21 - Chatillon (AO)",
+      "vat_number": "01184620076",
+      "date": "2026-04-16",
+      "receipt_number": "2376-0148",
+      "notes": ""
+    },
+    "items": [
+      {
+        "description": "PANE BIANCO COTTO A #",
+        "description_full": "Pane Bianco Cotto",
+        "category": "bakery",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 1.93,
+        "discount": 0.0,
+        "total_price": 1.93,
+        "_catalog_method": "gemini_only",
+        "_catalog_confidence": 0.4,
+        "_alignment_override": true,
+        "barcode": "8003650019714",
+        "is_promo_item": false,
+        "match_confidence": 74,
+        "promo_match": {
+          "publisher_guid": "6939bd34e84bd0409997e7c9",
+          "product_guid": "6939c6789cf06812292571d8",
+          "product_name": "Candeggina Delicata Muschio Bianco",
+          "brand_name": "Omino Bianco",
+          "match_confidence": 74,
+          "size_conflict": null,
+          "price_conflict": null
+        },
+        "match_signals": {
+          "brand": "MATCH",
+          "text": "HIGH",
+          "text_score": 83,
+          "variant": "PARTIAL",
+          "variant_jw": 0.565,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK",
+          "decision": "AMBIGUOUS"
+        }
+      },
+      {
+        "description": "PANE FRESCO Panif. D",
+        "description_full": "Pane Fresco Panificio",
+        "category": "bakery",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 0.29,
+        "discount": 0.0,
+        "total_price": 0.29,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 26,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 26,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "MAGRETTI GOCCE CIOC.",
+        "description_full": "Magretti Gocce Cioccolato",
+        "category": "bakery",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 2.24,
+        "discount": 0.0,
+        "total_price": 2.24,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 36,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 36,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "MATCH",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "TROFIE CONAD",
+        "description_full": "Trofie Conad",
+        "category": "pantry",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 1.49,
+        "discount": 0.0,
+        "total_price": 1.49,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 25,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 25,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "FROL.GRAN DIS.UOVA/L",
+        "description_full": "Frollini Grandi Senza Uova/Lattosio",
+        "category": "bakery",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 3.99,
+        "discount": 0.0,
+        "total_price": 3.99,
+        "_catalog_method": "gemini_only",
+        "_catalog_confidence": 0.66,
+        "_alignment_override": true,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 31,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 31,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "CORNETTO SUPREME PIS",
+        "description_full": "Cornetto Supreme Pistacchio",
+        "category": "bakery",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 1.3,
+        "discount": 0.0,
+        "total_price": 1.3,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 30,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 30,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      }
+    ],
+    "totals": {
+      "total_amount": 11.24,
+      "tax_amount": 0.82,
+      "item_count": 5
+    }
+  },
+  "promo_status": "PROMO_AMBIGUOUS",
+  "metadata": {
+    "version": "2.0.0+6c131bf",
+    "pars_dt": "2026-04-18T07:30:47.773+00:00",
+    "processing_status": "CLEAN",
+    "flags": [],
+    "preprocessing": [
+      {
+        "image_index": 0,
+        "tile_index": 0,
+        "steps": [
+          "DESKEW(angle=-1.0°)"
+        ],
+        "stats": {
+          "mean_brightness": 122.0,
+          "std_brightness": 61.9,
+          "noise_level": 561.0,
+          "skew_angle": -1.01,
+          "avg_saturation": 71.8,
+          "width": 1920,
+          "height": 2398,
+          "contrast_ratio": 170.0,
+          "is_bimodal": true,
+          "histogram_clipping": 0.0,
+          "content_coverage": 1.0,
+          "applied_steps": [
+            "DESKEW(angle=-1.0°)"
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_token_count": 6283,
+      "candidates_token_count": 638,
+      "total_token_count": 8597,
+      "thinking_token_count": 1676
+    },
+    "cost_info": {
+      "total_cost": 0.0034799,
+      "model_name": "Gemini 2.5 Flash",
+      "input_cost": 0.0018849,
+      "output_cost": 0.001595
+    },
+    "retry_count": 0
+  }
+}

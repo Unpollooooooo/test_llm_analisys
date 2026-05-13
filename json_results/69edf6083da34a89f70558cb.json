@@ -1,0 +1,358 @@
+{
+  "receipt_guid": "69edf6083da34a89f70558cb",
+  "shop_brand": null,
+  "analysis": {
+    "document_type": "receipt",
+    "merchant": {
+      "name": "ARCA COMMERCIALE S.R.L.",
+      "brand_name": "Famila",
+      "address": "VIALE LITORALE MARINA, 91A 47042 CESENATICO (FC)",
+      "vat_number": "04573590405",
+      "date": "2026-04-26",
+      "receipt_number": "0237-0169",
+      "notes": ""
+    },
+    "items": [
+      {
+        "description": "RADICCHIO E VALERI",
+        "description_full": "Radicchio e Valeriana",
+        "category": "produce",
+        "quantity": 1,
+        "unit_of_measure": "pz",
+        "unit_price": 1.99,
+        "discount": 0,
+        "total_price": 1.99,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 29,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 29,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "INCOMPATIBLE"
+        }
+      },
+      {
+        "description": "SHOPPER MEDIO BIO",
+        "description_full": "Shopper Medio Biologico",
+        "category": "other",
+        "quantity": 1,
+        "unit_of_measure": "pz",
+        "unit_price": 0.1,
+        "discount": 0,
+        "total_price": 0.1,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 28,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 28,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "CONFLICT",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "POLPA MUTTI LATT.G",
+        "description_full": "Polpa Mutti Lattina Grande",
+        "category": "pantry",
+        "quantity": 1,
+        "unit_of_measure": "pz",
+        "unit_price": 3.59,
+        "discount": 0,
+        "total_price": 3.59,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 26,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 26,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "MATCH",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "PANE GRANO DURO IM",
+        "description_full": "Pane Grano Duro Integrale",
+        "category": "bakery",
+        "quantity": 1,
+        "unit_of_measure": "pz",
+        "unit_price": 1.92,
+        "discount": 0,
+        "total_price": 1.92,
+        "_catalog_method": "gemini_only",
+        "_catalog_confidence": 0.4,
+        "_alignment_override": true,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 33,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 33,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "MATCH",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "CROSTATA FR.BOSCO",
+        "description_full": "Crostata Frutti di Bosco",
+        "category": "bakery",
+        "quantity": 1,
+        "unit_of_measure": "pz",
+        "unit_price": 6.92,
+        "discount": 0,
+        "total_price": 6.92,
+        "_catalog_method": "gemini_only",
+        "_catalog_confidence": 0.85,
+        "_alignment_override": true,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 35,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 35,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "ANANAS TAGLIATO",
+        "description_full": "Ananas Tagliato",
+        "category": "produce",
+        "quantity": 1,
+        "unit_of_measure": "pz",
+        "unit_price": 1.57,
+        "discount": 0,
+        "total_price": 1.57,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 39,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 39,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "MATCH",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "IMPASTO SALSICCIA",
+        "description_full": "Impasto Salsiccia",
+        "category": "meat_fish",
+        "quantity": 1,
+        "unit_of_measure": "pz",
+        "unit_price": 3.7,
+        "discount": 0,
+        "total_price": 3.7,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 26,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 26,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "ANANAS TAGLIATO",
+        "description_full": "Ananas Tagliato",
+        "category": "produce",
+        "quantity": 1,
+        "unit_of_measure": "pz",
+        "unit_price": 1.15,
+        "discount": 0,
+        "total_price": 1.15,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 39,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 39,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "GUANCIALE STICK FD",
+        "description_full": "Guanciale Stick Fette",
+        "category": "meat_fish",
+        "quantity": 1,
+        "unit_of_measure": "pz",
+        "unit_price": 2.99,
+        "discount": 0,
+        "total_price": 2.99,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 26,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 26,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "# BRUSC.POMO SEC.156",
+        "description_full": "Bruschette Pomodoro Secco 156",
+        "category": "pantry",
+        "quantity": 1,
+        "unit_of_measure": "pz",
+        "unit_price": 1.49,
+        "discount": 0,
+        "total_price": 1.49,
+        "_catalog_method": "gemini_only",
+        "_catalog_confidence": 0.66,
+        "_alignment_override": true,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 28,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 28,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "# PASSATA POMO.ROSSO",
+        "description_full": "Passata Pomodoro Rosso",
+        "category": "pantry",
+        "quantity": 1,
+        "unit_of_measure": "pz",
+        "unit_price": 0.96,
+        "discount": 0,
+        "total_price": 0.96,
+        "_catalog_method": "gemini_only",
+        "_catalog_confidence": 0.52,
+        "_alignment_override": true,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 26,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 26,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      }
+    ],
+    "totals": {
+      "total_amount": 26.38,
+      "tax_amount": 1.82,
+      "item_count": 11
+    }
+  },
+  "promo_status": "NO_PROMO",
+  "metadata": {
+    "version": "2.0.0+6c131bf",
+    "pars_dt": "2026-04-26T11:25:35.302+00:00",
+    "processing_status": "CLEAN",
+    "flags": [],
+    "preprocessing": [
+      {
+        "image_index": 0,
+        "tile_index": 0,
+        "steps": [
+          "GRAYSCALE(sat=27)"
+        ],
+        "stats": {
+          "mean_brightness": 145.8,
+          "std_brightness": 66.4,
+          "noise_level": 1230.0,
+          "skew_angle": 0.0,
+          "avg_saturation": 26.9,
+          "width": 1920,
+          "height": 2560,
+          "contrast_ratio": 179.0,
+          "is_bimodal": true,
+          "histogram_clipping": 0.0,
+          "content_coverage": 1.0,
+          "applied_steps": [
+            "GRAYSCALE(sat=27)"
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_token_count": 6283,
+      "candidates_token_count": 1266,
+      "total_token_count": 9185,
+      "thinking_token_count": 1636
+    },
+    "cost_info": {
+      "total_cost": 0.0050499,
+      "model_name": "Gemini 2.5 Flash",
+      "input_cost": 0.0018849,
+      "output_cost": 0.0031650000000000003
+    },
+    "retry_count": 0
+  }
+}

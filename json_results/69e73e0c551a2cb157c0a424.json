@@ -1,0 +1,321 @@
+{
+  "receipt_guid": "69e73e0c551a2cb157c0a424",
+  "shop_brand": null,
+  "analysis": {
+    "document_type": "receipt",
+    "merchant": {
+      "name": "MGR S.R.L.",
+      "brand_name": "Supermercati Deco",
+      "address": "VIA G. VERGA, 16 98073 MISTRETTA -ME-",
+      "vat_number": "03287260834",
+      "date": "2026-04-17",
+      "receipt_number": "1108-0090",
+      "notes": ""
+    },
+    "items": [
+      {
+        "description": "PETTO DI POLLO#",
+        "description_full": "Petto di pollo",
+        "category": "meat_fish",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 6.4,
+        "discount": 0.0,
+        "total_price": 6.4,
+        "_catalog_method": "fuzzy",
+        "_catalog_confidence": 0.97,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 31,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 31,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "MATCH",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "SEGAFREDO INTERMEZZO GR. 250X2",
+        "description_full": "Segafredo Intermezzo Caffè Macinato 250g x 2",
+        "category": "pantry",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 5.99,
+        "discount": 0.0,
+        "total_price": 5.99,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 27,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 27,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "IBIS A/Q GRAN COTTO D'EMI LIA",
+        "description_full": "Ibis Alta Qualità Gran Cotto d'Emilia",
+        "category": "meat_fish",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 2.63,
+        "discount": 0.0,
+        "total_price": 2.63,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 74,
+        "promo_match": {
+          "publisher_guid": "6513f40a60b55747dd7fc268",
+          "product_guid": "65145b02c30d8616850160cc",
+          "product_name": "Calamari in olio d'oliva",
+          "brand_name": "Consorcio Gran Reserva",
+          "match_confidence": 74,
+          "size_conflict": null,
+          "price_conflict": null
+        },
+        "match_signals": {
+          "brand": "MATCH",
+          "text": "MED",
+          "text_score": 79,
+          "variant": "PARTIAL",
+          "variant_jw": 0.674,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK",
+          "decision": "AMBIGUOUS"
+        }
+      },
+      {
+        "description": "CIOLI PORCHETTA ARROSTO K G.5",
+        "description_full": "Cioli Porchetta Arrosto 0.5 Kg",
+        "category": "meat_fish",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 3.35,
+        "discount": 0.0,
+        "total_price": 3.35,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 31,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 31,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "MATCH",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "DECO'PASTA FILATA KG.5 X 2 PZ",
+        "description_full": "DECO'PASTA FILATA KG 5 X 2 PZ",
+        "category": "dairy",
+        "quantity": 2.0,
+        "unit_of_measure": "pz",
+        "unit_price": 1.29,
+        "discount": 0.0,
+        "total_price": 2.58,
+        "_catalog_method": "abbreviation",
+        "_catalog_confidence": 0.7,
+        "_gemini_original": "Deco Pasta Filata 0.5 Kg x 2 Pezzi",
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 27,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 27,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "LIMONI RETE GR.500 CITRUS",
+        "description_full": "Limoni in Rete 500g Citrus",
+        "category": "produce",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 2.0,
+        "discount": 0.0,
+        "total_price": 2.0,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 32,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 32,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "MATCH",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "POMODORO ROSSO GRAPPOLO",
+        "description_full": "Pomodoro Rosso Grappolo",
+        "category": "produce",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 1.7,
+        "discount": 0.0,
+        "total_price": 1.7,
+        "_catalog_method": "gemini_only",
+        "_catalog_confidence": 0.4,
+        "_alignment_override": true,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 29,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 29,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "REP. 04%",
+        "description_full": "REP 04%",
+        "category": "other",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 13.9,
+        "discount": 0.0,
+        "total_price": 13.9,
+        "_catalog_method": "abbreviation",
+        "_catalog_confidence": 0.7,
+        "_gemini_original": "Reparto 04% Item",
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 0,
+        "promo_match": null
+      },
+      {
+        "description": "REP. 04%",
+        "description_full": "REP 04%",
+        "category": "other",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 2.19,
+        "discount": 0.0,
+        "total_price": 2.19,
+        "_catalog_method": "cache",
+        "_catalog_confidence": 0.7,
+        "_gemini_original": "Reparto 04% Item",
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 0,
+        "promo_match": null
+      },
+      {
+        "description": "DECO'SHOPPERS BIO GRANDE 38X65",
+        "description_full": "Deco Shoppers Bio Grande 38x65",
+        "category": "home_care",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 0.2,
+        "discount": 0.0,
+        "total_price": 0.2,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 27,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 27,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "INCOMPATIBLE"
+        }
+      }
+    ],
+    "totals": {
+      "total_amount": 40.94,
+      "tax_amount": 3.11,
+      "item_count": 10
+    }
+  },
+  "promo_status": "PROMO_AMBIGUOUS",
+  "metadata": {
+    "version": "2.0.0+6c131bf",
+    "pars_dt": "2026-04-21T09:07:03.513+00:00",
+    "processing_status": "CLEAN",
+    "flags": [],
+    "preprocessing": [
+      {
+        "image_index": 0,
+        "tile_index": 0,
+        "steps": [
+          "GRAYSCALE(sat=13)"
+        ],
+        "stats": {
+          "mean_brightness": 190.4,
+          "std_brightness": 57.2,
+          "noise_level": 338.0,
+          "skew_angle": 0.0,
+          "avg_saturation": 13.2,
+          "width": 1067,
+          "height": 3705,
+          "contrast_ratio": 183.0,
+          "is_bimodal": false,
+          "histogram_clipping": 0.009,
+          "content_coverage": 0.92,
+          "applied_steps": [
+            "GRAYSCALE(sat=13)"
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_token_count": 6283,
+      "candidates_token_count": 1024,
+      "total_token_count": 9223,
+      "thinking_token_count": 1916
+    },
+    "cost_info": {
+      "total_cost": 0.0044449,
+      "model_name": "Gemini 2.5 Flash",
+      "input_cost": 0.0018849,
+      "output_cost": 0.00256
+    },
+    "retry_count": 0
+  }
+}

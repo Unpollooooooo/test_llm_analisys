@@ -1,0 +1,365 @@
+{
+  "receipt_guid": "69ed06b9e593340322ec7698",
+  "shop_brand": null,
+  "analysis": {
+    "document_type": "receipt",
+    "merchant": {
+      "name": "PIANETA GESPAC S.R.L.",
+      "brand_name": "Conad",
+      "address": "Via Montefiorino, 12 05100 TERNI",
+      "vat_number": "02518490541",
+      "date": "2026-04-25",
+      "receipt_number": "0150-0304",
+      "notes": ""
+    },
+    "items": [
+      {
+        "description": "VONGOLE GUSCIO ARBI",
+        "description_full": "Vongole Guscio Arbi",
+        "category": "meat_fish",
+        "quantity": 1,
+        "unit_of_measure": "pz",
+        "unit_price": 10.05,
+        "discount": 2.58,
+        "total_price": 7.47,
+        "_catalog_method": "gemini_only",
+        "_catalog_confidence": 0.85,
+        "_alignment_override": true,
+        "barcode": "8002202000408",
+        "is_promo_item": true,
+        "match_confidence": 83,
+        "promo_match": {
+          "publisher_guid": "68d3fe899c9800d05b3cb2eb",
+          "product_guid": "68e39a58719aebebe1426ab3",
+          "product_name": "Sugo scampi e frutti di mare - condimento pronto scampi, cozze e vongole",
+          "brand_name": "Arbi",
+          "match_confidence": 83,
+          "size_conflict": null,
+          "price_conflict": null
+        },
+        "match_signals": {
+          "brand": "MATCH",
+          "text": "HIGH",
+          "text_score": 83,
+          "variant": "MATCH",
+          "variant_jw": 0.903,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK",
+          "decision": "PROMO_FOUND"
+        }
+      },
+      {
+        "description": "FRAGOLE GR.500",
+        "description_full": "Fragole 500 grammi",
+        "category": "produce",
+        "quantity": 1,
+        "unit_of_measure": "pz",
+        "unit_price": 2.69,
+        "discount": 0.7,
+        "total_price": 1.99,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 33,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 33,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "MATCH",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "LATTE UHT PAR.SCREM.",
+        "description_full": "Latte UHT Parzialmente Scremato",
+        "category": "dairy",
+        "quantity": 3,
+        "unit_of_measure": "pz",
+        "unit_price": 1.09,
+        "discount": 0.0,
+        "total_price": 3.27,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 37,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 37,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "GALLETTE MAIS CONAD",
+        "description_full": "Gallette Mais Conad",
+        "category": "pantry",
+        "quantity": 2,
+        "unit_of_measure": "pz",
+        "unit_price": 1.58,
+        "discount": 0.0,
+        "total_price": 3.16,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 32,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 32,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "RUCOLA CONAD 90G",
+        "description_full": "Rucola Conad 90 grammi",
+        "category": "produce",
+        "quantity": 1,
+        "unit_of_measure": "pz",
+        "unit_price": 0.99,
+        "discount": 0.0,
+        "total_price": 0.99,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 27,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 27,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "CONFLICT",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "BANANE CHIQUITA",
+        "description_full": "Banane Chiquita",
+        "category": "produce",
+        "quantity": 1,
+        "unit_of_measure": "pz",
+        "unit_price": 2.23,
+        "discount": 0.0,
+        "total_price": 2.23,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 35,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 35,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "MATCH",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "PROSCIUTTO COTTO ALT",
+        "description_full": "Prosciutto Cotto Alta Qualità",
+        "category": "meat_fish",
+        "quantity": 1,
+        "unit_of_measure": "pz",
+        "unit_price": 2.56,
+        "discount": 0.0,
+        "total_price": 2.56,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 35,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 35,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "MATCH",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "PETTO TACCHINO ARR.",
+        "description_full": "Petto di Tacchino Arrosto",
+        "category": "meat_fish",
+        "quantity": 1,
+        "unit_of_measure": "pz",
+        "unit_price": 2.29,
+        "discount": 0.0,
+        "total_price": 2.29,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 37,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 37,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "MELE FUJI P.Q.C. 75/",
+        "description_full": "Mele Fuji Prima Qualità Calibro 75",
+        "category": "produce",
+        "quantity": 1,
+        "unit_of_measure": "pz",
+        "unit_price": 2.29,
+        "discount": 0.0,
+        "total_price": 2.29,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 32,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 32,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "SAC.STR.BIO.ROT.CONA",
+        "description_full": "Sacchetto Spesa Biodegradabile Rotolo Conad",
+        "category": "other",
+        "quantity": 1,
+        "unit_of_measure": "pz",
+        "unit_price": 0.02,
+        "discount": 0.0,
+        "total_price": 0.02,
+        "_catalog_method": "gemini_only",
+        "_catalog_confidence": 0.85,
+        "_alignment_override": true,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 26,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 26,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "Sconto ARROTONDAMENTO",
+        "description_full": "Sconto Arrotondamento",
+        "category": "other",
+        "quantity": 1,
+        "unit_of_measure": "pz",
+        "unit_price": -0.02,
+        "discount": 0.0,
+        "total_price": -0.02,
+        "_catalog_method": "gemini_only",
+        "_catalog_confidence": 0.4,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 30,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 30,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      }
+    ],
+    "totals": {
+      "total_amount": 26.25,
+      "tax_amount": 1.82,
+      "item_count": 15
+    }
+  },
+  "promo_status": "PROMO_FOUND",
+  "metadata": {
+    "version": "2.0.0+6c131bf",
+    "pars_dt": "2026-04-25T18:25:27.773+00:00",
+    "processing_status": "CLEAN",
+    "flags": [],
+    "preprocessing": [
+      {
+        "image_index": 0,
+        "tile_index": 0,
+        "steps": [
+          "THRESHOLD(contrast=77,bright=120)"
+        ],
+        "stats": {
+          "mean_brightness": 120.4,
+          "std_brightness": 24.1,
+          "noise_level": 178.0,
+          "skew_angle": 0.0,
+          "avg_saturation": 44.3,
+          "width": 1920,
+          "height": 3690,
+          "contrast_ratio": 77.0,
+          "is_bimodal": false,
+          "histogram_clipping": 0.0,
+          "content_coverage": 0.96,
+          "applied_steps": [
+            "THRESHOLD(contrast=77,bright=120)"
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_token_count": 5251,
+      "candidates_token_count": 1315,
+      "total_token_count": 11632,
+      "thinking_token_count": 5066
+    },
+    "cost_info": {
+      "total_cost": 0.0048628000000000005,
+      "model_name": "Gemini 2.5 Flash",
+      "input_cost": 0.0015753,
+      "output_cost": 0.0032875
+    },
+    "retry_count": 0
+  }
+}

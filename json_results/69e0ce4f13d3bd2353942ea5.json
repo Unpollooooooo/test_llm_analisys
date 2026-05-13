@@ -1,0 +1,383 @@
+{
+  "receipt_guid": "69e0ce4f13d3bd2353942ea5",
+  "shop_brand": null,
+  "analysis": {
+    "document_type": "receipt",
+    "merchant": {
+      "name": "IPERAL SUPERMERCATI SPA",
+      "brand_name": "Iperal",
+      "address": "VIA CHIARELLI 4/6 - 23020 (SO)",
+      "vat_number": "11023300962",
+      "date": "2026-04-16",
+      "receipt_number": "7241-0004",
+      "notes": ""
+    },
+    "items": [
+      {
+        "description": "CLEMENTE O.EVO BIO",
+        "description_full": "Biologico",
+        "category": "pantry",
+        "quantity": 2.0,
+        "unit_of_measure": "pz",
+        "unit_price": 7.95,
+        "discount": 0.0,
+        "total_price": 15.9,
+        "_catalog_method": "fuzzy",
+        "_catalog_confidence": 0.7,
+        "_gemini_original": "Clemente Olio Extra Vergine di Oliva Biologico",
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 29,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 29,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "YOGA SUCCO PESCA",
+        "description_full": "Yoga Succo Pesca",
+        "category": "beverages",
+        "quantity": 4.0,
+        "unit_of_measure": "pz",
+        "unit_price": 2.99,
+        "discount": 0.0,
+        "total_price": 11.96,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 24,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 24,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "SCONTO ONLINE",
+        "description_full": "Sconto Online",
+        "category": "other",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": -4.0,
+        "discount": 0.0,
+        "total_price": -4.0,
+        "_catalog_method": "gemini_only",
+        "_catalog_confidence": 0.4,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 25,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 25,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "IPERAL VALI LATTE L1",
+        "description_full": "Iperal Valid Latte 1 Litro",
+        "category": "dairy",
+        "quantity": 6.0,
+        "unit_of_measure": "pz",
+        "unit_price": 1.69,
+        "discount": 0.0,
+        "total_price": 10.14,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 29,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 29,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "SCONTO ONLINE",
+        "description_full": "Sconto Online",
+        "category": "other",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": -1.2,
+        "discount": 0.0,
+        "total_price": -1.2,
+        "_catalog_method": "gemini_only",
+        "_catalog_confidence": 0.4,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 25,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 25,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "AIA UOVA FRESCHE X4",
+        "description_full": "AIA Uova Fresche x4",
+        "category": "dairy",
+        "quantity": 2.0,
+        "unit_of_measure": "pz",
+        "unit_price": 1.69,
+        "discount": 0.0,
+        "total_price": 3.38,
+        "_catalog_method": "gemini_only",
+        "_catalog_confidence": 0.4,
+        "_alignment_override": true,
+        "barcode": "8008110025908",
+        "is_promo_item": true,
+        "match_confidence": 84,
+        "promo_match": {
+          "publisher_guid": "6720a75bc522bbb00d0651a0",
+          "product_guid": "67af78809a202072370c13a9",
+          "product_name": "Uova AIA Biologiche",
+          "brand_name": "AIA",
+          "match_confidence": 84,
+          "size_conflict": false,
+          "price_conflict": false
+        },
+        "match_signals": {
+          "brand": "MATCH",
+          "text": "HIGH",
+          "text_score": 84,
+          "variant": "MATCH",
+          "variant_jw": 0.788,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK",
+          "decision": "PROMO_FOUND"
+        }
+      },
+      {
+        "description": "LOACKER WAFER MILK",
+        "description_full": "Loacker Wafer Milk",
+        "category": "pantry",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 1.75,
+        "discount": 0.0,
+        "total_price": 1.75,
+        "_catalog_method": "gemini_only",
+        "_catalog_confidence": 0.4,
+        "_alignment_override": true,
+        "barcode": "8000380180721",
+        "is_promo_item": true,
+        "match_confidence": 100,
+        "promo_match": {
+          "publisher_guid": "68fb20d97cb8558c28a80691",
+          "product_guid": "68fb2b52b82c644e33de2bc8",
+          "product_name": "Loacker Classic Cocoa &amp; Milk Wafer al Cacao con crema al Latte 100% Alpino Wafers 175g",
+          "brand_name": "Loacker",
+          "match_confidence": 100,
+          "size_conflict": false,
+          "price_conflict": false
+        },
+        "match_signals": {
+          "brand": "MATCH",
+          "text": "HIGH",
+          "text_score": 100,
+          "variant": "MATCH",
+          "variant_jw": 1.0,
+          "price": "MATCH",
+          "size": "UNKNOWN",
+          "category": "OK",
+          "decision": "PROMO_FOUND"
+        }
+      },
+      {
+        "description": "LOACKER WAFER NAPOL",
+        "description_full": "Loacker Wafer Napolitaner",
+        "category": "pantry",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 1.75,
+        "discount": 0.0,
+        "total_price": 1.75,
+        "_catalog_method": "gemini_only",
+        "_catalog_confidence": 0.85,
+        "_alignment_override": true,
+        "barcode": "8000380007219",
+        "is_promo_item": true,
+        "match_confidence": 94,
+        "promo_match": {
+          "publisher_guid": "68fb20d97cb8558c28a80691",
+          "product_guid": "68fb2b52b82c644e33de2bcd",
+          "product_name": "Loacker Classic Napolitaner Wafer con crema alle Nocciole 100% Italiane Wafers 175g",
+          "brand_name": "Loacker",
+          "match_confidence": 94,
+          "size_conflict": false,
+          "price_conflict": false
+        },
+        "match_signals": {
+          "brand": "MATCH",
+          "text": "HIGH",
+          "text_score": 94,
+          "variant": "MATCH",
+          "variant_jw": 1.0,
+          "price": "MATCH",
+          "size": "UNKNOWN",
+          "category": "OK",
+          "decision": "PROMO_FOUND"
+        }
+      },
+      {
+        "description": "ZUEGG MIRTIL ML125X6",
+        "description_full": "Zuegg Mirtillo 125ml x6",
+        "category": "beverages",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 4.99,
+        "discount": 0.0,
+        "total_price": 4.99,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 36,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 36,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "SHOPPER BIO SP. DOMI",
+        "description_full": "Shopper Bio Spesa Domi",
+        "category": "home_care",
+        "quantity": 2.0,
+        "unit_of_measure": "pz",
+        "unit_price": 0.1,
+        "discount": 0.0,
+        "total_price": 0.2,
+        "_catalog_method": "gemini_only",
+        "_catalog_confidence": 0.49,
+        "_alignment_override": true,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 26,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 26,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "CONFLICT",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      }
+    ],
+    "totals": {
+      "total_amount": 44.87,
+      "tax_amount": 3.96,
+      "item_count": 19
+    }
+  },
+  "promo_status": "PROMO_FOUND",
+  "metadata": {
+    "version": "1.0.0+6c131bf",
+    "pars_dt": "2026-04-16T11:57:10.735+00:00",
+    "processing_status": "CLEAN",
+    "flags": [],
+    "preprocessing": [
+      {
+        "image_index": 0,
+        "tile_index": 0,
+        "steps": [
+          "GRAYSCALE(sat=16)"
+        ],
+        "stats": {
+          "mean_brightness": 128.1,
+          "std_brightness": 44.5,
+          "noise_level": 349.0,
+          "skew_angle": 0.0,
+          "avg_saturation": 16.5,
+          "width": 1920,
+          "height": 2560,
+          "contrast_ratio": 150.0,
+          "is_bimodal": false,
+          "histogram_clipping": 0.001,
+          "content_coverage": 0.8,
+          "applied_steps": [
+            "GRAYSCALE(sat=16)"
+          ]
+        }
+      },
+      {
+        "image_index": 1,
+        "tile_index": 1,
+        "steps": [
+          "GRAYSCALE(sat=10)"
+        ],
+        "stats": {
+          "mean_brightness": 157.9,
+          "std_brightness": 43.9,
+          "noise_level": 594.0,
+          "skew_angle": 0.0,
+          "avg_saturation": 10.2,
+          "width": 996,
+          "height": 2560,
+          "contrast_ratio": 146.0,
+          "is_bimodal": false,
+          "histogram_clipping": 0.0,
+          "content_coverage": 0.8,
+          "applied_steps": [
+            "GRAYSCALE(sat=10)"
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_token_count": 3445,
+      "candidates_token_count": 1212,
+      "total_token_count": 7635,
+      "thinking_token_count": 2978
+    },
+    "cost_info": {
+      "total_cost": 0.0040635,
+      "model_name": "Gemini 2.5 Flash",
+      "input_cost": 0.0010335,
+      "output_cost": 0.00303
+    },
+    "retry_count": 0
+  }
+}

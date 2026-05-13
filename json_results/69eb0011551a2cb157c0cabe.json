@@ -1,0 +1,262 @@
+{
+  "receipt_guid": "69eb0011551a2cb157c0cabe",
+  "shop_brand": null,
+  "analysis": {
+    "document_type": "receipt",
+    "merchant": {
+      "name": "RDAVENETA SRL",
+      "brand_name": "CONAD",
+      "address": "Via Venezia, 61 Padova - PD",
+      "vat_number": "05253600281",
+      "date": "2026-03-18",
+      "receipt_number": "2242-0142",
+      "notes": ""
+    },
+    "items": [
+      {
+        "description": "BOLLO SCADENZA SCONT",
+        "description_full": "Bollo Scadenza Sconto",
+        "category": "other",
+        "quantity": 1,
+        "unit_of_measure": "pz",
+        "unit_price": 0.0,
+        "discount": 0.0,
+        "total_price": 0.0,
+        "_catalog_method": "gemini_only",
+        "_catalog_confidence": 0.52,
+        "_alignment_override": true,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 28,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 28,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "BASKAYA KOSOVO BOVIN",
+        "description_full": "Baskaya Kosovo Bovino",
+        "category": "meat_fish",
+        "quantity": 1,
+        "unit_of_measure": "pz",
+        "unit_price": 9.49,
+        "discount": 4.75,
+        "total_price": 4.74,
+        "_catalog_method": "gemini_only",
+        "_catalog_confidence": 0.85,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 23,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 23,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "PRINGLES ORIGINAL 20",
+        "description_full": "Pringles Original 20",
+        "category": "pantry",
+        "quantity": 1,
+        "unit_of_measure": "pz",
+        "unit_price": 1.99,
+        "discount": 0.0,
+        "total_price": 1.99,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 31,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 31,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "PRINGLES PAPRIKA XXL",
+        "description_full": "Pringles Paprika XXL",
+        "category": "pantry",
+        "quantity": 1,
+        "unit_of_measure": "pz",
+        "unit_price": 1.99,
+        "discount": 0.0,
+        "total_price": 1.99,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 25,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 25,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "MATCH",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "SCHWEPPES LIMONE LT.",
+        "description_full": "Schweppes Limone Litro",
+        "category": "beverages",
+        "quantity": 1,
+        "unit_of_measure": "l",
+        "unit_price": 1.09,
+        "discount": 0.0,
+        "total_price": 1.09,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 30,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 30,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "HARIBO RAINBOW PIXEL",
+        "description_full": "Haribo Rainbow Pixel",
+        "category": "pantry",
+        "quantity": 1,
+        "unit_of_measure": "pz",
+        "unit_price": 1.29,
+        "discount": 0.0,
+        "total_price": 1.29,
+        "_catalog_method": "gemini_only",
+        "_catalog_confidence": 0.85,
+        "_alignment_override": true,
+        "barcode": "3103220059760",
+        "is_promo_item": false,
+        "match_confidence": 74,
+        "promo_match": {
+          "publisher_guid": "68f277a400cc667d09dd0800",
+          "product_guid": "68f27b14b82c644e33de2792",
+          "product_name": "Dark Mix",
+          "brand_name": "Haribo",
+          "match_confidence": 74,
+          "size_conflict": null,
+          "price_conflict": null
+        },
+        "match_signals": {
+          "brand": "MATCH",
+          "text": "HIGH",
+          "text_score": 84,
+          "variant": "PARTIAL",
+          "variant_jw": 0.59,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK",
+          "decision": "AMBIGUOUS"
+        }
+      },
+      {
+        "description": "CIUCCI EX.FRIZ.G165",
+        "description_full": "Ciucci Extra Frizz G165",
+        "category": "pantry",
+        "quantity": 1,
+        "unit_of_measure": "pz",
+        "unit_price": 0.89,
+        "discount": 0.0,
+        "total_price": 0.89,
+        "_catalog_method": "gemini_only",
+        "_catalog_confidence": 0.57,
+        "_alignment_override": true,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 23,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 23,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      }
+    ],
+    "totals": {
+      "total_amount": 11.99,
+      "tax_amount": 1.19,
+      "item_count": null
+    }
+  },
+  "promo_status": "PROMO_AMBIGUOUS",
+  "metadata": {
+    "version": "2.0.0+6c131bf",
+    "pars_dt": "2026-04-24T05:31:45.618+00:00",
+    "processing_status": "CLEAN",
+    "flags": [],
+    "preprocessing": [
+      {
+        "image_index": 0,
+        "tile_index": 0,
+        "steps": [
+          "GRAYSCALE(sat=21)"
+        ],
+        "stats": {
+          "mean_brightness": 160.8,
+          "std_brightness": 36.2,
+          "noise_level": 246.0,
+          "skew_angle": 0.48,
+          "avg_saturation": 21.1,
+          "width": 1207,
+          "height": 3705,
+          "contrast_ratio": 126.0,
+          "is_bimodal": false,
+          "histogram_clipping": 0.001,
+          "content_coverage": 0.84,
+          "applied_steps": [
+            "GRAYSCALE(sat=21)"
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_token_count": 5767,
+      "candidates_token_count": 887,
+      "total_token_count": 9062,
+      "thinking_token_count": 2408
+    },
+    "cost_info": {
+      "total_cost": 0.0039476,
+      "model_name": "Gemini 2.5 Flash",
+      "input_cost": 0.0017300999999999998,
+      "output_cost": 0.0022175000000000003
+    },
+    "retry_count": 0
+  }
+}

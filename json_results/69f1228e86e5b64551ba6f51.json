@@ -1,0 +1,380 @@
+{
+  "receipt_guid": "69f1228e86e5b64551ba6f51",
+  "shop_brand": null,
+  "analysis": {
+    "document_type": "receipt",
+    "merchant": {
+      "name": "ELLEDUEGI S.R.L.",
+      "brand_name": "ELLEDUEGI",
+      "address": "VIA SAN PAOLO 87028 PRAIA A MARE",
+      "vat_number": "033291",
+      "date": "2026-04-28",
+      "receipt_number": "27",
+      "notes": ""
+    },
+    "items": [
+      {
+        "description": "CHANTECLAIR SGRASS.M",
+        "description_full": "CHANTECLAIR SGRASS M",
+        "category": "home_care",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 0.0,
+        "discount": 0.0,
+        "total_price": 0.0,
+        "_catalog_method": "abbreviation",
+        "_catalog_confidence": 0.7,
+        "_gemini_original": "Chanteclair Sgrassatore Marsiglia",
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 32,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 32,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "MARTINI SPUGNE QUADR",
+        "description_full": "Martini Spugne Quadrate",
+        "category": "home_care",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 0.0,
+        "discount": 0.0,
+        "total_price": 0.0,
+        "_catalog_method": "gemini_only",
+        "_catalog_confidence": 0.85,
+        "_alignment_override": true,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 29,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 29,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "DUAL POWER SALE LAVA",
+        "description_full": "Dual Power Sale Lavastoviglie",
+        "category": "home_care",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 0.0,
+        "discount": 0.0,
+        "total_price": 0.0,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 37,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 37,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "ARCASA PANNO MULTIUS",
+        "description_full": "Arcasa Panno Multiuso",
+        "category": "home_care",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 0.0,
+        "discount": 0.0,
+        "total_price": 0.0,
+        "_catalog_method": "gemini_only",
+        "_catalog_confidence": 0.52,
+        "_alignment_override": true,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 40,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 40,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "* DOMOPAK CARTA FORN",
+        "description_full": "Domopak Carta Forno",
+        "category": "pantry",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 0.0,
+        "discount": 0.0,
+        "total_price": 0.0,
+        "_catalog_method": "gemini_only",
+        "_catalog_confidence": 0.85,
+        "_alignment_override": true,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 26,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 26,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "KLEANS PELLICOLA M.1",
+        "description_full": "Kleans Pellicola",
+        "category": "pantry",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 0.0,
+        "discount": 0.0,
+        "total_price": 0.0,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 27,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 27,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "MAGIC MIKE CANI 60X9",
+        "description_full": "Magic Mike Cani",
+        "category": "other",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 0.0,
+        "discount": 0.0,
+        "total_price": 0.0,
+        "_catalog_method": "gemini_only",
+        "_catalog_confidence": 0.4,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 29,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 29,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "SHOPPERS PER VENDIT",
+        "description_full": "Shoppers per Vendita",
+        "category": "other",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 0.0,
+        "discount": 0.0,
+        "total_price": 0.0,
+        "_catalog_method": "gemini_only",
+        "_catalog_confidence": 0.52,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 28,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 28,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "SAN CARLO PATATINA J",
+        "description_full": "San Carlo Patatina",
+        "category": "pantry",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 0.0,
+        "discount": 0.0,
+        "total_price": 0.0,
+        "_catalog_method": "gemini_only",
+        "_catalog_confidence": 0.4,
+        "_alignment_override": true,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 32,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 32,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "* MENTADENT DENT.C-F",
+        "description_full": "Mentadent Dentifricio",
+        "category": "personal_care",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 0.0,
+        "discount": 0.0,
+        "total_price": 0.0,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": "8720181547768",
+        "is_promo_item": true,
+        "match_confidence": 89,
+        "promo_match": {
+          "publisher_guid": "6908893d7cb8558c28a80692",
+          "product_guid": "694942af9cf0681229257f31",
+          "product_name": "Mentadent Professional Protect+ Sensibilità e Denti più Bianchi 75 ml.",
+          "brand_name": "Mentadent",
+          "match_confidence": 89,
+          "size_conflict": null,
+          "price_conflict": null
+        },
+        "match_signals": {
+          "brand": "MATCH",
+          "text": "HIGH",
+          "text_score": 89,
+          "variant": "MATCH",
+          "variant_jw": 0.891,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK",
+          "decision": "PROMO_FOUND"
+        }
+      },
+      {
+        "description": "* DOVE DEOD.SPRAY CL",
+        "description_full": "Dove Deodorante Spray",
+        "category": "personal_care",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 0.0,
+        "discount": 0.0,
+        "total_price": 0.0,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": "8720181292057",
+        "is_promo_item": true,
+        "match_confidence": 88,
+        "promo_match": {
+          "publisher_guid": "6908893d7cb8558c28a80692",
+          "product_guid": "694942b49cf0681229257fb2",
+          "product_name": "Dove Advanced Care Spray Coconut 200ml",
+          "brand_name": "Dove",
+          "match_confidence": 88,
+          "size_conflict": null,
+          "price_conflict": null
+        },
+        "match_signals": {
+          "brand": "MATCH",
+          "text": "HIGH",
+          "text_score": 88,
+          "variant": "MATCH",
+          "variant_jw": 0.829,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK",
+          "decision": "PROMO_FOUND"
+        }
+      }
+    ],
+    "totals": {
+      "total_amount": 0.0,
+      "tax_amount": 0.0,
+      "item_count": null
+    },
+    "quality_flags": []
+  },
+  "promo_status": "PROMO_FOUND",
+  "metadata": {
+    "version": "2.1.0+bbfe08e",
+    "pars_dt": "2026-04-28T21:12:18.206+00:00",
+    "processing_status": "CLEAN",
+    "flags": [],
+    "preprocessing": [
+      {
+        "image_index": 0,
+        "tile_index": 0,
+        "steps": [
+          "GRAYSCALE(sat=20)"
+        ],
+        "stats": {
+          "mean_brightness": 150.9,
+          "std_brightness": 48.5,
+          "noise_level": 32.0,
+          "skew_angle": 0.0,
+          "avg_saturation": 19.6,
+          "width": 907,
+          "height": 2560,
+          "contrast_ratio": 161.0,
+          "is_bimodal": true,
+          "histogram_clipping": 0.128,
+          "content_coverage": 0.44,
+          "applied_steps": [
+            "GRAYSCALE(sat=20)"
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_token_count": 6014,
+      "candidates_token_count": 1006,
+      "total_token_count": 8184,
+      "thinking_token_count": 1164
+    },
+    "cost_info": {
+      "total_cost": 0.0043192000000000005,
+      "model_name": "Gemini 2.5 Flash",
+      "input_cost": 0.0018042,
+      "output_cost": 0.0025150000000000003
+    },
+    "retry_count": 0,
+    "validation_errors": [],
+    "is_valid": true
+  }
+}

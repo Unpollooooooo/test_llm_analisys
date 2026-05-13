@@ -1,0 +1,105 @@
+{
+  "receipt_guid": "69f19a293da34a89f7057944",
+  "shop_brand": null,
+  "analysis": {
+    "document_type": "receipt",
+    "merchant": {
+      "name": "AUTOLAVAGGIO A MANO THE BOSS S.R.L.S.",
+      "brand_name": "AUTOLAVAGGIO A MANO",
+      "address": "VIA P.PE DI NAPOLI, 145 00062 BRACCIANO (RM)",
+      "vat_number": "17817871001",
+      "date": "2026-04-28",
+      "receipt_number": "0587-0004",
+      "notes": ""
+    },
+    "items": [
+      {
+        "description": "LAVAGGIO",
+        "description_full": "Lavaggio",
+        "category": "other",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 15.0,
+        "discount": 0.0,
+        "total_price": 15.0,
+        "_catalog_method": "gemini_only",
+        "_catalog_confidence": 0.4,
+        "_alignment_override": true,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 25,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 25,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "CONFLICT",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      }
+    ],
+    "totals": {
+      "total_amount": 15.0,
+      "tax_amount": 2.7,
+      "item_count": null
+    },
+    "quality_flags": []
+  },
+  "promo_status": "NO_PROMO",
+  "metadata": {
+    "version": "2.1.0+bbfe08e",
+    "pars_dt": "2026-04-29T05:42:21.748+00:00",
+    "processing_status": "CLEAN",
+    "flags": [],
+    "preprocessing": [
+      {
+        "image_index": 0,
+        "tile_index": 0,
+        "steps": [
+          "GRAYSCALE(sat=17)",
+          "THRESHOLD(contrast=77,bright=192)"
+        ],
+        "stats": {
+          "mean_brightness": 191.6,
+          "std_brightness": 21.8,
+          "noise_level": 86.0,
+          "skew_angle": 0.0,
+          "avg_saturation": 16.7,
+          "width": 1308,
+          "height": 593,
+          "contrast_ratio": 77.0,
+          "is_bimodal": false,
+          "histogram_clipping": 0.0,
+          "content_coverage": 1.0,
+          "applied_steps": [
+            "GRAYSCALE(sat=17)",
+            "THRESHOLD(contrast=77,bright=192)"
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_token_count": 5498,
+      "candidates_token_count": 311,
+      "total_token_count": 6553,
+      "thinking_token_count": 744
+    },
+    "cost_info": {
+      "total_cost": 0.0024269,
+      "model_name": "Gemini 2.5 Flash",
+      "input_cost": 0.0016493999999999999,
+      "output_cost": 0.0007775000000000001
+    },
+    "retry_count": 0,
+    "validation_errors": [
+      {
+        "code": "NO_PREMIUM_PRODUCTS",
+        "message": "Lo scontrino non contiene prodotti premianti"
+      }
+    ],
+    "is_valid": false
+  }
+}

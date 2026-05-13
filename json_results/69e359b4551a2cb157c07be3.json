@@ -1,0 +1,366 @@
+{
+  "receipt_guid": "69e359b4551a2cb157c07be3",
+  "shop_brand": null,
+  "analysis": {
+    "document_type": "receipt",
+    "merchant": {
+      "name": "TIGOTA",
+      "brand_name": "TIGOTA",
+      "address": "VIALE TRICESIMO 181, 33100 UDINE",
+      "vat_number": "02466210289",
+      "date": "2026-04-18",
+      "receipt_number": "0051-0063",
+      "notes": ""
+    },
+    "items": [
+      {
+        "description": "DOVE BS RINFRESCANTE",
+        "description_full": "Dove Bagnoschiuma Rinfrescante",
+        "category": "personal_care",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 3.39,
+        "discount": 0.0,
+        "total_price": 3.39,
+        "_catalog_method": "gemini_only",
+        "_catalog_confidence": 0.4,
+        "_alignment_override": true,
+        "barcode": "8000630744642",
+        "is_promo_item": true,
+        "match_confidence": 94,
+        "promo_match": {
+          "publisher_guid": "6908893d7cb8558c28a80692",
+          "product_guid": "694942b39cf0681229257f89",
+          "product_name": "Dove Bagnodoccia rinfrescante 2 x 450 ml",
+          "brand_name": "Dove",
+          "match_confidence": 94,
+          "size_conflict": null,
+          "price_conflict": false
+        },
+        "match_signals": {
+          "brand": "MATCH",
+          "text": "HIGH",
+          "text_score": 94,
+          "variant": "MATCH",
+          "variant_jw": 0.939,
+          "price": "MATCH",
+          "size": "UNKNOWN",
+          "category": "OK",
+          "decision": "PROMO_FOUND"
+        }
+      },
+      {
+        "description": "LYSOFORM LAV.CLASSICO",
+        "description_full": "Lysoform Lavatrice Classico",
+        "category": "home_care",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 3.99,
+        "discount": 0.0,
+        "total_price": 3.99,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 30,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 30,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "LYSOFORM LAV.COLORI",
+        "description_full": "LYSOFORM LAV COLORI",
+        "category": "home_care",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 3.99,
+        "discount": 0.0,
+        "total_price": 3.99,
+        "_catalog_method": "abbreviation",
+        "_catalog_confidence": 0.7,
+        "_gemini_original": "Lysoform Lavatrice Colori",
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 29,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 29,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "INCOMPATIBLE"
+        }
+      },
+      {
+        "description": "F&C SAP.LIQ.NUT.ARGAN",
+        "description_full": "F&C Sapone LIQ NUT ARGAN",
+        "category": "personal_care",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 1.68,
+        "discount": 0.0,
+        "total_price": 1.68,
+        "_catalog_method": "abbreviation",
+        "_catalog_confidence": 0.7,
+        "_gemini_original": "F&C Sapone Liquido Nutriente Argan",
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 27,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 27,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "MATCH",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "LA SUORA APPRETTO",
+        "description_full": "La Suora Appretto",
+        "category": "home_care",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 2.99,
+        "discount": 0.0,
+        "total_price": 2.99,
+        "_catalog_method": "gemini_only",
+        "_catalog_confidence": 0.4,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 28,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 28,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "DOVE BS SETA PREZIOSA",
+        "description_full": "Dove bagnodoccia seta preziosa 700 ml",
+        "category": "personal_care",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 3.39,
+        "discount": 0.0,
+        "total_price": 3.39,
+        "_catalog_method": "promo_catalog",
+        "_catalog_confidence": 0.7,
+        "_gemini_original": "Dove Bagnoschiuma Seta Preziosa",
+        "barcode": "8720181494338",
+        "is_promo_item": true,
+        "match_confidence": 85,
+        "promo_match": {
+          "publisher_guid": "6908893d7cb8558c28a80692",
+          "product_guid": "694942b29cf0681229257f83",
+          "product_name": "Dove bagnodoccia seta preziosa 450 ml",
+          "brand_name": "Dove",
+          "match_confidence": 85,
+          "size_conflict": null,
+          "price_conflict": false
+        },
+        "match_signals": {
+          "brand": "MATCH",
+          "text": "HIGH",
+          "text_score": 85,
+          "variant": "MATCH",
+          "variant_jw": 1.0,
+          "price": "MATCH",
+          "size": "UNKNOWN",
+          "category": "OK",
+          "decision": "PROMO_FOUND"
+        }
+      },
+      {
+        "description": "EMULSIO STIRABENE NAT.",
+        "description_full": "Emulsio naturale Stirabene Appretto 500 ml",
+        "category": "home_care",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 2.15,
+        "discount": 0.0,
+        "total_price": 2.15,
+        "_catalog_method": "promo_catalog",
+        "_catalog_confidence": 0.7,
+        "_gemini_original": "Emulsio Stirabene Naturale",
+        "barcode": "8001990046193",
+        "is_promo_item": true,
+        "match_confidence": 85,
+        "promo_match": {
+          "publisher_guid": "6881e7ea7399d1e645b1f38f",
+          "product_guid": "68c81b62b2aa5be08cf548f5",
+          "product_name": "Emulsio naturale Stirabene Appretto 500 ml",
+          "brand_name": "Emulsio",
+          "match_confidence": 85,
+          "size_conflict": null,
+          "price_conflict": null
+        },
+        "match_signals": {
+          "brand": "MATCH",
+          "text": "HIGH",
+          "text_score": 85,
+          "variant": "MATCH",
+          "variant_jw": 1.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK",
+          "decision": "PROMO_FOUND"
+        }
+      },
+      {
+        "description": "DENTASK DENT BLACK CAR",
+        "description_full": "Dentask Dentifricio Black Carbon",
+        "category": "personal_care",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 1.87,
+        "discount": 0.0,
+        "total_price": 1.87,
+        "_catalog_method": "gemini_only",
+        "_catalog_confidence": 0.85,
+        "_alignment_override": true,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 29,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 29,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "MATCH",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "APEX PANNI RIC.TWISTER",
+        "description_full": "Apex Panni Ricambio Twister",
+        "category": "home_care",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 2.99,
+        "discount": 0.0,
+        "total_price": 2.99,
+        "_catalog_method": "gemini_only",
+        "_catalog_confidence": 0.85,
+        "_alignment_override": true,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 30,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 30,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "COUPON 5 SU 25 TGT 2026",
+        "description_full": "Coupon",
+        "category": "other",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 0.0,
+        "discount": 5.0,
+        "total_price": -5.0,
+        "_catalog_method": "fuzzy",
+        "_catalog_confidence": 0.7,
+        "_gemini_original": "Coupon 5 Euro su 25 Euro Totale",
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 22,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 22,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      }
+    ],
+    "totals": {
+      "total_amount": 21.44,
+      "tax_amount": 3.87,
+      "item_count": 10
+    }
+  },
+  "promo_status": "PROMO_FOUND",
+  "metadata": {
+    "version": "2.0.0+6c131bf",
+    "pars_dt": "2026-04-18T10:16:17.423+00:00",
+    "processing_status": "CLEAN",
+    "flags": [
+      "NOT_A_RECEIPT_RETRY",
+      "MARGIN_CROP"
+    ],
+    "preprocessing": [
+      {
+        "image_index": 0,
+        "tile_index": 0,
+        "steps": [
+          "THRESHOLD(contrast=70,bright=120)"
+        ],
+        "stats": {
+          "mean_brightness": 119.6,
+          "std_brightness": 21.1,
+          "noise_level": 139.0,
+          "skew_angle": 0.0,
+          "avg_saturation": 97.0,
+          "width": 716,
+          "height": 2556,
+          "contrast_ratio": 70.0,
+          "is_bimodal": false,
+          "histogram_clipping": 0.0,
+          "content_coverage": 1.0,
+          "applied_steps": [
+            "THRESHOLD(contrast=70,bright=120)"
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_token_count": 6283,
+      "candidates_token_count": 1244,
+      "total_token_count": 10035,
+      "thinking_token_count": 2508
+    },
+    "cost_info": {
+      "total_cost": 0.0049949,
+      "model_name": "Gemini 2.5 Flash",
+      "input_cost": 0.0018849,
+      "output_cost": 0.0031100000000000004
+    },
+    "retry_count": 0
+  }
+}

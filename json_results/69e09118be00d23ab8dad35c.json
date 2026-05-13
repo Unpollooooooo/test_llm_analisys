@@ -1,0 +1,226 @@
+{
+  "receipt_guid": "69e09118be00d23ab8dad35c",
+  "shop_brand": null,
+  "analysis": {
+    "document_type": "receipt",
+    "merchant": {
+      "name": "CESMAR SAS DI C.M. E M.S.",
+      "brand_name": "CONAD",
+      "address": "VIA COMM.LE - FOSSATO DI VICO (PG)",
+      "vat_number": "03650160546",
+      "date": "2026-04-16",
+      "receipt_number": "2276-0021",
+      "notes": ""
+    },
+    "items": [
+      {
+        "description": "FRAGOLE VASCH.500G.",
+        "description_full": "Fragole Vaschetta 500g",
+        "category": "produce",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 2.99,
+        "discount": 1.01,
+        "total_price": 1.98,
+        "_catalog_method": "gemini_only",
+        "_catalog_confidence": 0.85,
+        "_alignment_override": true,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 37,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 37,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "MATCH",
+          "size": "CONFLICT",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "ESTATHE BICC.LIMONE",
+        "description_full": "Estathe’\n\nBicchierino Limone",
+        "category": "beverages",
+        "quantity": 2.0,
+        "unit_of_measure": "pz",
+        "unit_price": 1.89,
+        "discount": 0.0,
+        "total_price": 3.78,
+        "_catalog_method": "gemini_only",
+        "_catalog_confidence": 0.63,
+        "_alignment_override": true,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 28,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 28,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "MATCH",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "ARROTONDAMENTO",
+        "description_full": "Arrotondamento",
+        "category": "other",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": -0.02,
+        "discount": 0.0,
+        "total_price": -0.02,
+        "_catalog_method": "gemini_only",
+        "_catalog_confidence": 0.4,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 30,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 30,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "COCA COLA ZERO 66X4",
+        "description_full": "Coca Cola Zero 66cl x 4",
+        "category": "beverages",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 4.79,
+        "discount": 0.0,
+        "total_price": 4.79,
+        "_catalog_method": "gemini_only",
+        "_catalog_confidence": 0.4,
+        "_alignment_override": true,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 39,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 39,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "CONFLICT",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "ORECCHIE DI SUINO",
+        "description_full": "Orecchie di Suino",
+        "category": "meat_fish",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 2.01,
+        "discount": 0.0,
+        "total_price": 2.01,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 27,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 27,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "ORECCHIE DI SUINO",
+        "description_full": "Orecchie di Suino",
+        "category": "meat_fish",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 1.96,
+        "discount": 0.0,
+        "total_price": 1.96,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 27,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 27,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      }
+    ],
+    "totals": {
+      "total_amount": 14.5,
+      "tax_amount": 1.98,
+      "item_count": 6
+    }
+  },
+  "promo_status": "NO_PROMO",
+  "metadata": {
+    "version": "1.0.0+e1ba314",
+    "processing_status": "CLEAN",
+    "flags": [],
+    "preprocessing": [
+      {
+        "image_index": 0,
+        "tile_index": 0,
+        "steps": [
+          "GRAYSCALE(sat=21)"
+        ],
+        "stats": {
+          "mean_brightness": 136.4,
+          "std_brightness": 65.3,
+          "noise_level": 400.0,
+          "skew_angle": 0.0,
+          "avg_saturation": 20.9,
+          "width": 1812,
+          "height": 2560,
+          "contrast_ratio": 198.0,
+          "is_bimodal": true,
+          "histogram_clipping": 0.032,
+          "content_coverage": 0.84,
+          "applied_steps": [
+            "GRAYSCALE(sat=21)"
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_token_count": 6283,
+      "candidates_token_count": 641,
+      "total_token_count": 8283,
+      "thinking_token_count": 1359
+    },
+    "cost_info": {
+      "total_cost": 0.0034874,
+      "model_name": "Gemini 2.5 Flash",
+      "input_cost": 0.0018849,
+      "output_cost": 0.0016025000000000002
+    },
+    "retry_count": 0
+  }
+}

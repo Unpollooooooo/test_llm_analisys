@@ -1,0 +1,367 @@
+{
+  "receipt_guid": "69e8b2ba86e5b64551ba1ddc",
+  "shop_brand": null,
+  "analysis": {
+    "document_type": "receipt",
+    "merchant": {
+      "name": "DAVID FOOD SRLS",
+      "brand_name": "Deco Supermercati",
+      "address": "VIA NAPOLI 129-MADDALONI (CE)",
+      "vat_number": "04279580619",
+      "date": "2026-04-22",
+      "receipt_number": "2564-0200",
+      "notes": "null"
+    },
+    "items": [
+      {
+        "description": "LILIA ACQUA NATURALE 6X5",
+        "description_full": "Lilia Acqua Naturale 6x5",
+        "category": "beverages",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 2.89,
+        "discount": 0.8,
+        "total_price": 2.09,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 28,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 28,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "ONE MYDOG ACTIV POLLO/RIS",
+        "description_full": "One MyDog Active Pollo/Riso",
+        "category": "other",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 6.49,
+        "discount": 1.5,
+        "total_price": 4.99,
+        "_catalog_method": "gemini_only",
+        "_catalog_confidence": 0.85,
+        "_alignment_override": true,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 25,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 25,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "FINDUS FIL.MERLUZ.POM/BAS",
+        "description_full": "Findus Filetti Merluzzo Pomodoro/Basilico",
+        "category": "meat_fish",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 9.69,
+        "discount": 3.2,
+        "total_price": 6.49,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 30,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 30,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "ASDOMAR TONNO OLIO OLIVA",
+        "description_full": "Asdomar Tonno Olio Oliva",
+        "category": "pantry",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 7.99,
+        "discount": 1.5,
+        "total_price": 6.49,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 39,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 39,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "MATCH",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "REPARTO SALUMI&FORMAGGI",
+        "description_full": "Reparto Salumi e Formaggi",
+        "category": "meat_fish",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 6.89,
+        "discount": 0.0,
+        "total_price": 6.89,
+        "_catalog_method": "gemini_only",
+        "_catalog_confidence": 0.85,
+        "_alignment_override": true,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 26,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 26,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "REPARTO SALUMI&FORMAGGI",
+        "description_full": "Reparto Salumi e Formaggi",
+        "category": "meat_fish",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 2.95,
+        "discount": 0.0,
+        "total_price": 2.95,
+        "_catalog_method": "gemini_only",
+        "_catalog_confidence": 0.85,
+        "_alignment_override": true,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 32,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 32,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "REPARTO SALUMI&FORMAGGI",
+        "description_full": "Reparto Salumi e Formaggi",
+        "category": "meat_fish",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 3.37,
+        "discount": 0.0,
+        "total_price": 3.37,
+        "_catalog_method": "gemini_only",
+        "_catalog_confidence": 0.85,
+        "_alignment_override": true,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 32,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 32,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "GRAN VITA FORMAGGIO DURO",
+        "description_full": "Gran Vita Formaggio Duro",
+        "category": "dairy",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 2.95,
+        "discount": 0.0,
+        "total_price": 2.95,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 49,
+        "promo_match": {
+          "publisher_guid": "6513f40a60b55747dd7fc268",
+          "product_guid": "65145aa3c30d8616850160c6",
+          "product_name": "Cozze grandi in salamoia - Mejillones -",
+          "brand_name": "Consorcio Gran Reserva",
+          "match_confidence": 49,
+          "size_conflict": null,
+          "price_conflict": null
+        },
+        "match_signals": {
+          "brand": "MATCH",
+          "text": "MED",
+          "text_score": 74,
+          "variant": "PARTIAL",
+          "variant_jw": 0.556,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "INCOMPATIBLE",
+          "decision": "NO_PROMO"
+        }
+      },
+      {
+        "description": "AMATRICE PECORINO AL KG",
+        "description_full": "Amatrice Pecorino al Kg",
+        "category": "dairy",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 3.747,
+        "discount": 0.0,
+        "total_price": 3.74,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 29,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 29,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "INCOMPATIBLE"
+        }
+      },
+      {
+        "description": "LA MOLISANA FUSILLI C.BUC",
+        "description_full": "La Molisana Fusilli Corti Bucati",
+        "category": "pantry",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 1.59,
+        "discount": 0.4,
+        "total_price": 1.19,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 29,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 29,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "KINDER COLAZIONE+ CER.T10",
+        "description_full": "Kinder Colazione + Cereali T10",
+        "category": "bakery",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 4.09,
+        "discount": 0.8,
+        "total_price": 3.29,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 27,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 27,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      }
+    ],
+    "totals": {
+      "total_amount": 36.244,
+      "tax_amount": 2.64,
+      "item_count": null
+    }
+  },
+  "promo_status": "NO_PROMO",
+  "metadata": {
+    "version": "2.0.0+6c131bf",
+    "pars_dt": "2026-04-22T11:38:28.094+00:00",
+    "processing_status": "CLEAN",
+    "flags": [],
+    "preprocessing": [
+      {
+        "image_index": 0,
+        "tile_index": 0,
+        "steps": [
+          "GRAYSCALE(sat=38)"
+        ],
+        "stats": {
+          "mean_brightness": 151.3,
+          "std_brightness": 46.3,
+          "noise_level": 1045.0,
+          "skew_angle": 0.0,
+          "avg_saturation": 37.6,
+          "width": 1223,
+          "height": 2560,
+          "contrast_ratio": 135.0,
+          "is_bimodal": false,
+          "histogram_clipping": 0.006,
+          "content_coverage": 0.92,
+          "applied_steps": [
+            "GRAYSCALE(sat=38)"
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_token_count": 5251,
+      "candidates_token_count": 1081,
+      "total_token_count": 14689,
+      "thinking_token_count": 8357
+    },
+    "cost_info": {
+      "total_cost": 0.0042778,
+      "model_name": "Gemini 2.5 Flash",
+      "input_cost": 0.0015753,
+      "output_cost": 0.0027025
+    },
+    "retry_count": 0
+  }
+}

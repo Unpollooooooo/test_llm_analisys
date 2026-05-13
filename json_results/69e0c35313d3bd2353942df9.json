@@ -1,0 +1,375 @@
+{
+  "receipt_guid": "69e0c35313d3bd2353942df9",
+  "shop_brand": null,
+  "analysis": {
+    "document_type": "receipt",
+    "merchant": {
+      "name": "TRE P S.r.l.",
+      "brand_name": "Spesi",
+      "address": "Via Sanremo, 11 70022 Altamura (BA)",
+      "vat_number": "01148750779",
+      "date": "2026-04-16",
+      "receipt_number": "2537-0023",
+      "notes": "null"
+    },
+    "items": [
+      {
+        "description": "SANTAL ZZA ACE PET",
+        "description_full": "Santal Succo Arancia Ace Pet",
+        "category": "beverages",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 0.75,
+        "discount": 0.0,
+        "total_price": 0.75,
+        "_catalog_method": "gemini_only",
+        "_catalog_confidence": 0.4,
+        "_alignment_override": true,
+        "barcode": "8002580320372",
+        "is_promo_item": false,
+        "match_confidence": 80,
+        "promo_match": {
+          "publisher_guid": "68f0f6bb00cc667d09dd07fe",
+          "product_guid": "69314a856f6ada34183f7072",
+          "product_name": "Santàl Santal ACE Zero Zuccheri Aggiunti*",
+          "brand_name": "Santàl",
+          "match_confidence": 80,
+          "size_conflict": false,
+          "price_conflict": false
+        },
+        "match_signals": {
+          "brand": "MATCH",
+          "text": "HIGH",
+          "text_score": 80,
+          "variant": "PARTIAL",
+          "variant_jw": 0.675,
+          "price": "MATCH",
+          "size": "UNKNOWN",
+          "category": "OK",
+          "decision": "AMBIGUOUS"
+        }
+      },
+      {
+        "description": "MIL MIL CR/RIG.KG.1",
+        "description_full": "MIL MIL CR RIG KG 1",
+        "category": "personal_care",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 2.98,
+        "discount": 0.0,
+        "total_price": 2.98,
+        "_catalog_method": "abbreviation",
+        "_catalog_confidence": 0.7,
+        "_gemini_original": "Mil Mil Crema Rigenerante 1kg",
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 29,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 29,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "SHOPPER SPESI '35x60",
+        "description_full": "Shopper Spesi 35x60",
+        "category": "other",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 0.1,
+        "discount": 0.0,
+        "total_price": 0.1,
+        "_catalog_method": "gemini_only",
+        "_catalog_confidence": 0.4,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 23,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 23,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "PATA GRILL GR.150",
+        "description_full": "Patatine Grill 150g",
+        "category": "pantry",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 1.48,
+        "discount": 0.0,
+        "total_price": 1.48,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 28,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 28,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "SANTAL ZZA MIRTILLO",
+        "description_full": "Santal Succo Mirtillo",
+        "category": "beverages",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 0.75,
+        "discount": 0.0,
+        "total_price": 0.75,
+        "_catalog_method": "gemini_only",
+        "_catalog_confidence": 0.4,
+        "_alignment_override": true,
+        "barcode": "8002580320396",
+        "is_promo_item": true,
+        "match_confidence": 89,
+        "promo_match": {
+          "publisher_guid": "68f0f6bb00cc667d09dd07fe",
+          "product_guid": "69314a856f6ada34183f7070",
+          "product_name": "Santàl Santal Mix Mirtillo Zero Zuccheri Aggiunti*",
+          "brand_name": "Santàl",
+          "match_confidence": 89,
+          "size_conflict": false,
+          "price_conflict": false
+        },
+        "match_signals": {
+          "brand": "MATCH",
+          "text": "HIGH",
+          "text_score": 89,
+          "variant": "MATCH",
+          "variant_jw": 0.829,
+          "price": "MATCH",
+          "size": "UNKNOWN",
+          "category": "OK",
+          "decision": "PROMO_FOUND"
+        }
+      },
+      {
+        "description": "FP FOOD BAGUETTE",
+        "description_full": "Food Baguette",
+        "category": "bakery",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 1.0,
+        "discount": 0.0,
+        "total_price": 1.0,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 22,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 22,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "RICOLA S/Z F/SAMBUCO",
+        "description_full": "Ricola Senza Zucchero Fiori di Sambuco",
+        "category": "pantry",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 1.75,
+        "discount": 0.0,
+        "total_price": 1.75,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 31,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 31,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "MATCH",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "CTS PROSC.CRUDO S/O",
+        "description_full": "CTS Prosciutto Crudo Senza Osso",
+        "category": "meat_fish",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 1.65,
+        "discount": 0.0,
+        "total_price": 1.65,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 29,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 29,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "ALCISA MORT.2 TORRI",
+        "description_full": "Alcisa Mortadella 2 Torri",
+        "category": "meat_fish",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 0.93,
+        "discount": 0.0,
+        "total_price": 0.93,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 30,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 30,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "M.B. PIADELLE CLASS.",
+        "description_full": "M.B. Piadelle Classiche",
+        "category": "bakery",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 1.98,
+        "discount": 0.0,
+        "total_price": 1.98,
+        "_catalog_method": "gemini_only",
+        "_catalog_confidence": 0.85,
+        "_alignment_override": true,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 32,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 32,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "MATCH",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "M.BIANCO PANE G/DURO",
+        "description_full": "Mulino Bianco Pane Grano Duro",
+        "category": "bakery",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 1.28,
+        "discount": 0.0,
+        "total_price": 1.28,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 29,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 29,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "MATCH",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      }
+    ],
+    "totals": {
+      "total_amount": 14.65,
+      "tax_amount": 1.52,
+      "item_count": 11
+    }
+  },
+  "promo_status": "PROMO_FOUND",
+  "metadata": {
+    "version": "1.0.0+e1ba314",
+    "processing_status": "CLEAN",
+    "flags": [],
+    "preprocessing": [
+      {
+        "image_index": 0,
+        "tile_index": 0,
+        "steps": [
+          "GRAYSCALE(sat=29)"
+        ],
+        "stats": {
+          "mean_brightness": 134.0,
+          "std_brightness": 36.2,
+          "noise_level": 556.0,
+          "skew_angle": 0.0,
+          "avg_saturation": 28.8,
+          "width": 1920,
+          "height": 3660,
+          "contrast_ratio": 114.0,
+          "is_bimodal": false,
+          "histogram_clipping": 0.007,
+          "content_coverage": 0.88,
+          "applied_steps": [
+            "GRAYSCALE(sat=29)"
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_token_count": 5251,
+      "candidates_token_count": 1071,
+      "total_token_count": 8360,
+      "thinking_token_count": 2038
+    },
+    "cost_info": {
+      "total_cost": 0.0042528,
+      "model_name": "Gemini 2.5 Flash",
+      "input_cost": 0.0015753,
+      "output_cost": 0.0026775
+    },
+    "retry_count": 0
+  }
+}

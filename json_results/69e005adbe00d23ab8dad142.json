@@ -1,0 +1,360 @@
+{
+  "receipt_guid": "69e005adbe00d23ab8dad142",
+  "shop_brand": null,
+  "analysis": {
+    "document_type": "receipt",
+    "merchant": {
+      "name": "GRUPPO DI TELLA SRL",
+      "brand_name": "Etè Supermercati",
+      "address": "Via Provinciale, SN, 81030 VILLA DI BRIANO (CE)",
+      "vat_number": "03108400619",
+      "date": "2026-04-15",
+      "receipt_number": "2405-00032",
+      "notes": ""
+    },
+    "items": [
+      {
+        "description": "3 x 1,00",
+        "description_full": "3 x 1,00",
+        "category": "other",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 3.0,
+        "discount": 0.0,
+        "total_price": 3.0,
+        "_catalog_method": "gemini_only",
+        "_catalog_confidence": 0.4,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 0,
+        "promo_match": null
+      },
+      {
+        "description": "CIRIO PASSATA VERACE",
+        "description_full": "Cirio Passata Verace",
+        "category": "pantry",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 3.87,
+        "discount": 0.87,
+        "total_price": 3.0,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 28,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 28,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "NIRO APPASSITI",
+        "description_full": "Niro Appassiti",
+        "category": "beverages",
+        "quantity": 2.0,
+        "unit_of_measure": "pz",
+        "unit_price": 1.69,
+        "discount": 0.0,
+        "total_price": 3.38,
+        "_catalog_method": "gemini_only",
+        "_catalog_confidence": 0.4,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 26,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 26,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "MATCH",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "FINI PROSC. COTTO LU",
+        "description_full": "Fini Prosciutto Cotto Lungo",
+        "category": "meat_fish",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 1.52,
+        "discount": 0.0,
+        "total_price": 1.52,
+        "_catalog_method": "gemini_only",
+        "_catalog_confidence": 0.57,
+        "_alignment_override": true,
+        "barcode": "8007490053327",
+        "is_promo_item": false,
+        "match_confidence": 83,
+        "promo_match": {
+          "publisher_guid": "68ed26e800cc667d09dd07fc",
+          "product_guid": "68ed2896ec4f0a74a0f2c28f",
+          "product_name": "Tortellini Con Prosciutto Crudo Fini 250 g Senza Lattosio",
+          "brand_name": "Fini",
+          "match_confidence": 83,
+          "size_conflict": false,
+          "price_conflict": true
+        },
+        "match_signals": {
+          "brand": "MATCH",
+          "text": "HIGH",
+          "text_score": 83,
+          "variant": "MATCH",
+          "variant_jw": 0.763,
+          "price": "CONFLICT",
+          "size": "UNKNOWN",
+          "category": "OK",
+          "decision": "AMBIGUOUS"
+        }
+      },
+      {
+        "description": "AIA PETTO DI TACCHIN",
+        "description_full": "AIA Petto di Tacchino",
+        "category": "meat_fish",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 1.69,
+        "discount": 0.0,
+        "total_price": 1.69,
+        "_catalog_method": "gemini_only",
+        "_catalog_confidence": 0.49,
+        "_alignment_override": true,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 28,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 28,
+          "variant": "MISMATCH",
+          "variant_jw": 0.498,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "PARMELLA MORTADELLA",
+        "description_full": "Parmella Mortadella",
+        "category": "meat_fish",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 1.55,
+        "discount": 0.0,
+        "total_price": 1.55,
+        "_catalog_method": "gemini_only",
+        "_catalog_confidence": 0.85,
+        "_alignment_override": true,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 32,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 32,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "MATCH",
+          "size": "UNKNOWN",
+          "category": "INCOMPATIBLE"
+        }
+      },
+      {
+        "description": "RESCIGNO PANE A LIEV",
+        "description_full": "Rescigno Pane a Lievitazione Naturale",
+        "category": "bakery",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 0.86,
+        "discount": 0.0,
+        "total_price": 0.86,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 31,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 31,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "INCOMPATIBLE"
+        }
+      },
+      {
+        "description": "PARMALAT NEW LATTE",
+        "description_full": "Parmalat New Latte",
+        "category": "dairy",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 1.89,
+        "discount": 0.0,
+        "total_price": 1.89,
+        "_catalog_method": "gemini_only",
+        "_catalog_confidence": 0.4,
+        "_alignment_override": true,
+        "barcode": "8002580020586",
+        "is_promo_item": true,
+        "match_confidence": 93,
+        "promo_match": {
+          "publisher_guid": "68f0f6bb00cc667d09dd07fe",
+          "product_guid": "69314a846f6ada34183f706b",
+          "product_name": "Parmalat Latte Barista",
+          "brand_name": "Parmalat",
+          "match_confidence": 93,
+          "size_conflict": false,
+          "price_conflict": false
+        },
+        "match_signals": {
+          "brand": "MATCH",
+          "text": "HIGH",
+          "text_score": 93,
+          "variant": "MATCH",
+          "variant_jw": 0.781,
+          "price": "MATCH",
+          "size": "UNKNOWN",
+          "category": "OK",
+          "decision": "PROMO_FOUND"
+        }
+      },
+      {
+        "description": "MONDOETE SHOPPER BIO",
+        "description_full": "MondoEtè Shopper Bio",
+        "category": "other",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 0.19,
+        "discount": 0.0,
+        "total_price": 0.19,
+        "_catalog_method": "gemini_only",
+        "_catalog_confidence": 0.4,
+        "_alignment_override": true,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 26,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 26,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      }
+    ],
+    "totals": {
+      "total_amount": 13.99,
+      "tax_amount": 0.8,
+      "item_count": 11
+    }
+  },
+  "promo_status": "PROMO_FOUND",
+  "metadata": {
+    "version": "1.0.0+e1ba314",
+    "processing_status": "CLEAN",
+    "flags": [],
+    "preprocessing": [
+      {
+        "image_index": 0,
+        "tile_index": 0,
+        "steps": [
+          "PASSTHROUGH(no preprocessing needed)"
+        ],
+        "stats": {
+          "mean_brightness": 114.8,
+          "std_brightness": 64.9,
+          "noise_level": 1314.0,
+          "skew_angle": 0.0,
+          "avg_saturation": 53.8,
+          "width": 1335,
+          "height": 2400,
+          "contrast_ratio": 173.0,
+          "is_bimodal": true,
+          "histogram_clipping": 0.033,
+          "content_coverage": 0.88,
+          "applied_steps": [
+            "PASSTHROUGH(no preprocessing needed)"
+          ]
+        }
+      },
+      {
+        "image_index": 1,
+        "tile_index": 1,
+        "steps": [
+          "GRAYSCALE(sat=21)"
+        ],
+        "stats": {
+          "mean_brightness": 134.5,
+          "std_brightness": 49.6,
+          "noise_level": 378.0,
+          "skew_angle": 0.0,
+          "avg_saturation": 20.5,
+          "width": 1443,
+          "height": 1898,
+          "contrast_ratio": 147.0,
+          "is_bimodal": false,
+          "histogram_clipping": 0.028,
+          "content_coverage": 0.88,
+          "applied_steps": [
+            "GRAYSCALE(sat=21)"
+          ]
+        }
+      },
+      {
+        "image_index": 2,
+        "tile_index": 2,
+        "steps": [
+          "GRAYSCALE(sat=26)"
+        ],
+        "stats": {
+          "mean_brightness": 129.8,
+          "std_brightness": 54.5,
+          "noise_level": 679.0,
+          "skew_angle": 0.0,
+          "avg_saturation": 25.7,
+          "width": 1421,
+          "height": 1889,
+          "contrast_ratio": 164.0,
+          "is_bimodal": false,
+          "histogram_clipping": 0.039,
+          "content_coverage": 0.96,
+          "applied_steps": [
+            "GRAYSCALE(sat=26)"
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_token_count": 3703,
+      "candidates_token_count": 1106,
+      "total_token_count": 13679,
+      "thinking_token_count": 8870
+    },
+    "cost_info": {
+      "total_cost": 0.0038759,
+      "model_name": "Gemini 2.5 Flash",
+      "input_cost": 0.0011109,
+      "output_cost": 0.002765
+    },
+    "retry_count": 0
+  }
+}

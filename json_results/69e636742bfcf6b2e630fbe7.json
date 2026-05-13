@@ -1,0 +1,97 @@
+{
+  "receipt_guid": "69e636742bfcf6b2e630fbe7",
+  "shop_brand": null,
+  "analysis": {
+    "document_type": "receipt",
+    "merchant": {
+      "name": "CARREFOUR MARKET GS SPA",
+      "brand_name": "Carrefour",
+      "address": "Via del Mare 117 Pomezia (RM)",
+      "vat_number": "12683790153",
+      "date": "null",
+      "receipt_number": "null",
+      "notes": "null"
+    },
+    "items": [
+      {
+        "description": "BISTECCA COSTA C/O B",
+        "description_full": "BISTECCA COSTA C O B",
+        "category": "meat_fish",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 11.26,
+        "discount": 0.0,
+        "total_price": 11.26,
+        "_catalog_method": "abbreviation",
+        "_catalog_confidence": 0.7,
+        "_gemini_original": "Bistecca Costa",
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 27,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 27,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "INCOMPATIBLE"
+        }
+      }
+    ],
+    "totals": {
+      "total_amount": 0.0,
+      "tax_amount": 0.0,
+      "item_count": null
+    }
+  },
+  "promo_status": "NO_PROMO",
+  "metadata": {
+    "version": "2.0.0+6c131bf",
+    "pars_dt": "2026-04-20T14:21:55.463+00:00",
+    "processing_status": "CLEAN",
+    "flags": [],
+    "preprocessing": [
+      {
+        "image_index": 0,
+        "tile_index": 0,
+        "steps": [
+          "GRAYSCALE(sat=11)",
+          "CLAHE(std=31,clip=0.00)"
+        ],
+        "stats": {
+          "mean_brightness": 185.4,
+          "std_brightness": 30.6,
+          "noise_level": 89.0,
+          "skew_angle": 0.0,
+          "avg_saturation": 10.9,
+          "width": 1529,
+          "height": 1020,
+          "contrast_ratio": 106.0,
+          "is_bimodal": false,
+          "histogram_clipping": 0.0,
+          "content_coverage": 0.76,
+          "applied_steps": [
+            "GRAYSCALE(sat=11)",
+            "CLAHE(std=31,clip=0.00)"
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_token_count": 4735,
+      "candidates_token_count": 203,
+      "total_token_count": 5393,
+      "thinking_token_count": 455
+    },
+    "cost_info": {
+      "total_cost": 0.001928,
+      "model_name": "Gemini 2.5 Flash",
+      "input_cost": 0.0014204999999999999,
+      "output_cost": 0.0005075
+    },
+    "retry_count": 0
+  }
+}

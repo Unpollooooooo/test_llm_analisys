@@ -1,0 +1,298 @@
+{
+  "receipt_guid": "69e48aa12bfcf6b2e630e7e7",
+  "shop_brand": null,
+  "analysis": {
+    "document_type": "receipt",
+    "merchant": {
+      "name": "Unknown",
+      "brand_name": "Unknown",
+      "address": "Unknown",
+      "vat_number": "Unknown",
+      "date": "2026-04-18",
+      "receipt_number": "99SE0004571",
+      "notes": "SCONTRINO NON FISCALE ai sensi del D. Lgs. 127/2015 art. 2 comma 1"
+    },
+    "items": [
+      {
+        "description": "GRANAROLO S/LATTOSIO P.S.",
+        "description_full": "Granarolo g+",
+        "category": "dairy",
+        "quantity": 6,
+        "unit_of_measure": "pz",
+        "unit_price": 1.1,
+        "discount": 0,
+        "total_price": 6.6,
+        "_catalog_method": "fuzzy",
+        "_catalog_confidence": 0.7,
+        "_gemini_original": "Granarolo Senza Lattosio Panna Spray",
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 28,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 28,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "GRANAROLO S/LATTOSIO P.S.",
+        "description_full": "Granarolo g+",
+        "category": "dairy",
+        "quantity": 6,
+        "unit_of_measure": "pz",
+        "unit_price": 1.1,
+        "discount": 0,
+        "total_price": 6.6,
+        "_catalog_method": "cache",
+        "_catalog_confidence": 0.7,
+        "_gemini_original": "Granarolo Senza Lattosio Panna Spray",
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 28,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 28,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "GOCCIA CARNIA ACQUA NAT.L",
+        "description_full": "Goccia Carnia Acqua Naturale 1L",
+        "category": "beverages",
+        "quantity": 6,
+        "unit_of_measure": "pz",
+        "unit_price": 0.3,
+        "discount": 0,
+        "total_price": 1.8,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 30,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 30,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "INCOMPATIBLE"
+        }
+      },
+      {
+        "description": "GATORADE ARANCIA ROSSA LT",
+        "description_full": "Gatorade Arancia Rossa Litro",
+        "category": "beverages",
+        "quantity": 12,
+        "unit_of_measure": "pz",
+        "unit_price": 0.5,
+        "discount": 0,
+        "total_price": 6,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 31,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 31,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "ACQUA GAS.S.BENEDETTO LTO",
+        "description_full": "Acqua Gassata San Benedetto Litro",
+        "category": "beverages",
+        "quantity": 5,
+        "unit_of_measure": "pz",
+        "unit_price": 1.75,
+        "discount": 0,
+        "total_price": 8.75,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 28,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 28,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "ESTATHE' PET LIMONE LT.1.5",
+        "description_full": "Estathe Pet Limone 1.5L",
+        "category": "beverages",
+        "quantity": 22,
+        "unit_of_measure": "pz",
+        "unit_price": 1.95,
+        "discount": 0,
+        "total_price": 42.9,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 28,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 28,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "CONFLICT",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "SCOTTEX FAZZOLETTI X56 3",
+        "description_full": "Scottex Fazzoletti x56 3 veli",
+        "category": "personal_care",
+        "quantity": 22,
+        "unit_of_measure": "pz",
+        "unit_price": 4.99,
+        "discount": 0,
+        "total_price": 109.78,
+        "_catalog_method": "gemini_only",
+        "_catalog_confidence": 0.4,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 27,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 27,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      }
+    ],
+    "totals": {
+      "total_amount": 125.62,
+      "tax_amount": 0,
+      "item_count": 71
+    }
+  },
+  "promo_status": "NO_PROMO",
+  "metadata": {
+    "version": "2.0.0+6c131bf",
+    "pars_dt": "2026-04-19T07:57:38.875+00:00",
+    "processing_status": "CLEAN",
+    "flags": [],
+    "preprocessing": [
+      {
+        "image_index": 0,
+        "tile_index": 0,
+        "steps": [
+          "GRAYSCALE(sat=25)"
+        ],
+        "stats": {
+          "mean_brightness": 145.4,
+          "std_brightness": 35.8,
+          "noise_level": 318.0,
+          "skew_angle": 0.0,
+          "avg_saturation": 24.6,
+          "width": 673,
+          "height": 2044,
+          "contrast_ratio": 124.0,
+          "is_bimodal": false,
+          "histogram_clipping": 0.0,
+          "content_coverage": 1.0,
+          "applied_steps": [
+            "GRAYSCALE(sat=25)"
+          ]
+        }
+      },
+      {
+        "image_index": 1,
+        "tile_index": 1,
+        "steps": [
+          "GRAYSCALE(sat=25)"
+        ],
+        "stats": {
+          "mean_brightness": 146.4,
+          "std_brightness": 41.1,
+          "noise_level": 899.0,
+          "skew_angle": 0.0,
+          "avg_saturation": 25.2,
+          "width": 1616,
+          "height": 440,
+          "contrast_ratio": 145.0,
+          "is_bimodal": false,
+          "histogram_clipping": 0.001,
+          "content_coverage": 1.0,
+          "applied_steps": [
+            "GRAYSCALE(sat=25)"
+          ]
+        }
+      },
+      {
+        "image_index": 2,
+        "tile_index": 2,
+        "steps": [
+          "GRAYSCALE(sat=29)"
+        ],
+        "stats": {
+          "mean_brightness": 147.9,
+          "std_brightness": 35.7,
+          "noise_level": 320.0,
+          "skew_angle": 0.0,
+          "avg_saturation": 28.9,
+          "width": 1920,
+          "height": 1220,
+          "contrast_ratio": 102.0,
+          "is_bimodal": true,
+          "histogram_clipping": 0.001,
+          "content_coverage": 0.56,
+          "applied_steps": [
+            "GRAYSCALE(sat=29)"
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_token_count": 3703,
+      "candidates_token_count": 926,
+      "total_token_count": 8669,
+      "thinking_token_count": 4040
+    },
+    "cost_info": {
+      "total_cost": 0.0034259,
+      "model_name": "Gemini 2.5 Flash",
+      "input_cost": 0.0011109,
+      "output_cost": 0.0023150000000000002
+    },
+    "retry_count": 0
+  }
+}

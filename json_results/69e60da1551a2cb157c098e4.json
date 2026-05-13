@@ -1,0 +1,259 @@
+{
+  "receipt_guid": "69e60da1551a2cb157c098e4",
+  "shop_brand": null,
+  "analysis": {
+    "document_type": "receipt",
+    "merchant": {
+      "name": "MARKET PORTA MARE SNC FAMIGLIA CHIRIBOLA",
+      "brand_name": "MARKET PORTA MARE",
+      "address": "C.so P.ta Mare, 117 o 44121 FE",
+      "vat_number": "01859860387",
+      "date": "2026-04-20",
+      "receipt_number": "DOC.0181-0135",
+      "notes": ""
+    },
+    "items": [
+      {
+        "description": "DADO KNORR 18 CUBI",
+        "description_full": "Dado Knorr 18 Cubi",
+        "category": "pantry",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 2.19,
+        "discount": 0.0,
+        "total_price": 2.19,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 24,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 24,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "PLUMCAKE CLASS.MB",
+        "description_full": "Plumcake Classico MB",
+        "category": "bakery",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 2.29,
+        "discount": 0.0,
+        "total_price": 2.29,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 47,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 47,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "LATTE ZYMIL ML.500",
+        "description_full": "Latte Zymil 500ml",
+        "category": "dairy",
+        "quantity": 6.0,
+        "unit_of_measure": "pz",
+        "unit_price": 1.29,
+        "discount": 0.0,
+        "total_price": 7.74,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": "8002580007372",
+        "is_promo_item": false,
+        "match_confidence": 74,
+        "promo_match": {
+          "publisher_guid": "68f0f6bb00cc667d09dd07fe",
+          "product_guid": "69314a856f6ada34183f7084",
+          "product_name": "Buono Digeribile 100% Latte d'Italia",
+          "brand_name": "Zymil",
+          "match_confidence": 74,
+          "size_conflict": null,
+          "price_conflict": true
+        },
+        "match_signals": {
+          "brand": "MATCH",
+          "text": "HIGH",
+          "text_score": 100,
+          "variant": "MATCH",
+          "variant_jw": 1.0,
+          "price": "CONFLICT",
+          "size": "UNKNOWN",
+          "category": "OK",
+          "decision": "AMBIGUOUS"
+        }
+      },
+      {
+        "description": "P.SEM. DE CECCO CAVA",
+        "description_full": "Pasta Semola De Cecco Cava",
+        "category": "pantry",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 1.59,
+        "discount": 0.0,
+        "total_price": 1.59,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 28,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 28,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "MATCH",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "PASTA SEMOLA BARILLA",
+        "description_full": "Pasta Semola Barilla",
+        "category": "pantry",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 0.99,
+        "discount": 0.0,
+        "total_price": 0.99,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 33,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 33,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "PASTA SEMOLA BARILLA",
+        "description_full": "Pasta Semola Barilla",
+        "category": "pantry",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 0.99,
+        "discount": 0.0,
+        "total_price": 0.99,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 33,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 33,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "TAV.CIOC.DESPAR F72%",
+        "description_full": "Tavoletta Cioccolato Despar Fondente 72%",
+        "category": "pantry",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 1.99,
+        "discount": 0.0,
+        "total_price": 1.99,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 31,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 31,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      }
+    ],
+    "totals": {
+      "total_amount": 17.78,
+      "tax_amount": 0.0,
+      "item_count": 12
+    }
+  },
+  "promo_status": "PROMO_AMBIGUOUS",
+  "metadata": {
+    "version": "2.0.0+6c131bf",
+    "pars_dt": "2026-04-20T11:28:07.531+00:00",
+    "processing_status": "CLEAN",
+    "flags": [],
+    "preprocessing": [
+      {
+        "image_index": 0,
+        "tile_index": 0,
+        "steps": [
+          "GRAYSCALE(sat=22)"
+        ],
+        "stats": {
+          "mean_brightness": 170.2,
+          "std_brightness": 43.9,
+          "noise_level": 446.0,
+          "skew_angle": 0.0,
+          "avg_saturation": 22.4,
+          "width": 937,
+          "height": 2263,
+          "contrast_ratio": 159.0,
+          "is_bimodal": false,
+          "histogram_clipping": 0.004,
+          "content_coverage": 0.92,
+          "applied_steps": [
+            "GRAYSCALE(sat=22)"
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_token_count": 5251,
+      "candidates_token_count": 933,
+      "total_token_count": 7816,
+      "thinking_token_count": 1632
+    },
+    "cost_info": {
+      "total_cost": 0.0039078,
+      "model_name": "Gemini 2.5 Flash",
+      "input_cost": 0.0015753,
+      "output_cost": 0.0023325000000000004
+    },
+    "retry_count": 0
+  }
+}

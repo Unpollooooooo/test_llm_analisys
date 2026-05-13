@@ -1,0 +1,234 @@
+{
+  "receipt_guid": "69e51897551a2cb157c09053",
+  "shop_brand": null,
+  "analysis": {
+    "document_type": "receipt",
+    "merchant": {
+      "name": "FRATELLI ARENA S.R.L.",
+      "brand_name": "SUPER Conveniente",
+      "address": "VIA MAREGROSSO, 24/26 MESSINA, 98124",
+      "vat_number": "00097560866",
+      "date": "2026-04-19",
+      "receipt_number": "2316-0276",
+      "notes": ""
+    },
+    "items": [
+      {
+        "description": "CARAM.BALSAMICHE AL MIELE",
+        "description_full": "Caramelle Balsamiche al Miele",
+        "category": "pantry",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 0.99,
+        "discount": 0.0,
+        "total_price": 0.99,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 29,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 29,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "CARAMELLE RIPIENE CAFFE'",
+        "description_full": "Caramelle Ripiene Caffe'istant.",
+        "category": "pantry",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 0.99,
+        "discount": 0.0,
+        "total_price": 0.99,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 26,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 26,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "BIALETTI CAP.NAPOLI PZ.16",
+        "description_full": "Bialetti Capsule Napoli Pezzi 16",
+        "category": "pantry",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 6.99,
+        "discount": 0.0,
+        "total_price": 6.99,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 29,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 29,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "CARAMELLE SUPER ANICE GR. 200",
+        "description_full": "Caramelle Super Anice Grammi 200",
+        "category": "pantry",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 0.99,
+        "discount": 0.0,
+        "total_price": 0.99,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 33,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 33,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "CONFLICT",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "VALSUGANA POLENTA GR.375",
+        "description_full": "Polenta Valsugana La Legumi",
+        "category": "pantry",
+        "quantity": 2.0,
+        "unit_of_measure": "pz",
+        "unit_price": 2.95,
+        "discount": 0.0,
+        "total_price": 5.9,
+        "_catalog_method": "promo_catalog",
+        "_catalog_confidence": 0.7,
+        "_gemini_original": "Valsugana Polenta Grammi 375",
+        "barcode": "8001840286991",
+        "is_promo_item": true,
+        "match_confidence": 85,
+        "promo_match": {
+          "publisher_guid": "649b069a8d4d6775eaecf33f",
+          "product_guid": "65142c61c30d86168501601b",
+          "product_name": "La Legumi",
+          "brand_name": "Polenta Valsugana",
+          "match_confidence": 85,
+          "size_conflict": null,
+          "price_conflict": null
+        },
+        "match_signals": {
+          "brand": "MATCH",
+          "text": "HIGH",
+          "text_score": 85,
+          "variant": "MATCH",
+          "variant_jw": 1.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK",
+          "decision": "PROMO_FOUND"
+        }
+      },
+      {
+        "description": "POIATTI CINQUE BUCHI KG.1",
+        "description_full": "Poiatti Cinque Buchi Kilogrammo 1",
+        "category": "pantry",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 0.99,
+        "discount": 0.0,
+        "total_price": 0.99,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 26,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 26,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      }
+    ],
+    "totals": {
+      "total_amount": 16.85,
+      "tax_amount": 1.79,
+      "item_count": 7
+    }
+  },
+  "promo_status": "PROMO_FOUND",
+  "metadata": {
+    "version": "2.0.0+6c131bf",
+    "pars_dt": "2026-04-19T18:02:36.382+00:00",
+    "processing_status": "CLEAN",
+    "flags": [],
+    "preprocessing": [
+      {
+        "image_index": 0,
+        "tile_index": 0,
+        "steps": [
+          "GRAYSCALE(sat=25)"
+        ],
+        "stats": {
+          "mean_brightness": 203.2,
+          "std_brightness": 40.9,
+          "noise_level": 379.0,
+          "skew_angle": 0.0,
+          "avg_saturation": 24.6,
+          "width": 893,
+          "height": 3255,
+          "contrast_ratio": 126.0,
+          "is_bimodal": false,
+          "histogram_clipping": 0.001,
+          "content_coverage": 0.88,
+          "applied_steps": [
+            "GRAYSCALE(sat=25)"
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_token_count": 6283,
+      "candidates_token_count": 846,
+      "total_token_count": 8834,
+      "thinking_token_count": 1705
+    },
+    "cost_info": {
+      "total_cost": 0.0039999,
+      "model_name": "Gemini 2.5 Flash",
+      "input_cost": 0.0018849,
+      "output_cost": 0.002115
+    },
+    "retry_count": 0
+  }
+}

@@ -1,0 +1,209 @@
+{
+  "receipt_guid": "69ee89b43da34a89f7055e31",
+  "shop_brand": null,
+  "analysis": {
+    "document_type": "receipt",
+    "merchant": {
+      "name": "ASPIAG SERVICE S.r.1.",
+      "brand_name": "EUROSPAR",
+      "address": "VIA ROSSINI 1 MONFALCONE (GO)",
+      "vat_number": "00882800212",
+      "date": "2026-04-25",
+      "receipt_number": "2743-0162",
+      "notes": ""
+    },
+    "items": [
+      {
+        "description": "ACQUA SANT 'ANNA PET",
+        "description_full": "Acqua Sant'Anna PET",
+        "category": "beverages",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 0.59,
+        "discount": 0.0,
+        "total_price": 0.59,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 28,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 28,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "CONFLICT",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "ACQUA SANT 'ANNA PET",
+        "description_full": "Acqua Sant'Anna PET",
+        "category": "beverages",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 0.59,
+        "discount": 0.0,
+        "total_price": 0.59,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 28,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 28,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "CONFLICT",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "PAN BAULETTO M.B.",
+        "description_full": "Pan Bauletto Bianco",
+        "category": "bakery",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 1.65,
+        "discount": 0.17,
+        "total_price": 1.48,
+        "_catalog_method": "fuzzy",
+        "_catalog_confidence": 0.7,
+        "_gemini_original": "Pan Bauletto Mulino Bianco",
+        "barcode": "8003650019714",
+        "is_promo_item": false,
+        "match_confidence": 74,
+        "promo_match": {
+          "publisher_guid": "6939bd34e84bd0409997e7c9",
+          "product_guid": "6939c6789cf06812292571d8",
+          "product_name": "Candeggina Delicata Muschio Bianco",
+          "brand_name": "Omino Bianco",
+          "match_confidence": 74,
+          "size_conflict": null,
+          "price_conflict": null
+        },
+        "match_signals": {
+          "brand": "MATCH",
+          "text": "HIGH",
+          "text_score": 84,
+          "variant": "PARTIAL",
+          "variant_jw": 0.567,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK",
+          "decision": "AMBIGUOUS"
+        }
+      },
+      {
+        "description": "LATTE UHT ITAL. PARM",
+        "description_full": "Latte UHT Italiano Parma",
+        "category": "dairy",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 1.79,
+        "discount": 0.0,
+        "total_price": 1.79,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 39,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 39,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "MATCH",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "MINESTRONE CLASSICO",
+        "description_full": "Minestrone Classico",
+        "category": "pantry",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 1.78,
+        "discount": 0.0,
+        "total_price": 1.78,
+        "_catalog_method": "gemini_only",
+        "_catalog_confidence": 0.85,
+        "_alignment_override": true,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 41,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 41,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "MATCH",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      }
+    ],
+    "totals": {
+      "total_amount": 6.23,
+      "tax_amount": 0.4,
+      "item_count": 5
+    }
+  },
+  "promo_status": "PROMO_AMBIGUOUS",
+  "metadata": {
+    "version": "2.0.0+6c131bf",
+    "pars_dt": "2026-04-26T21:56:25.604+00:00",
+    "processing_status": "CLEAN",
+    "flags": [],
+    "preprocessing": [
+      {
+        "image_index": 0,
+        "tile_index": 0,
+        "steps": [
+          "GRAYSCALE(sat=23)"
+        ],
+        "stats": {
+          "mean_brightness": 168.5,
+          "std_brightness": 47.8,
+          "noise_level": 315.0,
+          "skew_angle": 0.0,
+          "avg_saturation": 23.1,
+          "width": 1302,
+          "height": 2560,
+          "contrast_ratio": 156.0,
+          "is_bimodal": false,
+          "histogram_clipping": 0.003,
+          "content_coverage": 0.88,
+          "applied_steps": [
+            "GRAYSCALE(sat=23)"
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_token_count": 5251,
+      "candidates_token_count": 541,
+      "total_token_count": 7292,
+      "thinking_token_count": 1500
+    },
+    "cost_info": {
+      "total_cost": 0.0029278000000000004,
+      "model_name": "Gemini 2.5 Flash",
+      "input_cost": 0.0015753,
+      "output_cost": 0.0013525000000000002
+    },
+    "retry_count": 0
+  }
+}

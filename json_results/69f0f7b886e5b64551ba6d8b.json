@@ -1,0 +1,339 @@
+{
+  "receipt_guid": "69f0f7b886e5b64551ba6d8b",
+  "shop_brand": null,
+  "analysis": {
+    "document_type": "receipt",
+    "merchant": {
+      "name": "FRAMA SRLS",
+      "brand_name": "Qui DISCOUNT",
+      "address": "VIA E. GIANTURCO, 102 85015 OPPIDO LUCANO (PZ)",
+      "vat_number": "02172440766",
+      "date": "2026-04-28",
+      "receipt_number": "DOC.0053-0182",
+      "notes": ""
+    },
+    "items": [
+      {
+        "description": "ACQUA MIN.NAT.LT2 FIOR",
+        "description_full": "Acqua Minerale Naturale 2 Litri Fiori",
+        "category": "beverages",
+        "quantity": 6.0,
+        "unit_of_measure": "pz",
+        "unit_price": 0.22,
+        "discount": 0.0,
+        "total_price": 1.32,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 31,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 31,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "ACQUA MIN LIEV.FRIZZ.G",
+        "description_full": "Acqua Minerale Lievemente Frizzante",
+        "category": "beverages",
+        "quantity": 6.0,
+        "unit_of_measure": "pz",
+        "unit_price": 0.25,
+        "discount": 0.0,
+        "total_price": 1.5,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 27,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 27,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "CONFLICT",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "SALAME MILANO TAKE AWA",
+        "description_full": "Salame Milano Take Away",
+        "category": "meat_fish",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 2.19,
+        "discount": 0.0,
+        "total_price": 2.19,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 27,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 27,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "INCOMPATIBLE"
+        }
+      },
+      {
+        "description": "*MONTORSI SCAMORZA AFF",
+        "description_full": "Montorsi Scamorza Affumicata",
+        "category": "dairy",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 0.99,
+        "discount": 0.0,
+        "total_price": 0.99,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 32,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 32,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "CONFLICT",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "*MONTORSI SCAMORZA AFF",
+        "description_full": "Montorsi Scamorza Affumicata",
+        "category": "dairy",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 0.99,
+        "discount": 0.0,
+        "total_price": 0.99,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 32,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 32,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "CONFLICT",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "BASE SFOGLIA RETTANG.",
+        "description_full": "Base Sfoglia Rettangolare",
+        "category": "bakery",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 0.99,
+        "discount": 0.0,
+        "total_price": 0.99,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 28,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 28,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "MAOAM MAOPOP BEST MIX",
+        "description_full": "Maoam Maopop Best Mix",
+        "category": "pantry",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 1.1,
+        "discount": 0.0,
+        "total_price": 1.1,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 26,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 26,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "PASTICC. FERRI DI CAVA",
+        "description_full": "Pasticcini Ferri di Cava",
+        "category": "bakery",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 0.99,
+        "discount": 0.0,
+        "total_price": 0.99,
+        "_catalog_method": "gemini_only",
+        "_catalog_confidence": 0.85,
+        "_alignment_override": true,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 28,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 28,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "PASTICC. KRUMI AST. G",
+        "description_full": "Pasticcini Krumiri Assortiti",
+        "category": "bakery",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 0.99,
+        "discount": 0.0,
+        "total_price": 0.99,
+        "_catalog_method": "gemini_only",
+        "_catalog_confidence": 0.85,
+        "_alignment_override": true,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 30,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 30,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "BUSTA VERDE",
+        "description_full": "Busta Verde",
+        "category": "other",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 0.15,
+        "discount": 0.0,
+        "total_price": 0.15,
+        "_catalog_method": "gemini_only",
+        "_catalog_confidence": 0.4,
+        "_alignment_override": true,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 28,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 28,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "CONFLICT",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      }
+    ],
+    "totals": {
+      "total_amount": 11.21,
+      "tax_amount": 1.19,
+      "item_count": 20
+    },
+    "quality_flags": []
+  },
+  "promo_status": "NO_PROMO",
+  "metadata": {
+    "version": "2.1.0+bbfe08e",
+    "pars_dt": "2026-04-28T18:09:33.884+00:00",
+    "processing_status": "CLEAN",
+    "flags": [],
+    "preprocessing": [
+      {
+        "image_index": 0,
+        "tile_index": 0,
+        "steps": [
+          "GRAYSCALE(sat=35)"
+        ],
+        "stats": {
+          "mean_brightness": 142.9,
+          "std_brightness": 43.7,
+          "noise_level": 679.0,
+          "skew_angle": 0.0,
+          "avg_saturation": 35.0,
+          "width": 1910,
+          "height": 921,
+          "contrast_ratio": 143.0,
+          "is_bimodal": false,
+          "histogram_clipping": 0.002,
+          "content_coverage": 0.96,
+          "applied_steps": [
+            "GRAYSCALE(sat=35)"
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_token_count": 5498,
+      "candidates_token_count": 984,
+      "total_token_count": 8417,
+      "thinking_token_count": 1935
+    },
+    "cost_info": {
+      "total_cost": 0.0041094,
+      "model_name": "Gemini 2.5 Flash",
+      "input_cost": 0.0016493999999999999,
+      "output_cost": 0.0024600000000000004
+    },
+    "retry_count": 0,
+    "validation_errors": [
+      {
+        "code": "NO_PREMIUM_PRODUCTS",
+        "message": "Lo scontrino non contiene prodotti premianti"
+      }
+    ],
+    "is_valid": false
+  }
+}

@@ -1,0 +1,393 @@
+{
+  "receipt_guid": "69e9f2f0551a2cb157c0c112",
+  "shop_brand": null,
+  "analysis": {
+    "document_type": "receipt",
+    "merchant": {
+      "name": "SUPERMERCATI MARTINELLI S.R.L.",
+      "brand_name": "Martinelli Supermercati",
+      "address": "ViaD.PARTIGIANI, 1 - VALEGGIOSM.VR",
+      "vat_number": "00796350239",
+      "date": "2026-04-23",
+      "receipt_number": "2402-0013",
+      "notes": ""
+    },
+    "items": [
+      {
+        "description": "NOI VOI MANICO PLAST",
+        "description_full": "Noi Voi Manico Plastica",
+        "category": "home_care",
+        "quantity": 1,
+        "unit_of_measure": "pz",
+        "unit_price": 0.99,
+        "discount": 0,
+        "total_price": 0.99,
+        "_catalog_method": "gemini_only",
+        "_catalog_confidence": 0.74,
+        "_alignment_override": true,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 32,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 32,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "RIO CASAMIA LAV/MANO",
+        "description_full": "Rio Casamia Lavamani",
+        "category": "personal_care",
+        "quantity": 1,
+        "unit_of_measure": "pz",
+        "unit_price": 2.2,
+        "discount": 0,
+        "total_price": 2.2,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 28,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 28,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "MATCH",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "CSC SPAZZOLONE PACIF",
+        "description_full": "CSC Spazzolone Pacific",
+        "category": "home_care",
+        "quantity": 1,
+        "unit_of_measure": "pz",
+        "unit_price": 1.6,
+        "discount": 0,
+        "total_price": 1.6,
+        "_catalog_method": "gemini_only",
+        "_catalog_confidence": 0.52,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 29,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 29,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "ACTIFF VETRI 750ML S",
+        "description_full": "Actiff Vetri 750ml Spray",
+        "category": "home_care",
+        "quantity": 1,
+        "unit_of_measure": "pz",
+        "unit_price": 1.2,
+        "discount": 0,
+        "total_price": 1.2,
+        "_catalog_method": "gemini_only",
+        "_catalog_confidence": 0.4,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 28,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 28,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "FRAGOLE EXTRA",
+        "description_full": "Fragole Extra",
+        "category": "produce",
+        "quantity": 1,
+        "unit_of_measure": "pz",
+        "unit_price": 2.52,
+        "discount": 0,
+        "total_price": 2.52,
+        "_catalog_method": "gemini_only",
+        "_catalog_confidence": 0.85,
+        "_alignment_override": true,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 30,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 30,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "MATCH",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "CIABATTA RUSTICA 280",
+        "description_full": "Ciabatta Rustica 280g",
+        "category": "bakery",
+        "quantity": 1,
+        "unit_of_measure": "pz",
+        "unit_price": 1.2,
+        "discount": 0,
+        "total_price": 1.2,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 26,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 26,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "TERRA & VITA PRIMAVE",
+        "description_full": "Terra & Vita Primavera",
+        "category": "produce",
+        "quantity": 1,
+        "unit_of_measure": "pz",
+        "unit_price": 0.99,
+        "discount": 0,
+        "total_price": 0.99,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 28,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 28,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "PROSC.COTTO GRAN MAG",
+        "description_full": "Prosciutto Cotto Gran Magro",
+        "category": "meat_fish",
+        "quantity": 1,
+        "unit_of_measure": "pz",
+        "unit_price": 1.37,
+        "discount": 0,
+        "total_price": 1.37,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 71,
+        "promo_match": {
+          "publisher_guid": "6513f40a60b55747dd7fc268",
+          "product_guid": "65145450c30d8616850160c0",
+          "product_name": "Sardine in olio d'oliva - Sardinillas -",
+          "brand_name": "Consorcio Gran Reserva",
+          "match_confidence": 71,
+          "size_conflict": null,
+          "price_conflict": null
+        },
+        "match_signals": {
+          "brand": "MATCH",
+          "text": "MED",
+          "text_score": 71,
+          "variant": "PARTIAL",
+          "variant_jw": 0.587,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK",
+          "decision": "AMBIGUOUS"
+        }
+      },
+      {
+        "description": "BIRRA PORETTI 3 LUPP",
+        "description_full": "Birra Poretti 3 Luppoli",
+        "category": "beverages",
+        "quantity": 1,
+        "unit_of_measure": "pz",
+        "unit_price": 1.79,
+        "discount": 0,
+        "total_price": 1.79,
+        "_catalog_method": "gemini_only",
+        "_catalog_confidence": 0.85,
+        "_alignment_override": true,
+        "barcode": "8007950016671",
+        "is_promo_item": true,
+        "match_confidence": 91,
+        "promo_match": {
+          "publisher_guid": "696a5d9de84bd0409997e7ca",
+          "product_guid": "696a6b33b736817e9d2428c6",
+          "product_name": "Birrificio Angelo Poretti IPA 9 Luppoli 3 x 33 cl",
+          "brand_name": "Birrificio Angelo Poretti",
+          "match_confidence": 91,
+          "size_conflict": null,
+          "price_conflict": null
+        },
+        "match_signals": {
+          "brand": "MATCH",
+          "text": "HIGH",
+          "text_score": 91,
+          "variant": "MATCH",
+          "variant_jw": 0.756,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK",
+          "decision": "PROMO_FOUND"
+        }
+      },
+      {
+        "description": "M.FLORES ANANAS FETT",
+        "description_full": "M. Flores Ananas a Fette",
+        "category": "pantry",
+        "quantity": 1,
+        "unit_of_measure": "pz",
+        "unit_price": 1.39,
+        "discount": 0,
+        "total_price": 1.39,
+        "_catalog_method": "gemini_only",
+        "_catalog_confidence": 0.52,
+        "_alignment_override": true,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 26,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 26,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "UVA B/N MISTA 500G S",
+        "description_full": "D UVA",
+        "category": "produce",
+        "quantity": 1,
+        "unit_of_measure": "pz",
+        "unit_price": 1.45,
+        "discount": 0,
+        "total_price": 1.45,
+        "_catalog_method": "fuzzy",
+        "_catalog_confidence": 0.7,
+        "_gemini_original": "Uva Bianca/Nera Mista 500g",
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 0,
+        "promo_match": null
+      },
+      {
+        "description": "TERRA & VITA DUETTO",
+        "description_full": "Terra & Vita Duetto",
+        "category": "produce",
+        "quantity": 1,
+        "unit_of_measure": "pz",
+        "unit_price": 0.99,
+        "discount": 0,
+        "total_price": 0.99,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 26,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 26,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      }
+    ],
+    "totals": {
+      "total_amount": 17.69,
+      "tax_amount": 1.93,
+      "item_count": 12
+    }
+  },
+  "promo_status": "PROMO_FOUND",
+  "metadata": {
+    "version": "2.0.0+6c131bf",
+    "pars_dt": "2026-04-23T10:23:25.545+00:00",
+    "processing_status": "CLEAN",
+    "flags": [],
+    "preprocessing": [
+      {
+        "image_index": 0,
+        "tile_index": 0,
+        "steps": [
+          "GRAYSCALE(sat=15)"
+        ],
+        "stats": {
+          "mean_brightness": 187.0,
+          "std_brightness": 50.3,
+          "noise_level": 436.0,
+          "skew_angle": 0.0,
+          "avg_saturation": 15.0,
+          "width": 995,
+          "height": 3529,
+          "contrast_ratio": 175.0,
+          "is_bimodal": false,
+          "histogram_clipping": 0.006,
+          "content_coverage": 0.84,
+          "applied_steps": [
+            "GRAYSCALE(sat=15)"
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_token_count": 6283,
+      "candidates_token_count": 1387,
+      "total_token_count": 9583,
+      "thinking_token_count": 1913
+    },
+    "cost_info": {
+      "total_cost": 0.0053524,
+      "model_name": "Gemini 2.5 Flash",
+      "input_cost": 0.0018849,
+      "output_cost": 0.0034675
+    },
+    "retry_count": 0
+  }
+}

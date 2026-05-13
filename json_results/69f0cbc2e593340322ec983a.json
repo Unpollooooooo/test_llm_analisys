@@ -1,0 +1,312 @@
+{
+  "receipt_guid": "69f0cbc2e593340322ec983a",
+  "shop_brand": null,
+  "analysis": {
+    "document_type": "receipt",
+    "merchant": {
+      "name": "ASPIAG SERVICE S.r.l.",
+      "brand_name": "INTERSPAR",
+      "address": "VIA SCHIAVONESCA PRIULA 31044 MONTEBELLUNA (TV)",
+      "vat_number": "00882800212",
+      "date": "2026-04-28",
+      "receipt_number": "3016-0012",
+      "notes": ""
+    },
+    "items": [
+      {
+        "description": "SHOPPER GRANDE",
+        "description_full": "Shopper Grande",
+        "category": "other",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 0.2,
+        "discount": 0.0,
+        "total_price": 0.2,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 24,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 24,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "CONFLICT",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "PR.COTTO SALVIA E RO",
+        "description_full": "Prosciutto Cotto Salvia e Rosmarino",
+        "category": "meat_fish",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 6.73,
+        "discount": 0.0,
+        "total_price": 6.73,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 29,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 29,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "FETTE BISC.GERMINAL",
+        "description_full": "Fette Biscottate Germinal",
+        "category": "bakery",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 3.05,
+        "discount": 0.0,
+        "total_price": 3.05,
+        "_catalog_method": "gemini_only",
+        "_catalog_confidence": 0.52,
+        "_alignment_override": true,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 32,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 32,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "INCOMPATIBLE"
+        }
+      },
+      {
+        "description": "ACETO BALSAM.PREMIUM",
+        "description_full": "Aceto Balsamico Premium",
+        "category": "pantry",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 4.49,
+        "discount": 0.0,
+        "total_price": 4.49,
+        "_catalog_method": "gemini_only",
+        "_catalog_confidence": 0.52,
+        "_alignment_override": true,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 27,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 27,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "MATCH",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "CECI AL NATURALE ORT",
+        "description_full": "Ceci al Naturale Ortolana",
+        "category": "pantry",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 1.59,
+        "discount": 0.0,
+        "total_price": 1.59,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 38,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 38,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "VEGETALE ALTER.RICOT",
+        "description_full": "Vegetale Alternativo Ricotta",
+        "category": "dairy",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 2.29,
+        "discount": 0.0,
+        "total_price": 2.29,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 29,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 29,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "CREMA NOCCIOLE EURO.",
+        "description_full": "Crema Nocciole Eurocrem",
+        "category": "pantry",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 7.49,
+        "discount": 0.0,
+        "total_price": 7.49,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 30,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 30,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "SEMI ZUCCA DS GR200",
+        "description_full": "Semi di Zucca Desiccati 200g",
+        "category": "pantry",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 1.99,
+        "discount": 0.0,
+        "total_price": 1.99,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 26,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 26,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "MATCH",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "PPS-GRANA PADANO DOP",
+        "description_full": "Pezzo di Grana Padano DOP",
+        "category": "dairy",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 4.99,
+        "discount": 0.0,
+        "total_price": 4.99,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 27,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 27,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "MATCH",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      }
+    ],
+    "totals": {
+      "total_amount": 32.82,
+      "tax_amount": 2.58,
+      "item_count": 9
+    },
+    "quality_flags": []
+  },
+  "promo_status": "NO_PROMO",
+  "metadata": {
+    "version": "2.1.0+bbfe08e",
+    "pars_dt": "2026-04-28T15:02:01.293+00:00",
+    "processing_status": "CLEAN",
+    "flags": [],
+    "preprocessing": [
+      {
+        "image_index": 0,
+        "tile_index": 0,
+        "steps": [
+          "GRAYSCALE(sat=22)"
+        ],
+        "stats": {
+          "mean_brightness": 170.0,
+          "std_brightness": 37.4,
+          "noise_level": 320.0,
+          "skew_angle": 0.0,
+          "avg_saturation": 22.1,
+          "width": 1678,
+          "height": 3613,
+          "contrast_ratio": 117.0,
+          "is_bimodal": false,
+          "histogram_clipping": 0.001,
+          "content_coverage": 0.68,
+          "applied_steps": [
+            "GRAYSCALE(sat=22)"
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_token_count": 5498,
+      "candidates_token_count": 894,
+      "total_token_count": 8007,
+      "thinking_token_count": 1615
+    },
+    "cost_info": {
+      "total_cost": 0.0038843999999999997,
+      "model_name": "Gemini 2.5 Flash",
+      "input_cost": 0.0016493999999999999,
+      "output_cost": 0.002235
+    },
+    "retry_count": 0,
+    "validation_errors": [
+      {
+        "code": "NO_PREMIUM_PRODUCTS",
+        "message": "Lo scontrino non contiene prodotti premianti"
+      }
+    ],
+    "is_valid": false
+  }
+}

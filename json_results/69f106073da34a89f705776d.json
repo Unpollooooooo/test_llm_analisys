@@ -1,0 +1,280 @@
+{
+  "receipt_guid": "69f106073da34a89f705776d",
+  "shop_brand": null,
+  "analysis": {
+    "document_type": "receipt",
+    "merchant": {
+      "name": "MAIORA S.P.A. SB - FIL. BARLETTA",
+      "brand_name": "DESPAR EUROSPAR INTERSPAR",
+      "address": "Via Andria, 57/A 76121 - Barletta (BT)",
+      "vat_number": "07390770720",
+      "date": "2026-04-28",
+      "receipt_number": "0022-0250",
+      "notes": ""
+    },
+    "items": [
+      {
+        "description": "4 MAGNUM MANDORLE ALGIDA",
+        "description_full": "4 Magnum Mandorle Algida",
+        "category": "pantry",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 3.99,
+        "discount": 0.0,
+        "total_price": 3.99,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 27,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 27,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "MATCH",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "SOTTILETTE 200G",
+        "description_full": "Sottilette 200g",
+        "category": "dairy",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 1.79,
+        "discount": 0.0,
+        "total_price": 1.79,
+        "_catalog_method": "gemini_only",
+        "_catalog_confidence": 0.85,
+        "_alignment_override": true,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 23,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 23,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "PROS.COTTO A/Q ARTIGIANA",
+        "description_full": "Prosciutto Cotto Alta Qualità Artigiana",
+        "category": "meat_fish",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 1.69,
+        "discount": 0.0,
+        "total_price": 1.69,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 35,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 35,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "PROS.DI PARMA DOP 24 MES",
+        "description_full": "Prosciutto di Parma DOP 24 Mesi",
+        "category": "meat_fish",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 4.67,
+        "discount": 0.0,
+        "total_price": 4.67,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 29,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 29,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "MATCH",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "GRAN PIADA ROB.330G CLAS",
+        "description_full": "Gran Piada Romagnola 330g Classica",
+        "category": "bakery",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 1.29,
+        "discount": 0.0,
+        "total_price": 1.29,
+        "_catalog_method": "gemini_only",
+        "_catalog_confidence": 0.47,
+        "_alignment_override": true,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 49,
+        "promo_match": {
+          "publisher_guid": "6513f40a60b55747dd7fc268",
+          "product_guid": "659e8849ff7df13930a36ca5",
+          "product_name": "Polpo in olio d'oliva",
+          "brand_name": "Consorcio Gran Reserva",
+          "match_confidence": 49,
+          "size_conflict": null,
+          "price_conflict": null
+        },
+        "match_signals": {
+          "brand": "MATCH",
+          "text": "MED",
+          "text_score": 73,
+          "variant": "PARTIAL",
+          "variant_jw": 0.581,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "INCOMPATIBLE",
+          "decision": "NO_PROMO"
+        }
+      },
+      {
+        "description": "GRAN PIADA ROB.330G CLAS",
+        "description_full": "Gran Piada Romagnola 330g Classica",
+        "category": "bakery",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 1.29,
+        "discount": 0.0,
+        "total_price": 1.29,
+        "_catalog_method": "gemini_only",
+        "_catalog_confidence": 0.47,
+        "_alignment_override": true,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 49,
+        "promo_match": {
+          "publisher_guid": "6513f40a60b55747dd7fc268",
+          "product_guid": "659e8849ff7df13930a36ca5",
+          "product_name": "Polpo in olio d'oliva",
+          "brand_name": "Consorcio Gran Reserva",
+          "match_confidence": 49,
+          "size_conflict": null,
+          "price_conflict": null
+        },
+        "match_signals": {
+          "brand": "MATCH",
+          "text": "MED",
+          "text_score": 73,
+          "variant": "PARTIAL",
+          "variant_jw": 0.581,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "INCOMPATIBLE",
+          "decision": "NO_PROMO"
+        }
+      },
+      {
+        "description": "SHOPPERS DESPAR BIO 30+1",
+        "description_full": "Shoppers Despar Bio 30+1",
+        "category": "other",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 0.1,
+        "discount": 0.0,
+        "total_price": 0.1,
+        "_catalog_method": "gemini_only",
+        "_catalog_confidence": 0.85,
+        "_alignment_override": true,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 23,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 23,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      }
+    ],
+    "totals": {
+      "total_amount": 14.82,
+      "tax_amount": 1.13,
+      "item_count": null
+    },
+    "quality_flags": []
+  },
+  "promo_status": "NO_PROMO",
+  "metadata": {
+    "version": "2.1.0+bbfe08e",
+    "pars_dt": "2026-04-28T19:10:50.751+00:00",
+    "processing_status": "CLEAN",
+    "flags": [],
+    "preprocessing": [
+      {
+        "image_index": 0,
+        "tile_index": 0,
+        "steps": [
+          "GRAYSCALE(sat=23)"
+        ],
+        "stats": {
+          "mean_brightness": 173.8,
+          "std_brightness": 57.3,
+          "noise_level": 115.0,
+          "skew_angle": 0.0,
+          "avg_saturation": 23.0,
+          "width": 1920,
+          "height": 3744,
+          "contrast_ratio": 180.0,
+          "is_bimodal": false,
+          "histogram_clipping": 0.004,
+          "content_coverage": 0.76,
+          "applied_steps": [
+            "GRAYSCALE(sat=23)"
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_token_count": 5498,
+      "candidates_token_count": 973,
+      "total_token_count": 8413,
+      "thinking_token_count": 1942
+    },
+    "cost_info": {
+      "total_cost": 0.0040819,
+      "model_name": "Gemini 2.5 Flash",
+      "input_cost": 0.0016493999999999999,
+      "output_cost": 0.0024325
+    },
+    "retry_count": 0,
+    "validation_errors": [
+      {
+        "code": "NO_PREMIUM_PRODUCTS",
+        "message": "Lo scontrino non contiene prodotti premianti"
+      }
+    ],
+    "is_valid": false
+  }
+}

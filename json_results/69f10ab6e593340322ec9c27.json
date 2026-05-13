@@ -1,0 +1,316 @@
+{
+  "receipt_guid": "69f10ab6e593340322ec9c27",
+  "shop_brand": null,
+  "analysis": {
+    "document_type": "receipt",
+    "merchant": {
+      "name": "ASPIAG SERVICE S.r.1.",
+      "brand_name": "EUROSPAR",
+      "address": "VIA UDINE, 40 - SPILIMBERGO (PN)",
+      "vat_number": "00882800212",
+      "date": "2026-04-27",
+      "receipt_number": "2790-0127",
+      "notes": ""
+    },
+    "items": [
+      {
+        "description": "PPS-MISTO FUNGHI C/P",
+        "description_full": "Misto funghi",
+        "category": "pantry",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 1.59,
+        "discount": 0.0,
+        "total_price": 1.59,
+        "_catalog_method": "fuzzy",
+        "_catalog_confidence": 0.7,
+        "_gemini_original": "Preparato Misto Funghi Con Prezzemolo",
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 26,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 26,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "LATTE ZYMIL ML.500",
+        "description_full": "Latte Zymil 500ml",
+        "category": "dairy",
+        "quantity": 6.0,
+        "unit_of_measure": "pz",
+        "unit_price": 1.19,
+        "discount": 0.0,
+        "total_price": 7.14,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": "8002580007372",
+        "is_promo_item": false,
+        "match_confidence": 74,
+        "promo_match": {
+          "publisher_guid": "68f0f6bb00cc667d09dd07fe",
+          "product_guid": "69314a856f6ada34183f7084",
+          "product_name": "Buono Digeribile 100% Latte d'Italia",
+          "brand_name": "Zymil",
+          "match_confidence": 74,
+          "size_conflict": null,
+          "price_conflict": true
+        },
+        "match_signals": {
+          "brand": "MATCH",
+          "text": "HIGH",
+          "text_score": 100,
+          "variant": "MATCH",
+          "variant_jw": 1.0,
+          "price": "CONFLICT",
+          "size": "UNKNOWN",
+          "category": "OK",
+          "decision": "AMBIGUOUS"
+        }
+      },
+      {
+        "description": "SCONTO",
+        "description_full": "Sconto",
+        "category": "other",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": -0.72,
+        "discount": 0.0,
+        "total_price": -0.72,
+        "_catalog_method": "gemini_only",
+        "_catalog_confidence": 0.85,
+        "_alignment_override": true,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 0,
+        "promo_match": null
+      },
+      {
+        "description": "SHOPPER GRANDE",
+        "description_full": "Shopper Grande",
+        "category": "home_care",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 0.2,
+        "discount": 0.0,
+        "total_price": 0.2,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 24,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 24,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "CONFLICT",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "PANEAL LATTE CF",
+        "description_full": "Panealba al Latte Confezione",
+        "category": "bakery",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 0.94,
+        "discount": 0.0,
+        "total_price": 0.94,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 30,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 30,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "INCOMPATIBLE"
+        }
+      },
+      {
+        "description": "GRISBI VEGAN GIAND",
+        "description_full": "Grisbi Vegan Gianduia",
+        "category": "bakery",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 1.69,
+        "discount": 0.0,
+        "total_price": 1.69,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": "8000350008130",
+        "is_promo_item": true,
+        "match_confidence": 100,
+        "promo_match": {
+          "publisher_guid": "68dd28b454c085c2c77c7ac1",
+          "product_guid": "68e9392bec4f0a74a0f2c07c",
+          "product_name": "Grisbì Vegan Gianduia",
+          "brand_name": "Grisbì",
+          "match_confidence": 100,
+          "size_conflict": null,
+          "price_conflict": null
+        },
+        "match_signals": {
+          "brand": "MATCH",
+          "text": "HIGH",
+          "text_score": 100,
+          "variant": "MATCH",
+          "variant_jw": 1.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK",
+          "decision": "PROMO_FOUND"
+        }
+      },
+      {
+        "description": "YOG. G+G S/LATT.MILA",
+        "description_full": "Yogurt senza lattosio",
+        "category": "dairy",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 1.09,
+        "discount": 0.0,
+        "total_price": 1.09,
+        "_catalog_method": "fuzzy",
+        "_catalog_confidence": 0.7,
+        "_gemini_original": "Yogurt Granarolo Senza Lattosio Mirtillo",
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 25,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 25,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "M&M'S ARACHIDI G.45",
+        "description_full": "M&M's Arachidi 45g",
+        "category": "pantry",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 1.19,
+        "discount": 0.0,
+        "total_price": 1.19,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 26,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 26,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "CONFLICT",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "TENERA TENERA GR150",
+        "description_full": "Tenera Tenera 150g",
+        "category": "bakery",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 1.19,
+        "discount": 0.0,
+        "total_price": 1.19,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 28,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 28,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      }
+    ],
+    "totals": {
+      "total_amount": 14.31,
+      "tax_amount": 0.79,
+      "item_count": 13
+    },
+    "quality_flags": []
+  },
+  "promo_status": "PROMO_FOUND",
+  "metadata": {
+    "version": "2.1.0+bbfe08e",
+    "pars_dt": "2026-04-28T19:30:56.296+00:00",
+    "processing_status": "CLEAN",
+    "flags": [],
+    "preprocessing": [
+      {
+        "image_index": 0,
+        "tile_index": 0,
+        "steps": [
+          "THRESHOLD(contrast=42,bright=127)"
+        ],
+        "stats": {
+          "mean_brightness": 127.3,
+          "std_brightness": 20.5,
+          "noise_level": 167.0,
+          "skew_angle": 0.0,
+          "avg_saturation": 49.0,
+          "width": 1920,
+          "height": 2560,
+          "contrast_ratio": 42.0,
+          "is_bimodal": false,
+          "histogram_clipping": 0.007,
+          "content_coverage": 0.48,
+          "applied_steps": [
+            "THRESHOLD(contrast=42,bright=127)"
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_token_count": 6530,
+      "candidates_token_count": 971,
+      "total_token_count": 10661,
+      "thinking_token_count": 3160
+    },
+    "cost_info": {
+      "total_cost": 0.0043865,
+      "model_name": "Gemini 2.5 Flash",
+      "input_cost": 0.001959,
+      "output_cost": 0.0024275000000000004
+    },
+    "retry_count": 0,
+    "validation_errors": [],
+    "is_valid": true
+  }
+}

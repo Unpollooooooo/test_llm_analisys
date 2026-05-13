@@ -1,0 +1,242 @@
+{
+  "receipt_guid": "69ec908a3da34a89f7054dc1",
+  "shop_brand": null,
+  "analysis": {
+    "document_type": "receipt",
+    "merchant": {
+      "name": "ESSELUNGA S.P.A.",
+      "brand_name": "Esselunga",
+      "address": "Via Borgo Palazzo n. 217 - BERGAMO",
+      "vat_number": "04916380159",
+      "date": "2026-04-25",
+      "receipt_number": "2787-0058",
+      "notes": ""
+    },
+    "items": [
+      {
+        "description": "SHOPPER",
+        "description_full": "Shopper",
+        "category": "other",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 0.1,
+        "discount": 0.0,
+        "total_price": 0.1,
+        "_catalog_method": "gemini_only",
+        "_catalog_confidence": 0.4,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 0,
+        "promo_match": null
+      },
+      {
+        "description": "PIZZETTE AL POMODORO",
+        "description_full": "Pizzette al Pomodoro",
+        "category": "bakery",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 2.77,
+        "discount": 0.0,
+        "total_price": 2.77,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 29,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 29,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "INTEGRALE CON SEGALE",
+        "description_full": "Pane Integrale con Segale",
+        "category": "bakery",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 2.17,
+        "discount": 0.0,
+        "total_price": 2.17,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 35,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 35,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "POLPO PULITO",
+        "description_full": "Polpo Pulito",
+        "category": "meat_fish",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 14.92,
+        "discount": 0.0,
+        "total_price": 14.92,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 45,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 45,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "NPSACCHETTO COMPOST.LE",
+        "description_full": "NPSACCHETTO COMPOST LE",
+        "category": "other",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 0.01,
+        "discount": 0.0,
+        "total_price": 0.01,
+        "_catalog_method": "cache",
+        "_catalog_confidence": 0.7,
+        "_gemini_original": "Sacchetto Compostabile",
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 28,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 28,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "CONFLICT",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "B.AD. SCAMONE PEPE",
+        "description_full": "Scamone al Pepe",
+        "category": "meat_fish",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 5.76,
+        "discount": 0.0,
+        "total_price": 5.76,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 26,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 26,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "INCOMPATIBLE"
+        }
+      },
+      {
+        "description": "CAROTINE AL VAPORE",
+        "description_full": "Carotine al Vapore",
+        "category": "produce",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 3.56,
+        "discount": 0.0,
+        "total_price": 3.56,
+        "_catalog_method": "gemini_only",
+        "_catalog_confidence": 0.85,
+        "_alignment_override": true,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 28,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 28,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "INCOMPATIBLE"
+        }
+      }
+    ],
+    "totals": {
+      "total_amount": 29.27,
+      "tax_amount": 2.55,
+      "item_count": null
+    }
+  },
+  "promo_status": "NO_PROMO",
+  "metadata": {
+    "version": "2.0.0+6c131bf",
+    "pars_dt": "2026-04-25T10:00:27.336+00:00",
+    "processing_status": "CLEAN",
+    "flags": [],
+    "preprocessing": [
+      {
+        "image_index": 0,
+        "tile_index": 0,
+        "steps": [
+          "CLAHE(std=35,clip=0.00)"
+        ],
+        "stats": {
+          "mean_brightness": 121.1,
+          "std_brightness": 34.7,
+          "noise_level": 171.0,
+          "skew_angle": 0.0,
+          "avg_saturation": 65.1,
+          "width": 1920,
+          "height": 2560,
+          "contrast_ratio": 100.0,
+          "is_bimodal": true,
+          "histogram_clipping": 0.001,
+          "content_coverage": 0.4,
+          "applied_steps": [
+            "CLAHE(std=35,clip=0.00)"
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_token_count": 6283,
+      "candidates_token_count": 689,
+      "total_token_count": 8727,
+      "thinking_token_count": 1755
+    },
+    "cost_info": {
+      "total_cost": 0.0036074,
+      "model_name": "Gemini 2.5 Flash",
+      "input_cost": 0.0018849,
+      "output_cost": 0.0017225
+    },
+    "retry_count": 0
+  }
+}

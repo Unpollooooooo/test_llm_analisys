@@ -1,0 +1,176 @@
+{
+  "receipt_guid": "69e6399186e5b64551ba041b",
+  "shop_brand": null,
+  "analysis": {
+    "document_type": "receipt",
+    "merchant": {
+      "name": "TIGOTA",
+      "brand_name": "Tigota",
+      "address": "Strada SP1 per Mantova 46041-Asola(MN)",
+      "vat_number": "02466210289",
+      "date": "2026-04-20",
+      "receipt_number": "2705-0004",
+      "notes": ""
+    },
+    "items": [
+      {
+        "description": "AMEN DEO FR.ACT.S",
+        "description_full": "Amen",
+        "category": "personal_care",
+        "quantity": 1,
+        "unit_of_measure": "pz",
+        "unit_price": 2.68,
+        "discount": 0,
+        "total_price": 2.68,
+        "_catalog_method": "fuzzy",
+        "_catalog_confidence": 0.7,
+        "_gemini_original": "Uomo Deodorante Fresh Active Spray",
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 23,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 23,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "INCOMPATIBLE"
+        }
+      },
+      {
+        "description": "AMEN DEO FR.SENS.",
+        "description_full": "Amen",
+        "category": "personal_care",
+        "quantity": 1,
+        "unit_of_measure": "pz",
+        "unit_price": 2.68,
+        "discount": 0,
+        "total_price": 2.68,
+        "_catalog_method": "fuzzy",
+        "_catalog_confidence": 0.7,
+        "_gemini_original": "Uomo Deodorante Fresh Sensitive",
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 23,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 23,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "INCOMPATIBLE"
+        }
+      },
+      {
+        "description": "AMEN DEO DRY IMP.",
+        "description_full": "Uomo Deodorante Dry Impact",
+        "category": "personal_care",
+        "quantity": 1,
+        "unit_of_measure": "pz",
+        "unit_price": 2.68,
+        "discount": 0,
+        "total_price": 2.68,
+        "_catalog_method": "gemini_only",
+        "_catalog_confidence": 0.85,
+        "_alignment_override": true,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 29,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 29,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "INCOMPATIBLE"
+        }
+      },
+      {
+        "description": "MEN DEO FR. 48H SP",
+        "description_full": "Uomo Deodorante Fresh 48H Spray",
+        "category": "personal_care",
+        "quantity": 1,
+        "unit_of_measure": "pz",
+        "unit_price": 2.89,
+        "discount": 0,
+        "total_price": 2.89,
+        "_catalog_method": "gemini_only",
+        "_catalog_confidence": 0.85,
+        "_alignment_override": true,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 28,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 28,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "MATCH",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      }
+    ],
+    "totals": {
+      "total_amount": 10.93,
+      "tax_amount": 1.97,
+      "item_count": null
+    }
+  },
+  "promo_status": "NO_PROMO",
+  "metadata": {
+    "version": "2.0.0+6c131bf",
+    "pars_dt": "2026-04-20T14:35:21.951+00:00",
+    "processing_status": "CLEAN",
+    "flags": [],
+    "preprocessing": [
+      {
+        "image_index": 0,
+        "tile_index": 0,
+        "steps": [
+          "GRAYSCALE(sat=25)"
+        ],
+        "stats": {
+          "mean_brightness": 170.9,
+          "std_brightness": 41.2,
+          "noise_level": 139.0,
+          "skew_angle": 0.0,
+          "avg_saturation": 24.6,
+          "width": 1274,
+          "height": 1872,
+          "contrast_ratio": 137.0,
+          "is_bimodal": false,
+          "histogram_clipping": 0.0,
+          "content_coverage": 0.92,
+          "applied_steps": [
+            "GRAYSCALE(sat=25)"
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_token_count": 4735,
+      "candidates_token_count": 589,
+      "total_token_count": 6323,
+      "thinking_token_count": 999
+    },
+    "cost_info": {
+      "total_cost": 0.0028929999999999997,
+      "model_name": "Gemini 2.5 Flash",
+      "input_cost": 0.0014204999999999999,
+      "output_cost": 0.0014725
+    },
+    "retry_count": 0
+  }
+}

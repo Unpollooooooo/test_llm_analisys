@@ -1,0 +1,146 @@
+{
+  "receipt_guid": "69e3cce62bfcf6b2e630e4bf",
+  "shop_brand": null,
+  "analysis": {
+    "document_type": "receipt",
+    "merchant": {
+      "name": "FARMACIA DEL GIARDINO S.R.L.",
+      "brand_name": "Lafarmacia.",
+      "address": "VIA DELLE BETULLE, 3 20090 CESANO BOSCONE (MI)",
+      "vat_number": "04868730963",
+      "date": "2026-04-18",
+      "receipt_number": "2127-0025",
+      "notes": ""
+    },
+    "items": [
+      {
+        "description": "FARMACO 023181023",
+        "description_full": "Farmaco 023181023",
+        "category": "other",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 13.91,
+        "discount": 0.0,
+        "total_price": 13.91,
+        "_catalog_method": "gemini_only",
+        "_catalog_confidence": 0.4,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 25,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 25,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "MATCH",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "FARMACO 025980071",
+        "description_full": "Farmaco 025980071",
+        "category": "other",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 10.45,
+        "discount": 0.0,
+        "total_price": 10.45,
+        "_catalog_method": "gemini_only",
+        "_catalog_confidence": 0.4,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 25,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 25,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "PARAFARMACO 950038442",
+        "description_full": "Parafarmaco 950038442",
+        "category": "other",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 16.45,
+        "discount": 0.0,
+        "total_price": 16.45,
+        "_catalog_method": "gemini_only",
+        "_catalog_confidence": 0.4,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 25,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 25,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      }
+    ],
+    "totals": {
+      "total_amount": 40.81,
+      "tax_amount": 3.71,
+      "item_count": null
+    }
+  },
+  "promo_status": "NO_PROMO",
+  "metadata": {
+    "version": "2.0.0+6c131bf",
+    "pars_dt": "2026-04-18T18:27:23.423+00:00",
+    "processing_status": "CLEAN",
+    "flags": [],
+    "preprocessing": [
+      {
+        "image_index": 0,
+        "tile_index": 0,
+        "steps": [
+          "CLAHE(std=34,clip=0.01)"
+        ],
+        "stats": {
+          "mean_brightness": 163.0,
+          "std_brightness": 34.4,
+          "noise_level": 123.0,
+          "skew_angle": 0.0,
+          "avg_saturation": 105.0,
+          "width": 1920,
+          "height": 2560,
+          "contrast_ratio": 103.0,
+          "is_bimodal": true,
+          "histogram_clipping": 0.008,
+          "content_coverage": 0.36,
+          "applied_steps": [
+            "CLAHE(std=34,clip=0.01)"
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_token_count": 6283,
+      "candidates_token_count": 542,
+      "total_token_count": 7920,
+      "thinking_token_count": 1095
+    },
+    "cost_info": {
+      "total_cost": 0.0032399,
+      "model_name": "Gemini 2.5 Flash",
+      "input_cost": 0.0018849,
+      "output_cost": 0.001355
+    },
+    "retry_count": 0
+  }
+}

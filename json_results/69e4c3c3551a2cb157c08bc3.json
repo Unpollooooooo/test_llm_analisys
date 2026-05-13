@@ -1,0 +1,148 @@
+{
+  "receipt_guid": "69e4c3c3551a2cb157c08bc3",
+  "shop_brand": null,
+  "analysis": {
+    "document_type": "receipt",
+    "merchant": {
+      "name": "MD SpA a Socio Unico",
+      "brand_name": "MD",
+      "address": "Via Papa Giovanni XXIII Capriate San Gervasio - 24042 (BG)",
+      "vat_number": "03185210618",
+      "date": "2026-04-19",
+      "receipt_number": "2497-0096",
+      "notes": ""
+    },
+    "items": [
+      {
+        "description": "ALLUMINIO 30 MT",
+        "description_full": "Alluminio 30 Metri",
+        "category": "home_care",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 2.99,
+        "discount": 0.0,
+        "total_price": 2.99,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 26,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 26,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "BIS TEGLIE RETT 25*19/30*2",
+        "description_full": "BIS TEGLIE RETT 25*19 30*2",
+        "category": "home_care",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 6.99,
+        "discount": 0.0,
+        "total_price": 6.99,
+        "_catalog_method": "abbreviation",
+        "_catalog_confidence": 0.7,
+        "_gemini_original": "Bis Teglie Rettangolari 25x19/30x2",
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 24,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 24,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "TEGLIA RETTANGOLARE 40*30C",
+        "description_full": "Teglia Rettangolare 40x30 Centimetri",
+        "category": "home_care",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 9.99,
+        "discount": 0.0,
+        "total_price": 9.99,
+        "_catalog_method": "gemini_only",
+        "_catalog_confidence": 0.4,
+        "_alignment_override": true,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 27,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 27,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      }
+    ],
+    "totals": {
+      "total_amount": 19.97,
+      "tax_amount": 3.6,
+      "item_count": 3
+    }
+  },
+  "promo_status": "NO_PROMO",
+  "metadata": {
+    "version": "2.0.0+6c131bf",
+    "pars_dt": "2026-04-19T12:00:36.247+00:00",
+    "processing_status": "CLEAN",
+    "flags": [],
+    "preprocessing": [
+      {
+        "image_index": 0,
+        "tile_index": 0,
+        "steps": [
+          "GRAYSCALE(sat=18)"
+        ],
+        "stats": {
+          "mean_brightness": 181.3,
+          "std_brightness": 42.1,
+          "noise_level": 269.0,
+          "skew_angle": 0.0,
+          "avg_saturation": 18.1,
+          "width": 1032,
+          "height": 3556,
+          "contrast_ratio": 153.0,
+          "is_bimodal": false,
+          "histogram_clipping": 0.006,
+          "content_coverage": 0.76,
+          "applied_steps": [
+            "GRAYSCALE(sat=18)"
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_token_count": 6283,
+      "candidates_token_count": 427,
+      "total_token_count": 8100,
+      "thinking_token_count": 1390
+    },
+    "cost_info": {
+      "total_cost": 0.0029524,
+      "model_name": "Gemini 2.5 Flash",
+      "input_cost": 0.0018849,
+      "output_cost": 0.0010675
+    },
+    "retry_count": 0
+  }
+}

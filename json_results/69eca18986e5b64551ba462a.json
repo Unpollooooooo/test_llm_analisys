@@ -1,0 +1,359 @@
+{
+  "receipt_guid": "69eca18986e5b64551ba462a",
+  "shop_brand": null,
+  "analysis": {
+    "document_type": "receipt",
+    "merchant": {
+      "name": "Supermercati Gescar S.r.l.",
+      "brand_name": "Supermercati Gescar",
+      "address": "Via Caprile, 9/B 80056 Ercolano (NA)",
+      "vat_number": "07018351218",
+      "date": "2026-04-25",
+      "receipt_number": "24-14100058",
+      "notes": ""
+    },
+    "items": [
+      {
+        "description": "BAELINESI 99/PZ",
+        "description_full": "BAELINESI 99 PZ",
+        "category": "other",
+        "quantity": 2.0,
+        "unit_of_measure": "pz",
+        "unit_price": 1.99,
+        "discount": 0.0,
+        "total_price": 3.98,
+        "_catalog_method": "abbreviation",
+        "_catalog_confidence": 0.7,
+        "_gemini_original": "BAELINESI 99/PZ",
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 24,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 24,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "NEW PARMALAT ZYMIL ALT.",
+        "description_full": "New Parmalat Zymil Alta Digeribilità",
+        "category": "dairy",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 1.1,
+        "discount": 0.0,
+        "total_price": 1.1,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": "8002580007372",
+        "is_promo_item": false,
+        "match_confidence": 74,
+        "promo_match": {
+          "publisher_guid": "68f0f6bb00cc667d09dd07fe",
+          "product_guid": "69314a856f6ada34183f7084",
+          "product_name": "Buono Digeribile 100% Latte d'Italia",
+          "brand_name": "Zymil",
+          "match_confidence": 74,
+          "size_conflict": null,
+          "price_conflict": null
+        },
+        "match_signals": {
+          "brand": "MATCH",
+          "text": "HIGH",
+          "text_score": 86,
+          "variant": "PARTIAL",
+          "variant_jw": 0.641,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK",
+          "decision": "AMBIGUOUS"
+        }
+      },
+      {
+        "description": "BERNA LATTE AQ ML 500",
+        "description_full": "Berna Latte Acqua 500 ml",
+        "category": "dairy",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 2.4,
+        "discount": 0.0,
+        "total_price": 2.4,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 28,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 28,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "MATCH",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "ALI DI POLLO TAKE",
+        "description_full": "Ali di Pollo Take Away",
+        "category": "meat_fish",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 1.45,
+        "discount": 0.0,
+        "total_price": 1.45,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 31,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 31,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "ALI DI POLLO TAKE",
+        "description_full": "Ali di Pollo Take Away",
+        "category": "meat_fish",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 2.4,
+        "discount": 0.0,
+        "total_price": 2.4,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 31,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 31,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "MATCH",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "** FETTINE DI SUINO TA.",
+        "description_full": "Fettine sottilissime di lonza di suino",
+        "category": "meat_fish",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 3.18,
+        "discount": 0.0,
+        "total_price": 3.18,
+        "_catalog_method": "fuzzy",
+        "_catalog_confidence": 0.7,
+        "_gemini_original": "Fettine di Suino Take Away",
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 29,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 29,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "MATCH",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "** IL COLLE PANCET BAR.",
+        "description_full": "Il Colle Pancetta Bar",
+        "category": "meat_fish",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 3.59,
+        "discount": 0.0,
+        "total_price": 3.59,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 30,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 30,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "LENTI PROSCIUTTO COTTO.",
+        "description_full": "Lenti Prosciutto Cotto",
+        "category": "meat_fish",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 3.59,
+        "discount": 0.0,
+        "total_price": 3.59,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 32,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 32,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "TIPO GRANA PADANO 10/1.",
+        "description_full": "Tipo Grana Padano 10/1",
+        "category": "dairy",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 3.59,
+        "discount": 0.0,
+        "total_price": 3.59,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 28,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 28,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "MATCH",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      }
+    ],
+    "totals": {
+      "total_amount": 19.2,
+      "tax_amount": 0.0,
+      "item_count": 9
+    }
+  },
+  "promo_status": "PROMO_AMBIGUOUS",
+  "metadata": {
+    "version": "2.0.0+6c131bf",
+    "pars_dt": "2026-04-25T11:14:05.483+00:00",
+    "processing_status": "CLEAN",
+    "flags": [],
+    "preprocessing": [
+      {
+        "image_index": 0,
+        "tile_index": 0,
+        "steps": [
+          "GRAYSCALE(sat=32)"
+        ],
+        "stats": {
+          "mean_brightness": 159.3,
+          "std_brightness": 42.3,
+          "noise_level": 837.0,
+          "skew_angle": 0.0,
+          "avg_saturation": 32.4,
+          "width": 1920,
+          "height": 3705,
+          "contrast_ratio": 134.0,
+          "is_bimodal": false,
+          "histogram_clipping": 0.004,
+          "content_coverage": 1.0,
+          "applied_steps": [
+            "GRAYSCALE(sat=32)"
+          ]
+        }
+      },
+      {
+        "image_index": 1,
+        "tile_index": 1,
+        "steps": [
+          "GRAYSCALE(sat=25)"
+        ],
+        "stats": {
+          "mean_brightness": 173.1,
+          "std_brightness": 42.7,
+          "noise_level": 1262.0,
+          "skew_angle": 0.0,
+          "avg_saturation": 25.2,
+          "width": 1920,
+          "height": 996,
+          "contrast_ratio": 139.0,
+          "is_bimodal": false,
+          "histogram_clipping": 0.001,
+          "content_coverage": 1.0,
+          "applied_steps": [
+            "GRAYSCALE(sat=25)"
+          ]
+        }
+      },
+      {
+        "image_index": 2,
+        "tile_index": 2,
+        "steps": [
+          "GRAYSCALE(sat=24)"
+        ],
+        "stats": {
+          "mean_brightness": 172.0,
+          "std_brightness": 54.0,
+          "noise_level": 733.0,
+          "skew_angle": 0.0,
+          "avg_saturation": 23.7,
+          "width": 1365,
+          "height": 1515,
+          "contrast_ratio": 178.0,
+          "is_bimodal": false,
+          "histogram_clipping": 0.003,
+          "content_coverage": 0.84,
+          "applied_steps": [
+            "GRAYSCALE(sat=24)"
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_token_count": 3703,
+      "candidates_token_count": 1130,
+      "total_token_count": 11293,
+      "thinking_token_count": 6460
+    },
+    "cost_info": {
+      "total_cost": 0.0039359,
+      "model_name": "Gemini 2.5 Flash",
+      "input_cost": 0.0011109,
+      "output_cost": 0.0028250000000000003
+    },
+    "retry_count": 0
+  }
+}

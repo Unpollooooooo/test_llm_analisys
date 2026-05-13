@@ -1,0 +1,146 @@
+{
+  "receipt_guid": "69edd4c4e593340322ec7a5a",
+  "shop_brand": null,
+  "analysis": {
+    "document_type": "receipt",
+    "merchant": {
+      "name": "FIMI s.r.1",
+      "brand_name": "Conad",
+      "address": "V. Polletrara 47/49 - 00166 Roma",
+      "vat_number": "18008791008",
+      "date": "2026-04-26",
+      "receipt_number": "2483-0062",
+      "notes": ""
+    },
+    "items": [
+      {
+        "description": "P/CARRE BARILLA X16",
+        "description_full": "Pasta Carre Barilla x16",
+        "category": "pantry",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 0.98,
+        "discount": 0.0,
+        "total_price": 0.98,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 32,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 32,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "PR. CRUDO VASCH.CONAD",
+        "description_full": "Prosciutto Crudo Vaschetta Conad",
+        "category": "meat_fish",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 2.49,
+        "discount": 0.0,
+        "total_price": 2.49,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 31,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 31,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "BISC.CONAD NOVELLINO",
+        "description_full": "Biscotti Conad Novellino",
+        "category": "bakery",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 1.39,
+        "discount": 0.0,
+        "total_price": 1.39,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 26,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 26,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      }
+    ],
+    "totals": {
+      "total_amount": 4.85,
+      "tax_amount": 0.39,
+      "item_count": 3
+    }
+  },
+  "promo_status": "NO_PROMO",
+  "metadata": {
+    "version": "2.0.0+6c131bf",
+    "pars_dt": "2026-04-26T09:03:46.233+00:00",
+    "processing_status": "CLEAN",
+    "flags": [],
+    "preprocessing": [
+      {
+        "image_index": 0,
+        "tile_index": 0,
+        "steps": [
+          "GRAYSCALE(sat=28)"
+        ],
+        "stats": {
+          "mean_brightness": 156.2,
+          "std_brightness": 70.0,
+          "noise_level": 74.0,
+          "skew_angle": 0.0,
+          "avg_saturation": 28.5,
+          "width": 1920,
+          "height": 2499,
+          "contrast_ratio": 187.0,
+          "is_bimodal": true,
+          "histogram_clipping": 0.0,
+          "content_coverage": 0.88,
+          "applied_steps": [
+            "GRAYSCALE(sat=28)"
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_token_count": 6283,
+      "candidates_token_count": 503,
+      "total_token_count": 8260,
+      "thinking_token_count": 1474
+    },
+    "cost_info": {
+      "total_cost": 0.0031424,
+      "model_name": "Gemini 2.5 Flash",
+      "input_cost": 0.0018849,
+      "output_cost": 0.0012575000000000002
+    },
+    "retry_count": 0
+  }
+}

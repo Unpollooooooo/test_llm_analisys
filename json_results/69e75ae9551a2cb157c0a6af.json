@@ -1,0 +1,234 @@
+{
+  "receipt_guid": "69e75ae9551a2cb157c0a6af",
+  "shop_brand": null,
+  "analysis": {
+    "document_type": "receipt",
+    "merchant": {
+      "name": "IPERAL SUPERMERCATI SPA",
+      "brand_name": "Iperal",
+      "address": "VIA MARTESANA 67",
+      "vat_number": "11023300962",
+      "date": "2026-04-21",
+      "receipt_number": "9736",
+      "notes": ""
+    },
+    "items": [
+      {
+        "description": "S BENED ACQUA NAT",
+        "description_full": "San Benedetto Acqua Naturale",
+        "category": "beverages",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 1.55,
+        "discount": 0.0,
+        "total_price": 1.55,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 30,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 30,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "INCOMPATIBLE"
+        }
+      },
+      {
+        "description": "SHOPPER BIO SUPER",
+        "description_full": "Shopper Bio Super",
+        "category": "other",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 0.1,
+        "discount": 0.0,
+        "total_price": 0.1,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 24,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 24,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "ZYMIL LATTE CALCIO",
+        "description_full": "Zymil Latte Calcio",
+        "category": "dairy",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 1.95,
+        "discount": 0.39,
+        "total_price": 1.56,
+        "_catalog_method": "gemini_only",
+        "_catalog_confidence": 0.4,
+        "_alignment_override": true,
+        "barcode": "8002580007396",
+        "is_promo_item": true,
+        "match_confidence": 91,
+        "promo_match": {
+          "publisher_guid": "68f0f6bb00cc667d09dd07fe",
+          "product_guid": "69314a856f6ada34183f7085",
+          "product_name": "Gustoso Digeribile 100% Latte d'Italia",
+          "brand_name": "Zymil",
+          "match_confidence": 91,
+          "size_conflict": null,
+          "price_conflict": false
+        },
+        "match_signals": {
+          "brand": "MATCH",
+          "text": "HIGH",
+          "text_score": 91,
+          "variant": "MATCH",
+          "variant_jw": 0.757,
+          "price": "MATCH",
+          "size": "UNKNOWN",
+          "category": "OK",
+          "decision": "PROMO_FOUND"
+        }
+      },
+      {
+        "description": "VITASNELLA THE LIMON",
+        "description_full": "Vitasnella Th\\u00e8 Limone",
+        "category": "beverages",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 1.49,
+        "discount": 0.0,
+        "total_price": 1.49,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 24,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 24,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "MATCH",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "S.BENED SUCCOSO MELA",
+        "description_full": "San Benedetto Succoso Mela",
+        "category": "beverages",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 1.15,
+        "discount": 0.0,
+        "total_price": 1.15,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 27,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 27,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "CARTAMICA.DIGITALE",
+        "description_full": "CARTAMICA DIGITALE",
+        "category": "other",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 0.0,
+        "discount": 0.0,
+        "total_price": 0.0,
+        "_catalog_method": "abbreviation",
+        "_catalog_confidence": 0.7,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 29,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 29,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      }
+    ],
+    "totals": {
+      "total_amount": 5.85,
+      "tax_amount": 0.84,
+      "item_count": 6
+    }
+  },
+  "promo_status": "PROMO_FOUND",
+  "metadata": {
+    "version": "2.0.0+6c131bf",
+    "pars_dt": "2026-04-21T11:10:01.570+00:00",
+    "processing_status": "CLEAN",
+    "flags": [],
+    "preprocessing": [
+      {
+        "image_index": 0,
+        "tile_index": 0,
+        "steps": [
+          "GRAYSCALE(sat=24)"
+        ],
+        "stats": {
+          "mean_brightness": 205.2,
+          "std_brightness": 56.2,
+          "noise_level": 217.0,
+          "skew_angle": 0.0,
+          "avg_saturation": 24.3,
+          "width": 1012,
+          "height": 3705,
+          "contrast_ratio": 189.0,
+          "is_bimodal": false,
+          "histogram_clipping": 0.016,
+          "content_coverage": 0.76,
+          "applied_steps": [
+            "GRAYSCALE(sat=24)"
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_token_count": 6283,
+      "candidates_token_count": 608,
+      "total_token_count": 8223,
+      "thinking_token_count": 1332
+    },
+    "cost_info": {
+      "total_cost": 0.0034048999999999998,
+      "model_name": "Gemini 2.5 Flash",
+      "input_cost": 0.0018849,
+      "output_cost": 0.00152
+    },
+    "retry_count": 0
+  }
+}

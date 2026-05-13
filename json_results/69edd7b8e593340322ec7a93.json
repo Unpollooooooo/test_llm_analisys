@@ -1,0 +1,242 @@
+{
+  "receipt_guid": "69edd7b8e593340322ec7a93",
+  "shop_brand": null,
+  "analysis": {
+    "document_type": "receipt",
+    "merchant": {
+      "name": "MAGAZZINI MAURYS ESSESUD S.R.L.",
+      "brand_name": "Maury's",
+      "address": "VIA CASILIN NORD, KM 136,600 03043 - CASSINO (FR)",
+      "vat_number": "13343151000",
+      "date": "2026-04-25",
+      "receipt_number": "2484-0249",
+      "notes": ""
+    },
+    "items": [
+      {
+        "description": "TRAVERSA HYD 80X180 15PZ",
+        "description_full": "Traversa Idro 80x180 15 Pezzi",
+        "category": "personal_care",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 6.99,
+        "discount": 0.0,
+        "total_price": 6.99,
+        "_catalog_method": "gemini_only",
+        "_catalog_confidence": 0.4,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 25,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 25,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "MATCH",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "TRAVERSA HYD 80X180 15PZ",
+        "description_full": "Traversa Idro 80x180 15 Pezzi",
+        "category": "personal_care",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 6.99,
+        "discount": 0.0,
+        "total_price": 6.99,
+        "_catalog_method": "gemini_only",
+        "_catalog_confidence": 0.4,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 25,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 25,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "MATCH",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "TRAVERSA HYD 80X180 15PZ",
+        "description_full": "Traversa Idro 80x180 15 Pezzi",
+        "category": "personal_care",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 6.99,
+        "discount": 0.0,
+        "total_price": 6.99,
+        "_catalog_method": "gemini_only",
+        "_catalog_confidence": 0.4,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 25,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 25,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "MATCH",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "TRAVERSA HYD 80X180 15PZ",
+        "description_full": "Traversa Idro 80x180 15 Pezzi",
+        "category": "personal_care",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 6.99,
+        "discount": 0.0,
+        "total_price": 6.99,
+        "_catalog_method": "gemini_only",
+        "_catalog_confidence": 0.4,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 25,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 25,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "MATCH",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "TUBO MM 25MT SMART",
+        "description_full": "Tubo Millimetri 25 Metri Smart",
+        "category": "home_care",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 16.99,
+        "discount": 0.0,
+        "total_price": 16.99,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 26,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 26,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "Off fino al 09/05/26",
+        "description_full": "Off fino al 09 05 26",
+        "category": "other",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": -4.09,
+        "discount": 0.0,
+        "total_price": -4.09,
+        "_catalog_method": "abbreviation",
+        "_catalog_confidence": 0.7,
+        "_gemini_original": "Offerta fino al 09/05/2026",
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 26,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 26,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "P/FOTO MM GOOD CM10X10+10X15+",
+        "description_full": "Good",
+        "category": "home_care",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 7.99,
+        "discount": 0.0,
+        "total_price": 7.99,
+        "_catalog_method": "fuzzy",
+        "_catalog_confidence": 0.7,
+        "_gemini_original": "Portafoto Millimetri Good Centimetri 10x10 + 10x15",
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 0,
+        "promo_match": null
+      }
+    ],
+    "totals": {
+      "total_amount": 48.85,
+      "tax_amount": 0.0,
+      "item_count": 6
+    }
+  },
+  "promo_status": "NO_PROMO",
+  "metadata": {
+    "version": "2.0.0+6c131bf",
+    "pars_dt": "2026-04-26T09:16:41.469+00:00",
+    "processing_status": "CLEAN",
+    "flags": [],
+    "preprocessing": [
+      {
+        "image_index": 0,
+        "tile_index": 0,
+        "steps": [
+          "PASSTHROUGH(no preprocessing needed)"
+        ],
+        "stats": {
+          "mean_brightness": 146.9,
+          "std_brightness": 60.2,
+          "noise_level": 397.0,
+          "skew_angle": 0.0,
+          "avg_saturation": 62.6,
+          "width": 1442,
+          "height": 3553,
+          "contrast_ratio": 188.0,
+          "is_bimodal": true,
+          "histogram_clipping": 0.019,
+          "content_coverage": 0.84,
+          "applied_steps": [
+            "PASSTHROUGH(no preprocessing needed)"
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_token_count": 5251,
+      "candidates_token_count": 1052,
+      "total_token_count": 8235,
+      "thinking_token_count": 1932
+    },
+    "cost_info": {
+      "total_cost": 0.0042053,
+      "model_name": "Gemini 2.5 Flash",
+      "input_cost": 0.0015753,
+      "output_cost": 0.0026300000000000004
+    },
+    "retry_count": 0
+  }
+}

@@ -1,0 +1,198 @@
+{
+  "receipt_guid": "69ec6ae23da34a89f7054aec",
+  "shop_brand": null,
+  "analysis": {
+    "document_type": "receipt",
+    "merchant": {
+      "name": "Bricoman Italia Srl",
+      "brand_name": "TECNOMAT",
+      "address": "Via Predda Niedda Str.1 Sassari (SS) 07100",
+      "vat_number": "05602670969",
+      "date": "2026-04-25",
+      "receipt_number": "0685-0053",
+      "notes": ""
+    },
+    "items": [
+      {
+        "description": "IDRO TRASP BOERO RN BCO E BASE BCA 5",
+        "description_full": "Idropittura Trasparente Boero Rinnovamento Bianco e Base Bianca 5 Litri",
+        "category": "home_care",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 23.9,
+        "discount": 0.0,
+        "total_price": 23.9,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": "8003650022103",
+        "is_promo_item": false,
+        "match_confidence": 74,
+        "promo_match": {
+          "publisher_guid": "6939bd34e84bd0409997e7c9",
+          "product_guid": "6939c6789cf06812292571db",
+          "product_name": "Bianco Vivo IdroCaps 10 caps",
+          "brand_name": "Omino Bianco",
+          "match_confidence": 74,
+          "size_conflict": null,
+          "price_conflict": null
+        },
+        "match_signals": {
+          "brand": "MATCH",
+          "text": "MED",
+          "text_score": 75,
+          "variant": "PARTIAL",
+          "variant_jw": 0.64,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK",
+          "decision": "AMBIGUOUS"
+        }
+      },
+      {
+        "description": "NASTRO CARTA mm 36x50 mt GENERICO",
+        "description_full": "Nastro Carta 36mm x 50 metri Generico",
+        "category": "home_care",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 2.45,
+        "discount": 0.0,
+        "total_price": 2.45,
+        "_catalog_method": "gemini_only",
+        "_catalog_confidence": 0.4,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 27,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 27,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "MATCH",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      }
+    ],
+    "totals": {
+      "total_amount": 26.35,
+      "tax_amount": 4.75,
+      "item_count": null
+    }
+  },
+  "promo_status": "PROMO_AMBIGUOUS",
+  "metadata": {
+    "version": "2.0.0+6c131bf",
+    "pars_dt": "2026-04-25T07:19:50.631+00:00",
+    "processing_status": "CLEAN",
+    "flags": [],
+    "preprocessing": [
+      {
+        "image_index": 0,
+        "tile_index": 0,
+        "steps": [
+          "PASSTHROUGH(no preprocessing needed)"
+        ],
+        "stats": {
+          "mean_brightness": 162.8,
+          "std_brightness": 83.2,
+          "noise_level": 473.0,
+          "skew_angle": 0.0,
+          "avg_saturation": 51.7,
+          "width": 1469,
+          "height": 3316,
+          "contrast_ratio": 216.0,
+          "is_bimodal": true,
+          "histogram_clipping": 0.017,
+          "content_coverage": 0.84,
+          "applied_steps": [
+            "PASSTHROUGH(no preprocessing needed)"
+          ]
+        }
+      },
+      {
+        "image_index": 1,
+        "tile_index": 1,
+        "steps": [
+          "PASSTHROUGH(no preprocessing needed)"
+        ],
+        "stats": {
+          "mean_brightness": 172.8,
+          "std_brightness": 45.5,
+          "noise_level": 439.0,
+          "skew_angle": 0.0,
+          "avg_saturation": 45.4,
+          "width": 1509,
+          "height": 984,
+          "contrast_ratio": 170.0,
+          "is_bimodal": true,
+          "histogram_clipping": 0.059,
+          "content_coverage": 0.92,
+          "applied_steps": [
+            "PASSTHROUGH(no preprocessing needed)"
+          ]
+        }
+      },
+      {
+        "image_index": 2,
+        "tile_index": 2,
+        "steps": [
+          "PASSTHROUGH(no preprocessing needed)"
+        ],
+        "stats": {
+          "mean_brightness": 182.9,
+          "std_brightness": 68.2,
+          "noise_level": 104.0,
+          "skew_angle": 0.0,
+          "avg_saturation": 44.6,
+          "width": 1372,
+          "height": 1498,
+          "contrast_ratio": 211.0,
+          "is_bimodal": true,
+          "histogram_clipping": 0.049,
+          "content_coverage": 0.68,
+          "applied_steps": [
+            "PASSTHROUGH(no preprocessing needed)"
+          ]
+        }
+      },
+      {
+        "image_index": 3,
+        "tile_index": 3,
+        "steps": [
+          "PASSTHROUGH(no preprocessing needed)"
+        ],
+        "stats": {
+          "mean_brightness": 166.5,
+          "std_brightness": 50.0,
+          "noise_level": 630.0,
+          "skew_angle": 0.0,
+          "avg_saturation": 46.9,
+          "width": 1518,
+          "height": 1833,
+          "contrast_ratio": 177.0,
+          "is_bimodal": true,
+          "histogram_clipping": 0.03,
+          "content_coverage": 0.64,
+          "applied_steps": [
+            "PASSTHROUGH(no preprocessing needed)"
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_token_count": 3961,
+      "candidates_token_count": 345,
+      "total_token_count": 5253,
+      "thinking_token_count": 947
+    },
+    "cost_info": {
+      "total_cost": 0.0020508,
+      "model_name": "Gemini 2.5 Flash",
+      "input_cost": 0.0011883,
+      "output_cost": 0.0008625000000000001
+    },
+    "retry_count": 0
+  }
+}

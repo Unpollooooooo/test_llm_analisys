@@ -1,0 +1,210 @@
+{
+  "receipt_guid": "69e9140086e5b64551ba2392",
+  "shop_brand": null,
+  "analysis": {
+    "document_type": "receipt",
+    "merchant": {
+      "name": "FRATELLI ARENA S.R.L.",
+      "brand_name": "Maxistore Deco",
+      "address": "VIA ROSSINI, SN 98076 SANT AGATA DI MILITELLO (ME)",
+      "vat_number": "00097560866",
+      "date": "2026-04-18",
+      "receipt_number": "2354-0009",
+      "notes": ""
+    },
+    "items": [
+      {
+        "description": "TER ARENA FAR.MAIORCA T1",
+        "description_full": "Terra Arena Farina Maiorca Tipo 1",
+        "category": "pantry",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 2.99,
+        "discount": 0.0,
+        "total_price": 2.99,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 28,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 28,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "GIGLIO ORO OLIO SEMI GIR. LT.1",
+        "description_full": "Giglio Oro Olio Semi Girasole 1 Litro",
+        "category": "pantry",
+        "quantity": 1.0,
+        "unit_of_measure": "l",
+        "unit_price": 2.99,
+        "discount": 0.0,
+        "total_price": 2.99,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 37,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 37,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "MATCH",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "BUITONI P.SFOGLIA ROT.GR. 230#",
+        "description_full": "Buitoni Pasta Sfoglia Rotonda Grande 230g",
+        "category": "pantry",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 1.29,
+        "discount": 0.0,
+        "total_price": 1.29,
+        "_catalog_method": "gemini_only",
+        "_catalog_confidence": 0.54,
+        "_alignment_override": true,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 28,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 28,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "AIA WUDY CLASSICO P/T GR. 125",
+        "description_full": "AIA Wudy Classico Petto di Tacchino 125g",
+        "category": "meat_fish",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 0.99,
+        "discount": 0.0,
+        "total_price": 0.99,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": "8008110002015",
+        "is_promo_item": true,
+        "match_confidence": 90,
+        "promo_match": {
+          "publisher_guid": "6720a75bc522bbb00d0651a0",
+          "product_guid": "6722453f56329e8499ff2154",
+          "product_name": "Wudy AIA Snack",
+          "brand_name": "Wudy",
+          "match_confidence": 90,
+          "size_conflict": null,
+          "price_conflict": false
+        },
+        "match_signals": {
+          "brand": "MATCH",
+          "text": "HIGH",
+          "text_score": 90,
+          "variant": "MATCH",
+          "variant_jw": 0.775,
+          "price": "MATCH",
+          "size": "UNKNOWN",
+          "category": "OK",
+          "decision": "PROMO_FOUND"
+        }
+      },
+      {
+        "description": "IBIS COTTO NAZ.CUOR DI NATURA",
+        "description_full": "Ibis Cotto Nazionale Cuor di Natura",
+        "category": "meat_fish",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 5.83,
+        "discount": 0.0,
+        "total_price": 5.83,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 31,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 31,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      }
+    ],
+    "totals": {
+      "total_amount": 14.09,
+      "tax_amount": 0.97,
+      "item_count": 5
+    }
+  },
+  "promo_status": "PROMO_FOUND",
+  "metadata": {
+    "version": "2.0.0+6c131bf",
+    "pars_dt": "2026-04-22T18:31:58.712+00:00",
+    "processing_status": "CLEAN",
+    "flags": [],
+    "preprocessing": [
+      {
+        "image_index": 0,
+        "tile_index": 0,
+        "steps": [
+          "GRAYSCALE(sat=11)",
+          "CLAHE(std=31,clip=0.00)"
+        ],
+        "stats": {
+          "mean_brightness": 152.8,
+          "std_brightness": 31.4,
+          "noise_level": 466.0,
+          "skew_angle": 0.0,
+          "avg_saturation": 10.8,
+          "width": 980,
+          "height": 2560,
+          "contrast_ratio": 109.0,
+          "is_bimodal": false,
+          "histogram_clipping": 0.0,
+          "content_coverage": 0.76,
+          "applied_steps": [
+            "GRAYSCALE(sat=11)",
+            "CLAHE(std=31,clip=0.00)"
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_token_count": 5251,
+      "candidates_token_count": 625,
+      "total_token_count": 7242,
+      "thinking_token_count": 1366
+    },
+    "cost_info": {
+      "total_cost": 0.0031378,
+      "model_name": "Gemini 2.5 Flash",
+      "input_cost": 0.0015753,
+      "output_cost": 0.0015625
+    },
+    "retry_count": 0
+  }
+}

@@ -1,0 +1,364 @@
+{
+  "receipt_guid": "69eb80773da34a89f70543aa",
+  "shop_brand": null,
+  "analysis": {
+    "document_type": "receipt",
+    "merchant": {
+      "name": "GLOBAL INGROSS SPA",
+      "brand_name": "CENTER CASA",
+      "address": "VIA PAPA GIOVANNI PAOLO II, 5 36020 CASSOLA VI",
+      "vat_number": "03071930279",
+      "date": "2026-04-24",
+      "receipt_number": "2239-0054",
+      "notes": ""
+    },
+    "items": [
+      {
+        "description": "Servizio gentilmente da Sig. OP.13",
+        "description_full": "Servizio gentilmente da Sig OP 13",
+        "category": "other",
+        "quantity": 1,
+        "unit_of_measure": "pz",
+        "unit_price": 1.4,
+        "discount": 0,
+        "total_price": 1.4,
+        "_catalog_method": "abbreviation",
+        "_catalog_confidence": 0.7,
+        "_gemini_original": "Servizio gentilmente da Signore OP.13",
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 27,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 27,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "2 CANNETE DM210 METAL",
+        "description_full": "2 Cannete DM210 Metal",
+        "category": "home_care",
+        "quantity": 1,
+        "unit_of_measure": "pz",
+        "unit_price": 3.3,
+        "discount": 0,
+        "total_price": 3.3,
+        "_catalog_method": "gemini_only",
+        "_catalog_confidence": 0.4,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 26,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 26,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "MATCH",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "VASO VERONA D70 ANTR. X",
+        "description_full": "Vaso Verona D70 Antracite",
+        "category": "home_care",
+        "quantity": 1,
+        "unit_of_measure": "pz",
+        "unit_price": 6.8,
+        "discount": 0,
+        "total_price": 6.8,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 26,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 26,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "RIC.ASS. 3X450GR",
+        "description_full": "Ricambio Assortito 3x450gr",
+        "category": "home_care",
+        "quantity": 1,
+        "unit_of_measure": "pz",
+        "unit_price": 3.3,
+        "discount": 0,
+        "total_price": 3.3,
+        "_catalog_method": "gemini_only",
+        "_catalog_confidence": 0.63,
+        "_alignment_override": true,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 28,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 28,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "MATCH",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "SOTTOVASO CILINDRO D.",
+        "description_full": "SOTTOVASO CILINDRO D",
+        "category": "home_care",
+        "quantity": 1,
+        "unit_of_measure": "pz",
+        "unit_price": 1.5,
+        "discount": 0,
+        "total_price": 1.5,
+        "_catalog_method": "abbreviation",
+        "_catalog_confidence": 0.7,
+        "_gemini_original": "Sottovaso Cilindro",
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 27,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 27,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "A.8607 FEMMINA 1/2 TU",
+        "description_full": "A 8607 FEMMINA 1 2 TU",
+        "category": "home_care",
+        "quantity": 1,
+        "unit_of_measure": "pz",
+        "unit_price": 2.9,
+        "discount": 0,
+        "total_price": 2.9,
+        "_catalog_method": "abbreviation",
+        "_catalog_confidence": 0.7,
+        "_gemini_original": "A.8607 Femmina 1/2 Tubo",
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 24,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 24,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "MATCH",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "DEUMIDIFICATORE 250Z",
+        "description_full": "Deumidificatore 250g",
+        "category": "home_care",
+        "quantity": 1,
+        "unit_of_measure": "pz",
+        "unit_price": 4.9,
+        "discount": 0,
+        "total_price": 4.9,
+        "_catalog_method": "gemini_only",
+        "_catalog_confidence": 0.4,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 24,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 24,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "MATCH",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "TORCE TRADIZIONALE",
+        "description_full": "Torce Tradizionale",
+        "category": "home_care",
+        "quantity": 1,
+        "unit_of_measure": "pz",
+        "unit_price": 9.9,
+        "discount": 0,
+        "total_price": 9.9,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 32,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 32,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "REFILL SALVIA E SCOR",
+        "description_full": "Refill Salvia e Scorza",
+        "category": "home_care",
+        "quantity": 1,
+        "unit_of_measure": "pz",
+        "unit_price": 13.5,
+        "discount": 0,
+        "total_price": 13.5,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 26,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 26,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "TAGLIERE ITALIAN CHE",
+        "description_full": "Tagliere Italiano Chef",
+        "category": "home_care",
+        "quantity": 1,
+        "unit_of_measure": "pz",
+        "unit_price": 5.5,
+        "discount": 0,
+        "total_price": 5.5,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": "8002580015971",
+        "is_promo_item": false,
+        "match_confidence": 49,
+        "promo_match": {
+          "publisher_guid": "68f0f6bb00cc667d09dd07fe",
+          "product_guid": "69314a846f6ada34183f7060",
+          "product_name": "Panna al Salmone",
+          "brand_name": "Chef",
+          "match_confidence": 49,
+          "size_conflict": null,
+          "price_conflict": null
+        },
+        "match_signals": {
+          "brand": "MATCH",
+          "text": "MED",
+          "text_score": 74,
+          "variant": "MATCH",
+          "variant_jw": 0.75,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "INCOMPATIBLE",
+          "decision": "NO_PROMO"
+        }
+      }
+    ],
+    "totals": {
+      "total_amount": 40.8,
+      "tax_amount": 7.36,
+      "item_count": null
+    }
+  },
+  "promo_status": "NO_PROMO",
+  "metadata": {
+    "version": "2.0.0+6c131bf",
+    "pars_dt": "2026-04-24T14:40:47.963+00:00",
+    "processing_status": "CLEAN",
+    "flags": [],
+    "preprocessing": [
+      {
+        "image_index": 0,
+        "tile_index": 0,
+        "steps": [
+          "DESKEW(angle=-3.0°)"
+        ],
+        "stats": {
+          "mean_brightness": 161.0,
+          "std_brightness": 53.4,
+          "noise_level": 616.0,
+          "skew_angle": -3.01,
+          "avg_saturation": 41.8,
+          "width": 839,
+          "height": 2560,
+          "contrast_ratio": 179.0,
+          "is_bimodal": true,
+          "histogram_clipping": 0.036,
+          "content_coverage": 0.76,
+          "applied_steps": [
+            "DESKEW(angle=-3.0°)"
+          ]
+        }
+      },
+      {
+        "image_index": 1,
+        "tile_index": 1,
+        "steps": [
+          "PASSTHROUGH(no preprocessing needed)"
+        ],
+        "stats": {
+          "mean_brightness": 183.5,
+          "std_brightness": 37.2,
+          "noise_level": 371.0,
+          "skew_angle": 0.0,
+          "avg_saturation": 51.5,
+          "width": 671,
+          "height": 2144,
+          "contrast_ratio": 138.0,
+          "is_bimodal": false,
+          "histogram_clipping": 0.014,
+          "content_coverage": 0.8,
+          "applied_steps": [
+            "PASSTHROUGH(no preprocessing needed)"
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_token_count": 3445,
+      "candidates_token_count": 1223,
+      "total_token_count": 10958,
+      "thinking_token_count": 6290
+    },
+    "cost_info": {
+      "total_cost": 0.004091,
+      "model_name": "Gemini 2.5 Flash",
+      "input_cost": 0.0010335,
+      "output_cost": 0.0030575000000000003
+    },
+    "retry_count": 0
+  }
+}

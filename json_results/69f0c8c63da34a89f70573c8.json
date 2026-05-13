@@ -1,0 +1,180 @@
+{
+  "receipt_guid": "69f0c8c63da34a89f70573c8",
+  "shop_brand": null,
+  "analysis": {
+    "document_type": "receipt",
+    "merchant": {
+      "name": "FEMINA PIETRO SRL",
+      "brand_name": "Decò Maxistore",
+      "address": "VIA MADONNA DELLE GRAZIE, 80 SAN MICHELE DI SERINO AVELLINO",
+      "vat_number": "02759300649",
+      "date": "2026-04-28",
+      "receipt_number": "0514-0261",
+      "notes": ""
+    },
+    "items": [
+      {
+        "description": "DANONE DANACOL FRAGOLA 91",
+        "description_full": "Danone Danacol Fragola 91",
+        "category": "dairy",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 3.29,
+        "discount": 0.4,
+        "total_price": 2.89,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 29,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 29,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "DANONE DANACOL FRAGOLA 91",
+        "description_full": "Danone Danacol Fragola 91",
+        "category": "dairy",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 3.29,
+        "discount": 0.4,
+        "total_price": 2.89,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 29,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 29,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "DANONE DANACOL FR.ROSSI 1",
+        "description_full": "Danone Danacol Frutti Rossi 1",
+        "category": "dairy",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 3.29,
+        "discount": 0.4,
+        "total_price": 2.89,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 32,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 32,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "MATCH",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "TENA MEN MEDIUM LEVEL 2 1",
+        "description_full": "Tena Men Medium Level 2 1",
+        "category": "personal_care",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 5.99,
+        "discount": 0.0,
+        "total_price": 5.99,
+        "_catalog_method": "gemini_only",
+        "_catalog_confidence": 0.4,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 33,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 33,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      }
+    ],
+    "totals": {
+      "total_amount": 14.26,
+      "tax_amount": 0.0,
+      "item_count": 4
+    },
+    "quality_flags": []
+  },
+  "promo_status": "NO_PROMO",
+  "metadata": {
+    "version": "2.1.0+bbfe08e",
+    "pars_dt": "2026-04-28T14:49:36.526+00:00",
+    "processing_status": "CLEAN",
+    "flags": [],
+    "preprocessing": [
+      {
+        "image_index": 0,
+        "tile_index": 0,
+        "steps": [
+          "GRAYSCALE(sat=29)"
+        ],
+        "stats": {
+          "mean_brightness": 149.9,
+          "std_brightness": 55.9,
+          "noise_level": 1013.0,
+          "skew_angle": 0.0,
+          "avg_saturation": 29.3,
+          "width": 1896,
+          "height": 996,
+          "contrast_ratio": 162.0,
+          "is_bimodal": true,
+          "histogram_clipping": 0.005,
+          "content_coverage": 1.0,
+          "applied_steps": [
+            "GRAYSCALE(sat=29)"
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_token_count": 4982,
+      "candidates_token_count": 632,
+      "total_token_count": 9035,
+      "thinking_token_count": 3421
+    },
+    "cost_info": {
+      "total_cost": 0.0030746000000000002,
+      "model_name": "Gemini 2.5 Flash",
+      "input_cost": 0.0014946,
+      "output_cost": 0.00158
+    },
+    "retry_count": 0,
+    "validation_errors": [
+      {
+        "code": "NO_PREMIUM_PRODUCTS",
+        "message": "Lo scontrino non contiene prodotti premianti"
+      }
+    ],
+    "is_valid": false
+  }
+}

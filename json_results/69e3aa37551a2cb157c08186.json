@@ -1,0 +1,315 @@
+{
+  "receipt_guid": "69e3aa37551a2cb157c08186",
+  "shop_brand": null,
+  "analysis": {
+    "document_type": "receipt",
+    "merchant": {
+      "name": "SPAZIO CONAD SAN SEVERO SRL",
+      "brand_name": "CONAD",
+      "address": "VIA ZANNOTTI, 200 71016 - SAN SEVERO (FG",
+      "vat_number": "04261410718",
+      "date": "2026-04-18",
+      "receipt_number": "2485-0001",
+      "notes": ""
+    },
+    "items": [
+      {
+        "description": "GENERAL LIQU.COLOR 4",
+        "description_full": "General Liquido Colore 4",
+        "category": "home_care",
+        "quantity": 1,
+        "unit_of_measure": "pz",
+        "unit_price": 11.9,
+        "discount": 3.0,
+        "total_price": 8.9,
+        "_catalog_method": "gemini_only",
+        "_catalog_confidence": 0.63,
+        "_alignment_override": true,
+        "barcode": "8015100572199",
+        "is_promo_item": true,
+        "match_confidence": 93,
+        "promo_match": {
+          "publisher_guid": "6881e7ea7399d1e645b1f38f",
+          "product_guid": "68c81b62b2aa5be08cf548dc",
+          "product_name": "GENERAL Liquido Color Tripacco 57 lav. (3x19)",
+          "brand_name": "General",
+          "match_confidence": 93,
+          "size_conflict": null,
+          "price_conflict": null
+        },
+        "match_signals": {
+          "brand": "MATCH",
+          "text": "HIGH",
+          "text_score": 93,
+          "variant": "MATCH",
+          "variant_jw": 0.983,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK",
+          "decision": "PROMO_FOUND"
+        }
+      },
+      {
+        "description": "C- ZUCCHINE SCURE VASS.",
+        "description_full": "Zucchine Scure Vassoio",
+        "category": "produce",
+        "quantity": 0.912,
+        "unit_of_measure": "kg",
+        "unit_price": 1.59,
+        "discount": 0.0,
+        "total_price": 1.45,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 26,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 26,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "SACCH.BIOD.CONAD C/M",
+        "description_full": "Sacchetti Biodegradabili Conad C/M",
+        "category": "home_care",
+        "quantity": 5,
+        "unit_of_measure": "pz",
+        "unit_price": 0.01,
+        "discount": 0.0,
+        "total_price": 0.05,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 24,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 24,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "*MELANZANE SCURE SF",
+        "description_full": "Melanzane Scure SF",
+        "category": "produce",
+        "quantity": 1,
+        "unit_of_measure": "pz",
+        "unit_price": 2.23,
+        "discount": 0.0,
+        "total_price": 2.23,
+        "_catalog_method": "gemini_only",
+        "_catalog_confidence": 0.85,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 25,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 25,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "INCOMPATIBLE"
+        }
+      },
+      {
+        "description": "*STRAVECCHIO BRANCA L",
+        "description_full": "Stravecchio Branca L",
+        "category": "dairy",
+        "quantity": 3,
+        "unit_of_measure": "pz",
+        "unit_price": 9.49,
+        "discount": 0.0,
+        "total_price": 28.47,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 28,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 28,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "TROTA IRIDEA ALLEVAT",
+        "description_full": "Trota Iridea Allevata",
+        "category": "meat_fish",
+        "quantity": 1,
+        "unit_of_measure": "pz",
+        "unit_price": 18.4,
+        "discount": 0.0,
+        "total_price": 18.4,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 28,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 28,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "FUNGHI CHAMPIGNON SF",
+        "description_full": "Funghi Champignon SF",
+        "category": "produce",
+        "quantity": 1,
+        "unit_of_measure": "pz",
+        "unit_price": 1.42,
+        "discount": 0.0,
+        "total_price": 1.42,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 27,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 27,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "INCOMPATIBLE"
+        }
+      },
+      {
+        "description": "MILLEFOGLIE BOCCONC.",
+        "description_full": "Millefoglie Bocconcini",
+        "category": "bakery",
+        "quantity": 1,
+        "unit_of_measure": "pz",
+        "unit_price": 1.65,
+        "discount": 0.36,
+        "total_price": 1.29,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 26,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 26,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "BUSBANA FR PESCATA I",
+        "description_full": "Busbana Fresca Pescata I",
+        "category": "meat_fish",
+        "quantity": 1,
+        "unit_of_measure": "pz",
+        "unit_price": 4.83,
+        "discount": 0.0,
+        "total_price": 4.83,
+        "_catalog_method": "gemini_only",
+        "_catalog_confidence": 0.52,
+        "_alignment_override": true,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 28,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 28,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      }
+    ],
+    "totals": {
+      "total_amount": 67.04,
+      "tax_amount": 9.18,
+      "item_count": null
+    }
+  },
+  "promo_status": "PROMO_FOUND",
+  "metadata": {
+    "version": "2.0.0+6c131bf",
+    "pars_dt": "2026-04-18T15:59:34.029+00:00",
+    "processing_status": "CLEAN",
+    "flags": [],
+    "preprocessing": [
+      {
+        "image_index": 0,
+        "tile_index": 0,
+        "steps": [
+          "GRAYSCALE(sat=7)",
+          "THRESHOLD(contrast=79,bright=159)"
+        ],
+        "stats": {
+          "mean_brightness": 158.8,
+          "std_brightness": 25.0,
+          "noise_level": 90.0,
+          "skew_angle": 0.0,
+          "avg_saturation": 6.6,
+          "width": 1589,
+          "height": 2560,
+          "contrast_ratio": 79.0,
+          "is_bimodal": false,
+          "histogram_clipping": 0.0,
+          "content_coverage": 0.64,
+          "applied_steps": [
+            "GRAYSCALE(sat=7)",
+            "THRESHOLD(contrast=79,bright=159)"
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_token_count": 6283,
+      "candidates_token_count": 1112,
+      "total_token_count": 9916,
+      "thinking_token_count": 2521
+    },
+    "cost_info": {
+      "total_cost": 0.0046649000000000005,
+      "model_name": "Gemini 2.5 Flash",
+      "input_cost": 0.0018849,
+      "output_cost": 0.0027800000000000004
+    },
+    "retry_count": 0
+  }
+}

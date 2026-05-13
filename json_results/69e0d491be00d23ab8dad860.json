@@ -1,0 +1,146 @@
+{
+  "receipt_guid": "69e0d491be00d23ab8dad860",
+  "shop_brand": null,
+  "analysis": {
+    "document_type": "receipt",
+    "merchant": {
+      "name": "",
+      "brand_name": "",
+      "address": "",
+      "vat_number": "",
+      "date": "",
+      "receipt_number": "",
+      "notes": ""
+    },
+    "items": [
+      {
+        "description": "CAREFREE SALVASLIP BASE 4",
+        "description_full": "Carefree Salvaslip Base 4",
+        "category": "personal_care",
+        "quantity": 1,
+        "unit_of_measure": "pz",
+        "unit_price": 1.89,
+        "discount": 0,
+        "total_price": 1.89,
+        "_catalog_method": "gemini_only",
+        "_catalog_confidence": 0.4,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 31,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 31,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "MISURA PANCAKE FIBREXTRA",
+        "description_full": "Misura Pancake Fibrextra",
+        "category": "bakery",
+        "quantity": 1,
+        "unit_of_measure": "pz",
+        "unit_price": 2.39,
+        "discount": 0,
+        "total_price": 2.39,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 31,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 31,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "ZUCCA TONDA ITA INTERA AL",
+        "description_full": "Zucca Tonda Italiana Intera",
+        "category": "produce",
+        "quantity": 1.878,
+        "unit_of_measure": "kg",
+        "unit_price": 0.99,
+        "discount": 0,
+        "total_price": 1.86,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 29,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 29,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "MATCH",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      }
+    ],
+    "totals": {
+      "total_amount": 6.14,
+      "tax_amount": 0.0,
+      "item_count": null
+    }
+  },
+  "promo_status": "NO_PROMO",
+  "metadata": {
+    "version": "1.0.0+6c131bf",
+    "pars_dt": "2026-04-16T12:23:50.642+00:00",
+    "processing_status": "CLEAN",
+    "flags": [],
+    "preprocessing": [
+      {
+        "image_index": 0,
+        "tile_index": 0,
+        "steps": [
+          "GRAYSCALE(sat=14)"
+        ],
+        "stats": {
+          "mean_brightness": 184.6,
+          "std_brightness": 38.8,
+          "noise_level": 795.0,
+          "skew_angle": 0.0,
+          "avg_saturation": 14.4,
+          "width": 858,
+          "height": 1427,
+          "contrast_ratio": 134.0,
+          "is_bimodal": false,
+          "histogram_clipping": 0.001,
+          "content_coverage": 1.0,
+          "applied_steps": [
+            "GRAYSCALE(sat=14)"
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_token_count": 4735,
+      "candidates_token_count": 424,
+      "total_token_count": 9167,
+      "thinking_token_count": 4008
+    },
+    "cost_info": {
+      "total_cost": 0.0024805,
+      "model_name": "Gemini 2.5 Flash",
+      "input_cost": 0.0014204999999999999,
+      "output_cost": 0.0010600000000000002
+    },
+    "retry_count": 0
+  }
+}

@@ -1,0 +1,94 @@
+{
+  "receipt_guid": "69e7957186e5b64551ba1278",
+  "shop_brand": null,
+  "analysis": {
+    "document_type": "receipt",
+    "merchant": {
+      "name": "YORINI SRL",
+      "brand_name": "MACELLERIA",
+      "address": "P.ZZA FANELLA 23/L TRAVERSETOLO PR",
+      "vat_number": "02152760348",
+      "date": "2025-04-21",
+      "receipt_number": "1814-0003",
+      "notes": ""
+    },
+    "items": [
+      {
+        "description": "IVA 10%",
+        "description_full": "Prodotti vari (IVA 10%)",
+        "category": "meat_fish",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 24.0,
+        "discount": 0.0,
+        "total_price": 24.0,
+        "_catalog_method": "gemini_only",
+        "_catalog_confidence": 0.57,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 23,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 23,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      }
+    ],
+    "totals": {
+      "total_amount": 24.0,
+      "tax_amount": 2.18,
+      "item_count": null
+    }
+  },
+  "promo_status": "NO_PROMO",
+  "metadata": {
+    "version": "2.0.0+6c131bf",
+    "pars_dt": "2026-04-21T15:19:45.208+00:00",
+    "processing_status": "CLEAN",
+    "flags": [],
+    "preprocessing": [
+      {
+        "image_index": 0,
+        "tile_index": 0,
+        "steps": [
+          "PASSTHROUGH(no preprocessing needed)"
+        ],
+        "stats": {
+          "mean_brightness": 176.9,
+          "std_brightness": 56.6,
+          "noise_level": 624.0,
+          "skew_angle": 0.0,
+          "avg_saturation": 41.3,
+          "width": 1188,
+          "height": 2189,
+          "contrast_ratio": 174.0,
+          "is_bimodal": false,
+          "histogram_clipping": 0.0,
+          "content_coverage": 0.96,
+          "applied_steps": [
+            "PASSTHROUGH(no preprocessing needed)"
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_token_count": 4735,
+      "candidates_token_count": 288,
+      "total_token_count": 6166,
+      "thinking_token_count": 1143
+    },
+    "cost_info": {
+      "total_cost": 0.0021405,
+      "model_name": "Gemini 2.5 Flash",
+      "input_cost": 0.0014204999999999999,
+      "output_cost": 0.00072
+    },
+    "retry_count": 0
+  }
+}

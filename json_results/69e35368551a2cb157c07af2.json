@@ -1,0 +1,262 @@
+{
+  "receipt_guid": "69e35368551a2cb157c07af2",
+  "shop_brand": null,
+  "analysis": {
+    "document_type": "receipt",
+    "merchant": {
+      "name": "ERREGICI srl",
+      "brand_name": "CONAD",
+      "address": "Via S.Scervini snc 87041 Acri - CS",
+      "vat_number": "03436650786",
+      "date": "2026-04-18",
+      "receipt_number": "0056-0057",
+      "notes": ""
+    },
+    "items": [
+      {
+        "description": "ROBIOLA NONNO NANNI",
+        "description_full": "Robiola Nonno Nanni Bipack 100g x 2",
+        "category": "dairy",
+        "quantity": 1,
+        "unit_of_measure": "pz",
+        "unit_price": 3.18,
+        "discount": 0.48,
+        "total_price": 2.7,
+        "_catalog_method": "promo_catalog",
+        "_catalog_confidence": 0.7,
+        "_gemini_original": "Robiola Nonno Nanni",
+        "barcode": "8007222406018",
+        "is_promo_item": true,
+        "match_confidence": 85,
+        "promo_match": {
+          "publisher_guid": "68fa6e0f7cb8558c28a80690",
+          "product_guid": "68fa6e99b82c644e33de2b38",
+          "product_name": "Robiola di Capra Nonno Nanni 100g",
+          "brand_name": "Nonno Nanni",
+          "match_confidence": 85,
+          "size_conflict": null,
+          "price_conflict": null
+        },
+        "match_signals": {
+          "brand": "MATCH",
+          "text": "HIGH",
+          "text_score": 85,
+          "variant": "MATCH",
+          "variant_jw": 0.778,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK",
+          "decision": "PROMO_FOUND"
+        }
+      },
+      {
+        "description": "TONNO CALLIPO 80G X3",
+        "description_full": "Tonno Callipo 80g x 3",
+        "category": "pantry",
+        "quantity": 1,
+        "unit_of_measure": "pz",
+        "unit_price": 3.89,
+        "discount": 0.6,
+        "total_price": 3.29,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 31,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 31,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "CONFLICT",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "VASCH.CART.D'OR STRA",
+        "description_full": "Vaschetta Carte d'Or Stracciatella",
+        "category": "dairy",
+        "quantity": 1,
+        "unit_of_measure": "pz",
+        "unit_price": 5.49,
+        "discount": 2.51,
+        "total_price": 2.98,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 30,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 30,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "BE.YOGA ACE ML200X3",
+        "description_full": "Bevanda Yoga ACE 200ml x 3",
+        "category": "beverages",
+        "quantity": 1,
+        "unit_of_measure": "pz",
+        "unit_price": 1.49,
+        "discount": 0.3,
+        "total_price": 1.19,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 29,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 29,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "BASTON.MERL.FINDUS",
+        "description_full": "Bastoncini Merluzzo Findus",
+        "category": "meat_fish",
+        "quantity": 1,
+        "unit_of_measure": "pz",
+        "unit_price": 3.99,
+        "discount": 1.0,
+        "total_price": 2.99,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 41,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 41,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "MATCH",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "BANANE VS.620G BIO C",
+        "description_full": "Banane Biologiche",
+        "category": "produce",
+        "quantity": 1,
+        "unit_of_measure": "pz",
+        "unit_price": 1.89,
+        "discount": 0.0,
+        "total_price": 1.89,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 39,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 39,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "OLIO GIRAS.CONAD 1L",
+        "description_full": "Olio di Girasole Conad 1 Litro",
+        "category": "pantry",
+        "quantity": 1,
+        "unit_of_measure": "pz",
+        "unit_price": 1.79,
+        "discount": 0.0,
+        "total_price": 1.79,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 36,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 36,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "MATCH",
+          "category": "OK"
+        }
+      }
+    ],
+    "totals": {
+      "total_amount": 16.83,
+      "tax_amount": 0.0,
+      "item_count": 8
+    }
+  },
+  "promo_status": "PROMO_FOUND",
+  "metadata": {
+    "version": "2.0.0+6c131bf",
+    "pars_dt": "2026-04-18T09:49:50.093+00:00",
+    "processing_status": "CLEAN",
+    "flags": [],
+    "preprocessing": [
+      {
+        "image_index": 0,
+        "tile_index": 0,
+        "steps": [
+          "GRAYSCALE(sat=28)",
+          "CLAHE(std=26,clip=0.00)"
+        ],
+        "stats": {
+          "mean_brightness": 169.4,
+          "std_brightness": 25.8,
+          "noise_level": 888.0,
+          "skew_angle": 0.0,
+          "avg_saturation": 28.4,
+          "width": 1920,
+          "height": 2560,
+          "contrast_ratio": 82.0,
+          "is_bimodal": false,
+          "histogram_clipping": 0.0,
+          "content_coverage": 1.0,
+          "applied_steps": [
+            "GRAYSCALE(sat=28)",
+            "CLAHE(std=26,clip=0.00)"
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_token_count": 6283,
+      "candidates_token_count": 726,
+      "total_token_count": 12159,
+      "thinking_token_count": 5150
+    },
+    "cost_info": {
+      "total_cost": 0.0036999,
+      "model_name": "Gemini 2.5 Flash",
+      "input_cost": 0.0018849,
+      "output_cost": 0.0018150000000000002
+    },
+    "retry_count": 0
+  }
+}

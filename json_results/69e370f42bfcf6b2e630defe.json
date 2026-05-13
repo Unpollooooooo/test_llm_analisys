@@ -1,0 +1,183 @@
+{
+  "receipt_guid": "69e370f42bfcf6b2e630defe",
+  "shop_brand": null,
+  "analysis": {
+    "document_type": "receipt",
+    "merchant": {
+      "name": "Durantes Vincunt S.R.L unipersonale",
+      "brand_name": "CONAD",
+      "address": "Via Lucania, 13 84098 Pontecagnano (SA)",
+      "vat_number": "04829250655",
+      "date": "2026-04-15",
+      "receipt_number": "0542-0079",
+      "notes": ""
+    },
+    "items": [
+      {
+        "description": "ACQ.FERRARELLE EFF.N",
+        "description_full": "Acqua Ferrarelle Effervescente Naturale",
+        "category": "beverages",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 1.75,
+        "discount": 0.0,
+        "total_price": 1.75,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 27,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 27,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "STRACCHINO NONNO NAN",
+        "description_full": "Stracchino Nonno Nanni",
+        "category": "dairy",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 3.99,
+        "discount": 0.0,
+        "total_price": 3.99,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": "8007222502406",
+        "is_promo_item": true,
+        "match_confidence": 100,
+        "promo_match": {
+          "publisher_guid": "68fa6e0f7cb8558c28a80690",
+          "product_guid": "68fa6e98b82c644e33de2b2c",
+          "product_name": "Stracchino Nonno Nanni con fermenti dello Yogurt 250g",
+          "brand_name": "Nonno Nanni",
+          "match_confidence": 100,
+          "size_conflict": null,
+          "price_conflict": false
+        },
+        "match_signals": {
+          "brand": "MATCH",
+          "text": "HIGH",
+          "text_score": 100,
+          "variant": "MATCH",
+          "variant_jw": 1.0,
+          "price": "MATCH",
+          "size": "UNKNOWN",
+          "category": "OK",
+          "decision": "PROMO_FOUND"
+        }
+      },
+      {
+        "description": "SALAME NAPOLI DOLCE",
+        "description_full": "Salame Napoli Dolce",
+        "category": "meat_fish",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 2.33,
+        "discount": 0.0,
+        "total_price": 2.33,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 33,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 33,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "MATCH",
+          "size": "UNKNOWN",
+          "category": "INCOMPATIBLE"
+        }
+      },
+      {
+        "description": "SHOPP.BIO.RISP.CONAD",
+        "description_full": "Shopper Bio Riutilizzabile Conad",
+        "category": "other",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 0.12,
+        "discount": 0.0,
+        "total_price": 0.12,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 26,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 26,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "CONFLICT",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      }
+    ],
+    "totals": {
+      "total_amount": 8.19,
+      "tax_amount": 0.7,
+      "item_count": null
+    }
+  },
+  "promo_status": "PROMO_FOUND",
+  "metadata": {
+    "version": "2.0.0+6c131bf",
+    "pars_dt": "2026-04-18T11:54:54.857+00:00",
+    "processing_status": "CLEAN",
+    "flags": [],
+    "preprocessing": [
+      {
+        "image_index": 0,
+        "tile_index": 0,
+        "steps": [
+          "GRAYSCALE(sat=30)",
+          "CLAHE(std=33,clip=0.00)"
+        ],
+        "stats": {
+          "mean_brightness": 158.6,
+          "std_brightness": 33.1,
+          "noise_level": 69.0,
+          "skew_angle": 0.0,
+          "avg_saturation": 30.3,
+          "width": 1920,
+          "height": 2560,
+          "contrast_ratio": 111.0,
+          "is_bimodal": false,
+          "histogram_clipping": 0.0,
+          "content_coverage": 0.68,
+          "applied_steps": [
+            "GRAYSCALE(sat=30)",
+            "CLAHE(std=33,clip=0.00)"
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_token_count": 6283,
+      "candidates_token_count": 479,
+      "total_token_count": 7655,
+      "thinking_token_count": 893
+    },
+    "cost_info": {
+      "total_cost": 0.0030824,
+      "model_name": "Gemini 2.5 Flash",
+      "input_cost": 0.0018849,
+      "output_cost": 0.0011975
+    },
+    "retry_count": 0
+  }
+}

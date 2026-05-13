@@ -1,0 +1,205 @@
+{
+  "receipt_guid": "69ede8cf86e5b64551ba4f1d",
+  "shop_brand": null,
+  "analysis": {
+    "document_type": "receipt",
+    "merchant": {
+      "name": "UNICOMM S.R.L.",
+      "brand_name": "Famila",
+      "address": "VIA DEL COMMERCIO 2 CENTO (FE)",
+      "vat_number": "01274580248",
+      "date": "2026-04-26",
+      "receipt_number": "2908-0128",
+      "notes": ""
+    },
+    "items": [
+      {
+        "description": "VERA ACQUA M.NATURAL",
+        "description_full": "Vera Acqua Minerale Naturale",
+        "category": "beverages",
+        "quantity": 6.0,
+        "unit_of_measure": "pz",
+        "unit_price": 0.33,
+        "discount": 0.0,
+        "total_price": 1.98,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 32,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 32,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "INCOMPATIBLE"
+        }
+      },
+      {
+        "description": "COCA COLA ZERO 150CL",
+        "description_full": "Coca Cola Zero 150cl",
+        "category": "beverages",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 2.19,
+        "discount": 0.0,
+        "total_price": 2.19,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 31,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 31,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "MATCH",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "PR. S: DANIELE18M",
+        "description_full": "PR S: DANIELE18M",
+        "category": "meat_fish",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 5.6,
+        "discount": 0.0,
+        "total_price": 5.6,
+        "_catalog_method": "abbreviation",
+        "_catalog_confidence": 0.7,
+        "_gemini_original": "Prosciutto San Daniele 18 Mesi",
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 22,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 22,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "PETTO POLLO FETTE",
+        "description_full": "conad petto di pollo a fette",
+        "category": "meat_fish",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 5.03,
+        "discount": 0.0,
+        "total_price": 5.03,
+        "_catalog_method": "fuzzy",
+        "_catalog_confidence": 0.7,
+        "_gemini_original": "Petto di Pollo a Fette",
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 32,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 32,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "NESQUIK DRINK 3X180",
+        "description_full": "Nesquik Drink 3x180ml",
+        "category": "dairy",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 2.25,
+        "discount": 0.0,
+        "total_price": 2.25,
+        "_catalog_method": "gemini_only",
+        "_catalog_confidence": 0.85,
+        "_alignment_override": true,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 28,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 28,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      }
+    ],
+    "totals": {
+      "total_amount": 17.05,
+      "tax_amount": 2.13,
+      "item_count": 10
+    }
+  },
+  "promo_status": "NO_PROMO",
+  "metadata": {
+    "version": "2.0.0+6c131bf",
+    "pars_dt": "2026-04-26T10:29:01.196+00:00",
+    "processing_status": "CLEAN",
+    "flags": [],
+    "preprocessing": [
+      {
+        "image_index": 0,
+        "tile_index": 0,
+        "steps": [
+          "DESKEW(angle=-6.1°)",
+          "GRAYSCALE(sat=15)",
+          "RESIZE(599→800)"
+        ],
+        "stats": {
+          "mean_brightness": 147.0,
+          "std_brightness": 61.1,
+          "noise_level": 878.0,
+          "skew_angle": -6.09,
+          "avg_saturation": 14.7,
+          "width": 599,
+          "height": 2330,
+          "contrast_ratio": 173.0,
+          "is_bimodal": true,
+          "histogram_clipping": 0.0,
+          "content_coverage": 0.96,
+          "applied_steps": [
+            "DESKEW(angle=-6.1°)",
+            "GRAYSCALE(sat=15)",
+            "RESIZE(599→800)"
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_token_count": 6283,
+      "candidates_token_count": 564,
+      "total_token_count": 8015,
+      "thinking_token_count": 1168
+    },
+    "cost_info": {
+      "total_cost": 0.0032949,
+      "model_name": "Gemini 2.5 Flash",
+      "input_cost": 0.0018849,
+      "output_cost": 0.00141
+    },
+    "retry_count": 0
+  }
+}

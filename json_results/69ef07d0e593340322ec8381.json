@@ -1,0 +1,312 @@
+{
+  "receipt_guid": "69ef07d0e593340322ec8381",
+  "shop_brand": null,
+  "analysis": {
+    "document_type": "receipt",
+    "merchant": {
+      "name": "SCARLINO SUPERMERCATI S.R.L.",
+      "brand_name": "Coop",
+      "address": "VIA MATINO SN - 73042 CASARANO (LE)",
+      "vat_number": "04190610750",
+      "date": "2026-04-27",
+      "receipt_number": "1227-0037",
+      "notes": ""
+    },
+    "items": [
+      {
+        "description": "FINISH QUANTUM 27 TABS LE",
+        "description_full": "Finish Quantum 27 Tabs Lemon",
+        "category": "home_care",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 8.55,
+        "discount": 2.56,
+        "total_price": 5.99,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 26,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 26,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "VIDAL SAPONE ECORIC.A/BAT",
+        "description_full": "VIDAL SAPONE ECORIC A BAT",
+        "category": "personal_care",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 3.45,
+        "discount": 1.06,
+        "total_price": 2.39,
+        "_catalog_method": "abbreviation",
+        "_catalog_confidence": 0.7,
+        "_gemini_original": "Vidal Sapone Ecoricarica Bagno",
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 28,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 28,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "DIVELLA FLC 61 500G DITAL",
+        "description_full": "Divella Frollini 61 500g Ditali",
+        "category": "pantry",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 0.65,
+        "discount": 0.16,
+        "total_price": 0.49,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 30,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 30,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "CONFLICT",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "CAMEO PIZZA REGINA MARGHE",
+        "description_full": "Cameo Pizza Regina Margherita",
+        "category": "pantry",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 4.89,
+        "discount": 1.4,
+        "total_price": 3.49,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 28,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 28,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "SCORDELLA P.SFUSO CIABATT",
+        "description_full": "Scordella Pane Sfuso Ciabatta",
+        "category": "bakery",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 1.75,
+        "discount": 0.0,
+        "total_price": 1.75,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 29,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 29,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "MATCH",
+          "size": "UNKNOWN",
+          "category": "INCOMPATIBLE"
+        }
+      },
+      {
+        "description": "NETTI TARALLINI SFUSI VAR",
+        "description_full": "Netti Tarallini Sfusi Vari",
+        "category": "pantry",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 1.32,
+        "discount": 0.0,
+        "total_price": 1.32,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 29,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 29,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "PARMALAT YOG JOY 2X125G B",
+        "description_full": "Parmalat Yogurt Joy 2x125g Bianco",
+        "category": "dairy",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 1.1,
+        "discount": 0.31,
+        "total_price": 0.79,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": "8002580010822",
+        "is_promo_item": false,
+        "match_confidence": 74,
+        "promo_match": {
+          "publisher_guid": "68f0f6bb00cc667d09dd07fe",
+          "product_guid": "69314a846f6ada34183f7064",
+          "product_name": "Omega 3 Plus",
+          "brand_name": "Parmalat",
+          "match_confidence": 74,
+          "size_conflict": null,
+          "price_conflict": null
+        },
+        "match_signals": {
+          "brand": "MATCH",
+          "text": "MED",
+          "text_score": 79,
+          "variant": "PARTIAL",
+          "variant_jw": 0.525,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK",
+          "decision": "AMBIGUOUS"
+        }
+      },
+      {
+        "description": "LAVAZZA AST. 10CAPS ALLUM.",
+        "description_full": "Lavazza A Modo Mio Astuccio 10 Capsule Alluminio",
+        "category": "pantry",
+        "quantity": 3.0,
+        "unit_of_measure": "pz",
+        "unit_price": 3.19,
+        "discount": 0.6,
+        "total_price": 8.97,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 28,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 28,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "ORT.TATO POM.ROSSO PICCAD",
+        "description_full": "Ortolano Pomodoro Rosso Piccadilly",
+        "category": "produce",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 2.99,
+        "discount": 0.0,
+        "total_price": 2.99,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 31,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 31,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "MATCH",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      }
+    ],
+    "totals": {
+      "total_amount": 28.18,
+      "tax_amount": 0.0,
+      "item_count": 11
+    }
+  },
+  "promo_status": "PROMO_AMBIGUOUS",
+  "metadata": {
+    "version": "2.0.0+6c131bf",
+    "pars_dt": "2026-04-27T06:55:18.205+00:00",
+    "processing_status": "CLEAN",
+    "flags": [],
+    "preprocessing": [
+      {
+        "image_index": 0,
+        "tile_index": 0,
+        "steps": [
+          "PASSTHROUGH(no preprocessing needed)"
+        ],
+        "stats": {
+          "mean_brightness": 142.6,
+          "std_brightness": 78.2,
+          "noise_level": 183.0,
+          "skew_angle": 0.0,
+          "avg_saturation": 88.4,
+          "width": 752,
+          "height": 2334,
+          "contrast_ratio": 208.0,
+          "is_bimodal": true,
+          "histogram_clipping": 0.038,
+          "content_coverage": 0.68,
+          "applied_steps": [
+            "PASSTHROUGH(no preprocessing needed)"
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_token_count": 5767,
+      "candidates_token_count": 951,
+      "total_token_count": 14270,
+      "thinking_token_count": 7552
+    },
+    "cost_info": {
+      "total_cost": 0.0041076,
+      "model_name": "Gemini 2.5 Flash",
+      "input_cost": 0.0017300999999999998,
+      "output_cost": 0.0023775000000000003
+    },
+    "retry_count": 0
+  }
+}

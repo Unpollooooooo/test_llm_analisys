@@ -1,0 +1,202 @@
+{
+  "receipt_guid": "69ea1eac2bfcf6b2e631241b",
+  "shop_brand": null,
+  "analysis": {
+    "document_type": "receipt",
+    "merchant": {
+      "name": "DIMAR S.P.A.",
+      "brand_name": "MERCATO local",
+      "address": "VIA GALIMBERTI, 7 12062 CHERASCO (CN)",
+      "vat_number": "00294760046",
+      "date": "2026-04-23",
+      "receipt_number": "20310187",
+      "notes": ""
+    },
+    "items": [
+      {
+        "description": "S.SAP.BOCC.MOZ",
+        "description_full": "Mozzarella",
+        "category": "dairy",
+        "quantity": 1,
+        "unit_of_measure": "pz",
+        "unit_price": 2.89,
+        "discount": 1.42,
+        "total_price": 1.47,
+        "_catalog_method": "fuzzy",
+        "_catalog_confidence": 0.7,
+        "_gemini_original": "S.SAP.BOCC.MOZ",
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 29,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 29,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "PROSCIUTTO COT",
+        "description_full": "prosciutto cotto",
+        "category": "meat_fish",
+        "quantity": 1,
+        "unit_of_measure": "pz",
+        "unit_price": 3.1,
+        "discount": 0,
+        "total_price": 3.1,
+        "_catalog_method": "cache",
+        "_catalog_confidence": 0.9,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 35,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 35,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "MATCH",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "EUROPANE CIABA",
+        "description_full": "Europane Ciabatta",
+        "category": "bakery",
+        "quantity": 1,
+        "unit_of_measure": "pz",
+        "unit_price": 0.47,
+        "discount": 0,
+        "total_price": 0.47,
+        "_catalog_method": "gemini_only",
+        "_catalog_confidence": 0.85,
+        "_alignment_override": true,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 28,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 28,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "CONFLICT",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "EUROPANE PANE",
+        "description_full": "Europane Pane",
+        "category": "bakery",
+        "quantity": 1,
+        "unit_of_measure": "pz",
+        "unit_price": 0.72,
+        "discount": 0,
+        "total_price": 0.72,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 29,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 29,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "CONFLICT",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "YOMO OMOGENEO",
+        "description_full": "Yomo Omogeneo",
+        "category": "dairy",
+        "quantity": 1,
+        "unit_of_measure": "pz",
+        "unit_price": 0.89,
+        "discount": 0,
+        "total_price": 0.89,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 22,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 22,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      }
+    ],
+    "totals": {
+      "total_amount": 6.65,
+      "tax_amount": 0.46,
+      "item_count": 5
+    }
+  },
+  "promo_status": "NO_PROMO",
+  "metadata": {
+    "version": "2.0.0+6c131bf",
+    "pars_dt": "2026-04-23T13:30:07.478+00:00",
+    "processing_status": "CLEAN",
+    "flags": [],
+    "preprocessing": [
+      {
+        "image_index": 0,
+        "tile_index": 0,
+        "steps": [
+          "GRAYSCALE(sat=17)",
+          "RESIZE(471→800)"
+        ],
+        "stats": {
+          "mean_brightness": 168.5,
+          "std_brightness": 42.8,
+          "noise_level": 876.0,
+          "skew_angle": 0.0,
+          "avg_saturation": 17.2,
+          "width": 471,
+          "height": 1927,
+          "contrast_ratio": 131.0,
+          "is_bimodal": true,
+          "histogram_clipping": 0.0,
+          "content_coverage": 0.96,
+          "applied_steps": [
+            "GRAYSCALE(sat=17)",
+            "RESIZE(471→800)"
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_token_count": 6283,
+      "candidates_token_count": 668,
+      "total_token_count": 8926,
+      "thinking_token_count": 1975
+    },
+    "cost_info": {
+      "total_cost": 0.0035548999999999997,
+      "model_name": "Gemini 2.5 Flash",
+      "input_cost": 0.0018849,
+      "output_cost": 0.00167
+    },
+    "retry_count": 0
+  }
+}

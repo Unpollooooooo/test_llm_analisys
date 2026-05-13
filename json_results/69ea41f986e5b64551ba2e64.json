@@ -1,0 +1,121 @@
+{
+  "receipt_guid": "69ea41f986e5b64551ba2e64",
+  "shop_brand": null,
+  "analysis": {
+    "document_type": "receipt",
+    "merchant": {
+      "name": "ALDI S.r.1.",
+      "brand_name": "ALDI",
+      "address": "Via Legnago 15/d 46100 Mantova",
+      "vat_number": "02936700216",
+      "date": "2026-04-21",
+      "receipt_number": "0722-0014",
+      "notes": ""
+    },
+    "items": [
+      {
+        "description": "Bauletto mantovano",
+        "description_full": "Bauletto mantovano",
+        "category": "bakery",
+        "quantity": 2.0,
+        "unit_of_measure": "pz",
+        "unit_price": 0.24,
+        "discount": 0.0,
+        "total_price": 0.48,
+        "_catalog_method": "cache",
+        "_catalog_confidence": 0.9,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 26,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 26,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "Bacon 150g",
+        "description_full": "Bacon 150g",
+        "category": "meat_fish",
+        "quantity": 2.0,
+        "unit_of_measure": "pz",
+        "unit_price": 1.69,
+        "discount": 0.0,
+        "total_price": 3.38,
+        "_catalog_method": "gemini_only",
+        "_catalog_confidence": 0.85,
+        "_alignment_override": true,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 22,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 22,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "MATCH",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      }
+    ],
+    "totals": {
+      "total_amount": 3.86,
+      "tax_amount": 0.33,
+      "item_count": null
+    }
+  },
+  "promo_status": "NO_PROMO",
+  "metadata": {
+    "version": "2.0.0+6c131bf",
+    "pars_dt": "2026-04-23T16:00:27.851+00:00",
+    "processing_status": "CLEAN",
+    "flags": [],
+    "preprocessing": [
+      {
+        "image_index": 0,
+        "tile_index": 0,
+        "steps": [
+          "DESKEW(angle=7.0°)"
+        ],
+        "stats": {
+          "mean_brightness": 115.7,
+          "std_brightness": 62.1,
+          "noise_level": 2178.0,
+          "skew_angle": 6.99,
+          "avg_saturation": 46.5,
+          "width": 1920,
+          "height": 2560,
+          "contrast_ratio": 192.0,
+          "is_bimodal": true,
+          "histogram_clipping": 0.069,
+          "content_coverage": 0.84,
+          "applied_steps": [
+            "DESKEW(angle=7.0°)"
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_token_count": 6283,
+      "candidates_token_count": 385,
+      "total_token_count": 7443,
+      "thinking_token_count": 775
+    },
+    "cost_info": {
+      "total_cost": 0.0028474,
+      "model_name": "Gemini 2.5 Flash",
+      "input_cost": 0.0018849,
+      "output_cost": 0.0009625
+    },
+    "retry_count": 0
+  }
+}

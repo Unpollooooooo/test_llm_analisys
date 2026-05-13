@@ -1,0 +1,242 @@
+{
+  "receipt_guid": "69f0ea403da34a89f7057593",
+  "shop_brand": null,
+  "analysis": {
+    "document_type": "receipt",
+    "merchant": {
+      "name": "PALMERI ANTONINO & C. S.A.S.",
+      "brand_name": "Coop",
+      "address": "VIA SANTA LUCIA, sn 90034 CORLEONE -PA-",
+      "vat_number": "03260510825",
+      "date": "2026-04-28",
+      "receipt_number": "0861-0111",
+      "notes": "[SYSTEM: JSON REPAIRED/TRUNCATED]"
+    },
+    "items": [
+      {
+        "description": "COOP GAT PATE SALM/PESCE",
+        "description_full": "Coop Gatto Pateu Salmone/Pesce",
+        "category": "other",
+        "quantity": 8.0,
+        "unit_of_measure": "pz",
+        "unit_price": 0.5,
+        "discount": 0.16,
+        "total_price": 3.84,
+        "_catalog_method": "gemini_only",
+        "_catalog_confidence": 0.85,
+        "_alignment_override": true,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 27,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 27,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "ALIMENTARI 4%",
+        "description_full": "Alimentari 4%",
+        "category": "other",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 1.0,
+        "discount": 0.0,
+        "total_price": 1.0,
+        "_catalog_method": "gemini_only",
+        "_catalog_confidence": 0.74,
+        "_alignment_override": true,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 28,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 28,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "PARMALAT ZYMIL LATTE BOT",
+        "description_full": "Parmalat Zymil Latte Bottiglia",
+        "category": "dairy",
+        "quantity": 6.0,
+        "unit_of_measure": "pz",
+        "unit_price": 1.99,
+        "discount": 0.0,
+        "total_price": 11.94,
+        "_catalog_method": "gemini_only",
+        "_catalog_confidence": 0.49,
+        "_alignment_override": true,
+        "barcode": "8002580020586",
+        "is_promo_item": false,
+        "match_confidence": 74,
+        "promo_match": {
+          "publisher_guid": "68f0f6bb00cc667d09dd07fe",
+          "product_guid": "69314a846f6ada34183f706b",
+          "product_name": "Latte Barista",
+          "brand_name": "Parmalat",
+          "match_confidence": 74,
+          "size_conflict": null,
+          "price_conflict": true
+        },
+        "match_signals": {
+          "brand": "MATCH",
+          "text": "HIGH",
+          "text_score": 87,
+          "variant": "MATCH",
+          "variant_jw": 0.794,
+          "price": "CONFLICT",
+          "size": "UNKNOWN",
+          "category": "OK",
+          "decision": "AMBIGUOUS"
+        }
+      },
+      {
+        "description": "LIFE NOCI SGUSCIATE 200G",
+        "description_full": "Life Noci Sgusciate 200g",
+        "category": "pantry",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 3.3,
+        "discount": 0.0,
+        "total_price": 3.3,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 25,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 25,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "CONFLICT",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "FRISKIES ADUL MAN/FEG/VE",
+        "description_full": "Friskies Adult Manzo/Fegato/Verdure",
+        "category": "other",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 6.59,
+        "discount": 1.1,
+        "total_price": 5.49,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 25,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 25,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "BIO PRESTO LIQ.CLASSIC 5",
+        "description_full": "Bio Presto Liquido Classico 5",
+        "category": "home_care",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 7.39,
+        "discount": 2.4,
+        "total_price": 4.99,
+        "_catalog_method": "gemini_only",
+        "_catalog_confidence": 0.57,
+        "_alignment_override": true,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 30,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 30,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      }
+    ],
+    "totals": {
+      "total_amount": 0.0,
+      "tax_amount": 0.0
+    }
+  },
+  "promo_status": "PROMO_AMBIGUOUS",
+  "metadata": {
+    "version": "2.1.0+bbfe08e",
+    "pars_dt": "2026-04-28T17:14:06.612+00:00",
+    "processing_status": "REPAIRED",
+    "flags": [
+      "TRUNCATED",
+      "AUTO_REPAIRED",
+      "AUTO_REPAIRED"
+    ],
+    "preprocessing": [
+      {
+        "image_index": 0,
+        "tile_index": 0,
+        "steps": [
+          "GRAYSCALE(sat=13)"
+        ],
+        "stats": {
+          "mean_brightness": 125.7,
+          "std_brightness": 51.8,
+          "noise_level": 833.0,
+          "skew_angle": 0.0,
+          "avg_saturation": 13.0,
+          "width": 1920,
+          "height": 2560,
+          "contrast_ratio": 182.0,
+          "is_bimodal": false,
+          "histogram_clipping": 0.025,
+          "content_coverage": 0.92,
+          "applied_steps": [
+            "GRAYSCALE(sat=13)"
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_token_count": 6530,
+      "candidates_token_count": 16980,
+      "total_token_count": 26516,
+      "thinking_token_count": 3006
+    },
+    "cost_info": {
+      "total_cost": 0.044409000000000004,
+      "model_name": "Gemini 2.5 Flash",
+      "input_cost": 0.001959,
+      "output_cost": 0.04245
+    },
+    "retry_count": 0,
+    "validation_errors": [],
+    "is_valid": true
+  }
+}

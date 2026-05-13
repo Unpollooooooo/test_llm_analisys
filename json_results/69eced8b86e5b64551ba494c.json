@@ -1,0 +1,208 @@
+{
+  "receipt_guid": "69eced8b86e5b64551ba494c",
+  "shop_brand": null,
+  "analysis": {
+    "document_type": "receipt",
+    "merchant": {
+      "name": "Normal Italia S.R.L.",
+      "brand_name": "Normal",
+      "address": "CC Porte di Mestre Via Don Federico Tosatto, 22 30174 - Venezia (VE)",
+      "vat_number": "17689861007",
+      "date": "2026-04-25",
+      "receipt_number": "0210-0098",
+      "notes": ""
+    },
+    "items": [
+      {
+        "description": "M&M'S CHOCO MINI 176G",
+        "description_full": "M&M's Choco Mini 176g",
+        "category": "pantry",
+        "quantity": 3.0,
+        "unit_of_measure": "pz",
+        "unit_price": 0.95,
+        "discount": 0.0,
+        "total_price": 2.85,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 28,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 28,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "CONFLICT",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "COVER IPHONE GIALLO 7499U ASS.",
+        "description_full": "Cover iPhone Giallo 7499U Assortito",
+        "category": "other",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 2.9,
+        "discount": 0.0,
+        "total_price": 2.9,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 27,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 27,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "MATCH",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "HARIBO FLOWER ZOURR 325G",
+        "description_full": "Haribo Flower Zourr 325g",
+        "category": "pantry",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 1.9,
+        "discount": 0.0,
+        "total_price": 1.9,
+        "_catalog_method": "gemini_only",
+        "_catalog_confidence": 0.85,
+        "_alignment_override": true,
+        "barcode": "8426617651299",
+        "is_promo_item": false,
+        "match_confidence": 74,
+        "promo_match": {
+          "publisher_guid": "68f277a400cc667d09dd0800",
+          "product_guid": "68f27b13b82c644e33de278a",
+          "product_name": "Orsetti d'Oro",
+          "brand_name": "Haribo",
+          "match_confidence": 74,
+          "size_conflict": true,
+          "price_conflict": false
+        },
+        "match_signals": {
+          "brand": "MATCH",
+          "text": "HIGH",
+          "text_score": 83,
+          "variant": "PARTIAL",
+          "variant_jw": 0.589,
+          "price": "MATCH",
+          "size": "CONFLICT",
+          "category": "OK",
+          "decision": "AMBIGUOUS"
+        }
+      },
+      {
+        "description": "TIC TAC ARANCIA 54G",
+        "description_full": "Tic Tac Arancia 54g",
+        "category": "pantry",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 2.0,
+        "discount": 0.0,
+        "total_price": 2.0,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 34,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 34,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "MATCH",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "BUSTA IN TNT UNIVERSALE P ICCOL",
+        "description_full": "Busta in TNT Universale Piccola",
+        "category": "other",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 0.4,
+        "discount": 0.0,
+        "total_price": 0.4,
+        "_catalog_method": "gemini_only",
+        "_catalog_confidence": 0.4,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 30,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 30,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      }
+    ],
+    "totals": {
+      "total_amount": 10.05,
+      "tax_amount": 1.21,
+      "item_count": null
+    }
+  },
+  "promo_status": "PROMO_AMBIGUOUS",
+  "metadata": {
+    "version": "2.0.0+6c131bf",
+    "pars_dt": "2026-04-25T16:37:19.403+00:00",
+    "processing_status": "CLEAN",
+    "flags": [],
+    "preprocessing": [
+      {
+        "image_index": 0,
+        "tile_index": 0,
+        "steps": [
+          "PASSTHROUGH(no preprocessing needed)"
+        ],
+        "stats": {
+          "mean_brightness": 151.8,
+          "std_brightness": 56.6,
+          "noise_level": 141.0,
+          "skew_angle": 0.0,
+          "avg_saturation": 68.0,
+          "width": 1920,
+          "height": 3133,
+          "contrast_ratio": 184.0,
+          "is_bimodal": true,
+          "histogram_clipping": 0.005,
+          "content_coverage": 0.44,
+          "applied_steps": [
+            "PASSTHROUGH(no preprocessing needed)"
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_token_count": 5251,
+      "candidates_token_count": 586,
+      "total_token_count": 7237,
+      "thinking_token_count": 1400
+    },
+    "cost_info": {
+      "total_cost": 0.0030403,
+      "model_name": "Gemini 2.5 Flash",
+      "input_cost": 0.0015753,
+      "output_cost": 0.0014650000000000002
+    },
+    "retry_count": 0
+  }
+}

@@ -1,0 +1,229 @@
+{
+  "receipt_guid": "69e51c482bfcf6b2e630f06b",
+  "shop_brand": null,
+  "analysis": {
+    "document_type": "receipt",
+    "merchant": {
+      "name": "IPER Poli",
+      "brand_name": "IPER Poli",
+      "address": "Via S. Caterina n. 78 38062 ARCO TRENTO",
+      "vat_number": "00823460225",
+      "date": "2026-04-15",
+      "receipt_number": "1104 - 0017",
+      "notes": ""
+    },
+    "items": [
+      {
+        "description": "PRIMIA BRUSCHETT",
+        "description_full": "Primia Bruschette",
+        "category": "pantry",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 0.99,
+        "discount": 0.0,
+        "total_price": 0.99,
+        "_catalog_method": "gemini_only",
+        "_catalog_confidence": 0.85,
+        "_alignment_override": true,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 31,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 31,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "LATTE ZYMIL PARMALAT",
+        "description_full": "Latte Zymil Parmalat",
+        "category": "dairy",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 2.15,
+        "discount": 0.4,
+        "total_price": 1.75,
+        "_catalog_method": "gemini_only",
+        "_catalog_confidence": 0.4,
+        "_alignment_override": true,
+        "barcode": "8002580322192",
+        "is_promo_item": true,
+        "match_confidence": 91,
+        "promo_match": {
+          "publisher_guid": "68f0f6bb00cc667d09dd07fe",
+          "product_guid": "69314a846f6ada34183f7063",
+          "product_name": "Latte Fresco Parzialmente Scremato 100% Latte d'Italia",
+          "brand_name": "Parmalat",
+          "match_confidence": 91,
+          "size_conflict": null,
+          "price_conflict": false
+        },
+        "match_signals": {
+          "brand": "MATCH",
+          "text": "HIGH",
+          "text_score": 91,
+          "variant": "MATCH",
+          "variant_jw": 0.814,
+          "price": "MATCH",
+          "size": "UNKNOWN",
+          "category": "OK",
+          "decision": "PROMO_FOUND"
+        }
+      },
+      {
+        "description": "CAPPUCCIO/ CAROTE",
+        "description_full": "Cappuccio e Carote",
+        "category": "produce",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 2.96,
+        "discount": 0.0,
+        "total_price": 2.96,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 32,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 32,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "PARMALAT ZYMIL UHT",
+        "description_full": "Parmalat Zymil UHT",
+        "category": "dairy",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 2.19,
+        "discount": 0.0,
+        "total_price": 2.19,
+        "_catalog_method": "gemini_only",
+        "_catalog_confidence": 0.85,
+        "_warning": "brand_mismatch",
+        "barcode": "8002580007396",
+        "is_promo_item": true,
+        "match_confidence": 82,
+        "promo_match": {
+          "publisher_guid": "68f0f6bb00cc667d09dd07fe",
+          "product_guid": "69314a856f6ada34183f7085",
+          "product_name": "Gustoso Digeribile 100% Latte d'Italia",
+          "brand_name": "Zymil",
+          "match_confidence": 82,
+          "size_conflict": null,
+          "price_conflict": false
+        },
+        "match_signals": {
+          "brand": "MATCH",
+          "text": "HIGH",
+          "text_score": 82,
+          "variant": "PARTIAL",
+          "variant_jw": 0.567,
+          "price": "MATCH",
+          "size": "UNKNOWN",
+          "category": "OK",
+          "decision": "PROMO_FOUND"
+        }
+      },
+      {
+        "description": "LATTE ZYMIL PARMALAT",
+        "description_full": "Latte Zymil Parmalat",
+        "category": "dairy",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 2.15,
+        "discount": 0.4,
+        "total_price": 1.75,
+        "_catalog_method": "gemini_only",
+        "_catalog_confidence": 0.4,
+        "_alignment_override": true,
+        "barcode": "8002580322192",
+        "is_promo_item": true,
+        "match_confidence": 91,
+        "promo_match": {
+          "publisher_guid": "68f0f6bb00cc667d09dd07fe",
+          "product_guid": "69314a846f6ada34183f7063",
+          "product_name": "Latte Fresco Parzialmente Scremato 100% Latte d'Italia",
+          "brand_name": "Parmalat",
+          "match_confidence": 91,
+          "size_conflict": null,
+          "price_conflict": false
+        },
+        "match_signals": {
+          "brand": "MATCH",
+          "text": "HIGH",
+          "text_score": 91,
+          "variant": "MATCH",
+          "variant_jw": 0.814,
+          "price": "MATCH",
+          "size": "UNKNOWN",
+          "category": "OK",
+          "decision": "PROMO_FOUND"
+        }
+      }
+    ],
+    "totals": {
+      "total_amount": 9.64,
+      "tax_amount": 0.0,
+      "item_count": null
+    }
+  },
+  "promo_status": "PROMO_FOUND",
+  "metadata": {
+    "version": "2.0.0+6c131bf",
+    "pars_dt": "2026-04-19T18:18:15.149+00:00",
+    "processing_status": "CLEAN",
+    "flags": [],
+    "preprocessing": [
+      {
+        "image_index": 0,
+        "tile_index": 0,
+        "steps": [
+          "GRAYSCALE(sat=34)"
+        ],
+        "stats": {
+          "mean_brightness": 170.8,
+          "std_brightness": 43.5,
+          "noise_level": 126.0,
+          "skew_angle": 0.0,
+          "avg_saturation": 34.3,
+          "width": 1719,
+          "height": 3684,
+          "contrast_ratio": 141.0,
+          "is_bimodal": false,
+          "histogram_clipping": 0.0,
+          "content_coverage": 0.96,
+          "applied_steps": [
+            "GRAYSCALE(sat=34)"
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_token_count": 5251,
+      "candidates_token_count": 544,
+      "total_token_count": 7051,
+      "thinking_token_count": 1256
+    },
+    "cost_info": {
+      "total_cost": 0.0029353,
+      "model_name": "Gemini 2.5 Flash",
+      "input_cost": 0.0015753,
+      "output_cost": 0.00136
+    },
+    "retry_count": 0
+  }
+}

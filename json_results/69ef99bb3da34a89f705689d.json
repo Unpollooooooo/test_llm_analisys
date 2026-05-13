@@ -1,0 +1,209 @@
+{
+  "receipt_guid": "69ef99bb3da34a89f705689d",
+  "shop_brand": null,
+  "analysis": {
+    "document_type": "receipt",
+    "merchant": {
+      "name": "EKOM FA.GE. SRL",
+      "brand_name": "EKOM",
+      "address": "Via D. Coduri, 85 16040 S.Salvatore Cogorno (GE)",
+      "vat_number": "03380980106",
+      "date": "2026-04-27",
+      "receipt_number": "0347-0451",
+      "notes": ""
+    },
+    "items": [
+      {
+        "description": "MACINE G.350 MULINO BIANCO",
+        "description_full": "Macine 350g Mulino Bianco",
+        "category": "bakery",
+        "quantity": 1,
+        "unit_of_measure": "pz",
+        "unit_price": 1.95,
+        "discount": 0,
+        "total_price": 1.95,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": "8003650019714",
+        "is_promo_item": false,
+        "match_confidence": 74,
+        "promo_match": {
+          "publisher_guid": "6939bd34e84bd0409997e7c9",
+          "product_guid": "6939c6789cf06812292571d8",
+          "product_name": "Candeggina Delicata Muschio Bianco",
+          "brand_name": "Omino Bianco",
+          "match_confidence": 74,
+          "size_conflict": null,
+          "price_conflict": null
+        },
+        "match_signals": {
+          "brand": "MATCH",
+          "text": "MED",
+          "text_score": 78,
+          "variant": "PARTIAL",
+          "variant_jw": 0.721,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK",
+          "decision": "AMBIGUOUS"
+        }
+      },
+      {
+        "description": "NOVELLA PESTO DA 130 GR.",
+        "description_full": "Novella Pesto 130 gr",
+        "category": "pantry",
+        "quantity": 1,
+        "unit_of_measure": "pz",
+        "unit_price": 3.19,
+        "discount": 0,
+        "total_price": 3.19,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 23,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 23,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "GALLETTE RISO CIOC AL LATTE 10",
+        "description_full": "Gallette Riso Cioccolato al Latte 10",
+        "category": "pantry",
+        "quantity": 1,
+        "unit_of_measure": "pz",
+        "unit_price": 3.09,
+        "discount": 0,
+        "total_price": 3.09,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 37,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 37,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "GALLETTE RISO CIOC AL LATTE 10",
+        "description_full": "Gallette Riso Cioccolato al Latte 10",
+        "category": "pantry",
+        "quantity": 1,
+        "unit_of_measure": "pz",
+        "unit_price": 3.09,
+        "discount": 0,
+        "total_price": 3.09,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 37,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 37,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "REPARTO CARNE CONFEZIONATA",
+        "description_full": "Reparto Carne Confezionata",
+        "category": "meat_fish",
+        "quantity": 1,
+        "unit_of_measure": "pz",
+        "unit_price": 5.45,
+        "discount": 0,
+        "total_price": 5.45,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 28,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 28,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "MATCH",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      }
+    ],
+    "totals": {
+      "total_amount": 16.77,
+      "tax_amount": 0.0,
+      "item_count": null
+    }
+  },
+  "promo_status": "PROMO_AMBIGUOUS",
+  "metadata": {
+    "version": "2.0.0+unknown",
+    "pars_dt": "2026-04-27T17:16:05.694+00:00",
+    "processing_status": "CLEAN",
+    "flags": [],
+    "preprocessing": [
+      {
+        "image_index": 0,
+        "tile_index": 0,
+        "steps": [
+          "GRAYSCALE(sat=33)",
+          "CLAHE(std=34,clip=0.00)"
+        ],
+        "stats": {
+          "mean_brightness": 149.3,
+          "std_brightness": 33.8,
+          "noise_level": 94.0,
+          "skew_angle": 0.0,
+          "avg_saturation": 33.0,
+          "width": 1920,
+          "height": 1002,
+          "contrast_ratio": 115.0,
+          "is_bimodal": false,
+          "histogram_clipping": 0.0,
+          "content_coverage": 0.64,
+          "applied_steps": [
+            "GRAYSCALE(sat=33)",
+            "CLAHE(std=34,clip=0.00)"
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_token_count": 4735,
+      "candidates_token_count": 722,
+      "total_token_count": 6517,
+      "thinking_token_count": 1060
+    },
+    "cost_info": {
+      "total_cost": 0.0032255,
+      "model_name": "Gemini 2.5 Flash",
+      "input_cost": 0.0014204999999999999,
+      "output_cost": 0.0018050000000000002
+    },
+    "retry_count": 0
+  }
+}

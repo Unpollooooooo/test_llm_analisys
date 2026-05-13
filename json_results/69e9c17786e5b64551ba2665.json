@@ -1,0 +1,121 @@
+{
+  "receipt_guid": "69e9c17786e5b64551ba2665",
+  "shop_brand": null,
+  "analysis": {
+    "document_type": "receipt",
+    "merchant": {
+      "name": "MAGAZZINI ESPOSITO S.R.L.",
+      "brand_name": "Unieuro",
+      "address": "VIA G.LEOPARDI, 107/109 80125 NAPOLI",
+      "vat_number": "00700650633",
+      "date": "2026-04-09",
+      "receipt_number": "0543-0010",
+      "notes": ""
+    },
+    "items": [
+      {
+        "description": "IMETEC ASCIUGACAP 11312 P2 220",
+        "description_full": "IMETEC ASCIUGACAPELLI",
+        "category": "other",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 49.99,
+        "discount": 0.0,
+        "total_price": 49.99,
+        "_catalog_method": "gemini_only",
+        "_catalog_confidence": 0.47,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 28,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 28,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      }
+    ],
+    "totals": {
+      "total_amount": 49.99,
+      "tax_amount": 9.01,
+      "item_count": null
+    }
+  },
+  "promo_status": "NO_PROMO",
+  "metadata": {
+    "version": "2.0.0+6c131bf",
+    "pars_dt": "2026-04-23T06:52:02.631+00:00",
+    "processing_status": "CLEAN",
+    "flags": [],
+    "preprocessing": [
+      {
+        "image_index": 0,
+        "tile_index": 0,
+        "steps": [
+          "GRAYSCALE(sat=27)",
+          "CLAHE(std=31,clip=0.00)"
+        ],
+        "stats": {
+          "mean_brightness": 170.0,
+          "std_brightness": 30.8,
+          "noise_level": 490.0,
+          "skew_angle": 0.0,
+          "avg_saturation": 27.2,
+          "width": 1920,
+          "height": 976,
+          "contrast_ratio": 86.0,
+          "is_bimodal": false,
+          "histogram_clipping": 0.0,
+          "content_coverage": 0.72,
+          "applied_steps": [
+            "GRAYSCALE(sat=27)",
+            "CLAHE(std=31,clip=0.00)"
+          ]
+        }
+      },
+      {
+        "image_index": 1,
+        "tile_index": 1,
+        "steps": [
+          "GRAYSCALE(sat=24)",
+          "CLAHE(std=32,clip=0.00)"
+        ],
+        "stats": {
+          "mean_brightness": 168.0,
+          "std_brightness": 32.2,
+          "noise_level": 655.0,
+          "skew_angle": 0.0,
+          "avg_saturation": 23.9,
+          "width": 1920,
+          "height": 966,
+          "contrast_ratio": 85.0,
+          "is_bimodal": true,
+          "histogram_clipping": 0.0,
+          "content_coverage": 0.76,
+          "applied_steps": [
+            "GRAYSCALE(sat=24)",
+            "CLAHE(std=32,clip=0.00)"
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_token_count": 3445,
+      "candidates_token_count": 317,
+      "total_token_count": 4509,
+      "thinking_token_count": 747
+    },
+    "cost_info": {
+      "total_cost": 0.001826,
+      "model_name": "Gemini 2.5 Flash",
+      "input_cost": 0.0010335,
+      "output_cost": 0.0007925
+    },
+    "retry_count": 0
+  }
+}

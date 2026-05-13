@@ -1,0 +1,146 @@
+{
+  "receipt_guid": "69e6426f86e5b64551ba0495",
+  "shop_brand": null,
+  "analysis": {
+    "document_type": "receipt",
+    "merchant": {
+      "name": "MADONNINA 2 SRL",
+      "brand_name": "CONAD",
+      "address": "Via Emilia Ovest 621 - Modena",
+      "vat_number": "02956220368",
+      "date": "2026-04-19",
+      "receipt_number": "1543-0008",
+      "notes": ""
+    },
+    "items": [
+      {
+        "description": "CREMA 100% ARACHIDI",
+        "description_full": "Crema 100% Arachidi",
+        "category": "pantry",
+        "quantity": 1,
+        "unit_of_measure": "pz",
+        "unit_price": 2.99,
+        "discount": 0,
+        "total_price": 2.99,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 26,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 26,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "ASPARAGI 500g OM IT",
+        "description_full": "Asparagi 500g Origine Italia",
+        "category": "produce",
+        "quantity": 1,
+        "unit_of_measure": "pz",
+        "unit_price": 3.98,
+        "discount": 0,
+        "total_price": 3.98,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 30,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 30,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "ASPARAGI 500g OM IT",
+        "description_full": "Asparagi 500g Origine Italia",
+        "category": "produce",
+        "quantity": 1,
+        "unit_of_measure": "pz",
+        "unit_price": 3.98,
+        "discount": 0,
+        "total_price": 3.98,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 30,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 30,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      }
+    ],
+    "totals": {
+      "total_amount": 10.95,
+      "tax_amount": 0.58,
+      "item_count": null
+    }
+  },
+  "promo_status": "NO_PROMO",
+  "metadata": {
+    "version": "2.0.0+6c131bf",
+    "pars_dt": "2026-04-20T15:13:15.398+00:00",
+    "processing_status": "CLEAN",
+    "flags": [],
+    "preprocessing": [
+      {
+        "image_index": 0,
+        "tile_index": 0,
+        "steps": [
+          "GRAYSCALE(sat=28)"
+        ],
+        "stats": {
+          "mean_brightness": 140.1,
+          "std_brightness": 46.3,
+          "noise_level": 95.0,
+          "skew_angle": 0.0,
+          "avg_saturation": 27.6,
+          "width": 1446,
+          "height": 1898,
+          "contrast_ratio": 158.0,
+          "is_bimodal": true,
+          "histogram_clipping": 0.002,
+          "content_coverage": 0.64,
+          "applied_steps": [
+            "GRAYSCALE(sat=28)"
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_token_count": 4735,
+      "candidates_token_count": 491,
+      "total_token_count": 6240,
+      "thinking_token_count": 1014
+    },
+    "cost_info": {
+      "total_cost": 0.002648,
+      "model_name": "Gemini 2.5 Flash",
+      "input_cost": 0.0014204999999999999,
+      "output_cost": 0.0012275
+    },
+    "retry_count": 0
+  }
+}

@@ -1,0 +1,200 @@
+{
+  "receipt_guid": "69ef20c5e593340322ec84b4",
+  "shop_brand": null,
+  "analysis": {
+    "document_type": "receipt",
+    "merchant": {
+      "name": "D.M. s.r.l.",
+      "brand_name": "tigre",
+      "address": "VIA MOSCARDELLI, snc 66032 CASTEL FRENTANO (CH)",
+      "vat_number": "02170570697",
+      "date": "2026-04-27",
+      "receipt_number": "1237-0052",
+      "notes": ""
+    },
+    "items": [
+      {
+        "description": "T FIORDILATTE D. GIUDICE 2",
+        "description_full": "Treccia Fiordilatte Del Giudice 2",
+        "category": "dairy",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 2.39,
+        "discount": 0.76,
+        "total_price": 1.63,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 28,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 28,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "INCOMPATIBLE"
+        }
+      },
+      {
+        "description": "T FIORDILATTE D. GIUDICE 2",
+        "description_full": "Treccia Fiordilatte Del Giudice 2",
+        "category": "dairy",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 2.39,
+        "discount": 0.7,
+        "total_price": 1.69,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 28,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 28,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "INCOMPATIBLE"
+        }
+      },
+      {
+        "description": "T 2 BURGER SPINACI KIOENE",
+        "description_full": "Tramezzino 2 Burger Spinaci Kioene",
+        "category": "pantry",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 2.19,
+        "discount": 0.0,
+        "total_price": 2.199,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 29,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 29,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "MATCH",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "T 2 BURGER SPINACI KIOENE",
+        "description_full": "Tramezzino 2 Burger Spinaci Kioene",
+        "category": "pantry",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 2.19,
+        "discount": 0.0,
+        "total_price": 2.19,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 29,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 29,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "MATCH",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "T 4 CUORI MERLUZZO CONSIL",
+        "description_full": "Tramezzino 4 Cuori Merluzzo Consilia",
+        "category": "meat_fish",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 5.99,
+        "discount": 1.0,
+        "total_price": 4.99,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 31,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 31,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      }
+    ],
+    "totals": {
+      "total_amount": 12.75,
+      "tax_amount": 0.98,
+      "item_count": null
+    }
+  },
+  "promo_status": "NO_PROMO",
+  "metadata": {
+    "version": "2.0.0+6c131bf",
+    "pars_dt": "2026-04-27T08:40:17.410+00:00",
+    "processing_status": "CLEAN",
+    "flags": [],
+    "preprocessing": [
+      {
+        "image_index": 0,
+        "tile_index": 0,
+        "steps": [
+          "DESKEW(angle=-4.0°)",
+          "GRAYSCALE(sat=16)"
+        ],
+        "stats": {
+          "mean_brightness": 201.6,
+          "std_brightness": 51.9,
+          "noise_level": 420.0,
+          "skew_angle": -3.98,
+          "avg_saturation": 16.2,
+          "width": 928,
+          "height": 2672,
+          "contrast_ratio": 188.0,
+          "is_bimodal": false,
+          "histogram_clipping": 0.051,
+          "content_coverage": 0.88,
+          "applied_steps": [
+            "DESKEW(angle=-4.0°)",
+            "GRAYSCALE(sat=16)"
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_token_count": 5767,
+      "candidates_token_count": 751,
+      "total_token_count": 8783,
+      "thinking_token_count": 2265
+    },
+    "cost_info": {
+      "total_cost": 0.0036076,
+      "model_name": "Gemini 2.5 Flash",
+      "input_cost": 0.0017300999999999998,
+      "output_cost": 0.0018775
+    },
+    "retry_count": 0
+  }
+}

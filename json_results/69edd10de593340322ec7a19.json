@@ -1,0 +1,218 @@
+{
+  "receipt_guid": "69edd10de593340322ec7a19",
+  "shop_brand": null,
+  "analysis": {
+    "document_type": "receipt",
+    "merchant": {
+      "name": "ALI' SPA",
+      "brand_name": "Al\n",
+      "address": "Via Triestina 50/1 30173 Favaro Veneto (VE)",
+      "vat_number": "00348980285",
+      "date": "2026-04-24",
+      "receipt_number": "2708-0054",
+      "notes": ""
+    },
+    "items": [
+      {
+        "description": "LATTE MICROFIL.PS 1L ZYMIL",
+        "description_full": "Latte Microfiltrato Parzialmente Scremato 1 Litro Zymil",
+        "category": "dairy",
+        "quantity": 2.0,
+        "unit_of_measure": "pz",
+        "unit_price": 1.99,
+        "discount": 0.0,
+        "total_price": 3.98,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": "8002580003671",
+        "is_promo_item": true,
+        "match_confidence": 91,
+        "promo_match": {
+          "publisher_guid": "68f0f6bb00cc667d09dd07fe",
+          "product_guid": "68f10883a554acb01d0d5f50",
+          "product_name": "Benefit Calcio",
+          "brand_name": "Zymil",
+          "match_confidence": 91,
+          "size_conflict": false,
+          "price_conflict": null
+        },
+        "match_signals": {
+          "brand": "MATCH",
+          "text": "HIGH",
+          "text_score": 91,
+          "variant": "PARTIAL",
+          "variant_jw": 0.545,
+          "price": "UNKNOWN",
+          "size": "MATCH",
+          "category": "OK",
+          "decision": "PROMO_FOUND"
+        }
+      },
+      {
+        "description": "ERBETTE DELLA NONNA",
+        "description_full": "Erbette della Nonna",
+        "category": "produce",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 3.4,
+        "discount": 0.0,
+        "total_price": 3.4,
+        "_catalog_method": "gemini_only",
+        "_catalog_confidence": 0.85,
+        "_alignment_override": true,
+        "barcode": "8005360006213",
+        "is_promo_item": true,
+        "match_confidence": 84,
+        "promo_match": {
+          "publisher_guid": "68ed26e800cc667d09dd07fc",
+          "product_guid": "68ef9d27320b319a5fb3c272",
+          "product_name": "Confettura di albicocca 330g",
+          "brand_name": "Le Conserve della Nonna",
+          "match_confidence": 84,
+          "size_conflict": null,
+          "price_conflict": false
+        },
+        "match_signals": {
+          "brand": "MATCH",
+          "text": "HIGH",
+          "text_score": 84,
+          "variant": "PARTIAL",
+          "variant_jw": 0.576,
+          "price": "MATCH",
+          "size": "UNKNOWN",
+          "category": "OK",
+          "decision": "PROMO_FOUND"
+        }
+      }
+    ],
+    "totals": {
+      "total_amount": 7.38,
+      "tax_amount": 0.46,
+      "item_count": null
+    }
+  },
+  "promo_status": "PROMO_FOUND",
+  "metadata": {
+    "version": "2.0.0+6c131bf",
+    "pars_dt": "2026-04-26T08:47:43.977+00:00",
+    "processing_status": "CLEAN",
+    "flags": [
+      "SKIPPED_LOW_CONTENT(part0, coverage=0.04)"
+    ],
+    "preprocessing": [
+      {
+        "image_index": 0,
+        "tile_index": 0,
+        "steps": [
+          "GRAYSCALE(sat=9)",
+          "THRESHOLD(contrast=68,bright=156)"
+        ],
+        "stats": {
+          "mean_brightness": 155.9,
+          "std_brightness": 19.9,
+          "noise_level": 43.0,
+          "skew_angle": 0.0,
+          "avg_saturation": 9.4,
+          "width": 1920,
+          "height": 2560,
+          "contrast_ratio": 68.0,
+          "is_bimodal": false,
+          "histogram_clipping": 0.0,
+          "content_coverage": 0.04,
+          "applied_steps": [
+            "GRAYSCALE(sat=9)",
+            "THRESHOLD(contrast=68,bright=156)"
+          ]
+        }
+      },
+      {
+        "image_index": 1,
+        "tile_index": 1,
+        "steps": [
+          "GRAYSCALE(sat=10)",
+          "THRESHOLD(contrast=70,bright=160)"
+        ],
+        "stats": {
+          "mean_brightness": 159.8,
+          "std_brightness": 20.8,
+          "noise_level": 47.0,
+          "skew_angle": 0.0,
+          "avg_saturation": 9.6,
+          "width": 1920,
+          "height": 2560,
+          "contrast_ratio": 70.0,
+          "is_bimodal": false,
+          "histogram_clipping": 0.0,
+          "content_coverage": 0.2,
+          "applied_steps": [
+            "GRAYSCALE(sat=10)",
+            "THRESHOLD(contrast=70,bright=160)"
+          ]
+        }
+      },
+      {
+        "image_index": 2,
+        "tile_index": 2,
+        "steps": [
+          "GRAYSCALE(sat=10)",
+          "THRESHOLD(contrast=76,bright=158)"
+        ],
+        "stats": {
+          "mean_brightness": 158.4,
+          "std_brightness": 23.4,
+          "noise_level": 145.0,
+          "skew_angle": 0.0,
+          "avg_saturation": 10.4,
+          "width": 1920,
+          "height": 2560,
+          "contrast_ratio": 76.0,
+          "is_bimodal": false,
+          "histogram_clipping": 0.0,
+          "content_coverage": 0.8,
+          "applied_steps": [
+            "GRAYSCALE(sat=10)",
+            "THRESHOLD(contrast=76,bright=158)"
+          ]
+        }
+      },
+      {
+        "image_index": 3,
+        "tile_index": 3,
+        "steps": [
+          "GRAYSCALE(sat=10)",
+          "CLAHE(std=25,clip=0.00)"
+        ],
+        "stats": {
+          "mean_brightness": 163.7,
+          "std_brightness": 25.2,
+          "noise_level": 94.0,
+          "skew_angle": 0.0,
+          "avg_saturation": 10.1,
+          "width": 1585,
+          "height": 2560,
+          "contrast_ratio": 83.0,
+          "is_bimodal": false,
+          "histogram_clipping": 0.0,
+          "content_coverage": 0.68,
+          "applied_steps": [
+            "GRAYSCALE(sat=10)",
+            "CLAHE(std=25,clip=0.00)"
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_token_count": 3703,
+      "candidates_token_count": 314,
+      "total_token_count": 4791,
+      "thinking_token_count": 774
+    },
+    "cost_info": {
+      "total_cost": 0.0018959,
+      "model_name": "Gemini 2.5 Flash",
+      "input_cost": 0.0011109,
+      "output_cost": 0.0007850000000000001
+    },
+    "retry_count": 0
+  }
+}

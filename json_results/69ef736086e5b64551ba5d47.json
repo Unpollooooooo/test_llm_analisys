@@ -1,0 +1,69 @@
+{
+  "receipt_guid": "69ef736086e5b64551ba5d47",
+  "shop_brand": null,
+  "analysis": {
+    "document_type": "receipt",
+    "merchant": {
+      "name": "GRUPPO REGOLO",
+      "brand_name": "La Piadineria",
+      "address": "VIA MOIE 50 10034 CHIVASSO (TO)",
+      "vat_number": "03004850982",
+      "date": "",
+      "receipt_number": "",
+      "notes": ""
+    },
+    "items": [],
+    "totals": {
+      "total_amount": 0.0,
+      "tax_amount": 0.0,
+      "item_count": null
+    }
+  },
+  "promo_status": "NO_PROMO",
+  "metadata": {
+    "version": "2.0.0+unknown",
+    "pars_dt": "2026-04-27T14:32:20.924+00:00",
+    "processing_status": "CLEAN",
+    "flags": [],
+    "preprocessing": [
+      {
+        "image_index": 0,
+        "tile_index": 0,
+        "steps": [
+          "GRAYSCALE(sat=10)",
+          "CLAHE(std=32,clip=0.00)"
+        ],
+        "stats": {
+          "mean_brightness": 142.3,
+          "std_brightness": 32.0,
+          "noise_level": 283.0,
+          "skew_angle": 0.0,
+          "avg_saturation": 9.7,
+          "width": 1361,
+          "height": 1326,
+          "contrast_ratio": 123.0,
+          "is_bimodal": false,
+          "histogram_clipping": 0.002,
+          "content_coverage": 0.56,
+          "applied_steps": [
+            "GRAYSCALE(sat=10)",
+            "CLAHE(std=32,clip=0.00)"
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_token_count": 4219,
+      "candidates_token_count": 123,
+      "total_token_count": 4902,
+      "thinking_token_count": 560
+    },
+    "cost_info": {
+      "total_cost": 0.0015732,
+      "model_name": "Gemini 2.5 Flash",
+      "input_cost": 0.0012657,
+      "output_cost": 0.00030750000000000005
+    },
+    "retry_count": 0
+  }
+}

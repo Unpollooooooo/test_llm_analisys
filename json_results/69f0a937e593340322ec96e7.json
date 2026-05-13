@@ -1,0 +1,238 @@
+{
+  "receipt_guid": "69f0a937e593340322ec96e7",
+  "shop_brand": null,
+  "analysis": {
+    "document_type": "receipt",
+    "merchant": {
+      "name": "SACCO S.R.L.",
+      "brand_name": "BRAVO",
+      "address": "VIA DEL PROGRESSO, 598 88046 LAMEZIA T. (CZ)",
+      "vat_number": "03088980796",
+      "date": "2026-04-28",
+      "receipt_number": "2139-0032",
+      "notes": ""
+    },
+    "items": [
+      {
+        "description": "*BIOSOFT NITRILE XL",
+        "description_full": "Biosoft Nitrile XL",
+        "category": "personal_care",
+        "quantity": 2.0,
+        "unit_of_measure": "pz",
+        "unit_price": 2.99,
+        "discount": 0.0,
+        "total_price": 5.98,
+        "_catalog_method": "gemini_only",
+        "_catalog_confidence": 0.4,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 30,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 30,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "ACE CANDEGGINA LT 4",
+        "description_full": "Ace Candeggina Litri 4",
+        "category": "home_care",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 2.99,
+        "discount": 0.0,
+        "total_price": 2.99,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 30,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 30,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "FELCE AZZURRA MON AM",
+        "description_full": "Felce Azzurra Mon Amour",
+        "category": "personal_care",
+        "quantity": 2.0,
+        "unit_of_measure": "pz",
+        "unit_price": 3.95,
+        "discount": 0.0,
+        "total_price": 7.9,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 29,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 29,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "INCOMPATIBLE"
+        }
+      },
+      {
+        "description": "PATRICHS AFTER SHAVE",
+        "description_full": "Patrichs After Shave",
+        "category": "personal_care",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 3.59,
+        "discount": 0.0,
+        "total_price": 3.59,
+        "_catalog_method": "gemini_only",
+        "_catalog_confidence": 0.4,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 26,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 26,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "BORBONE MACINATO DEC",
+        "description_full": "Caffè Borbone Macinato Decaffeinato",
+        "category": "pantry",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 6.95,
+        "discount": 0.0,
+        "total_price": 6.95,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": "8034028337390",
+        "is_promo_item": true,
+        "match_confidence": 81,
+        "promo_match": {
+          "publisher_guid": "68f0c99a00cc667d09dd07fd",
+          "product_guid": "690da7b968b41bca3fbdad5b",
+          "product_name": "Cialda Miscela Decisa 30Pz",
+          "brand_name": "Caffè Borbone",
+          "match_confidence": 81,
+          "size_conflict": null,
+          "price_conflict": false
+        },
+        "match_signals": {
+          "brand": "MATCH",
+          "text": "HIGH",
+          "text_score": 81,
+          "variant": "PARTIAL",
+          "variant_jw": 0.661,
+          "price": "MATCH",
+          "size": "UNKNOWN",
+          "category": "OK",
+          "decision": "PROMO_FOUND"
+        }
+      },
+      {
+        "description": "SHOPPER 32X60",
+        "description_full": "Shopper Bag 32x60",
+        "category": "other",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 0.1,
+        "discount": 0.0,
+        "total_price": 0.1,
+        "_catalog_method": "gemini_only",
+        "_catalog_confidence": 0.4,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 23,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 23,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "CONFLICT",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      }
+    ],
+    "totals": {
+      "total_amount": 27.51,
+      "tax_amount": 4.96,
+      "item_count": null
+    },
+    "quality_flags": []
+  },
+  "promo_status": "PROMO_FOUND",
+  "metadata": {
+    "version": "2.1.0+unknown",
+    "pars_dt": "2026-04-28T12:34:42.411+00:00",
+    "processing_status": "CLEAN",
+    "flags": [],
+    "preprocessing": [
+      {
+        "image_index": 0,
+        "tile_index": 0,
+        "steps": [
+          "GRAYSCALE(sat=39)",
+          "CLAHE(std=34,clip=0.00)"
+        ],
+        "stats": {
+          "mean_brightness": 153.4,
+          "std_brightness": 34.4,
+          "noise_level": 108.0,
+          "skew_angle": 0.0,
+          "avg_saturation": 38.8,
+          "width": 1920,
+          "height": 3726,
+          "contrast_ratio": 109.0,
+          "is_bimodal": false,
+          "histogram_clipping": 0.0,
+          "content_coverage": 0.6,
+          "applied_steps": [
+            "GRAYSCALE(sat=39)",
+            "CLAHE(std=34,clip=0.00)"
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_token_count": 5498,
+      "candidates_token_count": 649,
+      "total_token_count": 8353,
+      "thinking_token_count": 2206
+    },
+    "cost_info": {
+      "total_cost": 0.0032719,
+      "model_name": "Gemini 2.5 Flash",
+      "input_cost": 0.0016493999999999999,
+      "output_cost": 0.0016225
+    },
+    "retry_count": 0,
+    "validation_errors": [],
+    "is_valid": true
+  }
+}

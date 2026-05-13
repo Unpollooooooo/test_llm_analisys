@@ -1,0 +1,218 @@
+{
+  "receipt_guid": "69e7750386e5b64551ba10ba",
+  "shop_brand": null,
+  "analysis": {
+    "document_type": "receipt",
+    "merchant": {
+      "name": "GDOCZ SRL",
+      "brand_name": "CONAD",
+      "address": "VIA F. VECCHIA 88100 CATANZARO (CZ)",
+      "vat_number": "03753230790",
+      "date": "2026-04-15",
+      "receipt_number": "1346-0052",
+      "notes": ""
+    },
+    "items": [
+      {
+        "description": "RED BULL LATTINA",
+        "description_full": "Red Bull Lattina",
+        "category": "beverages",
+        "quantity": 1,
+        "unit_of_measure": "pz",
+        "unit_price": 1.99,
+        "discount": 0.0,
+        "total_price": 1.99,
+        "_catalog_method": "gemini_only",
+        "_catalog_confidence": 0.85,
+        "_alignment_override": true,
+        "barcode": "9002490446870",
+        "is_promo_item": false,
+        "match_confidence": 74,
+        "promo_match": {
+          "publisher_guid": "6720a7b2c522bbb00d0651a1",
+          "product_guid": "67235f8c56329e8499ff2178",
+          "product_name": "Red Bull Green Edition Gusto Dragon Fruit 250 ml",
+          "brand_name": "Red Bull",
+          "match_confidence": 74,
+          "size_conflict": null,
+          "price_conflict": null
+        },
+        "match_signals": {
+          "brand": "MATCH",
+          "text": "MED",
+          "text_score": 79,
+          "variant": "PARTIAL",
+          "variant_jw": 0.54,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK",
+          "decision": "AMBIGUOUS"
+        }
+      },
+      {
+        "description": "Rettifica ARROTONDAMTO",
+        "description_full": "Rettifica Arrotondamento",
+        "category": "other",
+        "quantity": 1,
+        "unit_of_measure": "pz",
+        "unit_price": 0.02,
+        "discount": 0.0,
+        "total_price": 0.02,
+        "_catalog_method": "gemini_only",
+        "_catalog_confidence": 0.4,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 28,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 28,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "CONFLICT",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "MORTEL CUOR D.PAESE",
+        "description_full": "MORTEL CUOR D PAESE",
+        "category": "meat_fish",
+        "quantity": 1,
+        "unit_of_measure": "pz",
+        "unit_price": 0.87,
+        "discount": 0.0,
+        "total_price": 0.87,
+        "_catalog_method": "abbreviation",
+        "_catalog_confidence": 0.7,
+        "_gemini_original": "Mortadella Cuor di Paese",
+        "barcode": "80744818",
+        "is_promo_item": false,
+        "match_confidence": 74,
+        "promo_match": {
+          "publisher_guid": "68dd544000cc667d09dd07f4",
+          "product_guid": "68dd55f03503359af85fd7b0",
+          "product_name": "Cuore maionese vegetale senza uova 180 g",
+          "brand_name": "Cuore",
+          "match_confidence": 74,
+          "size_conflict": null,
+          "price_conflict": true
+        },
+        "match_signals": {
+          "brand": "MATCH",
+          "text": "HIGH",
+          "text_score": 80,
+          "variant": "PARTIAL",
+          "variant_jw": 0.696,
+          "price": "CONFLICT",
+          "size": "UNKNOWN",
+          "category": "OK",
+          "decision": "AMBIGUOUS"
+        }
+      },
+      {
+        "description": "STRACCIATELLA RO.VI.",
+        "description_full": "Stracciatella Rovagnati",
+        "category": "dairy",
+        "quantity": 1,
+        "unit_of_measure": "pz",
+        "unit_price": 1.04,
+        "discount": 0.0,
+        "total_price": 1.04,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 30,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 30,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "INCOMPATIBLE"
+        }
+      },
+      {
+        "description": "ROSETTE TASSONE",
+        "description_full": "Rosette Tassone",
+        "category": "bakery",
+        "quantity": 1,
+        "unit_of_measure": "pz",
+        "unit_price": 0.48,
+        "discount": 0.0,
+        "total_price": 0.48,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 28,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 28,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "CONFLICT",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      }
+    ],
+    "totals": {
+      "total_amount": 4.4,
+      "tax_amount": 0.0,
+      "item_count": null
+    }
+  },
+  "promo_status": "PROMO_AMBIGUOUS",
+  "metadata": {
+    "version": "2.0.0+6c131bf",
+    "pars_dt": "2026-04-21T13:01:24.784+00:00",
+    "processing_status": "CLEAN",
+    "flags": [],
+    "preprocessing": [
+      {
+        "image_index": 0,
+        "tile_index": 0,
+        "steps": [
+          "CLAHE(std=35,clip=0.00)"
+        ],
+        "stats": {
+          "mean_brightness": 119.3,
+          "std_brightness": 34.6,
+          "noise_level": 259.0,
+          "skew_angle": 0.0,
+          "avg_saturation": 40.8,
+          "width": 1920,
+          "height": 2560,
+          "contrast_ratio": 111.0,
+          "is_bimodal": false,
+          "histogram_clipping": 0.0,
+          "content_coverage": 1.0,
+          "applied_steps": [
+            "CLAHE(std=35,clip=0.00)"
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_token_count": 6283,
+      "candidates_token_count": 684,
+      "total_token_count": 8037,
+      "thinking_token_count": 1070
+    },
+    "cost_info": {
+      "total_cost": 0.0035949,
+      "model_name": "Gemini 2.5 Flash",
+      "input_cost": 0.0018849,
+      "output_cost": 0.0017100000000000001
+    },
+    "retry_count": 0
+  }
+}

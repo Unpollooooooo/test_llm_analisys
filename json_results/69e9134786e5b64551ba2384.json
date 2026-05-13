@@ -1,0 +1,90 @@
+{
+  "receipt_guid": "69e9134786e5b64551ba2384",
+  "shop_brand": null,
+  "analysis": {
+    "document_type": "receipt",
+    "merchant": {
+      "name": "",
+      "brand_name": "",
+      "address": "",
+      "vat_number": "",
+      "date": "",
+      "receipt_number": "",
+      "notes": ""
+    },
+    "items": [],
+    "totals": {
+      "total_amount": 50.5,
+      "tax_amount": 2.47,
+      "item_count": null
+    }
+  },
+  "promo_status": "NO_PROMO",
+  "metadata": {
+    "version": "2.0.0+6c131bf",
+    "pars_dt": "2026-04-22T18:29:26.886+00:00",
+    "processing_status": "CLEAN",
+    "flags": [],
+    "preprocessing": [
+      {
+        "image_index": 0,
+        "tile_index": 0,
+        "steps": [
+          "PASSTHROUGH(no preprocessing needed)"
+        ],
+        "stats": {
+          "mean_brightness": 152.6,
+          "std_brightness": 52.3,
+          "noise_level": 180.0,
+          "skew_angle": 0.0,
+          "avg_saturation": 156.9,
+          "width": 1893,
+          "height": 2991,
+          "contrast_ratio": 165.0,
+          "is_bimodal": true,
+          "histogram_clipping": 0.006,
+          "content_coverage": 0.88,
+          "applied_steps": [
+            "PASSTHROUGH(no preprocessing needed)"
+          ]
+        }
+      },
+      {
+        "image_index": 1,
+        "tile_index": 1,
+        "steps": [
+          "GRAYSCALE(sat=21)"
+        ],
+        "stats": {
+          "mean_brightness": 140.7,
+          "std_brightness": 68.8,
+          "noise_level": 724.0,
+          "skew_angle": 0.0,
+          "avg_saturation": 20.9,
+          "width": 734,
+          "height": 3029,
+          "contrast_ratio": 194.0,
+          "is_bimodal": true,
+          "histogram_clipping": 0.034,
+          "content_coverage": 0.84,
+          "applied_steps": [
+            "GRAYSCALE(sat=21)"
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_token_count": 3445,
+      "candidates_token_count": 120,
+      "total_token_count": 6455,
+      "thinking_token_count": 2890
+    },
+    "cost_info": {
+      "total_cost": 0.0013335,
+      "model_name": "Gemini 2.5 Flash",
+      "input_cost": 0.0010335,
+      "output_cost": 0.00030000000000000003
+    },
+    "retry_count": 0
+  }
+}

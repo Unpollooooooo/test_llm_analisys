@@ -1,0 +1,95 @@
+{
+  "receipt_guid": "69e908cb2bfcf6b2e6311aa9",
+  "shop_brand": null,
+  "analysis": {
+    "document_type": "receipt",
+    "merchant": {
+      "name": "Super elite Trading",
+      "brand_name": "elite supermercati",
+      "address": "Via A. De Gasperi, 14 -",
+      "vat_number": "058141210",
+      "date": "2026-04-22",
+      "receipt_number": "24",
+      "notes": "null"
+    },
+    "items": [
+      {
+        "description": "CAROTA NOVELLA DI ISPI",
+        "description_full": "Carota Novella di Ispica",
+        "category": "produce",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 1.49,
+        "discount": 0.0,
+        "total_price": 1.49,
+        "_catalog_method": "fuzzy",
+        "_catalog_confidence": 0.7,
+        "_gemini_original": "Carota Novella di Ispi",
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 28,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 28,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      }
+    ],
+    "totals": {
+      "total_amount": 0.0,
+      "tax_amount": 0.0,
+      "item_count": null
+    }
+  },
+  "promo_status": "NO_PROMO",
+  "metadata": {
+    "version": "2.0.0+6c131bf",
+    "pars_dt": "2026-04-22T17:45:02.288+00:00",
+    "processing_status": "CLEAN",
+    "flags": [],
+    "preprocessing": [
+      {
+        "image_index": 0,
+        "tile_index": 0,
+        "steps": [
+          "GRAYSCALE(sat=10)"
+        ],
+        "stats": {
+          "mean_brightness": 172.2,
+          "std_brightness": 54.1,
+          "noise_level": 80.0,
+          "skew_angle": 0.0,
+          "avg_saturation": 10.2,
+          "width": 978,
+          "height": 3687,
+          "contrast_ratio": 185.0,
+          "is_bimodal": false,
+          "histogram_clipping": 0.002,
+          "content_coverage": 0.8,
+          "applied_steps": [
+            "GRAYSCALE(sat=10)"
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_token_count": 6283,
+      "candidates_token_count": 205,
+      "total_token_count": 11471,
+      "thinking_token_count": 4983
+    },
+    "cost_info": {
+      "total_cost": 0.0023974,
+      "model_name": "Gemini 2.5 Flash",
+      "input_cost": 0.0018849,
+      "output_cost": 0.0005125
+    },
+    "retry_count": 0
+  }
+}

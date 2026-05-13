@@ -1,0 +1,204 @@
+{
+  "receipt_guid": "69f19dcf3da34a89f7057956",
+  "shop_brand": null,
+  "analysis": {
+    "document_type": "receipt",
+    "merchant": {
+      "name": "GE.SUPER S.R.L. A SOCIO UNICO",
+      "brand_name": "Coop",
+      "address": "VIA G. FAVA, 7 96010 PALAZZOLO A.SR",
+      "vat_number": "01284460886",
+      "date": "2026-04-23",
+      "receipt_number": "0386-0114",
+      "notes": ""
+    },
+    "items": [
+      {
+        "description": "M.TRIT.MISTO SUINO/BOVIN",
+        "description_full": "Macinato misto di suino e bovino",
+        "category": "meat_fish",
+        "quantity": 0.624,
+        "unit_of_measure": "kg",
+        "unit_price": 9.99,
+        "discount": 0.0,
+        "total_price": 6.23,
+        "_catalog_method": "fuzzy",
+        "_catalog_confidence": 0.7,
+        "_gemini_original": "Macinato Tritato Misto Suino/Bovino",
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 29,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 29,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "M.TRIT.MISTO SUINO/BOVIN",
+        "description_full": "Macinato misto di suino e bovino",
+        "category": "meat_fish",
+        "quantity": 0.416,
+        "unit_of_measure": "kg",
+        "unit_price": 9.99,
+        "discount": 0.0,
+        "total_price": 4.16,
+        "_catalog_method": "cache",
+        "_catalog_confidence": 0.7,
+        "_gemini_original": "Macinato Tritato Misto Suino/Bovino",
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 29,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 29,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "PARMALAT ZYMIL 0.1% BOTT",
+        "description_full": "Parmalat Zymil 0.1% Bottiglia",
+        "category": "dairy",
+        "quantity": 3.0,
+        "unit_of_measure": "pz",
+        "unit_price": 1.35,
+        "discount": 0.0,
+        "total_price": 4.05,
+        "_catalog_method": "gemini_only",
+        "_catalog_confidence": 0.85,
+        "_alignment_override": true,
+        "barcode": "8002580014509",
+        "is_promo_item": false,
+        "match_confidence": 74,
+        "promo_match": {
+          "publisher_guid": "68f0f6bb00cc667d09dd07fe",
+          "product_guid": "68f10883a554acb01d0d5f4d",
+          "product_name": "Magro Digeribile 1000 ml",
+          "brand_name": "Zymil",
+          "match_confidence": 74,
+          "size_conflict": null,
+          "price_conflict": null
+        },
+        "match_signals": {
+          "brand": "MATCH",
+          "text": "MED",
+          "text_score": 77,
+          "variant": "PARTIAL",
+          "variant_jw": 0.539,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK",
+          "decision": "AMBIGUOUS"
+        }
+      },
+      {
+        "description": "SCONTO",
+        "description_full": "Sconto",
+        "category": "other",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 0.0,
+        "discount": 0.78,
+        "total_price": -0.78,
+        "_catalog_method": "gemini_only",
+        "_catalog_confidence": 0.85,
+        "_alignment_override": true,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 0,
+        "promo_match": null
+      },
+      {
+        "description": "SHOPPERS COOP BIO 35X65",
+        "description_full": "Shoppers Coop Bio 35x65",
+        "category": "home_care",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 0.17,
+        "discount": 0.0,
+        "total_price": 0.17,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 23,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 23,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "INCOMPATIBLE"
+        }
+      }
+    ],
+    "totals": {
+      "total_amount": 13.83,
+      "tax_amount": 1.1,
+      "item_count": null
+    },
+    "quality_flags": []
+  },
+  "promo_status": "PROMO_AMBIGUOUS",
+  "metadata": {
+    "version": "2.1.0+bbfe08e",
+    "pars_dt": "2026-04-29T05:58:14.665+00:00",
+    "processing_status": "CLEAN",
+    "flags": [],
+    "preprocessing": [
+      {
+        "image_index": 0,
+        "tile_index": 0,
+        "steps": [
+          "GRAYSCALE(sat=24)"
+        ],
+        "stats": {
+          "mean_brightness": 189.7,
+          "std_brightness": 45.5,
+          "noise_level": 82.0,
+          "skew_angle": 0.0,
+          "avg_saturation": 23.9,
+          "width": 1711,
+          "height": 3455,
+          "contrast_ratio": 161.0,
+          "is_bimodal": false,
+          "histogram_clipping": 0.004,
+          "content_coverage": 0.84,
+          "applied_steps": [
+            "GRAYSCALE(sat=24)"
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_token_count": 5498,
+      "candidates_token_count": 749,
+      "total_token_count": 7926,
+      "thinking_token_count": 1679
+    },
+    "cost_info": {
+      "total_cost": 0.0035219,
+      "model_name": "Gemini 2.5 Flash",
+      "input_cost": 0.0016493999999999999,
+      "output_cost": 0.0018725000000000002
+    },
+    "retry_count": 0,
+    "validation_errors": [],
+    "is_valid": true
+  }
+}

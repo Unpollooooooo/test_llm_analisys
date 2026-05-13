@@ -1,0 +1,121 @@
+{
+  "receipt_guid": "69e8bb9386e5b64551ba1e4f",
+  "shop_brand": null,
+  "analysis": {
+    "document_type": "receipt",
+    "merchant": {
+      "name": "S.M.I. SRL",
+      "brand_name": "Si Supermercato",
+      "address": "via San Lorenzo 2/2A 60020 Sirolo",
+      "vat_number": "01517350425",
+      "date": "2026-04-22",
+      "receipt_number": "2551-0209",
+      "notes": ""
+    },
+    "items": [
+      {
+        "description": "BURRATA PERLA GR125",
+        "description_full": "Burrata Perla 125g",
+        "category": "dairy",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 2.69,
+        "discount": 0.0,
+        "total_price": 2.69,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 33,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 33,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "PANE E DOLCI",
+        "description_full": "Pane e Dolci",
+        "category": "bakery",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 0.86,
+        "discount": 0.0,
+        "total_price": 0.86,
+        "_catalog_method": "gemini_only",
+        "_catalog_confidence": 0.4,
+        "_alignment_override": true,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 27,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 27,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "CONFLICT",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      }
+    ],
+    "totals": {
+      "total_amount": 3.55,
+      "tax_amount": 0.0,
+      "item_count": 2
+    }
+  },
+  "promo_status": "NO_PROMO",
+  "metadata": {
+    "version": "2.0.0+6c131bf",
+    "pars_dt": "2026-04-22T12:14:48.728+00:00",
+    "processing_status": "CLEAN",
+    "flags": [],
+    "preprocessing": [
+      {
+        "image_index": 0,
+        "tile_index": 0,
+        "steps": [
+          "GRAYSCALE(sat=29)"
+        ],
+        "stats": {
+          "mean_brightness": 189.9,
+          "std_brightness": 52.9,
+          "noise_level": 634.0,
+          "skew_angle": 0.0,
+          "avg_saturation": 28.6,
+          "width": 1185,
+          "height": 3705,
+          "contrast_ratio": 174.0,
+          "is_bimodal": false,
+          "histogram_clipping": 0.012,
+          "content_coverage": 0.8,
+          "applied_steps": [
+            "GRAYSCALE(sat=29)"
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_token_count": 5767,
+      "candidates_token_count": 304,
+      "total_token_count": 6875,
+      "thinking_token_count": 804
+    },
+    "cost_info": {
+      "total_cost": 0.0024901,
+      "model_name": "Gemini 2.5 Flash",
+      "input_cost": 0.0017300999999999998,
+      "output_cost": 0.00076
+    },
+    "retry_count": 0
+  }
+}

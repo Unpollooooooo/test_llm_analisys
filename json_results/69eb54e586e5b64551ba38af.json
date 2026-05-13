@@ -1,0 +1,193 @@
+{
+  "receipt_guid": "69eb54e586e5b64551ba38af",
+  "shop_brand": null,
+  "analysis": {
+    "document_type": "receipt",
+    "merchant": {
+      "name": "IPERAL SUPERMERCATI SPA",
+      "brand_name": "IPERAL",
+      "address": "VIA LA ROSA 354 - 23010 (SO)",
+      "vat_number": "11023300962",
+      "date": "2026-04-24",
+      "receipt_number": "6228",
+      "notes": ""
+    },
+    "items": [
+      {
+        "description": "MORATO AMERICAN BURG",
+        "description_full": "Morato American Burger",
+        "category": "bakery",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 1.75,
+        "discount": 0.56,
+        "total_price": 1.19,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 28,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 28,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "MATCH",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "FUZETEA ZERO PESCA",
+        "description_full": "Fuze Tea Zero Pesca",
+        "category": "beverages",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 0.95,
+        "discount": 0.26,
+        "total_price": 0.69,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": "5449000255402",
+        "is_promo_item": true,
+        "match_confidence": 88,
+        "promo_match": {
+          "publisher_guid": "6972630efc7f1b23d3ed374d",
+          "product_guid": "697265eac82db0227dd24968",
+          "product_name": "FUZE TEA Limone e Lemongrass Zero PET 1,25L",
+          "brand_name": "Fuze Tea",
+          "match_confidence": 88,
+          "size_conflict": null,
+          "price_conflict": null
+        },
+        "match_signals": {
+          "brand": "MATCH",
+          "text": "HIGH",
+          "text_score": 88,
+          "variant": "MATCH",
+          "variant_jw": 0.844,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK",
+          "decision": "PROMO_FOUND"
+        }
+      },
+      {
+        "description": "GALBUS RISOSURISO",
+        "description_full": "Galbusera RisosuRiso cracker con riso Venere, in sacchetto",
+        "category": "bakery",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 2.19,
+        "discount": 0.0,
+        "total_price": 2.19,
+        "_catalog_method": "promo_catalog",
+        "_catalog_confidence": 0.7,
+        "_gemini_original": "Galbusera Risosorriso",
+        "barcode": "8002190002545",
+        "is_promo_item": true,
+        "match_confidence": 85,
+        "promo_match": {
+          "publisher_guid": "651428fc60b55747dd7fc26b",
+          "product_guid": "68c17ae8ebe6813d6c476607",
+          "product_name": "Cracker Mais",
+          "brand_name": "Galbusera",
+          "match_confidence": 85,
+          "size_conflict": null,
+          "price_conflict": false
+        },
+        "match_signals": {
+          "brand": "MATCH",
+          "text": "HIGH",
+          "text_score": 85,
+          "variant": "MATCH",
+          "variant_jw": 0.833,
+          "price": "MATCH",
+          "size": "UNKNOWN",
+          "category": "OK",
+          "decision": "PROMO_FOUND"
+        }
+      },
+      {
+        "description": "I'M A GENIUS SMALTO",
+        "description_full": "I'm a Genius Smalto",
+        "category": "other",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 15.9,
+        "discount": 0.0,
+        "total_price": 15.9,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 26,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 26,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      }
+    ],
+    "totals": {
+      "total_amount": 19.97,
+      "tax_amount": 3.18,
+      "item_count": 4
+    }
+  },
+  "promo_status": "PROMO_FOUND",
+  "metadata": {
+    "version": "2.0.0+6c131bf",
+    "pars_dt": "2026-04-24T11:33:22.712+00:00",
+    "processing_status": "CLEAN",
+    "flags": [],
+    "preprocessing": [
+      {
+        "image_index": 0,
+        "tile_index": 0,
+        "steps": [
+          "GRAYSCALE(sat=10)",
+          "THRESHOLD(contrast=38,bright=163)"
+        ],
+        "stats": {
+          "mean_brightness": 162.6,
+          "std_brightness": 15.6,
+          "noise_level": 305.0,
+          "skew_angle": 0.0,
+          "avg_saturation": 10.2,
+          "width": 1920,
+          "height": 2560,
+          "contrast_ratio": 38.0,
+          "is_bimodal": false,
+          "histogram_clipping": 0.0,
+          "content_coverage": 0.4,
+          "applied_steps": [
+            "GRAYSCALE(sat=10)",
+            "THRESHOLD(contrast=38,bright=163)"
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_token_count": 6283,
+      "candidates_token_count": 460,
+      "total_token_count": 8071,
+      "thinking_token_count": 1328
+    },
+    "cost_info": {
+      "total_cost": 0.0030349,
+      "model_name": "Gemini 2.5 Flash",
+      "input_cost": 0.0018849,
+      "output_cost": 0.0011500000000000002
+    },
+    "retry_count": 0
+  }
+}

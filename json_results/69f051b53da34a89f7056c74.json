@@ -1,0 +1,227 @@
+{
+  "receipt_guid": "69f051b53da34a89f7056c74",
+  "shop_brand": null,
+  "analysis": {
+    "document_type": "receipt",
+    "merchant": {
+      "name": "GM S.R.L.",
+      "brand_name": "Sole 365",
+      "address": "Via Adamo Fortunato Loc. Penta 84048 - Fisciano (SA)",
+      "vat_number": "09583561213",
+      "date": "2026-04-06",
+      "receipt_number": "2051-0198",
+      "notes": ""
+    },
+    "items": [
+      {
+        "description": "SHOPPERS SOLE 365 BIO",
+        "description_full": "Shoppers Sole 365 Bio",
+        "category": "other",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 0.1,
+        "discount": 0.0,
+        "total_price": 0.1,
+        "_catalog_method": "gemini_only",
+        "_catalog_confidence": 0.4,
+        "_alignment_override": true,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 26,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 26,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "LEMONSODA MINICAN CL.",
+        "description_full": "Lemonsoda Mini Can",
+        "category": "beverages",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 1.98,
+        "discount": 0.0,
+        "total_price": 1.98,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 27,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 27,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "GAUDIANELLO EFFERV.NA",
+        "description_full": "Gaudianello Effervescente Naturale",
+        "category": "beverages",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 0.5,
+        "discount": 0.0,
+        "total_price": 0.5,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 27,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 27,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "SCOIATT. QUADRUCCI CAR",
+        "description_full": "Scoiattolo Quadrucci Carote",
+        "category": "pantry",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 1.0,
+        "discount": 0.0,
+        "total_price": 1.0,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 30,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 30,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "CONFLICT",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "SLX BIO BANANE FAIRTR",
+        "description_full": "SLX Bio Banane Fairtrade",
+        "category": "produce",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 2.38,
+        "discount": 0.0,
+        "total_price": 2.38,
+        "_catalog_method": "gemini_only",
+        "_catalog_confidence": 0.85,
+        "_alignment_override": true,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 28,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 28,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "MATCH",
+          "size": "UNKNOWN",
+          "category": "INCOMPATIBLE"
+        }
+      }
+    ],
+    "totals": {
+      "total_amount": 5.96,
+      "tax_amount": 0.65,
+      "item_count": null
+    }
+  },
+  "promo_status": "NO_PROMO",
+  "metadata": {
+    "version": "2.0.0+unknown",
+    "pars_dt": "2026-04-28T06:22:30.832+00:00",
+    "processing_status": "CLEAN",
+    "flags": [],
+    "preprocessing": [
+      {
+        "image_index": 0,
+        "tile_index": 0,
+        "steps": [
+          "GRAYSCALE(sat=23)",
+          "CLAHE(std=27,clip=0.00)"
+        ],
+        "stats": {
+          "mean_brightness": 142.3,
+          "std_brightness": 27.0,
+          "noise_level": 129.0,
+          "skew_angle": 0.0,
+          "avg_saturation": 23.3,
+          "width": 1442,
+          "height": 1345,
+          "contrast_ratio": 101.0,
+          "is_bimodal": false,
+          "histogram_clipping": 0.0,
+          "content_coverage": 0.68,
+          "applied_steps": [
+            "GRAYSCALE(sat=23)",
+            "CLAHE(std=27,clip=0.00)"
+          ]
+        }
+      },
+      {
+        "image_index": 1,
+        "tile_index": 1,
+        "steps": [
+          "GRAYSCALE(sat=26)",
+          "CLAHE(std=29,clip=0.00)"
+        ],
+        "stats": {
+          "mean_brightness": 142.3,
+          "std_brightness": 29.3,
+          "noise_level": 113.0,
+          "skew_angle": 0.0,
+          "avg_saturation": 26.1,
+          "width": 1398,
+          "height": 2539,
+          "contrast_ratio": 101.0,
+          "is_bimodal": false,
+          "histogram_clipping": 0.0,
+          "content_coverage": 0.6,
+          "applied_steps": [
+            "GRAYSCALE(sat=26)",
+            "CLAHE(std=29,clip=0.00)"
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_token_count": 3445,
+      "candidates_token_count": 701,
+      "total_token_count": 7273,
+      "thinking_token_count": 3127
+    },
+    "cost_info": {
+      "total_cost": 0.0027860000000000003,
+      "model_name": "Gemini 2.5 Flash",
+      "input_cost": 0.0010335,
+      "output_cost": 0.0017525000000000002
+    },
+    "retry_count": 0
+  }
+}

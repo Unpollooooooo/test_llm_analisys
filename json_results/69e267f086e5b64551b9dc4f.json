@@ -1,0 +1,270 @@
+{
+  "receipt_guid": "69e267f086e5b64551b9dc4f",
+  "shop_brand": null,
+  "analysis": {
+    "document_type": "receipt",
+    "merchant": {
+      "name": "TATO' PARIDE S.p.A.",
+      "brand_name": "Coop",
+      "address": "Largo Petrarca, 1 76125 TRANI (BT)",
+      "vat_number": "00855760724",
+      "date": "2017-04-26",
+      "receipt_number": "2441-0118",
+      "notes": ""
+    },
+    "items": [
+      {
+        "description": "VALFRUTTA PASSATA VE",
+        "description_full": "Valfrutta Passata Vegetale",
+        "category": "pantry",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 1.19,
+        "discount": 0.0,
+        "total_price": 1.19,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 26,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 26,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "VALFRUTTA PASSATA VE",
+        "description_full": "Valfrutta Passata Vegetale",
+        "category": "pantry",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 1.19,
+        "discount": 0.0,
+        "total_price": 1.19,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 26,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 26,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "ROVAGNATI GRAN BISCO",
+        "description_full": "Rovagnati Gran Bisco",
+        "category": "meat_fish",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 5.26,
+        "discount": 0.0,
+        "total_price": 5.26,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 74,
+        "promo_match": {
+          "publisher_guid": "6513f40a60b55747dd7fc268",
+          "product_guid": "65145aa3c30d8616850160c6",
+          "product_name": "Cozze grandi in salamoia - Mejillones -",
+          "brand_name": "Consorcio Gran Reserva",
+          "match_confidence": 74,
+          "size_conflict": null,
+          "price_conflict": null
+        },
+        "match_signals": {
+          "brand": "MATCH",
+          "text": "HIGH",
+          "text_score": 80,
+          "variant": "PARTIAL",
+          "variant_jw": 0.635,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK",
+          "decision": "AMBIGUOUS"
+        }
+      },
+      {
+        "description": "* ASIAGO DOP FORME K",
+        "description_full": "Asiago DOP Former",
+        "category": "dairy",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 2.53,
+        "discount": 0.0,
+        "total_price": 2.53,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": "8052575092326",
+        "is_promo_item": true,
+        "match_confidence": 86,
+        "promo_match": {
+          "publisher_guid": "665064e313f7055beaea8dc4",
+          "product_guid": "66f56ff60075f4ecd56de68f",
+          "product_name": "Le Frollette Nocciolata L'originale",
+          "brand_name": "Rigoni di Asiago",
+          "match_confidence": 86,
+          "size_conflict": null,
+          "price_conflict": false
+        },
+        "match_signals": {
+          "brand": "MATCH",
+          "text": "HIGH",
+          "text_score": 86,
+          "variant": "PARTIAL",
+          "variant_jw": 0.551,
+          "price": "MATCH",
+          "size": "UNKNOWN",
+          "category": "OK",
+          "decision": "PROMO_FOUND"
+        }
+      },
+      {
+        "description": "SANTHE PET 1.5 LT GU",
+        "description_full": "Santhe",
+        "category": "beverages",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 1.19,
+        "discount": 0.0,
+        "total_price": 1.19,
+        "_catalog_method": "fuzzy",
+        "_catalog_confidence": 0.7,
+        "_gemini_original": "Santhé PET 1.5 Litri Gusto",
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 27,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 27,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "INCOMPATIBLE"
+        }
+      },
+      {
+        "description": "SANTHE 'PET 1.5 LT GU",
+        "description_full": "Santhe",
+        "category": "beverages",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 1.19,
+        "discount": 0.0,
+        "total_price": 1.19,
+        "_catalog_method": "fuzzy",
+        "_catalog_confidence": 0.7,
+        "_gemini_original": "Santhé PET 1.5 Litri Gusto",
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 27,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 27,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "INCOMPATIBLE"
+        }
+      },
+      {
+        "description": "COOP SHOPPER MATER B",
+        "description_full": "Coop Shopper Mater-Bi",
+        "category": "other",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 0.1,
+        "discount": 0.0,
+        "total_price": 0.1,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 26,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 26,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      }
+    ],
+    "totals": {
+      "total_amount": 12.65,
+      "tax_amount": 1.12,
+      "item_count": 7
+    }
+  },
+  "promo_status": "PROMO_FOUND",
+  "metadata": {
+    "version": "2.0.0+6c131bf",
+    "pars_dt": "2026-04-17T17:04:22.543+00:00",
+    "processing_status": "CLEAN",
+    "flags": [],
+    "preprocessing": [
+      {
+        "image_index": 0,
+        "tile_index": 0,
+        "steps": [
+          "GRAYSCALE(sat=13)"
+        ],
+        "stats": {
+          "mean_brightness": 165.7,
+          "std_brightness": 45.2,
+          "noise_level": 263.0,
+          "skew_angle": 0.0,
+          "avg_saturation": 13.1,
+          "width": 1623,
+          "height": 3729,
+          "contrast_ratio": 137.0,
+          "is_bimodal": false,
+          "histogram_clipping": 0.011,
+          "content_coverage": 0.92,
+          "applied_steps": [
+            "GRAYSCALE(sat=13)"
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_token_count": 5251,
+      "candidates_token_count": 731,
+      "total_token_count": 7518,
+      "thinking_token_count": 1536
+    },
+    "cost_info": {
+      "total_cost": 0.0034028,
+      "model_name": "Gemini 2.5 Flash",
+      "input_cost": 0.0015753,
+      "output_cost": 0.0018275000000000001
+    },
+    "retry_count": 0
+  }
+}

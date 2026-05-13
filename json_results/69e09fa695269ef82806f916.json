@@ -1,0 +1,170 @@
+{
+  "receipt_guid": "69e09fa695269ef82806f916",
+  "shop_brand": null,
+  "analysis": {
+    "document_type": "receipt",
+    "merchant": {
+      "name": "bennet",
+      "brand_name": "Bennet",
+      "address": "Via Nazionale dei Giovi, 249 Lentate sul Seveso (MB)",
+      "vat_number": "07071700152",
+      "date": "2026-04-16",
+      "receipt_number": "N0033-0001",
+      "notes": ""
+    },
+    "items": [
+      {
+        "description": "ESTATHE LIM.ZEROM L400",
+        "description_full": "Estathe Limone Zero ml 400",
+        "category": "beverages",
+        "quantity": 1,
+        "unit_of_measure": "pz",
+        "unit_price": 0.99,
+        "discount": 0.0,
+        "total_price": 0.99,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 30,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 30,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "CIPSITER ORIG. MPK X7 GR 1",
+        "description_full": "Originale",
+        "category": "pantry",
+        "quantity": 1,
+        "unit_of_measure": "pz",
+        "unit_price": 2.49,
+        "discount": 0.0,
+        "total_price": 2.49,
+        "_catalog_method": "fuzzy",
+        "_catalog_confidence": 0.7,
+        "_gemini_original": "Chips Originali Multipack x7 gr 1",
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 31,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 31,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "PACCHERI POMODORO E MOZZ",
+        "description_full": "Paccheri Pomodoro e Mozzarella",
+        "category": "pantry",
+        "quantity": 1,
+        "unit_of_measure": "pz",
+        "unit_price": 3.99,
+        "discount": 1.0,
+        "total_price": 2.99,
+        "_catalog_method": "gemini_only",
+        "_catalog_confidence": 0.52,
+        "_alignment_override": true,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 30,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 30,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "MATCH",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      }
+    ],
+    "totals": {
+      "total_amount": 6.47,
+      "tax_amount": 0.68,
+      "item_count": null
+    }
+  },
+  "promo_status": "NO_PROMO",
+  "metadata": {
+    "version": "1.0.0+e1ba314",
+    "processing_status": "CLEAN",
+    "flags": [],
+    "preprocessing": [
+      {
+        "image_index": 0,
+        "tile_index": 0,
+        "steps": [
+          "GRAYSCALE(sat=20)"
+        ],
+        "stats": {
+          "mean_brightness": 163.6,
+          "std_brightness": 39.5,
+          "noise_level": 164.0,
+          "skew_angle": 0.0,
+          "avg_saturation": 20.5,
+          "width": 1601,
+          "height": 3287,
+          "contrast_ratio": 114.0,
+          "is_bimodal": true,
+          "histogram_clipping": 0.002,
+          "content_coverage": 0.68,
+          "applied_steps": [
+            "GRAYSCALE(sat=20)"
+          ]
+        }
+      },
+      {
+        "image_index": 1,
+        "tile_index": 1,
+        "steps": [
+          "GRAYSCALE(sat=14)"
+        ],
+        "stats": {
+          "mean_brightness": 189.7,
+          "std_brightness": 40.7,
+          "noise_level": 433.0,
+          "skew_angle": 0.0,
+          "avg_saturation": 13.6,
+          "width": 977,
+          "height": 2317,
+          "contrast_ratio": 123.0,
+          "is_bimodal": false,
+          "histogram_clipping": 0.02,
+          "content_coverage": 1.0,
+          "applied_steps": [
+            "GRAYSCALE(sat=14)"
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_token_count": 3445,
+      "candidates_token_count": 504,
+      "total_token_count": 5141,
+      "thinking_token_count": 1192
+    },
+    "cost_info": {
+      "total_cost": 0.0022935,
+      "model_name": "Gemini 2.5 Flash",
+      "input_cost": 0.0010335,
+      "output_cost": 0.00126
+    },
+    "retry_count": 0
+  }
+}

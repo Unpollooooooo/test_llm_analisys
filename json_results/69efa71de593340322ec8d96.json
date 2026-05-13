@@ -1,0 +1,137 @@
+{
+  "receipt_guid": "69efa71de593340322ec8d96",
+  "shop_brand": null,
+  "analysis": {
+    "document_type": "receipt",
+    "merchant": {
+      "name": "Lidl Italia S.r.l. a socio unico",
+      "brand_name": "Lidl",
+      "address": "Monopoli (BA) - cdc 6088 70043-Viale Aldo Moro",
+      "vat_number": "PI02275030233",
+      "date": "2026-04-27",
+      "receipt_number": "1286-04-",
+      "notes": ""
+    },
+    "items": [
+      {
+        "description": "LATTE ITALIANO UHT",
+        "description_full": "Latte Italiano UHT",
+        "category": "dairy",
+        "quantity": 2.0,
+        "unit_of_measure": "pz",
+        "unit_price": 5.59,
+        "discount": 0.0,
+        "total_price": 11.18,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 33,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 33,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "CONFLICT",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "AVOCADO PZ",
+        "description_full": "Avocado Pezzi",
+        "category": "produce",
+        "quantity": 3.0,
+        "unit_of_measure": "pz",
+        "unit_price": 0.95,
+        "discount": 0.0,
+        "total_price": 2.85,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 24,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 24,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "MATCH",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "KIWI",
+        "description_full": "Kiwi",
+        "category": "produce",
+        "quantity": 0.392,
+        "unit_of_measure": "kg",
+        "unit_price": 3.49,
+        "discount": 0.0,
+        "total_price": 1.36808,
+        "_catalog_method": "gemini_only",
+        "_catalog_confidence": 0.85,
+        "_alignment_override": true,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 0,
+        "promo_match": null
+      }
+    ],
+    "totals": {
+      "total_amount": 0.0,
+      "tax_amount": 0.0,
+      "item_count": null
+    }
+  },
+  "promo_status": "NO_PROMO",
+  "metadata": {
+    "version": "2.0.0+unknown",
+    "pars_dt": "2026-04-27T18:14:05.905+00:00",
+    "processing_status": "CLEAN",
+    "flags": [],
+    "preprocessing": [
+      {
+        "image_index": 0,
+        "tile_index": 0,
+        "steps": [
+          "PASSTHROUGH(no preprocessing needed)"
+        ],
+        "stats": {
+          "mean_brightness": 145.0,
+          "std_brightness": 36.2,
+          "noise_level": 450.0,
+          "skew_angle": 0.0,
+          "avg_saturation": 65.6,
+          "width": 953,
+          "height": 2406,
+          "contrast_ratio": 111.0,
+          "is_bimodal": false,
+          "histogram_clipping": 0.0,
+          "content_coverage": 1.0,
+          "applied_steps": [
+            "PASSTHROUGH(no preprocessing needed)"
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_token_count": 5251,
+      "candidates_token_count": 486,
+      "total_token_count": 9483,
+      "thinking_token_count": 3746
+    },
+    "cost_info": {
+      "total_cost": 0.0027903,
+      "model_name": "Gemini 2.5 Flash",
+      "input_cost": 0.0015753,
+      "output_cost": 0.0012150000000000002
+    },
+    "retry_count": 0
+  }
+}

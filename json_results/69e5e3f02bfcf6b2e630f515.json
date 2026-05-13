@@ -1,0 +1,355 @@
+{
+  "receipt_guid": "69e5e3f02bfcf6b2e630f515",
+  "shop_brand": null,
+  "analysis": {
+    "document_type": "receipt",
+    "merchant": {
+      "name": "SPAZIO CONAD PIANETA S.R.L.",
+      "brand_name": "Conad",
+      "address": "Via Larga n. 10 - Bologna",
+      "vat_number": "0397411209",
+      "date": "2026-04-20",
+      "receipt_number": "2469-0014",
+      "notes": ""
+    },
+    "items": [
+      {
+        "description": "HAMBURG.POLLO AF CPQ",
+        "description_full": "Hamburger Pollo Affettato Confezione",
+        "category": "meat_fish",
+        "quantity": 1,
+        "unit_of_measure": "pz",
+        "unit_price": 3.32,
+        "discount": 1.33,
+        "total_price": 1.99,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 28,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 28,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "PECORINO SIRBONE",
+        "description_full": "Pecorino Sardo",
+        "category": "dairy",
+        "quantity": 1,
+        "unit_of_measure": "pz",
+        "unit_price": 8.82,
+        "discount": 0,
+        "total_price": 8.82,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 30,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 30,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "CONFLICT",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "PETTO DI POLLO A FET",
+        "description_full": "Petto di Pollo a Fette",
+        "category": "meat_fish",
+        "quantity": 1,
+        "unit_of_measure": "pz",
+        "unit_price": 6.01,
+        "discount": 0,
+        "total_price": 6.01,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 35,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 35,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "SAN DANIELE DOP",
+        "description_full": "prosciutto di san Daniele dop",
+        "category": "meat_fish",
+        "quantity": 1,
+        "unit_of_measure": "pz",
+        "unit_price": 3.42,
+        "discount": 0,
+        "total_price": 3.42,
+        "_catalog_method": "fuzzy",
+        "_catalog_confidence": 0.7,
+        "_gemini_original": "Prosciutto San Daniele DOP",
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 31,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 31,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "LATTUGHINO CPQ 125 g",
+        "description_full": "Lattughino Confezione 125 grammi",
+        "category": "produce",
+        "quantity": 1,
+        "unit_of_measure": "pz",
+        "unit_price": 1.19,
+        "discount": 0,
+        "total_price": 1.19,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 25,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 25,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "INCOMPATIBLE"
+        }
+      },
+      {
+        "description": "FRULLA: DI FR.PINK #",
+        "description_full": "Frullato di Frutta Pink",
+        "category": "beverages",
+        "quantity": 6,
+        "unit_of_measure": "pz",
+        "unit_price": 0.9,
+        "discount": 0,
+        "total_price": 5.4,
+        "_catalog_method": "gemini_only",
+        "_catalog_confidence": 0.57,
+        "_alignment_override": true,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 30,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 30,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "LATTE UHT P.S.500ML",
+        "description_full": "Latte UHT Parzialmente Scremato 500ml",
+        "category": "dairy",
+        "quantity": 1,
+        "unit_of_measure": "pz",
+        "unit_price": 0.95,
+        "discount": 0,
+        "total_price": 0.95,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 31,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 31,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "MATCH",
+          "size": "MATCH",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "LATTE UHT P.S.500ML",
+        "description_full": "Latte UHT Parzialmente Scremato 500ml",
+        "category": "dairy",
+        "quantity": 1,
+        "unit_of_measure": "pz",
+        "unit_price": 0.95,
+        "discount": 0,
+        "total_price": 0.95,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 31,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 31,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "MATCH",
+          "size": "MATCH",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "LATTE UHT P.S.500ML",
+        "description_full": "Latte UHT Parzialmente Scremato 500ml",
+        "category": "dairy",
+        "quantity": 1,
+        "unit_of_measure": "pz",
+        "unit_price": 0.95,
+        "discount": 0,
+        "total_price": 0.95,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 31,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 31,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "MATCH",
+          "size": "MATCH",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "LATTE UHT P.S.500ML",
+        "description_full": "Latte UHT Parzialmente Scremato 500ml",
+        "category": "dairy",
+        "quantity": 1,
+        "unit_of_measure": "pz",
+        "unit_price": 0.95,
+        "discount": 0,
+        "total_price": 0.95,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 31,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 31,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "MATCH",
+          "size": "MATCH",
+          "category": "OK"
+        }
+      }
+    ],
+    "totals": {
+      "total_amount": 25.63,
+      "tax_amount": 1.72,
+      "item_count": null
+    }
+  },
+  "promo_status": "NO_PROMO",
+  "metadata": {
+    "version": "2.0.0+6c131bf",
+    "pars_dt": "2026-04-20T08:30:53.776+00:00",
+    "processing_status": "CLEAN",
+    "flags": [],
+    "preprocessing": [
+      {
+        "image_index": 0,
+        "tile_index": 0,
+        "steps": [
+          "GRAYSCALE(sat=35)"
+        ],
+        "stats": {
+          "mean_brightness": 122.1,
+          "std_brightness": 55.0,
+          "noise_level": 50.0,
+          "skew_angle": 0.0,
+          "avg_saturation": 35.3,
+          "width": 1892,
+          "height": 2560,
+          "contrast_ratio": 184.0,
+          "is_bimodal": true,
+          "histogram_clipping": 0.003,
+          "content_coverage": 0.84,
+          "applied_steps": [
+            "GRAYSCALE(sat=35)"
+          ]
+        }
+      },
+      {
+        "image_index": 1,
+        "tile_index": 1,
+        "steps": [
+          "GRAYSCALE(sat=11)",
+          "RESIZE(532→800)"
+        ],
+        "stats": {
+          "mean_brightness": 162.5,
+          "std_brightness": 43.6,
+          "noise_level": 75.0,
+          "skew_angle": 0.0,
+          "avg_saturation": 10.8,
+          "width": 532,
+          "height": 1920,
+          "contrast_ratio": 123.0,
+          "is_bimodal": true,
+          "histogram_clipping": 0.0,
+          "content_coverage": 0.64,
+          "applied_steps": [
+            "GRAYSCALE(sat=11)",
+            "RESIZE(532→800)"
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_token_count": 3445,
+      "candidates_token_count": 1219,
+      "total_token_count": 7653,
+      "thinking_token_count": 2989
+    },
+    "cost_info": {
+      "total_cost": 0.004081,
+      "model_name": "Gemini 2.5 Flash",
+      "input_cost": 0.0010335,
+      "output_cost": 0.0030475000000000003
+    },
+    "retry_count": 0
+  }
+}

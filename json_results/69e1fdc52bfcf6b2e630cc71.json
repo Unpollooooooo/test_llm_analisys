@@ -1,0 +1,146 @@
+{
+  "receipt_guid": "69e1fdc52bfcf6b2e630cc71",
+  "shop_brand": null,
+  "analysis": {
+    "document_type": "receipt",
+    "merchant": {
+      "name": "MEDI STORE SRL",
+      "brand_name": "Decò Supermercati",
+      "address": "VIA ROSSINI PAL. ALUZZI -CASERTA-",
+      "vat_number": "02959800612",
+      "date": "null",
+      "receipt_number": "null",
+      "notes": "null"
+    },
+    "items": [
+      {
+        "description": "DIVELLA FETTUCCINE NIDI 5",
+        "description_full": "Divella Fettuccine Nidi 5",
+        "category": "pantry",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 1.1,
+        "discount": 0.0,
+        "total_price": 1.1,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 25,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 25,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "RICOTTA DESSERT GIORGI AL",
+        "description_full": "Ricotta Dessert Giorgi al",
+        "category": "dairy",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 1.21,
+        "discount": 0.0,
+        "total_price": 1.21,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 29,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 29,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "ERIDA ZUCCHERO ZEFIR",
+        "description_full": "Erida Zucchero Zefir",
+        "category": "pantry",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 1.79,
+        "discount": 0.0,
+        "total_price": 1.79,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 26,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 26,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      }
+    ],
+    "totals": {
+      "total_amount": 4.1,
+      "tax_amount": 0.25,
+      "item_count": null
+    }
+  },
+  "promo_status": "NO_PROMO",
+  "metadata": {
+    "version": "1.0.0+6c131bf",
+    "pars_dt": "2026-04-17T09:31:07.492+00:00",
+    "processing_status": "CLEAN",
+    "flags": [],
+    "preprocessing": [
+      {
+        "image_index": 0,
+        "tile_index": 0,
+        "steps": [
+          "GRAYSCALE(sat=35)"
+        ],
+        "stats": {
+          "mean_brightness": 166.3,
+          "std_brightness": 52.7,
+          "noise_level": 132.0,
+          "skew_angle": 0.0,
+          "avg_saturation": 35.2,
+          "width": 1664,
+          "height": 1988,
+          "contrast_ratio": 178.0,
+          "is_bimodal": true,
+          "histogram_clipping": 0.005,
+          "content_coverage": 0.72,
+          "applied_steps": [
+            "GRAYSCALE(sat=35)"
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_token_count": 5509,
+      "candidates_token_count": 373,
+      "total_token_count": 6665,
+      "thinking_token_count": 783
+    },
+    "cost_info": {
+      "total_cost": 0.0025852,
+      "model_name": "Gemini 2.5 Flash",
+      "input_cost": 0.0016527,
+      "output_cost": 0.0009325000000000001
+    },
+    "retry_count": 0
+  }
+}

@@ -1,0 +1,252 @@
+{
+  "receipt_guid": "69ec9c7b551a2cb157c0dd13",
+  "shop_brand": null,
+  "analysis": {
+    "document_type": "receipt",
+    "merchant": {
+      "name": "MC RETAIL S.R.L.",
+      "brand_name": "Eté",
+      "address": "Via Gaudio Maiori, 1 84013 - Cava De Tirrioni (SA)",
+      "vat_number": "0570371056",
+      "date": "2026-04-21",
+      "receipt_number": "DOC.0634-0450",
+      "notes": ""
+    },
+    "items": [
+      {
+        "description": "SANTO STEFANO ACQUA",
+        "description_full": "Santo Stefano Acqua",
+        "category": "beverages",
+        "quantity": 2.0,
+        "unit_of_measure": "pz",
+        "unit_price": 0.38,
+        "discount": 0.0,
+        "total_price": 0.76,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 28,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 28,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "CONFLICT",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "*NASTRO AZZURRO BIRR",
+        "description_full": "Nastro Azzurro Birra",
+        "category": "beverages",
+        "quantity": 1.0,
+        "unit_of_measure": " : ",
+        "unit_price": 1.39,
+        "discount": 0.0,
+        "total_price": 1.39,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 26,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 26,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "INCOMPATIBLE"
+        }
+      },
+      {
+        "description": "FONTANAVECCHIA UOVA",
+        "description_full": "Fontanavecchia Uova",
+        "category": "dairy",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 2.5,
+        "discount": 0.0,
+        "total_price": 2.5,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 27,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 27,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "MATCH",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "PARMAR.PARM.REGG.GR",
+        "description_full": "Parmareggio Parmigiano Reggiano Grattugiato",
+        "category": "dairy",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 2.19,
+        "discount": 0.0,
+        "total_price": 2.19,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 27,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 27,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "*BERETTA CUBETTI DI",
+        "description_full": "Cubetti di pancetta",
+        "category": "meat_fish",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 1.79,
+        "discount": 0.0,
+        "total_price": 1.79,
+        "_catalog_method": "fuzzy",
+        "_catalog_confidence": 0.7,
+        "_gemini_original": "Beretta Cubetti di Prosciutto",
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 31,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 31,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "MATCH",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "*BERETTA CUBETTI DI",
+        "description_full": "Cubetti di pancetta",
+        "category": "meat_fish",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 1.79,
+        "discount": 0.0,
+        "total_price": 1.79,
+        "_catalog_method": "fuzzy",
+        "_catalog_confidence": 0.7,
+        "_gemini_original": "Beretta Cubetti di Prosciutto",
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 31,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 31,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "MATCH",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "ALGIDA LIUK LIMONE",
+        "description_full": "Algida Liuk Limone",
+        "category": "pantry",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 5.75,
+        "discount": 0.0,
+        "total_price": 5.75,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 29,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 29,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      }
+    ],
+    "totals": {
+      "total_amount": 16.17,
+      "tax_amount": 1.55,
+      "item_count": 8
+    }
+  },
+  "promo_status": "NO_PROMO",
+  "metadata": {
+    "version": "2.0.0+6c131bf",
+    "pars_dt": "2026-04-25T10:51:18.507+00:00",
+    "processing_status": "CLEAN",
+    "flags": [],
+    "preprocessing": [
+      {
+        "image_index": 0,
+        "tile_index": 0,
+        "steps": [
+          "GRAYSCALE(sat=26)"
+        ],
+        "stats": {
+          "mean_brightness": 205.4,
+          "std_brightness": 52.7,
+          "noise_level": 605.0,
+          "skew_angle": 0.0,
+          "avg_saturation": 26.0,
+          "width": 638,
+          "height": 3511,
+          "contrast_ratio": 172.0,
+          "is_bimodal": false,
+          "histogram_clipping": 0.04,
+          "content_coverage": 0.96,
+          "applied_steps": [
+            "GRAYSCALE(sat=26)"
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_token_count": 6283,
+      "candidates_token_count": 919,
+      "total_token_count": 8846,
+      "thinking_token_count": 1644
+    },
+    "cost_info": {
+      "total_cost": 0.0041824,
+      "model_name": "Gemini 2.5 Flash",
+      "input_cost": 0.0018849,
+      "output_cost": 0.0022975
+    },
+    "retry_count": 0
+  }
+}

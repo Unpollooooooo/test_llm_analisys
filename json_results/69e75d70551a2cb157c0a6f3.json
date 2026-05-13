@@ -1,0 +1,195 @@
+{
+  "receipt_guid": "69e75d70551a2cb157c0a6f3",
+  "shop_brand": null,
+  "analysis": {
+    "document_type": "receipt",
+    "merchant": {
+      "name": "MA.GI.CA. SUPERMERCATI S.N.C.",
+      "brand_name": "tuday CONAD",
+      "address": "Via Romagna, 21 47843 Misano Adriatico (RN)",
+      "vat_number": "04026220404",
+      "date": "2026-04-21",
+      "receipt_number": "DOC.0119-0055",
+      "notes": ""
+    },
+    "items": [
+      {
+        "description": "PANE MINI OBLUNGO",
+        "description_full": "Pane Mini Oblungo",
+        "category": "bakery",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 3.69,
+        "discount": 0.0,
+        "total_price": 3.69,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 28,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 28,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "CONAD BAGUETTE F-F",
+        "description_full": "Conad Baguette Fresca",
+        "category": "bakery",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 0.49,
+        "discount": 0.0,
+        "total_price": 0.49,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 27,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 27,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "CONFLICT",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "CONAD MORTADELLA IGP",
+        "description_full": "Conad Mortadella IGP",
+        "category": "meat_fish",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 1.39,
+        "discount": 0.0,
+        "total_price": 1.39,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 29,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 29,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "COCA COLA CL. 66",
+        "description_full": "Coca Cola Cl. 66",
+        "category": "beverages",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 1.25,
+        "discount": 0.0,
+        "total_price": 1.25,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 33,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 33,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      }
+    ],
+    "totals": {
+      "total_amount": 6.82,
+      "tax_amount": 0.52,
+      "item_count": 4
+    }
+  },
+  "promo_status": "NO_PROMO",
+  "metadata": {
+    "version": "2.0.0+6c131bf",
+    "pars_dt": "2026-04-21T11:20:56.802+00:00",
+    "processing_status": "CLEAN",
+    "flags": [],
+    "preprocessing": [
+      {
+        "image_index": 0,
+        "tile_index": 0,
+        "steps": [
+          "GRAYSCALE(sat=31)"
+        ],
+        "stats": {
+          "mean_brightness": 129.6,
+          "std_brightness": 61.0,
+          "noise_level": 953.0,
+          "skew_angle": 0.0,
+          "avg_saturation": 31.3,
+          "width": 1920,
+          "height": 2560,
+          "contrast_ratio": 182.0,
+          "is_bimodal": true,
+          "histogram_clipping": 0.0,
+          "content_coverage": 1.0,
+          "applied_steps": [
+            "GRAYSCALE(sat=31)"
+          ]
+        }
+      },
+      {
+        "image_index": 1,
+        "tile_index": 1,
+        "steps": [
+          "GRAYSCALE(sat=31)"
+        ],
+        "stats": {
+          "mean_brightness": 130.8,
+          "std_brightness": 60.3,
+          "noise_level": 679.0,
+          "skew_angle": 0.0,
+          "avg_saturation": 31.0,
+          "width": 1920,
+          "height": 2560,
+          "contrast_ratio": 181.0,
+          "is_bimodal": false,
+          "histogram_clipping": 0.0,
+          "content_coverage": 0.96,
+          "applied_steps": [
+            "GRAYSCALE(sat=31)"
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_token_count": 3445,
+      "candidates_token_count": 481,
+      "total_token_count": 5666,
+      "thinking_token_count": 1740
+    },
+    "cost_info": {
+      "total_cost": 0.002236,
+      "model_name": "Gemini 2.5 Flash",
+      "input_cost": 0.0010335,
+      "output_cost": 0.0012025
+    },
+    "retry_count": 0
+  }
+}

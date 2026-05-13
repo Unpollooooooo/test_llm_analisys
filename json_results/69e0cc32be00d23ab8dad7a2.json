@@ -1,0 +1,209 @@
+{
+  "receipt_guid": "69e0cc32be00d23ab8dad7a2",
+  "shop_brand": null,
+  "analysis": {
+    "document_type": "receipt",
+    "merchant": {
+      "name": "Gulliver Alfi s.r.l.",
+      "brand_name": "Gulliver",
+      "address": "Via Sturla 41 Voghera (PV)",
+      "vat_number": "00886480060",
+      "date": "null",
+      "receipt_number": "null",
+      "notes": "null"
+    },
+    "items": [
+      {
+        "description": "SHOP.MATER-BI GUL.PIU'",
+        "description_full": "SHOP MATER BI GUL PIU'",
+        "category": "other",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 0.1,
+        "discount": 0.0,
+        "total_price": 0.1,
+        "_catalog_method": "abbreviation",
+        "_catalog_confidence": 0.7,
+        "_gemini_original": "Shopping Mater-Bi Gulliver Più",
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 25,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 25,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "FIL.CONSORCIO VA O.BIO",
+        "description_full": "Consorcio Filetti di tonno in olio di oliva extra vergine biologico",
+        "category": "bakery",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 8.79,
+        "discount": 4.1,
+        "total_price": 4.69,
+        "_catalog_method": "promo_catalog",
+        "_catalog_confidence": 0.7,
+        "_gemini_original": "Filone Consorzio Valori Biologico",
+        "barcode": "8410628001358",
+        "is_promo_item": false,
+        "match_confidence": 85,
+        "promo_match": {
+          "publisher_guid": "6513f40a60b55747dd7fc268",
+          "product_guid": "65143f97c30d8616850160b0",
+          "product_name": "Consorcio Tonno in olio di oliva",
+          "brand_name": "Consorcio",
+          "match_confidence": 85,
+          "size_conflict": false,
+          "price_conflict": false
+        },
+        "match_signals": {
+          "brand": "MATCH",
+          "text": "HIGH",
+          "text_score": 85,
+          "variant": "MATCH",
+          "variant_jw": 1.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "INCOMPATIBLE",
+          "decision": "NO_PROMO"
+        }
+      },
+      {
+        "description": "PR.COTTO A.Q.NAZ.CONS.",
+        "description_full": "Prosciutto Cotto Alta Qualità Nazionale Consorzio",
+        "category": "meat_fish",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 2.19,
+        "discount": 0.0,
+        "total_price": 2.19,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 30,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 30,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "TUMA 'D CENSU PICCOLA",
+        "description_full": "Tuma di Censu Piccola",
+        "category": "dairy",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 4.33,
+        "discount": 0.51,
+        "total_price": 3.81,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 27,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 27,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "MATCH",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "BAGUETTE A N BSGR.250",
+        "description_full": "Baguette Artigianale 250g",
+        "category": "bakery",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 0.75,
+        "discount": 0.0,
+        "total_price": 0.75,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 28,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 28,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      }
+    ],
+    "totals": {
+      "total_amount": 11.54,
+      "tax_amount": 0.0,
+      "item_count": null
+    }
+  },
+  "promo_status": "NO_PROMO",
+  "metadata": {
+    "version": "1.0.0+6c131bf",
+    "pars_dt": "2026-04-16T11:47:34.456+00:00",
+    "processing_status": "CLEAN",
+    "flags": [],
+    "preprocessing": [
+      {
+        "image_index": 0,
+        "tile_index": 0,
+        "steps": [
+          "GRAYSCALE(sat=36)"
+        ],
+        "stats": {
+          "mean_brightness": 145.0,
+          "std_brightness": 41.9,
+          "noise_level": 179.0,
+          "skew_angle": 0.0,
+          "avg_saturation": 36.4,
+          "width": 1276,
+          "height": 1730,
+          "contrast_ratio": 136.0,
+          "is_bimodal": false,
+          "histogram_clipping": 0.0,
+          "content_coverage": 0.72,
+          "applied_steps": [
+            "GRAYSCALE(sat=36)"
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_token_count": 4735,
+      "candidates_token_count": 555,
+      "total_token_count": 6742,
+      "thinking_token_count": 1452
+    },
+    "cost_info": {
+      "total_cost": 0.0028079999999999997,
+      "model_name": "Gemini 2.5 Flash",
+      "input_cost": 0.0014204999999999999,
+      "output_cost": 0.0013875
+    },
+    "retry_count": 0
+  }
+}

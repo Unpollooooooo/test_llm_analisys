@@ -1,0 +1,209 @@
+{
+  "receipt_guid": "69ef1182e593340322ec83dd",
+  "shop_brand": null,
+  "analysis": {
+    "document_type": "receipt",
+    "merchant": {
+      "name": "Penny Market S.R.L. a s. u.",
+      "brand_name": "PENNY",
+      "address": "S.S. 429 PISANA, 2 50021 BARBERINO V. E.",
+      "vat_number": "IT12619750156",
+      "date": "2026-04-24",
+      "receipt_number": "0021-20260424-02-1439",
+      "notes": ""
+    },
+    "items": [
+      {
+        "description": "FUSILLI BARILLA",
+        "description_full": "Fusilli Barilla",
+        "category": "pantry",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 1.85,
+        "discount": 0.0,
+        "total_price": 1.85,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 28,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 28,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "OL. GIG. DEN. 250G",
+        "description_full": "Olio Giglio Denocciolato 250g",
+        "category": "pantry",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 2.19,
+        "discount": 0.0,
+        "total_price": 2.19,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 32,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 32,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "MATCH",
+          "size": "CONFLICT",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "SPAGHET.N3 BARILLA",
+        "description_full": "Barilla spaghetti",
+        "category": "pantry",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 1.85,
+        "discount": 0.0,
+        "total_price": 1.85,
+        "_catalog_method": "fuzzy",
+        "_catalog_confidence": 0.7,
+        "_gemini_original": "Spaghetti N.3 Barilla",
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 29,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 29,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "LATTE ZYMIL",
+        "description_full": "Latte Zymil",
+        "category": "dairy",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 1.95,
+        "discount": 0.0,
+        "total_price": 1.95,
+        "_catalog_method": "gemini_only",
+        "_catalog_confidence": 0.85,
+        "_alignment_override": true,
+        "barcode": "8002580007372",
+        "is_promo_item": true,
+        "match_confidence": 100,
+        "promo_match": {
+          "publisher_guid": "68f0f6bb00cc667d09dd07fe",
+          "product_guid": "69314a856f6ada34183f7084",
+          "product_name": "Buono Digeribile 100% Latte d'Italia",
+          "brand_name": "Zymil",
+          "match_confidence": 100,
+          "size_conflict": null,
+          "price_conflict": false
+        },
+        "match_signals": {
+          "brand": "MATCH",
+          "text": "HIGH",
+          "text_score": 100,
+          "variant": "MATCH",
+          "variant_jw": 1.0,
+          "price": "MATCH",
+          "size": "UNKNOWN",
+          "category": "OK",
+          "decision": "PROMO_FOUND"
+        }
+      },
+      {
+        "description": "GIARDINIERA ORT 340G",
+        "description_full": "Giardiniera Ortolana 340g",
+        "category": "pantry",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 1.19,
+        "discount": 0.2,
+        "total_price": 0.99,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 30,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 30,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      }
+    ],
+    "totals": {
+      "total_amount": 8.83,
+      "tax_amount": 0.51,
+      "item_count": null
+    }
+  },
+  "promo_status": "PROMO_FOUND",
+  "metadata": {
+    "version": "2.0.0+6c131bf",
+    "pars_dt": "2026-04-27T07:35:19.716+00:00",
+    "processing_status": "CLEAN",
+    "flags": [],
+    "preprocessing": [
+      {
+        "image_index": 0,
+        "tile_index": 0,
+        "steps": [
+          "GRAYSCALE(sat=13)"
+        ],
+        "stats": {
+          "mean_brightness": 181.2,
+          "std_brightness": 48.5,
+          "noise_level": 1360.0,
+          "skew_angle": 0.0,
+          "avg_saturation": 13.4,
+          "width": 1691,
+          "height": 754,
+          "contrast_ratio": 162.0,
+          "is_bimodal": false,
+          "histogram_clipping": 0.006,
+          "content_coverage": 1.0,
+          "applied_steps": [
+            "GRAYSCALE(sat=13)"
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_token_count": 5251,
+      "candidates_token_count": 588,
+      "total_token_count": 8797,
+      "thinking_token_count": 2958
+    },
+    "cost_info": {
+      "total_cost": 0.0030453,
+      "model_name": "Gemini 2.5 Flash",
+      "input_cost": 0.0015753,
+      "output_cost": 0.0014700000000000002
+    },
+    "retry_count": 0
+  }
+}

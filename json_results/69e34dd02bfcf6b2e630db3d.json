@@ -1,0 +1,325 @@
+{
+  "receipt_guid": "69e34dd02bfcf6b2e630db3d",
+  "shop_brand": null,
+  "analysis": {
+    "document_type": "receipt",
+    "merchant": {
+      "name": "GDS MARIKA S.R.L.",
+      "brand_name": "Sole365",
+      "address": "VIA MARCONI, 103",
+      "vat_number": "04150950616",
+      "date": "2026-04-18",
+      "receipt_number": "2518-0024",
+      "notes": ""
+    },
+    "items": [
+      {
+        "description": "ACQUA PET PET",
+        "description_full": "Acqua PET PET",
+        "category": "beverages",
+        "quantity": 1,
+        "unit_of_measure": "pz",
+        "unit_price": 0.1,
+        "discount": 0,
+        "total_price": 0.1,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 28,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 28,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "SHOPPERS SOLE 365",
+        "description_full": "Shoppers Sole 365",
+        "category": "home_care",
+        "quantity": 1,
+        "unit_of_measure": "pz",
+        "unit_price": 0.5,
+        "discount": 0,
+        "total_price": 0.5,
+        "_catalog_method": "gemini_only",
+        "_catalog_confidence": 0.4,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 26,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 26,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "PANINI INTEGRALI",
+        "description_full": "Panini Integrali",
+        "category": "bakery",
+        "quantity": 1,
+        "unit_of_measure": "pz",
+        "unit_price": 2.53,
+        "discount": 0,
+        "total_price": 2.53,
+        "_catalog_method": "gemini_only",
+        "_catalog_confidence": 0.85,
+        "_alignment_override": true,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 31,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 31,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "BEV.ALIM.AVENA",
+        "description_full": "Bevanda Alimento Avena",
+        "category": "beverages",
+        "quantity": 1,
+        "unit_of_measure": "pz",
+        "unit_price": 2.78,
+        "discount": 0,
+        "total_price": 2.78,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 30,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 30,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "MATCH",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "BIBENE UHT L",
+        "description_full": "Bibene UHT Latte",
+        "category": "dairy",
+        "quantity": 1,
+        "unit_of_measure": "pz",
+        "unit_price": 1.15,
+        "discount": 0,
+        "total_price": 1.15,
+        "_catalog_method": "gemini_only",
+        "_catalog_confidence": 0.4,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 28,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 28,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "PANIFICATI",
+        "description_full": "Pan i panificati",
+        "category": "bakery",
+        "quantity": 1,
+        "unit_of_measure": "pz",
+        "unit_price": 2.99,
+        "discount": 0,
+        "total_price": 2.99,
+        "_catalog_method": "fuzzy",
+        "_catalog_confidence": 0.7,
+        "_gemini_original": "Panificati",
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 30,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 30,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "MISTO GAMBERI E ZUCCH",
+        "description_full": "Misto Gamberi e Zucchine",
+        "category": "meat_fish",
+        "quantity": 1,
+        "unit_of_measure": "pz",
+        "unit_price": 3.7,
+        "discount": 0,
+        "total_price": 3.7,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 29,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 29,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "TENTACOLI DI TOTANO",
+        "description_full": "Tentacoli di Totano",
+        "category": "meat_fish",
+        "quantity": 1,
+        "unit_of_measure": "pz",
+        "unit_price": 8.27,
+        "discount": 0,
+        "total_price": 8.27,
+        "_catalog_method": "gemini_only",
+        "_catalog_confidence": 0.85,
+        "_alignment_override": true,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 29,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 29,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      }
+    ],
+    "totals": {
+      "total_amount": 24.24,
+      "tax_amount": 2.73,
+      "item_count": null
+    }
+  },
+  "promo_status": "NO_PROMO",
+  "metadata": {
+    "version": "2.0.0+6c131bf",
+    "pars_dt": "2026-04-18T09:26:19.319+00:00",
+    "processing_status": "CLEAN",
+    "flags": [],
+    "preprocessing": [
+      {
+        "image_index": 0,
+        "tile_index": 0,
+        "steps": [
+          "PASSTHROUGH(no preprocessing needed)"
+        ],
+        "stats": {
+          "mean_brightness": 145.3,
+          "std_brightness": 55.1,
+          "noise_level": 310.0,
+          "skew_angle": 0.0,
+          "avg_saturation": 60.0,
+          "width": 1920,
+          "height": 3705,
+          "contrast_ratio": 158.0,
+          "is_bimodal": true,
+          "histogram_clipping": 0.001,
+          "content_coverage": 0.96,
+          "applied_steps": [
+            "PASSTHROUGH(no preprocessing needed)"
+          ]
+        }
+      },
+      {
+        "image_index": 1,
+        "tile_index": 1,
+        "steps": [
+          "PASSTHROUGH(no preprocessing needed)"
+        ],
+        "stats": {
+          "mean_brightness": 154.7,
+          "std_brightness": 56.6,
+          "noise_level": 202.0,
+          "skew_angle": 0.0,
+          "avg_saturation": 46.6,
+          "width": 1917,
+          "height": 3561,
+          "contrast_ratio": 172.0,
+          "is_bimodal": false,
+          "histogram_clipping": 0.005,
+          "content_coverage": 0.8,
+          "applied_steps": [
+            "PASSTHROUGH(no preprocessing needed)"
+          ]
+        }
+      },
+      {
+        "image_index": 2,
+        "tile_index": 2,
+        "steps": [
+          "GRAYSCALE(sat=37)"
+        ],
+        "stats": {
+          "mean_brightness": 157.3,
+          "std_brightness": 49.4,
+          "noise_level": 118.0,
+          "skew_angle": 0.0,
+          "avg_saturation": 37.1,
+          "width": 1696,
+          "height": 3557,
+          "contrast_ratio": 157.0,
+          "is_bimodal": false,
+          "histogram_clipping": 0.001,
+          "content_coverage": 0.8,
+          "applied_steps": [
+            "GRAYSCALE(sat=37)"
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_token_count": 3703,
+      "candidates_token_count": 947,
+      "total_token_count": 8222,
+      "thinking_token_count": 3572
+    },
+    "cost_info": {
+      "total_cost": 0.0034784000000000004,
+      "model_name": "Gemini 2.5 Flash",
+      "input_cost": 0.0011109,
+      "output_cost": 0.0023675000000000002
+    },
+    "retry_count": 0
+  }
+}

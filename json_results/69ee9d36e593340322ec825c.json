@@ -1,0 +1,183 @@
+{
+  "receipt_guid": "69ee9d36e593340322ec825c",
+  "shop_brand": null,
+  "analysis": {
+    "document_type": "receipt",
+    "merchant": {
+      "name": "DIMAR S.P.A.",
+      "brand_name": "MERCATO local",
+      "address": "VIA SILVIO PELLICO, 6 12023 CARAGLIO (CN)",
+      "vat_number": "00294760046",
+      "date": "2026-04-25",
+      "receipt_number": "1515 - 0114",
+      "notes": ""
+    },
+    "items": [
+      {
+        "description": "BROCCOLETTI FI",
+        "description_full": "Broccoletti Fiori",
+        "category": "produce",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 2.29,
+        "discount": 0.0,
+        "total_price": 2.29,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 37,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 37,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "MATCH",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "MELONI RETATI",
+        "description_full": "Meloni Retati",
+        "category": "produce",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 5.43,
+        "discount": 0.0,
+        "total_price": 5.43,
+        "_catalog_method": "gemini_only",
+        "_catalog_confidence": 0.4,
+        "_alignment_override": true,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 25,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 25,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "MATCH",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "SELEX CARTA IG",
+        "description_full": "Selex Carta Igienica",
+        "category": "home_care",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 2.59,
+        "discount": 0.0,
+        "total_price": 2.59,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 28,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 28,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "INCOMPATIBLE"
+        }
+      },
+      {
+        "description": "RED BULL ENERG",
+        "description_full": "Red Bull Energy Drink 250 ml x 2",
+        "category": "beverages",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 1.05,
+        "discount": 0.0,
+        "total_price": 1.05,
+        "_catalog_method": "cache",
+        "_catalog_confidence": 0.7,
+        "_gemini_original": "Red Bull Energy Drink",
+        "barcode": "9002490100070",
+        "is_promo_item": true,
+        "match_confidence": 97,
+        "promo_match": {
+          "publisher_guid": "6720a7b2c522bbb00d0651a1",
+          "product_guid": "6723564556329e8499ff2157",
+          "product_name": "Red Bull Energy Drink 250 ml",
+          "brand_name": "Red Bull",
+          "match_confidence": 97,
+          "size_conflict": null,
+          "price_conflict": false
+        },
+        "match_signals": {
+          "brand": "MATCH",
+          "text": "HIGH",
+          "text_score": 97,
+          "variant": "MATCH",
+          "variant_jw": 1.0,
+          "price": "MATCH",
+          "size": "UNKNOWN",
+          "category": "OK",
+          "decision": "PROMO_FOUND"
+        }
+      }
+    ],
+    "totals": {
+      "total_amount": 11.36,
+      "tax_amount": 0.96,
+      "item_count": null
+    }
+  },
+  "promo_status": "PROMO_FOUND",
+  "metadata": {
+    "version": "2.0.0+6c131bf",
+    "pars_dt": "2026-04-26T23:18:40.659+00:00",
+    "processing_status": "CLEAN",
+    "flags": [],
+    "preprocessing": [
+      {
+        "image_index": 0,
+        "tile_index": 0,
+        "steps": [
+          "GRAYSCALE(sat=37)"
+        ],
+        "stats": {
+          "mean_brightness": 141.2,
+          "std_brightness": 52.2,
+          "noise_level": 1041.0,
+          "skew_angle": 0.0,
+          "avg_saturation": 37.2,
+          "width": 1920,
+          "height": 939,
+          "contrast_ratio": 160.0,
+          "is_bimodal": false,
+          "histogram_clipping": 0.017,
+          "content_coverage": 0.92,
+          "applied_steps": [
+            "GRAYSCALE(sat=37)"
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_token_count": 5251,
+      "candidates_token_count": 457,
+      "total_token_count": 6545,
+      "thinking_token_count": 837
+    },
+    "cost_info": {
+      "total_cost": 0.0027178000000000003,
+      "model_name": "Gemini 2.5 Flash",
+      "input_cost": 0.0015753,
+      "output_cost": 0.0011425
+    },
+    "retry_count": 0
+  }
+}

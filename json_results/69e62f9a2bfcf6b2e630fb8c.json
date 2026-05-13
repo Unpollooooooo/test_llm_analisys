@@ -1,0 +1,226 @@
+{
+  "receipt_guid": "69e62f9a2bfcf6b2e630fb8c",
+  "shop_brand": null,
+  "analysis": {
+    "document_type": "receipt",
+    "merchant": {
+      "name": "Spesa Intelligente S.P.A.",
+      "brand_name": "EURO Spin",
+      "address": "P.V. Via Luigi Segna, 1 46100-Mantova (MN)",
+      "vat_number": "02416840235",
+      "date": "2026-04-20",
+      "receipt_number": "02708-00019",
+      "notes": ""
+    },
+    "items": [
+      {
+        "description": "FETTE BISCOTTATE I VI*",
+        "description_full": "Fette Biscottate",
+        "category": "bakery",
+        "quantity": 1,
+        "unit_of_measure": "pz",
+        "unit_price": 1.45,
+        "discount": 0,
+        "total_price": 1.45,
+        "_catalog_method": "gemini_only",
+        "_catalog_confidence": 0.85,
+        "_alignment_override": true,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 26,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 26,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "INCOMPATIBLE"
+        }
+      },
+      {
+        "description": "FROLL.CACAO NOC700 VI*",
+        "description_full": "Frollini Cacao Nocciole 700g",
+        "category": "bakery",
+        "quantity": 1,
+        "unit_of_measure": "pz",
+        "unit_price": 2.19,
+        "discount": 0,
+        "total_price": 2.19,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 31,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 31,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "MATCH",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "MISTO MIGNON FANT. VI*",
+        "description_full": "Misto Mignon Fantasia",
+        "category": "bakery",
+        "quantity": 1,
+        "unit_of_measure": "pz",
+        "unit_price": 0.82,
+        "discount": 0,
+        "total_price": 0.82,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 28,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 28,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "TONNO 0/0 80g VI*",
+        "description_full": "Tonno all'olio d'oliva 80g",
+        "category": "meat_fish",
+        "quantity": 1,
+        "unit_of_measure": "pz",
+        "unit_price": 0.69,
+        "discount": 0,
+        "total_price": 0.69,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 42,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 42,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "MATCH",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "TONNO 0/0 80g VI*",
+        "description_full": "Tonno all'olio d'oliva 80g",
+        "category": "meat_fish",
+        "quantity": 3,
+        "unit_of_measure": "pz",
+        "unit_price": 0.69,
+        "discount": 0,
+        "total_price": 2.07,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 42,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 42,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "MATCH",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "SALV. IG. INTIMA R VI*",
+        "description_full": "SALV IG INTIMA R VI*",
+        "category": "personal_care",
+        "quantity": 1,
+        "unit_of_measure": "pz",
+        "unit_price": 0.99,
+        "discount": 0,
+        "total_price": 0.99,
+        "_catalog_method": "abbreviation",
+        "_catalog_confidence": 0.7,
+        "_gemini_original": "Salviette Igiene Intima",
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 28,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 28,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      }
+    ],
+    "totals": {
+      "total_amount": 8.21,
+      "tax_amount": 0.0,
+      "item_count": null
+    }
+  },
+  "promo_status": "NO_PROMO",
+  "metadata": {
+    "version": "2.0.0+6c131bf",
+    "pars_dt": "2026-04-20T13:53:35.803+00:00",
+    "processing_status": "CLEAN",
+    "flags": [],
+    "preprocessing": [
+      {
+        "image_index": 0,
+        "tile_index": 0,
+        "steps": [
+          "PASSTHROUGH(no preprocessing needed)"
+        ],
+        "stats": {
+          "mean_brightness": 134.9,
+          "std_brightness": 50.8,
+          "noise_level": 93.0,
+          "skew_angle": 0.0,
+          "avg_saturation": 66.7,
+          "width": 1884,
+          "height": 3726,
+          "contrast_ratio": 167.0,
+          "is_bimodal": true,
+          "histogram_clipping": 0.001,
+          "content_coverage": 0.52,
+          "applied_steps": [
+            "PASSTHROUGH(no preprocessing needed)"
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_token_count": 5251,
+      "candidates_token_count": 818,
+      "total_token_count": 8258,
+      "thinking_token_count": 2189
+    },
+    "cost_info": {
+      "total_cost": 0.0036203000000000003,
+      "model_name": "Gemini 2.5 Flash",
+      "input_cost": 0.0015753,
+      "output_cost": 0.0020450000000000004
+    },
+    "retry_count": 0
+  }
+}

@@ -1,0 +1,506 @@
+{
+  "receipt_guid": "69ea3364551a2cb157c0c516",
+  "shop_brand": null,
+  "analysis": {
+    "document_type": "receipt",
+    "merchant": {
+      "name": "SUPERMERCATO CONAD ESSEMME SRL PDV2",
+      "brand_name": "CONAD",
+      "address": "Via Immacolata angolo via L. Gue FOGGIA - FG",
+      "vat_number": "04382410712",
+      "date": "2026-04-23",
+      "receipt_number": "2479-0003",
+      "notes": ""
+    },
+    "items": [
+      {
+        "description": "SHOPPER OMNICANALE B",
+        "description_full": "Shopper Omnicanale B",
+        "category": "other",
+        "quantity": 3,
+        "unit_of_measure": "pz",
+        "unit_price": 0.15,
+        "discount": 0.0,
+        "total_price": 0.45,
+        "_catalog_method": "gemini_only",
+        "_catalog_confidence": 0.4,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 26,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 26,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "ONE CAT POLLO/RISO G",
+        "description_full": "One Cat Pollo e Riso G",
+        "category": "other",
+        "quantity": 1,
+        "unit_of_measure": "pz",
+        "unit_price": 5.66,
+        "discount": 0.0,
+        "total_price": 5.66,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 28,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 28,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "FABULOSO AMM.CONC.MA",
+        "description_full": "Fabuloso Ammorbidente Concentrato Marsiglia",
+        "category": "home_care",
+        "quantity": 1,
+        "unit_of_measure": "pz",
+        "unit_price": 4.99,
+        "discount": 0.0,
+        "total_price": 4.99,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 36,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 36,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "ASCIUGAT.CONAD V.NAT",
+        "description_full": "Asciugatutto Conad Valori Naturali",
+        "category": "home_care",
+        "quantity": 2,
+        "unit_of_measure": "pz",
+        "unit_price": 2.34,
+        "discount": 0.0,
+        "total_price": 4.68,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 29,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 29,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "FABULOSO PAV. LAVAND",
+        "description_full": "Fabuloso Pavimenti Lavanda",
+        "category": "home_care",
+        "quantity": 1,
+        "unit_of_measure": "pz",
+        "unit_price": 2.99,
+        "discount": 0.0,
+        "total_price": 2.99,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 30,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 30,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "ESTATHE BOT 1.5 ZERO",
+        "description_full": "Estathe Bottiglia 1.5L Zero",
+        "category": "beverages",
+        "quantity": 1,
+        "unit_of_measure": "pz",
+        "unit_price": 2.03,
+        "discount": 0.0,
+        "total_price": 2.03,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 29,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 29,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "ESTATHE ZERO BOT.PES",
+        "description_full": "Estathe Zero Bottiglia Pesca",
+        "category": "beverages",
+        "quantity": 4,
+        "unit_of_measure": "pz",
+        "unit_price": 1.05,
+        "discount": 0.0,
+        "total_price": 4.2,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 28,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 28,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "SUCCHI SANTAL PRISMA",
+        "description_full": "Succhi Santal Prisma",
+        "category": "beverages",
+        "quantity": 2,
+        "unit_of_measure": "pz",
+        "unit_price": 2.05,
+        "discount": 0.0,
+        "total_price": 4.1,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": "8002580005156",
+        "is_promo_item": false,
+        "match_confidence": 74,
+        "promo_match": {
+          "publisher_guid": "68f0f6bb00cc667d09dd07fe",
+          "product_guid": "69314a856f6ada34183f707d",
+          "product_name": "Dolce di Natura arancia rossa Senza Zuccheri Aggiunti",
+          "brand_name": "Santàl",
+          "match_confidence": 74,
+          "size_conflict": null,
+          "price_conflict": true
+        },
+        "match_signals": {
+          "brand": "MATCH",
+          "text": "HIGH",
+          "text_score": 83,
+          "variant": "MATCH",
+          "variant_jw": 0.76,
+          "price": "CONFLICT",
+          "size": "UNKNOWN",
+          "category": "OK",
+          "decision": "AMBIGUOUS"
+        }
+      },
+      {
+        "description": "SUCCO SANTAL S/ZUCCH",
+        "description_full": "Succo Santal Senza Zucchero",
+        "category": "beverages",
+        "quantity": 2,
+        "unit_of_measure": "pz",
+        "unit_price": 2.09,
+        "discount": 0.0,
+        "total_price": 4.18,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": "8002580001684",
+        "is_promo_item": false,
+        "match_confidence": 74,
+        "promo_match": {
+          "publisher_guid": "68f0f6bb00cc667d09dd07fe",
+          "product_guid": "69314a856f6ada34183f707c",
+          "product_name": "Dolce di Natura ananas Senza Zuccheri Aggiunti",
+          "brand_name": "Santàl",
+          "match_confidence": 74,
+          "size_conflict": null,
+          "price_conflict": true
+        },
+        "match_signals": {
+          "brand": "MATCH",
+          "text": "HIGH",
+          "text_score": 90,
+          "variant": "MATCH",
+          "variant_jw": 0.869,
+          "price": "CONFLICT",
+          "size": "UNKNOWN",
+          "category": "OK",
+          "decision": "AMBIGUOUS"
+        }
+      },
+      {
+        "description": "BIRRA PERONI CL33X2",
+        "description_full": "Birra Peroni Cl 33 x 2",
+        "category": "beverages",
+        "quantity": 1,
+        "unit_of_measure": "pz",
+        "unit_price": 1.59,
+        "discount": 0.0,
+        "total_price": 1.59,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 28,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 28,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "SUCCO SANTAL S/ZUC M",
+        "description_full": "Succo Santal Senza Zucchero Mela",
+        "category": "beverages",
+        "quantity": 2,
+        "unit_of_measure": "pz",
+        "unit_price": 0.75,
+        "discount": 0.0,
+        "total_price": 1.5,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": "8002580003244",
+        "is_promo_item": true,
+        "match_confidence": 89,
+        "promo_match": {
+          "publisher_guid": "68f0f6bb00cc667d09dd07fe",
+          "product_guid": "69314a856f6ada34183f7077",
+          "product_name": "Dolce di Natura bosco mix Senza Zuccheri Aggiunti",
+          "brand_name": "Santàl",
+          "match_confidence": 89,
+          "size_conflict": null,
+          "price_conflict": false
+        },
+        "match_signals": {
+          "brand": "MATCH",
+          "text": "HIGH",
+          "text_score": 89,
+          "variant": "MATCH",
+          "variant_jw": 0.81,
+          "price": "MATCH",
+          "size": "UNKNOWN",
+          "category": "OK",
+          "decision": "PROMO_FOUND"
+        }
+      },
+      {
+        "description": "CUCCHIAI VERSO NATUR",
+        "description_full": "Cucchiai Verso Natura",
+        "category": "home_care",
+        "quantity": 1,
+        "unit_of_measure": "pz",
+        "unit_price": 1.79,
+        "discount": 0.0,
+        "total_price": 1.79,
+        "_catalog_method": "gemini_only",
+        "_catalog_confidence": 0.85,
+        "_alignment_override": true,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 28,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 28,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "BIRRA BIONDA 11 PARA",
+        "description_full": "Birra Bionda 11 Paralleli",
+        "category": "beverages",
+        "quantity": 4,
+        "unit_of_measure": "pz",
+        "unit_price": 0.7,
+        "discount": 0.0,
+        "total_price": 2.8,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 27,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 27,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "BIRRA ICHNUSA N/FILT",
+        "description_full": "Birra Ichnusa Non Filtrata",
+        "category": "beverages",
+        "quantity": 2,
+        "unit_of_measure": "pz",
+        "unit_price": 1.52,
+        "discount": 0.0,
+        "total_price": 3.04,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 28,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 28,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      }
+    ],
+    "totals": {
+      "total_amount": 44.0,
+      "tax_amount": 7.93,
+      "item_count": 27
+    }
+  },
+  "promo_status": "PROMO_FOUND",
+  "metadata": {
+    "version": "2.0.0+6c131bf",
+    "pars_dt": "2026-04-23T14:59:02.484+00:00",
+    "processing_status": "CLEAN",
+    "flags": [],
+    "preprocessing": [
+      {
+        "image_index": 0,
+        "tile_index": 0,
+        "steps": [
+          "CLAHE(std=34,clip=0.00)"
+        ],
+        "stats": {
+          "mean_brightness": 161.2,
+          "std_brightness": 34.3,
+          "noise_level": 125.0,
+          "skew_angle": 0.0,
+          "avg_saturation": 65.2,
+          "width": 1228,
+          "height": 2391,
+          "contrast_ratio": 93.0,
+          "is_bimodal": false,
+          "histogram_clipping": 0.0,
+          "content_coverage": 0.68,
+          "applied_steps": [
+            "CLAHE(std=34,clip=0.00)"
+          ]
+        }
+      },
+      {
+        "image_index": 1,
+        "tile_index": 1,
+        "steps": [
+          "CLAHE(std=32,clip=0.00)"
+        ],
+        "stats": {
+          "mean_brightness": 164.6,
+          "std_brightness": 31.6,
+          "noise_level": 144.0,
+          "skew_angle": 0.0,
+          "avg_saturation": 64.0,
+          "width": 1237,
+          "height": 2529,
+          "contrast_ratio": 83.0,
+          "is_bimodal": false,
+          "histogram_clipping": 0.0,
+          "content_coverage": 0.68,
+          "applied_steps": [
+            "CLAHE(std=32,clip=0.00)"
+          ]
+        }
+      },
+      {
+        "image_index": 2,
+        "tile_index": 2,
+        "steps": [
+          "THRESHOLD(contrast=78,bright=171)"
+        ],
+        "stats": {
+          "mean_brightness": 171.4,
+          "std_brightness": 29.4,
+          "noise_level": 90.0,
+          "skew_angle": 0.0,
+          "avg_saturation": 58.7,
+          "width": 1229,
+          "height": 2322,
+          "contrast_ratio": 78.0,
+          "is_bimodal": false,
+          "histogram_clipping": 0.0,
+          "content_coverage": 0.48,
+          "applied_steps": [
+            "THRESHOLD(contrast=78,bright=171)"
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_token_count": 3703,
+      "candidates_token_count": 1638,
+      "total_token_count": 8906,
+      "thinking_token_count": 3565
+    },
+    "cost_info": {
+      "total_cost": 0.0052059,
+      "model_name": "Gemini 2.5 Flash",
+      "input_cost": 0.0011109,
+      "output_cost": 0.0040950000000000005
+    },
+    "retry_count": 0
+  }
+}

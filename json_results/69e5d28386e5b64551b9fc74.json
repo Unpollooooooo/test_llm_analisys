@@ -1,0 +1,153 @@
+{
+  "receipt_guid": "69e5d28386e5b64551b9fc74",
+  "shop_brand": null,
+  "analysis": {
+    "document_type": "receipt",
+    "merchant": {
+      "name": "COOP ALLERANZA 3.0 Soc. Coop.",
+      "brand_name": "Coop",
+      "address": "Via Roma, 110 Ponzano (PC)",
+      "vat_number": "03503411203",
+      "date": "2026-04-20",
+      "receipt_number": "1906-0031",
+      "notes": ""
+    },
+    "items": [
+      {
+        "description": "T RED BULL WHITE 250",
+        "description_full": "Red Bull White Edition 250ml",
+        "category": "beverages",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 1.3,
+        "discount": 0.0,
+        "total_price": 1.3,
+        "_catalog_method": "gemini_only",
+        "_catalog_confidence": 0.85,
+        "_alignment_override": true,
+        "barcode": "9002490435386",
+        "is_promo_item": true,
+        "match_confidence": 86,
+        "promo_match": {
+          "publisher_guid": "6720a7b2c522bbb00d0651a1",
+          "product_guid": "67235f5056329e8499ff2175",
+          "product_name": "Red Bull White Edition Gusto Cocco-Açai 250 ml",
+          "brand_name": "Red Bull",
+          "match_confidence": 86,
+          "size_conflict": false,
+          "price_conflict": null
+        },
+        "match_signals": {
+          "brand": "MATCH",
+          "text": "HIGH",
+          "text_score": 86,
+          "variant": "MATCH",
+          "variant_jw": 1.0,
+          "price": "UNKNOWN",
+          "size": "MATCH",
+          "category": "OK",
+          "decision": "PROMO_FOUND"
+        }
+      },
+      {
+        "description": "T COOKIE SENSAT OREO",
+        "description_full": "Cookie Sensations Oreo",
+        "category": "pantry",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 2.82,
+        "discount": 0.0,
+        "total_price": 2.82,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 26,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 26,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "MATCH",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      }
+    ],
+    "totals": {
+      "total_amount": 4.12,
+      "tax_amount": 0.0,
+      "item_count": null
+    }
+  },
+  "promo_status": "PROMO_FOUND",
+  "metadata": {
+    "version": "2.0.0+6c131bf",
+    "pars_dt": "2026-04-20T07:16:19.511+00:00",
+    "processing_status": "CLEAN",
+    "flags": [],
+    "preprocessing": [
+      {
+        "image_index": 0,
+        "tile_index": 0,
+        "steps": [
+          "PASSTHROUGH(no preprocessing needed)"
+        ],
+        "stats": {
+          "mean_brightness": 141.7,
+          "std_brightness": 44.6,
+          "noise_level": 147.0,
+          "skew_angle": 0.0,
+          "avg_saturation": 77.1,
+          "width": 1707,
+          "height": 1309,
+          "contrast_ratio": 135.0,
+          "is_bimodal": true,
+          "histogram_clipping": 0.0,
+          "content_coverage": 0.48,
+          "applied_steps": [
+            "PASSTHROUGH(no preprocessing needed)"
+          ]
+        }
+      },
+      {
+        "image_index": 1,
+        "tile_index": 1,
+        "steps": [
+          "PASSTHROUGH(no preprocessing needed)"
+        ],
+        "stats": {
+          "mean_brightness": 154.0,
+          "std_brightness": 43.8,
+          "noise_level": 553.0,
+          "skew_angle": 0.0,
+          "avg_saturation": 85.1,
+          "width": 1649,
+          "height": 915,
+          "contrast_ratio": 131.0,
+          "is_bimodal": true,
+          "histogram_clipping": 0.0,
+          "content_coverage": 0.6,
+          "applied_steps": [
+            "PASSTHROUGH(no preprocessing needed)"
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_token_count": 3445,
+      "candidates_token_count": 305,
+      "total_token_count": 5975,
+      "thinking_token_count": 2225
+    },
+    "cost_info": {
+      "total_cost": 0.0017959999999999999,
+      "model_name": "Gemini 2.5 Flash",
+      "input_cost": 0.0010335,
+      "output_cost": 0.0007625
+    },
+    "retry_count": 0
+  }
+}

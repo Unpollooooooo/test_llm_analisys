@@ -1,0 +1,237 @@
+{
+  "receipt_guid": "69ea291586e5b64551ba2cdc",
+  "shop_brand": null,
+  "analysis": {
+    "document_type": "receipt",
+    "merchant": {
+      "name": "FLAMINIA SUPERMERCATI SRL",
+      "brand_name": "CONAD",
+      "address": "Via del ruscello - 01030 Vallerano",
+      "vat_number": "02320750561",
+      "date": "2026-04-21",
+      "receipt_number": "2301-0299",
+      "notes": "null"
+    },
+    "items": [
+      {
+        "description": "SHOPPER BIO GRA",
+        "description_full": "Shopper Biologico Grande",
+        "category": "other",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 0.15,
+        "discount": 0.0,
+        "total_price": 0.15,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 27,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 27,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "POM.CIL.IT CON.VNB",
+        "description_full": "POM CIL IT CON VNB",
+        "category": "produce",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 4.13,
+        "discount": 0.0,
+        "total_price": 4.13,
+        "_catalog_method": "abbreviation",
+        "_catalog_confidence": 0.7,
+        "_gemini_original": "Pomodori Ciliegino Italiano Confezione VNB",
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 28,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 28,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "ZUPPA VELL.ZUCCHINE",
+        "description_full": "Zuppa Vellutata di Zucchine",
+        "category": "pantry",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 2.83,
+        "discount": 0.0,
+        "total_price": 2.83,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 29,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 29,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "MATCH",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "ZUCCHINE SURGELATE C",
+        "description_full": "Zucchine Surgelate Confezione",
+        "category": "pantry",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 1.75,
+        "discount": 0.0,
+        "total_price": 1.75,
+        "_catalog_method": "gemini_only",
+        "_catalog_confidence": 0.85,
+        "_alignment_override": true,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 31,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 31,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "INS. RICETTA VIVACE",
+        "description_full": "Insalata Ricetta Vivace",
+        "category": "produce",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 1.98,
+        "discount": 0.59,
+        "total_price": 1.39,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 29,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 29,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "S/LATT-LATTE ZYMIL M",
+        "description_full": "Senza Lattosio Latte Zymil Magro",
+        "category": "dairy",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 1.99,
+        "discount": 0.0,
+        "total_price": 1.99,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": "8002580007389",
+        "is_promo_item": true,
+        "match_confidence": 85,
+        "promo_match": {
+          "publisher_guid": "68f0f6bb00cc667d09dd07fe",
+          "product_guid": "69314a866f6ada34183f708c",
+          "product_name": "Magro Digeribile 100% Latte d'Italia",
+          "brand_name": "Zymil",
+          "match_confidence": 85,
+          "size_conflict": null,
+          "price_conflict": false
+        },
+        "match_signals": {
+          "brand": "MATCH",
+          "text": "HIGH",
+          "text_score": 85,
+          "variant": "MATCH",
+          "variant_jw": 0.825,
+          "price": "MATCH",
+          "size": "UNKNOWN",
+          "category": "OK",
+          "decision": "PROMO_FOUND"
+        }
+      }
+    ],
+    "totals": {
+      "total_amount": 12.24,
+      "tax_amount": 0.659,
+      "item_count": 6
+    }
+  },
+  "promo_status": "PROMO_FOUND",
+  "metadata": {
+    "version": "2.0.0+6c131bf",
+    "pars_dt": "2026-04-23T14:14:36.044+00:00",
+    "processing_status": "CLEAN",
+    "flags": [],
+    "preprocessing": [
+      {
+        "image_index": 0,
+        "tile_index": 0,
+        "steps": [
+          "GRAYSCALE(sat=12)",
+          "CLAHE(std=29,clip=0.01)"
+        ],
+        "stats": {
+          "mean_brightness": 205.4,
+          "std_brightness": 29.4,
+          "noise_level": 45.0,
+          "skew_angle": 0.0,
+          "avg_saturation": 12.3,
+          "width": 1282,
+          "height": 3248,
+          "contrast_ratio": 98.0,
+          "is_bimodal": false,
+          "histogram_clipping": 0.014,
+          "content_coverage": 0.68,
+          "applied_steps": [
+            "GRAYSCALE(sat=12)",
+            "CLAHE(std=29,clip=0.01)"
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_token_count": 5251,
+      "candidates_token_count": 652,
+      "total_token_count": 8919,
+      "thinking_token_count": 3016
+    },
+    "cost_info": {
+      "total_cost": 0.0032053000000000003,
+      "model_name": "Gemini 2.5 Flash",
+      "input_cost": 0.0015753,
+      "output_cost": 0.0016300000000000002
+    },
+    "retry_count": 0
+  }
+}

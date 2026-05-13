@@ -1,0 +1,176 @@
+{
+  "receipt_guid": "69e5ee46551a2cb157c095f1",
+  "shop_brand": null,
+  "analysis": {
+    "document_type": "receipt",
+    "merchant": {
+      "name": "RICA GEST S.R.L. - SOCIETA' UNIPERSONALE",
+      "brand_name": "Risparmio Casa",
+      "address": "VIA SENEGAL, 27 GROSSETO - 58100 - ( GR )",
+      "vat_number": "11392351000",
+      "date": "2026-04-20",
+      "receipt_number": "000064 0098/060/002",
+      "notes": ""
+    },
+    "items": [
+      {
+        "description": "DOVE DEO STICK GO FR",
+        "description_full": "Dove Deo Stick Go Fresh",
+        "category": "personal_care",
+        "quantity": 1,
+        "unit_of_measure": "pz",
+        "unit_price": 2.99,
+        "discount": 0,
+        "total_price": 2.99,
+        "_catalog_method": "gemini_only",
+        "_catalog_confidence": 0.85,
+        "_alignment_override": true,
+        "barcode": "59099574",
+        "is_promo_item": true,
+        "match_confidence": 97,
+        "promo_match": {
+          "publisher_guid": "6908893d7cb8558c28a80692",
+          "product_guid": "694942b59cf0681229257fc9",
+          "product_name": "Dove Advanced Go Fresh Cetriolo Stick 50ml",
+          "brand_name": "Dove",
+          "match_confidence": 97,
+          "size_conflict": null,
+          "price_conflict": null
+        },
+        "match_signals": {
+          "brand": "MATCH",
+          "text": "HIGH",
+          "text_score": 97,
+          "variant": "MATCH",
+          "variant_jw": 0.91,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK",
+          "decision": "PROMO_FOUND"
+        }
+      },
+      {
+        "description": "DOVE DEO STICK ORIGI",
+        "description_full": "Dove Deo Stick Original",
+        "category": "personal_care",
+        "quantity": 1,
+        "unit_of_measure": "pz",
+        "unit_price": 2.99,
+        "discount": 0,
+        "total_price": 2.99,
+        "_catalog_method": "gemini_only",
+        "_catalog_confidence": 0.85,
+        "_alignment_override": true,
+        "barcode": "59099604",
+        "is_promo_item": true,
+        "match_confidence": 97,
+        "promo_match": {
+          "publisher_guid": "6908893d7cb8558c28a80692",
+          "product_guid": "694942b59cf0681229257fc8",
+          "product_name": "Dove Advanced Original Stick 50ml",
+          "brand_name": "Dove",
+          "match_confidence": 97,
+          "size_conflict": null,
+          "price_conflict": null
+        },
+        "match_signals": {
+          "brand": "MATCH",
+          "text": "HIGH",
+          "text_score": 97,
+          "variant": "MATCH",
+          "variant_jw": 0.829,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK",
+          "decision": "PROMO_FOUND"
+        }
+      },
+      {
+        "description": "DOVE DEO STICK ORIGI",
+        "description_full": "Dove Deo Stick Original",
+        "category": "personal_care",
+        "quantity": 1,
+        "unit_of_measure": "pz",
+        "unit_price": 2.99,
+        "discount": 0,
+        "total_price": 2.99,
+        "_catalog_method": "gemini_only",
+        "_catalog_confidence": 0.85,
+        "_alignment_override": true,
+        "barcode": "59099604",
+        "is_promo_item": true,
+        "match_confidence": 97,
+        "promo_match": {
+          "publisher_guid": "6908893d7cb8558c28a80692",
+          "product_guid": "694942b59cf0681229257fc8",
+          "product_name": "Dove Advanced Original Stick 50ml",
+          "brand_name": "Dove",
+          "match_confidence": 97,
+          "size_conflict": null,
+          "price_conflict": null
+        },
+        "match_signals": {
+          "brand": "MATCH",
+          "text": "HIGH",
+          "text_score": 97,
+          "variant": "MATCH",
+          "variant_jw": 0.829,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK",
+          "decision": "PROMO_FOUND"
+        }
+      }
+    ],
+    "totals": {
+      "total_amount": 8.97,
+      "tax_amount": 1.62,
+      "item_count": null
+    }
+  },
+  "promo_status": "PROMO_FOUND",
+  "metadata": {
+    "version": "2.0.0+6c131bf",
+    "pars_dt": "2026-04-20T09:14:10.448+00:00",
+    "processing_status": "CLEAN",
+    "flags": [],
+    "preprocessing": [
+      {
+        "image_index": 0,
+        "tile_index": 0,
+        "steps": [
+          "GRAYSCALE(sat=31)"
+        ],
+        "stats": {
+          "mean_brightness": 143.7,
+          "std_brightness": 64.4,
+          "noise_level": 119.0,
+          "skew_angle": 0.0,
+          "avg_saturation": 30.7,
+          "width": 1920,
+          "height": 3552,
+          "contrast_ratio": 205.0,
+          "is_bimodal": false,
+          "histogram_clipping": 0.032,
+          "content_coverage": 0.64,
+          "applied_steps": [
+            "GRAYSCALE(sat=31)"
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_token_count": 5251,
+      "candidates_token_count": 504,
+      "total_token_count": 6610,
+      "thinking_token_count": 855
+    },
+    "cost_info": {
+      "total_cost": 0.0028353,
+      "model_name": "Gemini 2.5 Flash",
+      "input_cost": 0.0015753,
+      "output_cost": 0.00126
+    },
+    "retry_count": 0
+  }
+}

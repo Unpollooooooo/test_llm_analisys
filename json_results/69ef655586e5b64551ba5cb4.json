@@ -1,0 +1,131 @@
+{
+  "receipt_guid": "69ef655586e5b64551ba5cb4",
+  "shop_brand": null,
+  "analysis": {
+    "document_type": "receipt",
+    "merchant": {
+      "name": "SIMONELLI GROUP SRL",
+      "brand_name": "Conad",
+      "address": "VIA A. LINCOLN S.C. (AREA MERCATO) 81030 FRIGNANO(CE)",
+      "vat_number": "04086240613",
+      "date": "2026-04-27",
+      "receipt_number": "2460-0067",
+      "notes": ""
+    },
+    "items": [
+      {
+        "description": "LATTE UHT \"ZYMIL\"",
+        "description_full": "Latte UHT Zymil",
+        "category": "dairy",
+        "quantity": 2.0,
+        "unit_of_measure": "pz",
+        "unit_price": 1.99,
+        "discount": 0.4,
+        "total_price": 3.58,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": "8002580007372",
+        "is_promo_item": true,
+        "match_confidence": 91,
+        "promo_match": {
+          "publisher_guid": "68f0f6bb00cc667d09dd07fe",
+          "product_guid": "69314a856f6ada34183f7084",
+          "product_name": "Buono Digeribile 100% Latte d'Italia",
+          "brand_name": "Zymil",
+          "match_confidence": 91,
+          "size_conflict": null,
+          "price_conflict": false
+        },
+        "match_signals": {
+          "brand": "MATCH",
+          "text": "HIGH",
+          "text_score": 91,
+          "variant": "MATCH",
+          "variant_jw": 0.756,
+          "price": "MATCH",
+          "size": "UNKNOWN",
+          "category": "OK",
+          "decision": "PROMO_FOUND"
+        }
+      },
+      {
+        "description": "PHILADELPHIA MINI",
+        "description_full": "Philadelphia Mini",
+        "category": "dairy",
+        "quantity": 2.0,
+        "unit_of_measure": "pz",
+        "unit_price": 2.59,
+        "discount": 0.0,
+        "total_price": 5.18,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 28,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 28,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "MATCH",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      }
+    ],
+    "totals": {
+      "total_amount": 8.76,
+      "tax_amount": 0.34,
+      "item_count": 4
+    }
+  },
+  "promo_status": "PROMO_FOUND",
+  "metadata": {
+    "version": "2.0.0+unknown",
+    "pars_dt": "2026-04-27T13:32:45.422+00:00",
+    "processing_status": "CLEAN",
+    "flags": [],
+    "preprocessing": [
+      {
+        "image_index": 0,
+        "tile_index": 0,
+        "steps": [
+          "GRAYSCALE(sat=21)",
+          "THRESHOLD(contrast=60,bright=153)"
+        ],
+        "stats": {
+          "mean_brightness": 153.3,
+          "std_brightness": 19.7,
+          "noise_level": 221.0,
+          "skew_angle": 0.0,
+          "avg_saturation": 20.5,
+          "width": 1920,
+          "height": 3705,
+          "contrast_ratio": 60.0,
+          "is_bimodal": false,
+          "histogram_clipping": 0.0,
+          "content_coverage": 0.36,
+          "applied_steps": [
+            "GRAYSCALE(sat=21)",
+            "THRESHOLD(contrast=60,bright=153)"
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_token_count": 5251,
+      "candidates_token_count": 385,
+      "total_token_count": 7477,
+      "thinking_token_count": 1841
+    },
+    "cost_info": {
+      "total_cost": 0.0025377999999999998,
+      "model_name": "Gemini 2.5 Flash",
+      "input_cost": 0.0015753,
+      "output_cost": 0.0009625
+    },
+    "retry_count": 0
+  }
+}

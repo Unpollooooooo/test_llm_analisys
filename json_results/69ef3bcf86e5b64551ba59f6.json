@@ -1,0 +1,125 @@
+{
+  "receipt_guid": "69ef3bcf86e5b64551ba59f6",
+  "shop_brand": null,
+  "analysis": {
+    "document_type": "receipt",
+    "merchant": {
+      "name": "TRE P S.R.L.",
+      "brand_name": "Spesi",
+      "address": "Via Roma, 01/103 75018 Stigliano (MT)",
+      "vat_number": "01148750779",
+      "date": "2026-04-27",
+      "receipt_number": "2338-0035",
+      "notes": ""
+    },
+    "items": [
+      {
+        "description": "PERE CONFERENCE 65-",
+        "description_full": "Pere Conference",
+        "category": "produce",
+        "quantity": 1,
+        "unit_of_measure": "pz",
+        "unit_price": 2.5,
+        "discount": 0.0,
+        "total_price": 2.5,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 27,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 27,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "S.BENEDETTO LT.2X6",
+        "description_full": "the san benedetto verde e cactus",
+        "category": "beverages",
+        "quantity": 1,
+        "unit_of_measure": "pz",
+        "unit_price": 2.16,
+        "discount": 0.0,
+        "total_price": 2.16,
+        "_catalog_method": "fuzzy",
+        "_catalog_confidence": 0.7,
+        "_gemini_original": "Acqua San Benedetto 2 Litri x 6",
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 27,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 27,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      }
+    ],
+    "totals": {
+      "total_amount": 4.36,
+      "tax_amount": 0.49,
+      "item_count": 2
+    }
+  },
+  "promo_status": "NO_PROMO",
+  "metadata": {
+    "version": "2.0.0+unknown",
+    "pars_dt": "2026-04-27T10:36:12.768+00:00",
+    "processing_status": "CLEAN",
+    "flags": [],
+    "preprocessing": [
+      {
+        "image_index": 0,
+        "tile_index": 0,
+        "steps": [
+          "DESKEW(angle=4.0°)",
+          "GRAYSCALE(sat=18)",
+          "CLAHE(std=34,clip=0.00)"
+        ],
+        "stats": {
+          "mean_brightness": 153.5,
+          "std_brightness": 34.1,
+          "noise_level": 865.0,
+          "skew_angle": 4.05,
+          "avg_saturation": 18.2,
+          "width": 1904,
+          "height": 2556,
+          "contrast_ratio": 109.0,
+          "is_bimodal": true,
+          "histogram_clipping": 0.0,
+          "content_coverage": 1.0,
+          "applied_steps": [
+            "DESKEW(angle=4.0°)",
+            "GRAYSCALE(sat=18)",
+            "CLAHE(std=34,clip=0.00)"
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_token_count": 6283,
+      "candidates_token_count": 389,
+      "total_token_count": 10319,
+      "thinking_token_count": 3647
+    },
+    "cost_info": {
+      "total_cost": 0.0028574,
+      "model_name": "Gemini 2.5 Flash",
+      "input_cost": 0.0018849,
+      "output_cost": 0.0009725000000000001
+    },
+    "retry_count": 0
+  }
+}

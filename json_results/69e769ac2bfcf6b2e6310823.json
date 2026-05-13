@@ -1,0 +1,122 @@
+{
+  "receipt_guid": "69e769ac2bfcf6b2e6310823",
+  "shop_brand": null,
+  "analysis": {
+    "document_type": "receipt",
+    "merchant": {
+      "name": "Eurospin Tirrenica S.P.A.",
+      "brand_name": "Eurospin",
+      "address": "P.V. Via Alpi Apuane, 705/A 55047 - SERAVEZZA (LU)",
+      "vat_number": "02049850544",
+      "date": "null",
+      "receipt_number": "null",
+      "notes": "null"
+    },
+    "items": [
+      {
+        "description": "ARROSTICINI 400g",
+        "description_full": "Arrosticini 400g",
+        "category": "meat_fish",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 3.69,
+        "discount": 0.0,
+        "total_price": 3.69,
+        "_catalog_method": "gemini_only",
+        "_catalog_confidence": 0.85,
+        "_alignment_override": true,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 28,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 28,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "ARROSTICINI 400g",
+        "description_full": "Arrosticini 400g",
+        "category": "meat_fish",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 3.69,
+        "discount": 0.0,
+        "total_price": 3.69,
+        "_catalog_method": "gemini_only",
+        "_catalog_confidence": 0.85,
+        "_alignment_override": true,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 28,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 28,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      }
+    ],
+    "totals": {
+      "total_amount": 7.38,
+      "tax_amount": 0.0,
+      "item_count": null
+    }
+  },
+  "promo_status": "NO_PROMO",
+  "metadata": {
+    "version": "2.0.0+6c131bf",
+    "pars_dt": "2026-04-21T12:12:55.633+00:00",
+    "processing_status": "CLEAN",
+    "flags": [],
+    "preprocessing": [
+      {
+        "image_index": 0,
+        "tile_index": 0,
+        "steps": [
+          "PASSTHROUGH(no preprocessing needed)"
+        ],
+        "stats": {
+          "mean_brightness": 150.8,
+          "std_brightness": 61.2,
+          "noise_level": 659.0,
+          "skew_angle": 0.0,
+          "avg_saturation": 86.1,
+          "width": 1659,
+          "height": 1774,
+          "contrast_ratio": 198.0,
+          "is_bimodal": true,
+          "histogram_clipping": 0.009,
+          "content_coverage": 0.96,
+          "applied_steps": [
+            "PASSTHROUGH(no preprocessing needed)"
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_token_count": 5509,
+      "candidates_token_count": 398,
+      "total_token_count": 6623,
+      "thinking_token_count": 716
+    },
+    "cost_info": {
+      "total_cost": 0.0026477000000000002,
+      "model_name": "Gemini 2.5 Flash",
+      "input_cost": 0.0016527,
+      "output_cost": 0.000995
+    },
+    "retry_count": 0
+  }
+}

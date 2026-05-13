@@ -1,0 +1,211 @@
+{
+  "receipt_guid": "69f05c0886e5b64551ba6428",
+  "shop_brand": null,
+  "analysis": {
+    "document_type": "receipt",
+    "merchant": {
+      "name": "BISEBB",
+      "brand_name": "BISEBB",
+      "address": "VIA DELL'OCEANO PACIFICO. 83 ROMA (RM)",
+      "vat_number": "00103530499",
+      "date": "2026-04-26",
+      "receipt_number": "N2729-0090",
+      "notes": ""
+    },
+    "items": [
+      {
+        "description": "MOUSSE LAMPONE 0+4 S/G",
+        "description_full": "Mousse al lampone",
+        "category": "dairy",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 2.0,
+        "discount": 0.0,
+        "total_price": 2.0,
+        "_catalog_method": "fuzzy",
+        "_catalog_confidence": 0.7,
+        "_gemini_original": "Mousse Lampone 0+4 Senza Glutine",
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 26,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 26,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "MATCH",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "PRINGLES SMOKEY BACON 1",
+        "description_full": "Pringles Smokey Bacon",
+        "category": "pantry",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 2.6,
+        "discount": 0.0,
+        "total_price": 2.6,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 26,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 26,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "MATCH",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "LATTE UHT ZYMIL BUONO D",
+        "description_full": "Latte UHT Zymil Buono",
+        "category": "dairy",
+        "quantity": 2.0,
+        "unit_of_measure": "pz",
+        "unit_price": 1.99,
+        "discount": 0.0,
+        "total_price": 3.98,
+        "_catalog_method": "gemini_only",
+        "_catalog_confidence": 0.4,
+        "_alignment_override": true,
+        "barcode": "8002580007396",
+        "is_promo_item": true,
+        "match_confidence": 87,
+        "promo_match": {
+          "publisher_guid": "68f0f6bb00cc667d09dd07fe",
+          "product_guid": "69314a856f6ada34183f7085",
+          "product_name": "Gustoso Digeribile 100% Latte d'Italia",
+          "brand_name": "Zymil",
+          "match_confidence": 87,
+          "size_conflict": null,
+          "price_conflict": null
+        },
+        "match_signals": {
+          "brand": "MATCH",
+          "text": "HIGH",
+          "text_score": 87,
+          "variant": "MATCH",
+          "variant_jw": 0.776,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK",
+          "decision": "PROMO_FOUND"
+        }
+      },
+      {
+        "description": "CHEESECAKE LAMP.0+4 S/G",
+        "description_full": "Cheesecake Lampone 0+4 Senza Glutine",
+        "category": "bakery",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 5.6,
+        "discount": 0.0,
+        "total_price": 5.6,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 33,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 33,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "CROSTATA FR.BOSCO GARG.",
+        "description_full": "Crostata Frutti di Bosco Garganica",
+        "category": "bakery",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 5.3,
+        "discount": 0.0,
+        "total_price": 5.3,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 36,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 36,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      }
+    ],
+    "totals": {
+      "total_amount": 19.48,
+      "tax_amount": 1.56,
+      "item_count": null
+    }
+  },
+  "promo_status": "PROMO_FOUND",
+  "metadata": {
+    "version": "2.0.0+unknown",
+    "pars_dt": "2026-04-28T07:05:09.428+00:00",
+    "processing_status": "CLEAN",
+    "flags": [],
+    "preprocessing": [
+      {
+        "image_index": 0,
+        "tile_index": 0,
+        "steps": [
+          "GRAYSCALE(sat=24)",
+          "CLAHE(std=31,clip=0.00)"
+        ],
+        "stats": {
+          "mean_brightness": 140.6,
+          "std_brightness": 30.6,
+          "noise_level": 542.0,
+          "skew_angle": 0.0,
+          "avg_saturation": 23.5,
+          "width": 934,
+          "height": 1823,
+          "contrast_ratio": 105.0,
+          "is_bimodal": false,
+          "histogram_clipping": 0.002,
+          "content_coverage": 0.96,
+          "applied_steps": [
+            "GRAYSCALE(sat=24)",
+            "CLAHE(std=31,clip=0.00)"
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_token_count": 4735,
+      "candidates_token_count": 570,
+      "total_token_count": 6725,
+      "thinking_token_count": 1420
+    },
+    "cost_info": {
+      "total_cost": 0.0028455,
+      "model_name": "Gemini 2.5 Flash",
+      "input_cost": 0.0014204999999999999,
+      "output_cost": 0.001425
+    },
+    "retry_count": 0
+  }
+}

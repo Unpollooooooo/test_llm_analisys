@@ -1,0 +1,184 @@
+{
+  "receipt_guid": "69f0821286e5b64551ba66a1",
+  "shop_brand": null,
+  "analysis": {
+    "document_type": "receipt",
+    "merchant": {
+      "name": "COOPERATIVA DI CONSUMO SCRL",
+      "brand_name": "COOPERATIVA DI CONSUMO",
+      "address": "VIA ZANOLI, 3 24020 COLERE (BG)",
+      "vat_number": "00322120163",
+      "date": "2026-04-28",
+      "receipt_number": "0209-0185",
+      "notes": ""
+    },
+    "items": [
+      {
+        "description": "PATATINE PIU GUSTO 150G S",
+        "description_full": "Patatine Più Gusto 150g Sale",
+        "category": "pantry",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 2.79,
+        "discount": 0.0,
+        "total_price": 2.79,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 30,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 30,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "ALIMENTARI",
+        "description_full": "Alimentari",
+        "category": "other",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 0.9,
+        "discount": 0.0,
+        "total_price": 0.9,
+        "_catalog_method": "gemini_only",
+        "_catalog_confidence": 0.85,
+        "_alignment_override": true,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 33,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 33,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "OLIO EXTRAV OLIVA MONINI",
+        "description_full": "Olio Extravergine di Oliva Monini",
+        "category": "pantry",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 12.39,
+        "discount": 0.0,
+        "total_price": 12.39,
+        "_catalog_method": "gemini_only",
+        "_catalog_confidence": 0.49,
+        "_alignment_override": true,
+        "barcode": "8005510000870",
+        "is_promo_item": false,
+        "match_confidence": 74,
+        "promo_match": {
+          "publisher_guid": "68e36d6600cc667d09dd07f5",
+          "product_guid": "68e391eb719aebebe1426a9b",
+          "product_name": "Bios",
+          "brand_name": "Monini",
+          "match_confidence": 74,
+          "size_conflict": null,
+          "price_conflict": false
+        },
+        "match_signals": {
+          "brand": "MATCH",
+          "text": "MED",
+          "text_score": 75,
+          "variant": "PARTIAL",
+          "variant_jw": 0.667,
+          "price": "MATCH",
+          "size": "UNKNOWN",
+          "category": "OK",
+          "decision": "AMBIGUOUS"
+        }
+      },
+      {
+        "description": "BANCO",
+        "description_full": "Banco",
+        "category": "other",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 0.68,
+        "discount": 0.0,
+        "total_price": 0.68,
+        "_catalog_method": "gemini_only",
+        "_catalog_confidence": 0.85,
+        "_alignment_override": true,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 24,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 24,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "CONFLICT",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      }
+    ],
+    "totals": {
+      "total_amount": 16.76,
+      "tax_amount": 0.84,
+      "item_count": null
+    }
+  },
+  "promo_status": "PROMO_AMBIGUOUS",
+  "metadata": {
+    "version": "2.0.0+unknown",
+    "pars_dt": "2026-04-28T09:47:33.023+00:00",
+    "processing_status": "CLEAN",
+    "flags": [],
+    "preprocessing": [
+      {
+        "image_index": 0,
+        "tile_index": 0,
+        "steps": [
+          "GRAYSCALE(sat=36)"
+        ],
+        "stats": {
+          "mean_brightness": 167.2,
+          "std_brightness": 59.5,
+          "noise_level": 285.0,
+          "skew_angle": 0.0,
+          "avg_saturation": 35.6,
+          "width": 1133,
+          "height": 1860,
+          "contrast_ratio": 189.0,
+          "is_bimodal": false,
+          "histogram_clipping": 0.0,
+          "content_coverage": 0.72,
+          "applied_steps": [
+            "GRAYSCALE(sat=36)"
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_token_count": 4735,
+      "candidates_token_count": 594,
+      "total_token_count": 6650,
+      "thinking_token_count": 1321
+    },
+    "cost_info": {
+      "total_cost": 0.0029055,
+      "model_name": "Gemini 2.5 Flash",
+      "input_cost": 0.0014204999999999999,
+      "output_cost": 0.0014850000000000002
+    },
+    "retry_count": 0
+  }
+}

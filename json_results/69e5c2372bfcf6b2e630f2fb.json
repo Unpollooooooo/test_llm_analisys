@@ -1,0 +1,121 @@
+{
+  "receipt_guid": "69e5c2372bfcf6b2e630f2fb",
+  "shop_brand": null,
+  "analysis": {
+    "document_type": "receipt",
+    "merchant": {
+      "name": "MAIORA S.P.A. SB - FIL. BARLETTA",
+      "brand_name": "DESPAR EUROSPAR INTERSPAR",
+      "address": "Via Andria, 57/A 76121 - Barletta (BT)",
+      "vat_number": "07390770720",
+      "date": "2026-04-17",
+      "receipt_number": "0011-0063",
+      "notes": ""
+    },
+    "items": [
+      {
+        "description": "CHIPS SOUR CREAM e ONION",
+        "description_full": "Chips Sour Cream e Onion",
+        "category": "pantry",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 1.09,
+        "discount": 0.0,
+        "total_price": 1.09,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 26,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 26,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "Offerta T.P. Articolo GUSTOSE PEPE ZAPPALA800G",
+        "description_full": "Offerta Tipo Prodotto Articolo Gustose Pepe Zappala 800g",
+        "category": "pantry",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 3.41,
+        "discount": 0.0,
+        "total_price": 3.41,
+        "_catalog_method": "gemini_only",
+        "_catalog_confidence": 0.4,
+        "_alignment_override": true,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 29,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 29,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "CONFLICT",
+          "category": "OK"
+        }
+      }
+    ],
+    "totals": {
+      "total_amount": 4.5,
+      "tax_amount": 0.23,
+      "item_count": null
+    }
+  },
+  "promo_status": "NO_PROMO",
+  "metadata": {
+    "version": "2.0.0+6c131bf",
+    "pars_dt": "2026-04-20T06:06:38.464+00:00",
+    "processing_status": "CLEAN",
+    "flags": [],
+    "preprocessing": [
+      {
+        "image_index": 0,
+        "tile_index": 0,
+        "steps": [
+          "PASSTHROUGH(no preprocessing needed)"
+        ],
+        "stats": {
+          "mean_brightness": 132.7,
+          "std_brightness": 60.0,
+          "noise_level": 120.0,
+          "skew_angle": 0.0,
+          "avg_saturation": 47.8,
+          "width": 1879,
+          "height": 2560,
+          "contrast_ratio": 172.0,
+          "is_bimodal": true,
+          "histogram_clipping": 0.005,
+          "content_coverage": 0.96,
+          "applied_steps": [
+            "PASSTHROUGH(no preprocessing needed)"
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_token_count": 6283,
+      "candidates_token_count": 345,
+      "total_token_count": 7459,
+      "thinking_token_count": 831
+    },
+    "cost_info": {
+      "total_cost": 0.0027474,
+      "model_name": "Gemini 2.5 Flash",
+      "input_cost": 0.0018849,
+      "output_cost": 0.0008625000000000001
+    },
+    "retry_count": 0
+  }
+}

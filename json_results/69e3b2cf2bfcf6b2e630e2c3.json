@@ -1,0 +1,156 @@
+{
+  "receipt_guid": "69e3b2cf2bfcf6b2e630e2c3",
+  "shop_brand": null,
+  "analysis": {
+    "document_type": "receipt",
+    "merchant": {
+      "name": "URBAN SHOP SRL",
+      "brand_name": "URBAN SHOP",
+      "address": "VIA VALLONE PETRARA 81 REGGIO CALABRIA 89124 - RC",
+      "vat_number": "03133500805",
+      "date": "2026-04-18",
+      "receipt_number": "1604-0028",
+      "notes": ""
+    },
+    "items": [
+      {
+        "description": "MENTADENT DENT P T DEN SAN M75",
+        "description_full": "Mentadent Protezione Famiglia Denti Sani e Forti 75 ml",
+        "category": "personal_care",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 1.59,
+        "discount": 0.0,
+        "total_price": 1.59,
+        "_catalog_method": "promo_catalog",
+        "_catalog_confidence": 0.7,
+        "_gemini_original": "Mentadent Denti Protezione Totale Denti Sensibili M75",
+        "barcode": "8712561287456",
+        "is_promo_item": true,
+        "match_confidence": 85,
+        "promo_match": {
+          "publisher_guid": "6908893d7cb8558c28a80692",
+          "product_guid": "694942b19cf0681229257f5d",
+          "product_name": "Mentadent Protezione Famiglia medium",
+          "brand_name": "Mentadent",
+          "match_confidence": 85,
+          "size_conflict": null,
+          "price_conflict": false
+        },
+        "match_signals": {
+          "brand": "MATCH",
+          "text": "HIGH",
+          "text_score": 85,
+          "variant": "MATCH",
+          "variant_jw": 0.863,
+          "price": "MATCH",
+          "size": "UNKNOWN",
+          "category": "OK",
+          "decision": "PROMO_FOUND"
+        }
+      },
+      {
+        "description": "VIDAL BS COCONUT WAT ML500",
+        "description_full": "Vidal Bagnoschiuma Coconut Water 500ml",
+        "category": "personal_care",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 1.89,
+        "discount": 0.0,
+        "total_price": 1.89,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 28,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 28,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "MATCH",
+          "size": "UNKNOWN",
+          "category": "INCOMPATIBLE"
+        }
+      },
+      {
+        "description": "VIDAL BS HYDRA PURE ML500",
+        "description_full": "Vidal Bagnoschiuma Hydra Pure 500ml",
+        "category": "personal_care",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 1.89,
+        "discount": 0.0,
+        "total_price": 1.89,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 28,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 28,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      }
+    ],
+    "totals": {
+      "total_amount": 5.37,
+      "tax_amount": 0.97,
+      "item_count": null
+    }
+  },
+  "promo_status": "PROMO_FOUND",
+  "metadata": {
+    "version": "2.0.0+6c131bf",
+    "pars_dt": "2026-04-18T16:35:55.537+00:00",
+    "processing_status": "CLEAN",
+    "flags": [],
+    "preprocessing": [
+      {
+        "image_index": 0,
+        "tile_index": 0,
+        "steps": [
+          "GRAYSCALE(sat=40)"
+        ],
+        "stats": {
+          "mean_brightness": 136.0,
+          "std_brightness": 69.0,
+          "noise_level": 235.0,
+          "skew_angle": 0.0,
+          "avg_saturation": 39.8,
+          "width": 1920,
+          "height": 2477,
+          "contrast_ratio": 192.0,
+          "is_bimodal": true,
+          "histogram_clipping": 0.076,
+          "content_coverage": 0.52,
+          "applied_steps": [
+            "GRAYSCALE(sat=40)"
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_token_count": 6283,
+      "candidates_token_count": 428,
+      "total_token_count": 7783,
+      "thinking_token_count": 1072
+    },
+    "cost_info": {
+      "total_cost": 0.0029549,
+      "model_name": "Gemini 2.5 Flash",
+      "input_cost": 0.0018849,
+      "output_cost": 0.00107
+    },
+    "retry_count": 0
+  }
+}

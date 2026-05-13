@@ -1,0 +1,311 @@
+{
+  "receipt_guid": "69ea352f2bfcf6b2e6312519",
+  "shop_brand": null,
+  "analysis": {
+    "document_type": "receipt",
+    "merchant": {
+      "name": "UNICOMM SRL",
+      "brand_name": "Famila",
+      "address": "VIA L.DA VINCI 11/2 TEL.0426 311306 CAVARZERE (VE)",
+      "vat_number": "01274580248",
+      "date": "2026-04-23",
+      "receipt_number": "61160004",
+      "notes": ""
+    },
+    "items": [
+      {
+        "description": "STRUDEL MELE DEC",
+        "description_full": "Strudel Mele Dec",
+        "category": "bakery",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 2.2,
+        "discount": 0.0,
+        "total_price": 2.2,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 26,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 26,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "MATCH",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "ACQUA MIC.GARNIER",
+        "description_full": "Acqua Micellare Garnier",
+        "category": "personal_care",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 3.59,
+        "discount": 0.0,
+        "total_price": 3.59,
+        "_catalog_method": "gemini_only",
+        "_catalog_confidence": 0.85,
+        "_alignment_override": true,
+        "barcode": "3600542540742",
+        "is_promo_item": false,
+        "match_confidence": 74,
+        "promo_match": {
+          "publisher_guid": "6977b0c2fc7f1b23d3ed374e",
+          "product_guid": "6977becaf090cc4a9486eb69",
+          "product_name": "Garnier Ultradolce Balsamo Meraviglioso",
+          "brand_name": "Garnier",
+          "match_confidence": 74,
+          "size_conflict": null,
+          "price_conflict": null
+        },
+        "match_signals": {
+          "brand": "MATCH",
+          "text": "HIGH",
+          "text_score": 81,
+          "variant": "PARTIAL",
+          "variant_jw": 0.597,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK",
+          "decision": "AMBIGUOUS"
+        }
+      },
+      {
+        "description": "BANANE TIGRATE",
+        "description_full": "Banane Tigrate",
+        "category": "produce",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 0.69,
+        "discount": 0.0,
+        "total_price": 0.69,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 32,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 32,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "CONFLICT",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "SAC.BIO.LEGGE 123-17",
+        "description_full": "Leggera",
+        "category": "other",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 0.01,
+        "discount": 0.0,
+        "total_price": 0.01,
+        "_catalog_method": "fuzzy",
+        "_catalog_confidence": 0.7,
+        "_gemini_original": "Sacchetto Biologico Legge 123-17",
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 40,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 40,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "CONFLICT",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "LATTE UHT PARZ.SCREM",
+        "description_full": "Latte UHT Parzialmente Scremato",
+        "category": "dairy",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 0.75,
+        "discount": 0.0,
+        "total_price": 0.75,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 35,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 35,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "ZENZERO/GINGER RAD.",
+        "description_full": "Zenzero / Ginger Radice",
+        "category": "produce",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 0.47,
+        "discount": 0.0,
+        "total_price": 0.47,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 31,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 31,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "CONFLICT",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "SAC.BIO.LEGGE 123-17",
+        "description_full": "Leggera",
+        "category": "other",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 0.01,
+        "discount": 0.0,
+        "total_price": 0.01,
+        "_catalog_method": "cache",
+        "_catalog_confidence": 0.7,
+        "_gemini_original": "Sacchetto Biologico Legge 123-17",
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 40,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 40,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "CONFLICT",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "LAVAZZA Q.ROS.2X250G",
+        "description_full": "Lavazza Qualità Rossa 2x250g",
+        "category": "pantry",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 6.49,
+        "discount": 0.0,
+        "total_price": 6.49,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 27,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 27,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      }
+    ],
+    "totals": {
+      "total_amount": 14.21,
+      "tax_amount": 2.12,
+      "item_count": 8
+    }
+  },
+  "promo_status": "PROMO_AMBIGUOUS",
+  "metadata": {
+    "version": "2.0.0+6c131bf",
+    "pars_dt": "2026-04-23T15:06:04.627+00:00",
+    "processing_status": "CLEAN",
+    "flags": [],
+    "preprocessing": [
+      {
+        "image_index": 0,
+        "tile_index": 0,
+        "steps": [
+          "PASSTHROUGH(no preprocessing needed)"
+        ],
+        "stats": {
+          "mean_brightness": 175.8,
+          "std_brightness": 52.4,
+          "noise_level": 403.0,
+          "skew_angle": 0.0,
+          "avg_saturation": 44.9,
+          "width": 1176,
+          "height": 2902,
+          "contrast_ratio": 173.0,
+          "is_bimodal": false,
+          "histogram_clipping": 0.005,
+          "content_coverage": 0.88,
+          "applied_steps": [
+            "PASSTHROUGH(no preprocessing needed)"
+          ]
+        }
+      },
+      {
+        "image_index": 1,
+        "tile_index": 1,
+        "steps": [
+          "GRAYSCALE(sat=38)"
+        ],
+        "stats": {
+          "mean_brightness": 183.4,
+          "std_brightness": 51.7,
+          "noise_level": 466.0,
+          "skew_angle": 0.0,
+          "avg_saturation": 37.7,
+          "width": 1099,
+          "height": 2880,
+          "contrast_ratio": 177.0,
+          "is_bimodal": false,
+          "histogram_clipping": 0.007,
+          "content_coverage": 0.88,
+          "applied_steps": [
+            "GRAYSCALE(sat=38)"
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_token_count": 3445,
+      "candidates_token_count": 826,
+      "total_token_count": 5906,
+      "thinking_token_count": 1635
+    },
+    "cost_info": {
+      "total_cost": 0.0030984999999999997,
+      "model_name": "Gemini 2.5 Flash",
+      "input_cost": 0.0010335,
+      "output_cost": 0.002065
+    },
+    "retry_count": 0
+  }
+}

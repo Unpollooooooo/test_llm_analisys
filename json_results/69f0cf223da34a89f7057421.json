@@ -1,0 +1,297 @@
+{
+  "receipt_guid": "69f0cf223da34a89f7057421",
+  "shop_brand": null,
+  "analysis": {
+    "document_type": "receipt",
+    "merchant": {
+      "name": "Nuovo Centro Alimentare di Carbone &",
+      "brand_name": "SISA",
+      "address": "Piazzale E. De Nicola 9 Saviano (NA)",
+      "vat_number": "0145535121",
+      "date": "2026-04-28",
+      "receipt_number": "2426-0047",
+      "notes": ""
+    },
+    "items": [
+      {
+        "description": "AIA WUDY CLA",
+        "description_full": "Wudy AIA Classico",
+        "category": "meat_fish",
+        "quantity": 3.0,
+        "unit_of_measure": "pz",
+        "unit_price": 0.599,
+        "discount": 0.0,
+        "total_price": 1.77,
+        "_catalog_method": "promo_catalog",
+        "_catalog_confidence": 0.7,
+        "_gemini_original": "AIA Wudy Classico",
+        "barcode": "8008110040642",
+        "is_promo_item": true,
+        "match_confidence": 85,
+        "promo_match": {
+          "publisher_guid": "6720a75bc522bbb00d0651a0",
+          "product_guid": "6722450d56329e8499ff2151",
+          "product_name": "Wudy AIA Classico",
+          "brand_name": "Wudy",
+          "match_confidence": 85,
+          "size_conflict": null,
+          "price_conflict": false
+        },
+        "match_signals": {
+          "brand": "MATCH",
+          "text": "HIGH",
+          "text_score": 85,
+          "variant": "MATCH",
+          "variant_jw": 1.0,
+          "price": "MATCH",
+          "size": "UNKNOWN",
+          "category": "OK",
+          "decision": "PROMO_FOUND"
+        }
+      },
+      {
+        "description": "B-00500000A LIAxxx",
+        "description_full": "B 00500000A LIAxxx",
+        "category": "other",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 1.29,
+        "discount": 0.0,
+        "total_price": 1.29,
+        "_catalog_method": "abbreviation",
+        "_catalog_confidence": 0.7,
+        "_gemini_original": "B-00500000A LIAxxx",
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 20,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 20,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "OLIVE VERDI DOLCI",
+        "description_full": "Olive Verdi Dolci",
+        "category": "pantry",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 0.67,
+        "discount": 0.0,
+        "total_price": 0.67,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 26,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 26,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "BUST.L.M.ERB.TRANE",
+        "description_full": "Bustine Erbe Trane",
+        "category": "pantry",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 0.57,
+        "discount": 0.0,
+        "total_price": 0.57,
+        "_catalog_method": "gemini_only",
+        "_catalog_confidence": 0.63,
+        "_alignment_override": true,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 28,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 28,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "CONFLICT",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "MAX DOLCE 240G",
+        "description_full": "Max Dolce 240g",
+        "category": "bakery",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 0.85,
+        "discount": 0.0,
+        "total_price": 0.85,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 26,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 26,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "CONFLICT",
+          "size": "MATCH",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "BIB.LAT.LATINA 6PZ",
+        "description_full": "Bibite Latina 6 Pezzi",
+        "category": "beverages",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 1.99,
+        "discount": 0.0,
+        "total_price": 1.99,
+        "_catalog_method": "gemini_only",
+        "_catalog_confidence": 0.57,
+        "_alignment_override": true,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 28,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 28,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "MATCH",
+          "size": "UNKNOWN",
+          "category": "INCOMPATIBLE"
+        }
+      },
+      {
+        "description": "FRAGOLE 500G",
+        "description_full": "Fragole 500g",
+        "category": "produce",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 1.48,
+        "discount": 0.0,
+        "total_price": 1.48,
+        "_catalog_method": "gemini_only",
+        "_catalog_confidence": 0.85,
+        "_alignment_override": true,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 22,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 22,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "CONFLICT",
+          "category": "OK"
+        }
+      }
+    ],
+    "totals": {
+      "total_amount": 1.77,
+      "tax_amount": 0.0,
+      "item_count": 3
+    },
+    "quality_flags": [
+      "multiple_receipts"
+    ]
+  },
+  "promo_status": "PROMO_FOUND",
+  "metadata": {
+    "version": "2.1.0+bbfe08e",
+    "pars_dt": "2026-04-28T15:17:13.035+00:00",
+    "processing_status": "CLEAN",
+    "flags": [],
+    "preprocessing": [
+      {
+        "image_index": 0,
+        "tile_index": 0,
+        "steps": [
+          "GRAYSCALE(sat=35)"
+        ],
+        "stats": {
+          "mean_brightness": 133.9,
+          "std_brightness": 61.0,
+          "noise_level": 256.0,
+          "skew_angle": 0.0,
+          "avg_saturation": 35.0,
+          "width": 1744,
+          "height": 2560,
+          "contrast_ratio": 186.0,
+          "is_bimodal": true,
+          "histogram_clipping": 0.006,
+          "content_coverage": 0.96,
+          "applied_steps": [
+            "GRAYSCALE(sat=35)"
+          ]
+        }
+      },
+      {
+        "image_index": 1,
+        "tile_index": 1,
+        "steps": [
+          "PASSTHROUGH(no preprocessing needed)"
+        ],
+        "stats": {
+          "mean_brightness": 115.4,
+          "std_brightness": 70.5,
+          "noise_level": 338.0,
+          "skew_angle": 0.0,
+          "avg_saturation": 60.6,
+          "width": 1684,
+          "height": 2560,
+          "contrast_ratio": 207.0,
+          "is_bimodal": true,
+          "histogram_clipping": 0.069,
+          "content_coverage": 0.84,
+          "applied_steps": [
+            "PASSTHROUGH(no preprocessing needed)"
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_token_count": 3692,
+      "candidates_token_count": 924,
+      "total_token_count": 9027,
+      "thinking_token_count": 4411
+    },
+    "cost_info": {
+      "total_cost": 0.0034176,
+      "model_name": "Gemini 2.5 Flash",
+      "input_cost": 0.0011076,
+      "output_cost": 0.00231
+    },
+    "retry_count": 0,
+    "validation_errors": [
+      {
+        "code": "MULTIPLE_RECEIPTS",
+        "message": "Hai caricato più scontrini diversi in un unico invio"
+      }
+    ],
+    "is_valid": false
+  }
+}

@@ -1,0 +1,128 @@
+{
+  "receipt_guid": "69f18d96e593340322ec9d90",
+  "shop_brand": null,
+  "analysis": {
+    "document_type": "receipt",
+    "merchant": {
+      "name": "CIESSECI SPA",
+      "brand_name": "BRICCOOK",
+      "address": "VIA ACHILLE GRANDI, SNC 20081 ABBIATEGRASSO (MI)",
+      "vat_number": "02049930130",
+      "date": "2026-04-28",
+      "receipt_number": "0358-0001",
+      "notes": ""
+    },
+    "items": [
+      {
+        "description": "SX PLUS 10X50 BM K TASSEL 22,00%",
+        "description_full": "SX PLUS 10X50 BM K TASSEL",
+        "category": "other",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 4.7,
+        "discount": 0.0,
+        "total_price": 4.7,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 21,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 21,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "MATCH",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "TASSELLI IN ACCIAIO PER A 22,00%",
+        "description_full": "TASSELLI IN ACCIAIO",
+        "category": "other",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 6.3,
+        "discount": 0.0,
+        "total_price": 6.3,
+        "_catalog_method": "gemini_only",
+        "_catalog_confidence": 0.4,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 30,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 30,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      }
+    ],
+    "totals": {
+      "total_amount": 11.0,
+      "tax_amount": 1.98,
+      "item_count": null
+    },
+    "quality_flags": []
+  },
+  "promo_status": "NO_PROMO",
+  "metadata": {
+    "version": "2.1.0+bbfe08e",
+    "pars_dt": "2026-04-29T04:48:46.165+00:00",
+    "processing_status": "CLEAN",
+    "flags": [],
+    "preprocessing": [
+      {
+        "image_index": 0,
+        "tile_index": 0,
+        "steps": [
+          "THRESHOLD(contrast=48,bright=121)"
+        ],
+        "stats": {
+          "mean_brightness": 121.2,
+          "std_brightness": 17.9,
+          "noise_level": 178.0,
+          "skew_angle": 0.0,
+          "avg_saturation": 61.9,
+          "width": 1920,
+          "height": 2560,
+          "contrast_ratio": 48.0,
+          "is_bimodal": false,
+          "histogram_clipping": 0.002,
+          "content_coverage": 0.28,
+          "applied_steps": [
+            "THRESHOLD(contrast=48,bright=121)"
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_token_count": 6530,
+      "candidates_token_count": 416,
+      "total_token_count": 7664,
+      "thinking_token_count": 718
+    },
+    "cost_info": {
+      "total_cost": 0.002999,
+      "model_name": "Gemini 2.5 Flash",
+      "input_cost": 0.001959,
+      "output_cost": 0.0010400000000000001
+    },
+    "retry_count": 0,
+    "validation_errors": [
+      {
+        "code": "NO_PREMIUM_PRODUCTS",
+        "message": "Lo scontrino non contiene prodotti premianti"
+      }
+    ],
+    "is_valid": false
+  }
+}

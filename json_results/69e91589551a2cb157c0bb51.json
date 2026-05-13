@@ -1,0 +1,121 @@
+{
+  "receipt_guid": "69e91589551a2cb157c0bb51",
+  "shop_brand": null,
+  "analysis": {
+    "document_type": "receipt",
+    "merchant": {
+      "name": "FL SUPERMERCATI SRL",
+      "brand_name": "Deco",
+      "address": "C. FRANCESCO REGINE, 34 FORIO D'ISCHIA",
+      "vat_number": "10128151213",
+      "date": "2026-04-20",
+      "receipt_number": "0054-0165",
+      "notes": ""
+    },
+    "items": [
+      {
+        "description": "ORAL B SPAZ.CLASSIC CARE",
+        "description_full": "Oral B Spazzolino Classic Care",
+        "category": "personal_care",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 2.59,
+        "discount": 0.0,
+        "total_price": 2.59,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 36,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 36,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "DECO BIO FRUL.MEL/BAN 100",
+        "description_full": "Deco Bio Frullato Mela Banana 100ml",
+        "category": "beverages",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 0.59,
+        "discount": 0.0,
+        "total_price": 0.59,
+        "_catalog_method": "gemini_only",
+        "_catalog_confidence": 0.63,
+        "_alignment_override": true,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 29,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 29,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "CONFLICT",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      }
+    ],
+    "totals": {
+      "total_amount": 3.18,
+      "tax_amount": 0.52,
+      "item_count": 2
+    }
+  },
+  "promo_status": "NO_PROMO",
+  "metadata": {
+    "version": "2.0.0+6c131bf",
+    "pars_dt": "2026-04-22T18:38:36.588+00:00",
+    "processing_status": "CLEAN",
+    "flags": [],
+    "preprocessing": [
+      {
+        "image_index": 0,
+        "tile_index": 0,
+        "steps": [
+          "PASSTHROUGH(no preprocessing needed)"
+        ],
+        "stats": {
+          "mean_brightness": 162.4,
+          "std_brightness": 67.9,
+          "noise_level": 1550.0,
+          "skew_angle": 0.0,
+          "avg_saturation": 67.0,
+          "width": 1920,
+          "height": 2560,
+          "contrast_ratio": 203.0,
+          "is_bimodal": true,
+          "histogram_clipping": 0.137,
+          "content_coverage": 0.96,
+          "applied_steps": [
+            "PASSTHROUGH(no preprocessing needed)"
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_token_count": 6283,
+      "candidates_token_count": 322,
+      "total_token_count": 7487,
+      "thinking_token_count": 882
+    },
+    "cost_info": {
+      "total_cost": 0.0026899,
+      "model_name": "Gemini 2.5 Flash",
+      "input_cost": 0.0018849,
+      "output_cost": 0.000805
+    },
+    "retry_count": 0
+  }
+}

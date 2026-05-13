@@ -1,0 +1,387 @@
+{
+  "receipt_guid": "69e37227551a2cb157c07e6a",
+  "shop_brand": null,
+  "analysis": {
+    "document_type": "receipt",
+    "merchant": {
+      "name": "ECOGEST s.r.l. SUPERMERCATI DOK",
+      "brand_name": "DOK",
+      "address": "Piazza 1 Maggio, 83 - 72017 OSTUNI(BR)",
+      "vat_number": "03351550722",
+      "date": "2026-04-18",
+      "receipt_number": "2587-0140",
+      "notes": ""
+    },
+    "items": [
+      {
+        "description": "CAVOLFIORE",
+        "description_full": "Cavolfiore",
+        "category": "produce",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 2.56,
+        "discount": 0.0,
+        "total_price": 2.56,
+        "_catalog_method": "gemini_only",
+        "_catalog_confidence": 0.85,
+        "_alignment_override": true,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 23,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 23,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "MATCH",
+          "size": "UNKNOWN",
+          "category": "INCOMPATIBLE"
+        }
+      },
+      {
+        "description": "ARBOREA UHT A.D.SCREMATO",
+        "description_full": "Arborea Latte UHT Alta Digeribilità Scremato",
+        "category": "dairy",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 9.18,
+        "discount": 0.0,
+        "total_price": 9.18,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 28,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 28,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "MATCH",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "MOLISANA PASSATA GR.690",
+        "description_full": "Molisana Passata 690g",
+        "category": "pantry",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 1.28,
+        "discount": 0.0,
+        "total_price": 1.28,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 34,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 34,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "FROSTA BASTONCINI MERLX15",
+        "description_full": "FRoSTA 15 Bastoncini di merluzzo",
+        "category": "meat_fish",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 4.59,
+        "discount": 0.0,
+        "total_price": 4.59,
+        "_catalog_method": "promo_catalog",
+        "_catalog_confidence": 0.7,
+        "_gemini_original": "Frosta Bastoncini Merluzzo x15",
+        "barcode": "8052789532854",
+        "is_promo_item": true,
+        "match_confidence": 85,
+        "promo_match": {
+          "publisher_guid": "6894af7f79abb7f7561d5897",
+          "product_guid": "6895d333ce8bbb15b6624ac7",
+          "product_name": "15 Bastoncini di merluzzo",
+          "brand_name": "FRoSTA",
+          "match_confidence": 85,
+          "size_conflict": null,
+          "price_conflict": false
+        },
+        "match_signals": {
+          "brand": "MATCH",
+          "text": "HIGH",
+          "text_score": 85,
+          "variant": "MATCH",
+          "variant_jw": 1.0,
+          "price": "MATCH",
+          "size": "UNKNOWN",
+          "category": "OK",
+          "decision": "PROMO_FOUND"
+        }
+      },
+      {
+        "description": "FAGE T*TAL BIANCO O GR.450",
+        "description_full": "Fage Total Bianco 0% Gr. 450",
+        "category": "dairy",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 2.39,
+        "discount": 0.0,
+        "total_price": 2.39,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": "8003650023230",
+        "is_promo_item": false,
+        "match_confidence": 49,
+        "promo_match": {
+          "publisher_guid": "6939bd34e84bd0409997e7c9",
+          "product_guid": "6939c6789cf06812292571d9",
+          "product_name": "Detersivo Lavatrice Liquido Igienizzante 44 Lavaggi",
+          "brand_name": "Omino Bianco",
+          "match_confidence": 49,
+          "size_conflict": null,
+          "price_conflict": null
+        },
+        "match_signals": {
+          "brand": "MATCH",
+          "text": "MED",
+          "text_score": 74,
+          "variant": "MISMATCH",
+          "variant_jw": 0.417,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK",
+          "decision": "NO_PROMO"
+        }
+      },
+      {
+        "description": "CIMA VERDE ROMANESCA",
+        "description_full": "Cima Verde Romanesca",
+        "category": "produce",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 1.58,
+        "discount": 0.0,
+        "total_price": 1.58,
+        "_catalog_method": "gemini_only",
+        "_catalog_confidence": 0.4,
+        "_alignment_override": true,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 29,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 29,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "CICORIA SPIGATA (TIPO BAR ESE)",
+        "description_full": "Cicoria Spigata (Tipo Bar)",
+        "category": "produce",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 1.51,
+        "discount": 0.0,
+        "total_price": 1.51,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 26,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 26,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "MATCH",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "CICORIA SPIGATA (TIPO BAR ESE)",
+        "description_full": "Cicoria Spigata (Tipo Bar)",
+        "category": "produce",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 1.65,
+        "discount": 0.0,
+        "total_price": 1.65,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 26,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 26,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "MATCH",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "*VICENZI BOCCONCINI CREMA G100",
+        "description_full": "Vicenzi Bocconcini Crema 100g",
+        "category": "bakery",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 2.99,
+        "discount": 0.0,
+        "total_price": 2.99,
+        "_catalog_method": "gemini_only",
+        "_catalog_confidence": 0.4,
+        "_alignment_override": true,
+        "barcode": "8000350009090",
+        "is_promo_item": true,
+        "match_confidence": 88,
+        "promo_match": {
+          "publisher_guid": "68dd28b454c085c2c77c7ac1",
+          "product_guid": "69036f58b82c644e33de2ee4",
+          "product_name": "Millevoglie Bocconcini Crema Caffè Bialetti 100 G",
+          "brand_name": "Pasticceria Matilde Vicenzi",
+          "match_confidence": 88,
+          "size_conflict": false,
+          "price_conflict": null
+        },
+        "match_signals": {
+          "brand": "MATCH",
+          "text": "HIGH",
+          "text_score": 88,
+          "variant": "MATCH",
+          "variant_jw": 1.0,
+          "price": "UNKNOWN",
+          "size": "MATCH",
+          "category": "OK",
+          "decision": "PROMO_FOUND"
+        }
+      },
+      {
+        "description": "POM.DATT.GIA GR.300 GLI ASSOLU",
+        "description_full": "Pomodori Datterini Gialli Gr. 300 Gli Assoluti",
+        "category": "produce",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 2.6,
+        "discount": 0.0,
+        "total_price": 2.6,
+        "_catalog_method": "gemini_only",
+        "_catalog_confidence": 0.65,
+        "_alignment_override": true,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 27,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 27,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "INCOMPATIBLE"
+        }
+      },
+      {
+        "description": "*ROBERTO GRANPIADA O.EX.V .G330",
+        "description_full": "GRANPIADA",
+        "category": "bakery",
+        "quantity": 2.0,
+        "unit_of_measure": "pz",
+        "unit_price": 1.3,
+        "discount": 0.0,
+        "total_price": 2.6,
+        "_catalog_method": "fuzzy",
+        "_catalog_confidence": 0.7,
+        "_gemini_original": "Roberto Granpiada Olio Extra Vergine 330g",
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 25,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 25,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      }
+    ],
+    "totals": {
+      "total_amount": 31.11,
+      "tax_amount": 0.0,
+      "item_count": 14
+    }
+  },
+  "promo_status": "PROMO_FOUND",
+  "metadata": {
+    "version": "2.0.0+6c131bf",
+    "pars_dt": "2026-04-18T12:02:22.793+00:00",
+    "processing_status": "CLEAN",
+    "flags": [],
+    "preprocessing": [
+      {
+        "image_index": 0,
+        "tile_index": 0,
+        "steps": [
+          "GRAYSCALE(sat=37)"
+        ],
+        "stats": {
+          "mean_brightness": 191.1,
+          "std_brightness": 61.2,
+          "noise_level": 323.0,
+          "skew_angle": 0.5,
+          "avg_saturation": 37.5,
+          "width": 1066,
+          "height": 3254,
+          "contrast_ratio": 205.0,
+          "is_bimodal": false,
+          "histogram_clipping": 0.02,
+          "content_coverage": 0.8,
+          "applied_steps": [
+            "GRAYSCALE(sat=37)"
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_token_count": 5767,
+      "candidates_token_count": 1127,
+      "total_token_count": 17753,
+      "thinking_token_count": 10859
+    },
+    "cost_info": {
+      "total_cost": 0.0045476,
+      "model_name": "Gemini 2.5 Flash",
+      "input_cost": 0.0017300999999999998,
+      "output_cost": 0.0028175
+    },
+    "retry_count": 0
+  }
+}

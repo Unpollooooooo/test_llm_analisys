@@ -1,0 +1,94 @@
+{
+  "receipt_guid": "69ef3fc3e593340322ec86cf",
+  "shop_brand": null,
+  "analysis": {
+    "document_type": "receipt",
+    "merchant": {
+      "name": "Tiger Italia 1 SRL",
+      "brand_name": "Flying Tiger Copenhagen",
+      "address": "Via Nizza 185/A 10126 Torino (TO)",
+      "vat_number": "10491710017",
+      "date": "2026-04-26",
+      "receipt_number": "2434-0022",
+      "notes": ""
+    },
+    "items": [
+      {
+        "description": "CHALK PAVEMENT SET 12 PCS",
+        "description_full": "Chalk Pavement Set 12 Pieces",
+        "category": "other",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 1.5,
+        "discount": 0.0,
+        "total_price": 1.5,
+        "_catalog_method": "gemini_only",
+        "_catalog_confidence": 0.4,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 29,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 29,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      }
+    ],
+    "totals": {
+      "total_amount": 1.5,
+      "tax_amount": 0.27,
+      "item_count": null
+    }
+  },
+  "promo_status": "NO_PROMO",
+  "metadata": {
+    "version": "2.0.0+unknown",
+    "pars_dt": "2026-04-27T10:52:08.610+00:00",
+    "processing_status": "CLEAN",
+    "flags": [],
+    "preprocessing": [
+      {
+        "image_index": 0,
+        "tile_index": 0,
+        "steps": [
+          "GRAYSCALE(sat=21)"
+        ],
+        "stats": {
+          "mean_brightness": 157.0,
+          "std_brightness": 57.5,
+          "noise_level": 613.0,
+          "skew_angle": 0.0,
+          "avg_saturation": 20.9,
+          "width": 1728,
+          "height": 955,
+          "contrast_ratio": 173.0,
+          "is_bimodal": true,
+          "histogram_clipping": 0.001,
+          "content_coverage": 0.88,
+          "applied_steps": [
+            "GRAYSCALE(sat=21)"
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_token_count": 4735,
+      "candidates_token_count": 224,
+      "total_token_count": 5744,
+      "thinking_token_count": 785
+    },
+    "cost_info": {
+      "total_cost": 0.0019805,
+      "model_name": "Gemini 2.5 Flash",
+      "input_cost": 0.0014204999999999999,
+      "output_cost": 0.0005600000000000001
+    },
+    "retry_count": 0
+  }
+}

@@ -1,0 +1,271 @@
+{
+  "receipt_guid": "69e7b874551a2cb157c0acbb",
+  "shop_brand": null,
+  "analysis": {
+    "document_type": "receipt",
+    "merchant": {
+      "name": "PALMERI ANTONINO & C. S.A.S.",
+      "brand_name": "Coop",
+      "address": "VIA SANTA LUCIA, sn 90034 CORLEONE -PA-",
+      "vat_number": "03260510825",
+      "date": "2026-04-21",
+      "receipt_number": "0854-0129",
+      "notes": ""
+    },
+    "items": [
+      {
+        "description": "TIGULLIO G.PESTO TA10,00%",
+        "description_full": "Tigullio Gran Pesto",
+        "category": "pantry",
+        "quantity": 1,
+        "unit_of_measure": "pz",
+        "unit_price": 2.39,
+        "discount": 0.0,
+        "total_price": 2.39,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 73,
+        "promo_match": {
+          "publisher_guid": "6513f40a60b55747dd7fc268",
+          "product_guid": "65145a76c30d8616850160c3",
+          "product_name": "Bonito del Norte in olio d'oliva",
+          "brand_name": "Consorcio Gran Reserva",
+          "match_confidence": 73,
+          "size_conflict": null,
+          "price_conflict": null
+        },
+        "match_signals": {
+          "brand": "MATCH",
+          "text": "MED",
+          "text_score": 73,
+          "variant": "PARTIAL",
+          "variant_jw": 0.56,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK",
+          "decision": "AMBIGUOUS"
+        }
+      },
+      {
+        "description": "SCONTO 10,00%",
+        "description_full": "Sconto 10%",
+        "category": "other",
+        "quantity": 1,
+        "unit_of_measure": "pz",
+        "unit_price": -0.6,
+        "discount": 0.0,
+        "total_price": -0.6,
+        "_catalog_method": "gemini_only",
+        "_catalog_confidence": 0.4,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 0,
+        "promo_match": null
+      },
+      {
+        "description": "MILK PRO CREMA CACA10,00%",
+        "description_full": "Milk Protein Cremae Cacao",
+        "category": "dairy",
+        "quantity": 2,
+        "unit_of_measure": "pz",
+        "unit_price": 0.945,
+        "discount": 0.0,
+        "total_price": 1.89,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 29,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 29,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "MILK PRO CREMA CARÁ 10,00%",
+        "description_full": "Milk Protein Cremae Caramel",
+        "category": "dairy",
+        "quantity": 2,
+        "unit_of_measure": "pz",
+        "unit_price": 1.89,
+        "discount": 0.0,
+        "total_price": 3.78,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 33,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 33,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "AIA AEQ PETTO DI PÓ10,00%",
+        "description_full": "AeQuilibrium AIA &me Petto di pollo",
+        "category": "meat_fish",
+        "quantity": 1,
+        "unit_of_measure": "pz",
+        "unit_price": 4.58,
+        "discount": 0.0,
+        "total_price": 4.58,
+        "_catalog_method": "promo_catalog",
+        "_catalog_confidence": 0.7,
+        "_gemini_original": "AIA Aequilibrium Petto di Pollo",
+        "barcode": "8008110034092",
+        "is_promo_item": true,
+        "match_confidence": 85,
+        "promo_match": {
+          "publisher_guid": "6720a75bc522bbb00d0651a0",
+          "product_guid": "67af7cfb9a202072370c13b2",
+          "product_name": "AeQuilibrium AIA Petto di Tacchino",
+          "brand_name": "AeQuilibrium AIA",
+          "match_confidence": 85,
+          "size_conflict": null,
+          "price_conflict": null
+        },
+        "match_signals": {
+          "brand": "MATCH",
+          "text": "HIGH",
+          "text_score": 85,
+          "variant": "MATCH",
+          "variant_jw": 0.85,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK",
+          "decision": "PROMO_FOUND"
+        }
+      },
+      {
+        "description": "AIA AEQ PETTO TACCH10,00%",
+        "description_full": "AeQuilibrium AIA &me Petto di tacchino",
+        "category": "meat_fish",
+        "quantity": 1,
+        "unit_of_measure": "pz",
+        "unit_price": 2.29,
+        "discount": 0.0,
+        "total_price": 2.29,
+        "_catalog_method": "promo_catalog",
+        "_catalog_confidence": 0.7,
+        "_gemini_original": "AIA Aequilibrium Petto di Tacchino",
+        "barcode": "8008110034078",
+        "is_promo_item": true,
+        "match_confidence": 85,
+        "promo_match": {
+          "publisher_guid": "6720a75bc522bbb00d0651a0",
+          "product_guid": "67af7d379a202072370c13b5",
+          "product_name": "AeQuilibrium AIA Petto di Pollo",
+          "brand_name": "AeQuilibrium AIA",
+          "match_confidence": 85,
+          "size_conflict": null,
+          "price_conflict": false
+        },
+        "match_signals": {
+          "brand": "MATCH",
+          "text": "HIGH",
+          "text_score": 85,
+          "variant": "MATCH",
+          "variant_jw": 0.867,
+          "price": "MATCH",
+          "size": "UNKNOWN",
+          "category": "OK",
+          "decision": "PROMO_FOUND"
+        }
+      },
+      {
+        "description": "SHOPPERS BIO COOP 322,00%",
+        "description_full": "Shoppers Bio Coop",
+        "category": "home_care",
+        "quantity": 1,
+        "unit_of_measure": "pz",
+        "unit_price": 0.1,
+        "discount": 0.0,
+        "total_price": 0.1,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 23,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 23,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "INCOMPATIBLE"
+        }
+      }
+    ],
+    "totals": {
+      "total_amount": 14.43,
+      "tax_amount": 1.32,
+      "item_count": 8
+    }
+  },
+  "promo_status": "PROMO_FOUND",
+  "metadata": {
+    "version": "2.0.0+6c131bf",
+    "pars_dt": "2026-04-21T17:50:17.305+00:00",
+    "processing_status": "CLEAN",
+    "flags": [],
+    "preprocessing": [
+      {
+        "image_index": 0,
+        "tile_index": 0,
+        "steps": [
+          "GRAYSCALE(sat=11)",
+          "CLAHE(std=31,clip=0.00)"
+        ],
+        "stats": {
+          "mean_brightness": 160.8,
+          "std_brightness": 30.9,
+          "noise_level": 865.0,
+          "skew_angle": 0.0,
+          "avg_saturation": 11.1,
+          "width": 1645,
+          "height": 2271,
+          "contrast_ratio": 87.0,
+          "is_bimodal": false,
+          "histogram_clipping": 0.004,
+          "content_coverage": 0.72,
+          "applied_steps": [
+            "GRAYSCALE(sat=11)",
+            "CLAHE(std=31,clip=0.00)"
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_token_count": 5509,
+      "candidates_token_count": 929,
+      "total_token_count": 12568,
+      "thinking_token_count": 6130
+    },
+    "cost_info": {
+      "total_cost": 0.0039752,
+      "model_name": "Gemini 2.5 Flash",
+      "input_cost": 0.0016527,
+      "output_cost": 0.0023225000000000003
+    },
+    "retry_count": 0
+  }
+}

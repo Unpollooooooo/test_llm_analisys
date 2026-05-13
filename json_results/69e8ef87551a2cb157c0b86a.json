@@ -1,0 +1,122 @@
+{
+  "receipt_guid": "69e8ef87551a2cb157c0b86a",
+  "shop_brand": null,
+  "analysis": {
+    "document_type": "receipt",
+    "merchant": {
+      "name": "Lidl Italia S.r.l.",
+      "brand_name": "Lidl",
+      "address": "91100-Via Niccolo' Rodolico 3, Trapani (TP)",
+      "vat_number": "PI02275030233",
+      "date": "2026-04-28",
+      "receipt_number": "0495-0031",
+      "notes": ""
+    },
+    "items": [
+      {
+        "description": "CARTA IGIENICA 4VELI",
+        "description_full": "Carta igienica",
+        "category": "personal_care",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 4.19,
+        "discount": 0.0,
+        "total_price": 4.19,
+        "_catalog_method": "fuzzy",
+        "_catalog_confidence": 0.7,
+        "_gemini_original": "Carta Igienica 4 Veli",
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 27,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 27,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "CARTA IGIENICA 4VELI",
+        "description_full": "Carta igienica",
+        "category": "personal_care",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 4.19,
+        "discount": 0.0,
+        "total_price": 4.19,
+        "_catalog_method": "cache",
+        "_catalog_confidence": 0.7,
+        "_gemini_original": "Carta Igienica 4 Veli",
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 27,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 27,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      }
+    ],
+    "totals": {
+      "total_amount": 8.38,
+      "tax_amount": 1.51,
+      "item_count": null
+    }
+  },
+  "promo_status": "NO_PROMO",
+  "metadata": {
+    "version": "2.0.0+6c131bf",
+    "pars_dt": "2026-04-22T15:56:11.778+00:00",
+    "processing_status": "CLEAN",
+    "flags": [],
+    "preprocessing": [
+      {
+        "image_index": 0,
+        "tile_index": 0,
+        "steps": [
+          "GRAYSCALE(sat=21)"
+        ],
+        "stats": {
+          "mean_brightness": 152.8,
+          "std_brightness": 64.2,
+          "noise_level": 167.0,
+          "skew_angle": 0.0,
+          "avg_saturation": 21.1,
+          "width": 1920,
+          "height": 1126,
+          "contrast_ratio": 204.0,
+          "is_bimodal": true,
+          "histogram_clipping": 0.025,
+          "content_coverage": 0.8,
+          "applied_steps": [
+            "GRAYSCALE(sat=21)"
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_token_count": 4735,
+      "candidates_token_count": 320,
+      "total_token_count": 5754,
+      "thinking_token_count": 699
+    },
+    "cost_info": {
+      "total_cost": 0.0022205,
+      "model_name": "Gemini 2.5 Flash",
+      "input_cost": 0.0014204999999999999,
+      "output_cost": 0.0008
+    },
+    "retry_count": 0
+  }
+}

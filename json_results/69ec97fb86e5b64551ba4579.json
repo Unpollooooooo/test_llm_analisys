@@ -1,0 +1,296 @@
+{
+  "receipt_guid": "69ec97fb86e5b64551ba4579",
+  "shop_brand": null,
+  "analysis": {
+    "document_type": "receipt",
+    "merchant": {
+      "name": "LORAN MEGASTORE S.R.L.",
+      "brand_name": "Sigma Superstore",
+      "address": "VIA CUPA S.SEVERINO, 22/24/24A 80143 NAPOLI (NA)",
+      "vat_number": "07348321212",
+      "date": "2026-04-22",
+      "receipt_number": "0667-0031",
+      "notes": ""
+    },
+    "items": [
+      {
+        "description": "PARMALAT LATTE UHT 1LT PS BR",
+        "description_full": "Parmalat Latte Barista",
+        "category": "dairy",
+        "quantity": 1,
+        "unit_of_measure": "pz",
+        "unit_price": 1.09,
+        "discount": 0,
+        "total_price": 1.09,
+        "_catalog_method": "promo_catalog",
+        "_catalog_confidence": 0.7,
+        "_gemini_original": "Parmalat Latte UHT 1 Litro Parzialmente Scremato",
+        "barcode": "8002580017111",
+        "is_promo_item": true,
+        "match_confidence": 85,
+        "promo_match": {
+          "publisher_guid": "68f0f6bb00cc667d09dd07fe",
+          "product_guid": "69314a846f6ada34183f7065",
+          "product_name": "Con Vitamina D Latte Parzialmente Scremato 1000 ml 100% Latte d'Italia",
+          "brand_name": "Parmalat",
+          "match_confidence": 85,
+          "size_conflict": false,
+          "price_conflict": null
+        },
+        "match_signals": {
+          "brand": "MATCH",
+          "text": "HIGH",
+          "text_score": 85,
+          "variant": "MATCH",
+          "variant_jw": 0.822,
+          "price": "UNKNOWN",
+          "size": "MATCH",
+          "category": "OK",
+          "decision": "PROMO_FOUND"
+        }
+      },
+      {
+        "description": "PARMALAT LATTE UHT 1LT PS BR",
+        "description_full": "Parmalat Latte Barista",
+        "category": "dairy",
+        "quantity": 1,
+        "unit_of_measure": "pz",
+        "unit_price": 1.09,
+        "discount": 0,
+        "total_price": 1.09,
+        "_catalog_method": "cache",
+        "_catalog_confidence": 0.7,
+        "_gemini_original": "Parmalat Latte UHT 1 Litro Parzialmente Scremato",
+        "barcode": "8002580020586",
+        "is_promo_item": true,
+        "match_confidence": 100,
+        "promo_match": {
+          "publisher_guid": "68f0f6bb00cc667d09dd07fe",
+          "product_guid": "69314a846f6ada34183f706b",
+          "product_name": "Latte Barista",
+          "brand_name": "Parmalat",
+          "match_confidence": 100,
+          "size_conflict": false,
+          "price_conflict": null
+        },
+        "match_signals": {
+          "brand": "MATCH",
+          "text": "HIGH",
+          "text_score": 100,
+          "variant": "MATCH",
+          "variant_jw": 1.0,
+          "price": "UNKNOWN",
+          "size": "MATCH",
+          "category": "OK",
+          "decision": "PROMO_FOUND"
+        }
+      },
+      {
+        "description": "NIVEA DEO SPRAY 150ML B&W UL",
+        "description_full": "Nivea Deodorante Spray 150ml Black & White",
+        "category": "personal_care",
+        "quantity": 1,
+        "unit_of_measure": "pz",
+        "unit_price": 2.69,
+        "discount": 0,
+        "total_price": 2.69,
+        "_catalog_method": "gemini_only",
+        "_catalog_confidence": 0.46,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 32,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 32,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "MATCH",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "AMUCHINA SPRAY 100ML IGIE NIZ",
+        "description_full": "Amuchina Spray 100ml Igienizzante",
+        "category": "home_care",
+        "quantity": 1,
+        "unit_of_measure": "pz",
+        "unit_price": 1.49,
+        "discount": 0,
+        "total_price": 1.49,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 31,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 31,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "CONFLICT",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "P.COTTO CAPITELLI AURICCHIO INFORNA E GUSTA PR",
+        "description_full": "Prosciutto Cotto Capitelli Auricchio Inforna e Gusta",
+        "category": "meat_fish",
+        "quantity": 1,
+        "unit_of_measure": "pz",
+        "unit_price": 3.97,
+        "discount": 0,
+        "total_price": 3.97,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 31,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 31,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "PRESIDENT FETTE DI EMMENT AL",
+        "description_full": "President Fette di Emmental",
+        "category": "dairy",
+        "quantity": 1,
+        "unit_of_measure": "pz",
+        "unit_price": 3.19,
+        "discount": 0,
+        "total_price": 3.19,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 33,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 33,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "AURICCHIO INFORNA E GUSTA PR",
+        "description_full": "Auricchio Inforna e Gusta",
+        "category": "dairy",
+        "quantity": 1,
+        "unit_of_measure": "pz",
+        "unit_price": 2.49,
+        "discount": 0,
+        "total_price": 2.49,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 28,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 28,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "MAC.SPEZZATINO TACCHINO",
+        "description_full": "Macinato Spezzatino Tacchino",
+        "category": "meat_fish",
+        "quantity": 1,
+        "unit_of_measure": "pz",
+        "unit_price": 3.19,
+        "discount": 0,
+        "total_price": 3.19,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 31,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 31,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "MATCH",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      }
+    ],
+    "totals": {
+      "total_amount": 22.67,
+      "tax_amount": 1.85,
+      "item_count": null
+    }
+  },
+  "promo_status": "PROMO_FOUND",
+  "metadata": {
+    "version": "2.0.0+6c131bf",
+    "pars_dt": "2026-04-25T10:32:40.385+00:00",
+    "processing_status": "CLEAN",
+    "flags": [],
+    "preprocessing": [
+      {
+        "image_index": 0,
+        "tile_index": 0,
+        "steps": [
+          "PASSTHROUGH(no preprocessing needed)"
+        ],
+        "stats": {
+          "mean_brightness": 73.1,
+          "std_brightness": 49.3,
+          "noise_level": 324.0,
+          "skew_angle": 0.0,
+          "avg_saturation": 59.5,
+          "width": 1920,
+          "height": 1440,
+          "contrast_ratio": 136.0,
+          "is_bimodal": true,
+          "histogram_clipping": 0.134,
+          "content_coverage": 1.0,
+          "applied_steps": [
+            "PASSTHROUGH(no preprocessing needed)"
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_token_count": 4735,
+      "candidates_token_count": 1068,
+      "total_token_count": 9559,
+      "thinking_token_count": 3756
+    },
+    "cost_info": {
+      "total_cost": 0.0040905,
+      "model_name": "Gemini 2.5 Flash",
+      "input_cost": 0.0014204999999999999,
+      "output_cost": 0.00267
+    },
+    "retry_count": 0
+  }
+}

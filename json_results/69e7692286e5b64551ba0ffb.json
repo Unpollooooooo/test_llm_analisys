@@ -1,0 +1,225 @@
+{
+  "receipt_guid": "69e7692286e5b64551ba0ffb",
+  "shop_brand": null,
+  "analysis": {
+    "document_type": "receipt",
+    "merchant": {
+      "name": "M.R. GROUP S.R.L.",
+      "brand_name": "Mister Risparmio",
+      "address": "VIA APPIA S.S.7 KM.18 80029 - SANT'ANTIMO (NA)",
+      "vat_number": "08202731215",
+      "date": "2026-04-21",
+      "receipt_number": "0024-0103",
+      "notes": ""
+    },
+    "items": [
+      {
+        "description": "MANDORLE TOSTATE SAL",
+        "description_full": "Mandorle Tostate Salate",
+        "category": "pantry",
+        "quantity": 1,
+        "unit_of_measure": "pz",
+        "unit_price": 0.89,
+        "discount": 0,
+        "total_price": 0.89,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 29,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 29,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "CIOCCOLATO M&M'S 45G",
+        "description_full": "Cioccolato M&M's 45g",
+        "category": "pantry",
+        "quantity": 1,
+        "unit_of_measure": "pz",
+        "unit_price": 0.66,
+        "discount": 0,
+        "total_price": 0.66,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 34,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 34,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "CONFLICT",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "CALZINI SALVAPIEDE B",
+        "description_full": "Calzini Salvapiede",
+        "category": "other",
+        "quantity": 1,
+        "unit_of_measure": "pz",
+        "unit_price": 1.5,
+        "discount": 0,
+        "total_price": 1.5,
+        "_catalog_method": "gemini_only",
+        "_catalog_confidence": 0.4,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 28,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 28,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "CALZE SOGNO D'ORO BI",
+        "description_full": "Calze Sogno d'Oro",
+        "category": "other",
+        "quantity": 1,
+        "unit_of_measure": "pz",
+        "unit_price": 1.0,
+        "discount": 0,
+        "total_price": 1.0,
+        "_catalog_method": "gemini_only",
+        "_catalog_confidence": 0.4,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 25,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 25,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "COLLANT NEONATA SORR",
+        "description_full": "Collant Neonata Sorriso",
+        "category": "other",
+        "quantity": 1,
+        "unit_of_measure": "pz",
+        "unit_price": 1.5,
+        "discount": 0,
+        "total_price": 1.5,
+        "_catalog_method": "gemini_only",
+        "_catalog_confidence": 0.85,
+        "_alignment_override": true,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 28,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 28,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "CIOCCOLATO M&M'S 45G",
+        "description_full": "Cioccolato M&M's 45g",
+        "category": "pantry",
+        "quantity": 1,
+        "unit_of_measure": "pz",
+        "unit_price": 0.66,
+        "discount": 0,
+        "total_price": 0.66,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 34,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 34,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "CONFLICT",
+          "category": "OK"
+        }
+      }
+    ],
+    "totals": {
+      "total_amount": 6.21,
+      "tax_amount": 0.0,
+      "item_count": 6
+    }
+  },
+  "promo_status": "NO_PROMO",
+  "metadata": {
+    "version": "2.0.0+6c131bf",
+    "pars_dt": "2026-04-21T12:10:39.359+00:00",
+    "processing_status": "CLEAN",
+    "flags": [],
+    "preprocessing": [
+      {
+        "image_index": 0,
+        "tile_index": 0,
+        "steps": [
+          "GRAYSCALE(sat=22)"
+        ],
+        "stats": {
+          "mean_brightness": 183.0,
+          "std_brightness": 68.2,
+          "noise_level": 357.0,
+          "skew_angle": 0.0,
+          "avg_saturation": 22.0,
+          "width": 1311,
+          "height": 3003,
+          "contrast_ratio": 210.0,
+          "is_bimodal": false,
+          "histogram_clipping": 0.018,
+          "content_coverage": 0.76,
+          "applied_steps": [
+            "GRAYSCALE(sat=22)"
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_token_count": 5251,
+      "candidates_token_count": 808,
+      "total_token_count": 7302,
+      "thinking_token_count": 1243
+    },
+    "cost_info": {
+      "total_cost": 0.0035953,
+      "model_name": "Gemini 2.5 Flash",
+      "input_cost": 0.0015753,
+      "output_cost": 0.00202
+    },
+    "retry_count": 0
+  }
+}

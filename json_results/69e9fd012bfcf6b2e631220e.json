@@ -1,0 +1,228 @@
+{
+  "receipt_guid": "69e9fd012bfcf6b2e631220e",
+  "shop_brand": null,
+  "analysis": {
+    "document_type": "receipt",
+    "merchant": {
+      "name": "MORGA GIACINTO",
+      "brand_name": "MORGA GIACINTO",
+      "address": "VIA PAPALIA, 8 BARI (BA)",
+      "vat_number": "03813380726",
+      "date": "2026-04-23",
+      "receipt_number": "0145-0097",
+      "notes": ""
+    },
+    "items": [
+      {
+        "description": "ULTRA RETINOL #COMPLEX CR.VISO RIM.",
+        "description_full": "ULTRA RETINOL #COMPLEX CR VISO RIM",
+        "category": "personal_care",
+        "quantity": 1,
+        "unit_of_measure": "pz",
+        "unit_price": 3.95,
+        "discount": 0,
+        "total_price": 3.95,
+        "_catalog_method": "abbreviation",
+        "_catalog_confidence": 0.7,
+        "_gemini_original": "Ultra Retinol Complex Crema Viso Rimodellante",
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 28,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 28,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "VIT TOVAGLIOLI #CLASS. 350",
+        "description_full": "Vittoria Tovaglioli Classici 350",
+        "category": "home_care",
+        "quantity": 1,
+        "unit_of_measure": "pz",
+        "unit_price": 2.45,
+        "discount": 0,
+        "total_price": 2.45,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 30,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 30,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "SOFT 2.250ML #LAVAT.LAVANDA",
+        "description_full": "Soft Lavatrice Lavanda 2.250ml",
+        "category": "home_care",
+        "quantity": 1,
+        "unit_of_measure": "pz",
+        "unit_price": 2.7,
+        "discount": 0,
+        "total_price": 2.7,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 26,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 26,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "MATCH",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "KALODERMA NUTRIENTE #400ML",
+        "description_full": "Kaloderma Nutriente 400ml",
+        "category": "personal_care",
+        "quantity": 1,
+        "unit_of_measure": "pz",
+        "unit_price": 3.15,
+        "discount": 0,
+        "total_price": 3.15,
+        "_catalog_method": "gemini_only",
+        "_catalog_confidence": 0.4,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 28,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 28,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "INCOMPATIBLE"
+        }
+      },
+      {
+        "description": "SPLEND OR BALS.300ML #COCCO 2 CT",
+        "description_full": "Splend'Or Balsamo Cocco 300ml",
+        "category": "personal_care",
+        "quantity": 1,
+        "unit_of_measure": "pz",
+        "unit_price": 2.7,
+        "discount": 0,
+        "total_price": 2.7,
+        "_catalog_method": "gemini_only",
+        "_catalog_confidence": 0.52,
+        "_alignment_override": true,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 27,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 27,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "LABELLO CLASSICO #4.8GR",
+        "description_full": "Labello Classico 4.8g",
+        "category": "personal_care",
+        "quantity": 1,
+        "unit_of_measure": "pz",
+        "unit_price": 2.25,
+        "discount": 0,
+        "total_price": 2.25,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 35,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 35,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "CONFLICT",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      }
+    ],
+    "totals": {
+      "total_amount": 17.2,
+      "tax_amount": 3.1,
+      "item_count": null
+    }
+  },
+  "promo_status": "NO_PROMO",
+  "metadata": {
+    "version": "2.0.0+6c131bf",
+    "pars_dt": "2026-04-23T11:06:22.385+00:00",
+    "processing_status": "CLEAN",
+    "flags": [],
+    "preprocessing": [
+      {
+        "image_index": 0,
+        "tile_index": 0,
+        "steps": [
+          "GRAYSCALE(sat=26)",
+          "CLAHE(std=29,clip=0.00)"
+        ],
+        "stats": {
+          "mean_brightness": 157.3,
+          "std_brightness": 28.8,
+          "noise_level": 61.0,
+          "skew_angle": 0.0,
+          "avg_saturation": 26.2,
+          "width": 1920,
+          "height": 2560,
+          "contrast_ratio": 102.0,
+          "is_bimodal": false,
+          "histogram_clipping": 0.0,
+          "content_coverage": 0.32,
+          "applied_steps": [
+            "GRAYSCALE(sat=26)",
+            "CLAHE(std=29,clip=0.00)"
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_token_count": 6283,
+      "candidates_token_count": 833,
+      "total_token_count": 9053,
+      "thinking_token_count": 1937
+    },
+    "cost_info": {
+      "total_cost": 0.0039674,
+      "model_name": "Gemini 2.5 Flash",
+      "input_cost": 0.0018849,
+      "output_cost": 0.0020825
+    },
+    "retry_count": 0
+  }
+}

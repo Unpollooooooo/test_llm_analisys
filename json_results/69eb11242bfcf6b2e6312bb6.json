@@ -1,0 +1,149 @@
+{
+  "receipt_guid": "69eb11242bfcf6b2e6312bb6",
+  "shop_brand": null,
+  "analysis": {
+    "document_type": "receipt",
+    "merchant": {
+      "name": "EASY CASA SRL",
+      "brand_name": "EASY CASA",
+      "address": "VIA UBALDO BREGOLINI, 74 30033 - NOALE (VE)",
+      "vat_number": "05238710288",
+      "date": "2026-04-23",
+      "receipt_number": "0798-0150",
+      "notes": ""
+    },
+    "items": [
+      {
+        "description": "*) DR.BECKMANN UNTO SALSE ML50",
+        "description_full": "Dr. Beckmann Unto Salse 50ml",
+        "category": "home_care",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 2.49,
+        "discount": 0.0,
+        "total_price": 2.49,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 25,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 25,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "SPRUZZATORE A PRESSIONE 2",
+        "description_full": "Spruzzatore a Pressione 2",
+        "category": "home_care",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 4.99,
+        "discount": 0.0,
+        "total_price": 4.99,
+        "_catalog_method": "gemini_only",
+        "_catalog_confidence": 0.4,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 29,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 29,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "CONFLICT",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "ARROTONDAMENTO CENTESIMI LEGGE 96/2017",
+        "description_full": "ARROTONDAMENTO CENTESIMI LEGGE 96 2017",
+        "category": "other",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 0.02,
+        "discount": 0.0,
+        "total_price": 0.02,
+        "_catalog_method": "cache",
+        "_catalog_confidence": 0.7,
+        "_gemini_original": "Arrotondamento Centesimi Legge 96/2017",
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 27,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 27,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      }
+    ],
+    "totals": {
+      "total_amount": 7.5,
+      "tax_amount": 1.35,
+      "item_count": null
+    }
+  },
+  "promo_status": "NO_PROMO",
+  "metadata": {
+    "version": "2.0.0+6c131bf",
+    "pars_dt": "2026-04-24T06:44:11.367+00:00",
+    "processing_status": "CLEAN",
+    "flags": [],
+    "preprocessing": [
+      {
+        "image_index": 0,
+        "tile_index": 0,
+        "steps": [
+          "GRAYSCALE(sat=19)",
+          "CLAHE(std=28,clip=0.00)"
+        ],
+        "stats": {
+          "mean_brightness": 133.4,
+          "std_brightness": 28.3,
+          "noise_level": 386.0,
+          "skew_angle": 0.0,
+          "avg_saturation": 18.5,
+          "width": 1656,
+          "height": 1095,
+          "contrast_ratio": 85.0,
+          "is_bimodal": false,
+          "histogram_clipping": 0.0,
+          "content_coverage": 0.76,
+          "applied_steps": [
+            "GRAYSCALE(sat=19)",
+            "CLAHE(std=28,clip=0.00)"
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_token_count": 4735,
+      "candidates_token_count": 428,
+      "total_token_count": 6052,
+      "thinking_token_count": 889
+    },
+    "cost_info": {
+      "total_cost": 0.0024904999999999997,
+      "model_name": "Gemini 2.5 Flash",
+      "input_cost": 0.0014204999999999999,
+      "output_cost": 0.00107
+    },
+    "retry_count": 0
+  }
+}

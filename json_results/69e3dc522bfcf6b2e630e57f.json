@@ -1,0 +1,195 @@
+{
+  "receipt_guid": "69e3dc522bfcf6b2e630e57f",
+  "shop_brand": null,
+  "analysis": {
+    "document_type": "receipt",
+    "merchant": {
+      "name": "PIANETA GESPAC S.R.L.",
+      "brand_name": "Conad",
+      "address": "VIA ALBERTO LIONELLO 201 00139 ROMA RM",
+      "vat_number": "02518490541",
+      "date": "2026-03-28",
+      "receipt_number": "0122-0004",
+      "notes": ""
+    },
+    "items": [
+      {
+        "description": "ACQ. CONAD FRIZZANTE",
+        "description_full": "Acqua Conad Frizzante",
+        "category": "beverages",
+        "quantity": 12.0,
+        "unit_of_measure": "pz",
+        "unit_price": 0.28,
+        "discount": 0.0,
+        "total_price": 3.36,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 26,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 26,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "MATCH",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "ACQUA CONAD NATURALE",
+        "description_full": "Acqua Conad Naturale",
+        "category": "beverages",
+        "quantity": 12.0,
+        "unit_of_measure": "pz",
+        "unit_price": 0.32,
+        "discount": 0.0,
+        "total_price": 3.84,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 29,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 29,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "NOCCIOLE PELATE TOST",
+        "description_full": "Nocciole Pelate Tostate",
+        "category": "pantry",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 3.69,
+        "discount": 0.0,
+        "total_price": 3.69,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 27,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 27,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "MATCH",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "FILETTI.DI TONNO",
+        "description_full": "Filetti di Tonno",
+        "category": "pantry",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 2.89,
+        "discount": 0.0,
+        "total_price": 2.89,
+        "_catalog_method": "abbreviation",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 34,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 34,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      }
+    ],
+    "totals": {
+      "total_amount": 13.78,
+      "tax_amount": 1.9,
+      "item_count": 26
+    }
+  },
+  "promo_status": "NO_PROMO",
+  "metadata": {
+    "version": "2.0.0+6c131bf",
+    "pars_dt": "2026-04-18T19:33:16.059+00:00",
+    "processing_status": "CLEAN",
+    "flags": [],
+    "preprocessing": [
+      {
+        "image_index": 0,
+        "tile_index": 0,
+        "steps": [
+          "GRAYSCALE(sat=22)"
+        ],
+        "stats": {
+          "mean_brightness": 163.7,
+          "std_brightness": 38.8,
+          "noise_level": 108.0,
+          "skew_angle": 0.0,
+          "avg_saturation": 22.1,
+          "width": 1920,
+          "height": 3729,
+          "contrast_ratio": 122.0,
+          "is_bimodal": false,
+          "histogram_clipping": 0.0,
+          "content_coverage": 0.92,
+          "applied_steps": [
+            "GRAYSCALE(sat=22)"
+          ]
+        }
+      },
+      {
+        "image_index": 1,
+        "tile_index": 1,
+        "steps": [
+          "GRAYSCALE(sat=18)"
+        ],
+        "stats": {
+          "mean_brightness": 162.7,
+          "std_brightness": 39.6,
+          "noise_level": 117.0,
+          "skew_angle": 0.0,
+          "avg_saturation": 18.0,
+          "width": 1920,
+          "height": 3729,
+          "contrast_ratio": 130.0,
+          "is_bimodal": true,
+          "histogram_clipping": 0.0,
+          "content_coverage": 0.92,
+          "applied_steps": [
+            "GRAYSCALE(sat=18)"
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_token_count": 3445,
+      "candidates_token_count": 480,
+      "total_token_count": 5367,
+      "thinking_token_count": 1442
+    },
+    "cost_info": {
+      "total_cost": 0.0022335000000000002,
+      "model_name": "Gemini 2.5 Flash",
+      "input_cost": 0.0010335,
+      "output_cost": 0.0012000000000000001
+    },
+    "retry_count": 0
+  }
+}

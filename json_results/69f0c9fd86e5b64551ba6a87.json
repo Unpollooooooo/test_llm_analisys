@@ -1,0 +1,87 @@
+{
+  "receipt_guid": "69f0c9fd86e5b64551ba6a87",
+  "shop_brand": null,
+  "analysis": {
+    "document_type": "receipt",
+    "merchant": {
+      "name": "",
+      "brand_name": "",
+      "address": "",
+      "vat_number": "",
+      "date": "",
+      "receipt_number": "",
+      "notes": ""
+    },
+    "items": [],
+    "totals": {
+      "total_amount": 0.0,
+      "tax_amount": 0.0,
+      "item_count": null
+    },
+    "quality_flags": []
+  },
+  "promo_status": "NO_PROMO",
+  "metadata": {
+    "version": "2.1.0+bbfe08e",
+    "pars_dt": "2026-04-28T14:54:15.211+00:00",
+    "processing_status": "CLEAN",
+    "flags": [],
+    "preprocessing": [
+      {
+        "image_index": 0,
+        "tile_index": 0,
+        "steps": [
+          "PASSTHROUGH(no preprocessing needed)"
+        ],
+        "stats": {
+          "mean_brightness": 94.7,
+          "std_brightness": 41.3,
+          "noise_level": 96.0,
+          "skew_angle": 0.0,
+          "avg_saturation": 101.8,
+          "width": 647,
+          "height": 1869,
+          "contrast_ratio": 132.0,
+          "is_bimodal": true,
+          "histogram_clipping": 0.029,
+          "content_coverage": 0.76,
+          "applied_steps": [
+            "PASSTHROUGH(no preprocessing needed)"
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_token_count": 6014,
+      "candidates_token_count": 87,
+      "total_token_count": 6818,
+      "thinking_token_count": 717
+    },
+    "cost_info": {
+      "total_cost": 0.0020217,
+      "model_name": "Gemini 2.5 Flash",
+      "input_cost": 0.0018042,
+      "output_cost": 0.00021750000000000003
+    },
+    "retry_count": 0,
+    "validation_errors": [
+      {
+        "code": "MISSING_MERCHANT_NAME",
+        "message": "Sullo scontrino non è visibile l'insegna del punto vendita"
+      },
+      {
+        "code": "MISSING_PURCHASE_DATE",
+        "message": "Sullo scontrino non è visibile la data di acquisto"
+      },
+      {
+        "code": "MISSING_RECEIPT_NUMBER",
+        "message": "Sullo scontrino non è visibile il numero del documento"
+      },
+      {
+        "code": "NO_PREMIUM_PRODUCTS",
+        "message": "Lo scontrino non contiene prodotti premianti"
+      }
+    ],
+    "is_valid": false
+  }
+}

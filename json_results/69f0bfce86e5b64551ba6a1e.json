@@ -1,0 +1,179 @@
+{
+  "receipt_guid": "69f0bfce86e5b64551ba6a1e",
+  "shop_brand": null,
+  "analysis": {
+    "document_type": "receipt",
+    "merchant": {
+      "name": "FORMENTERA SRL",
+      "brand_name": "Conad",
+      "address": "Cecina, Via Aurelia sud, 2/a",
+      "vat_number": "01379730490"
+    },
+    "items": [
+      {
+        "description": "F-POLLO ARROSTO CONAD",
+        "description_full": "Pollo Arrosto Conad",
+        "category": "meat_fish",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 4.1,
+        "discount": 0.0,
+        "total_price": 4.1,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 30,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 30,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "MATCH",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "PATATE RUSTICHE AL F",
+        "description_full": "Patate Rustiche al Forno",
+        "category": "produce",
+        "quantity": 0.27,
+        "unit_of_measure": "kg",
+        "unit_price": 10.1,
+        "discount": 0.0,
+        "total_price": 2.73,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 35,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 35,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "MATCH",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      }
+    ],
+    "totals": {
+      "total_amount": 0.0,
+      "tax_amount": 0.0,
+      "item_count": null
+    },
+    "quality_flags": []
+  },
+  "promo_status": "NO_PROMO",
+  "metadata": {
+    "version": "2.1.0+bbfe08e",
+    "pars_dt": "2026-04-28T14:11:41.039+00:00",
+    "processing_status": "CLEAN",
+    "flags": [],
+    "preprocessing": [
+      {
+        "image_index": 0,
+        "tile_index": 0,
+        "steps": [
+          "GRAYSCALE(sat=10)"
+        ],
+        "stats": {
+          "mean_brightness": 203.6,
+          "std_brightness": 40.1,
+          "noise_level": 799.0,
+          "skew_angle": 0.0,
+          "avg_saturation": 10.2,
+          "width": 1044,
+          "height": 2469,
+          "contrast_ratio": 141.0,
+          "is_bimodal": false,
+          "histogram_clipping": 0.013,
+          "content_coverage": 0.92,
+          "applied_steps": [
+            "GRAYSCALE(sat=10)"
+          ]
+        }
+      },
+      {
+        "image_index": 1,
+        "tile_index": 1,
+        "steps": [
+          "CLAHE(std=28,clip=0.00)"
+        ],
+        "stats": {
+          "mean_brightness": 142.5,
+          "std_brightness": 27.5,
+          "noise_level": 292.0,
+          "skew_angle": 0.0,
+          "avg_saturation": 62.9,
+          "width": 1920,
+          "height": 2637,
+          "contrast_ratio": 87.0,
+          "is_bimodal": false,
+          "histogram_clipping": 0.003,
+          "content_coverage": 1.0,
+          "applied_steps": [
+            "CLAHE(std=28,clip=0.00)"
+          ]
+        }
+      },
+      {
+        "image_index": 2,
+        "tile_index": 2,
+        "steps": [
+          "GRAYSCALE(sat=9)"
+        ],
+        "stats": {
+          "mean_brightness": 202.9,
+          "std_brightness": 38.0,
+          "noise_level": 558.0,
+          "skew_angle": 0.0,
+          "avg_saturation": 8.9,
+          "width": 1016,
+          "height": 2246,
+          "contrast_ratio": 132.0,
+          "is_bimodal": false,
+          "histogram_clipping": 0.005,
+          "content_coverage": 0.92,
+          "applied_steps": [
+            "GRAYSCALE(sat=9)"
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_token_count": 3950,
+      "candidates_token_count": 268,
+      "total_token_count": 7927,
+      "thinking_token_count": 3709
+    },
+    "cost_info": {
+      "total_cost": 0.0018549999999999999,
+      "model_name": "Gemini 2.5 Flash",
+      "input_cost": 0.0011849999999999999,
+      "output_cost": 0.00067
+    },
+    "retry_count": 0,
+    "validation_errors": [
+      {
+        "code": "MISSING_PURCHASE_DATE",
+        "message": "Sullo scontrino non è visibile la data di acquisto"
+      },
+      {
+        "code": "MISSING_RECEIPT_NUMBER",
+        "message": "Sullo scontrino non è visibile il numero del documento"
+      },
+      {
+        "code": "NO_PREMIUM_PRODUCTS",
+        "message": "Lo scontrino non contiene prodotti premianti"
+      }
+    ],
+    "is_valid": false
+  }
+}

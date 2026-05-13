@@ -1,0 +1,226 @@
+{
+  "receipt_guid": "69e9be952bfcf6b2e6311e25",
+  "shop_brand": null,
+  "analysis": {
+    "document_type": "receipt",
+    "merchant": {
+      "name": "MAGAZZINI AL BUON RISPARMIO S.R.L.",
+      "brand_name": "TERRO SUPERMERCATO",
+      "address": "Via Ricovero di Mendicita', 55 70022 Altamura (BA)",
+      "vat_number": "05028700721",
+      "date": "2026-04-15",
+      "receipt_number": "2322-0020",
+      "notes": "null"
+    },
+    "items": [
+      {
+        "description": "TORRESANI SPECK ARTIGI.",
+        "description_full": "Torresani Speck Artigianale",
+        "category": "meat_fish",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 1.81,
+        "discount": 0.0,
+        "total_price": 1.81,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 27,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 27,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "LEONCINI PROSCIUTTO CO.",
+        "description_full": "Leoncini Prosciutto Cotto",
+        "category": "meat_fish",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 1.24,
+        "discount": 0.0,
+        "total_price": 1.24,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 26,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 26,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "SCAMORZE BIANCHE\"IV NO.",
+        "description_full": "Scamorze Bianche",
+        "category": "dairy",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 5.57,
+        "discount": 0.0,
+        "total_price": 5.57,
+        "_catalog_method": "gemini_only",
+        "_catalog_confidence": 0.85,
+        "_alignment_override": true,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 30,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 30,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "GRANA PADANO RISERVA 2.",
+        "description_full": "Grana Padano Riserva",
+        "category": "dairy",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 7.19,
+        "discount": 0.0,
+        "total_price": 7.19,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 27,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 27,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "FATIN PRUGN EXTRALAR G.",
+        "description_full": "Fatin Prugne Extralarge",
+        "category": "produce",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 2.59,
+        "discount": 0.0,
+        "total_price": 2.59,
+        "_catalog_method": "gemini_only",
+        "_catalog_confidence": 0.85,
+        "_alignment_override": true,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 28,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 28,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "ORTOFRUTTA GENERICO",
+        "description_full": "Ortofrutta Generico",
+        "category": "produce",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 1.93,
+        "discount": 0.0,
+        "total_price": 1.93,
+        "_catalog_method": "gemini_only",
+        "_catalog_confidence": 0.4,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 32,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 32,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "CONFLICT",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      }
+    ],
+    "totals": {
+      "total_amount": 20.35,
+      "tax_amount": 0.0,
+      "item_count": 6
+    }
+  },
+  "promo_status": "NO_PROMO",
+  "metadata": {
+    "version": "2.0.0+6c131bf",
+    "pars_dt": "2026-04-23T06:39:53.981+00:00",
+    "processing_status": "CLEAN",
+    "flags": [],
+    "preprocessing": [
+      {
+        "image_index": 0,
+        "tile_index": 0,
+        "steps": [
+          "GRAYSCALE(sat=19)"
+        ],
+        "stats": {
+          "mean_brightness": 185.2,
+          "std_brightness": 40.1,
+          "noise_level": 307.0,
+          "skew_angle": 0.0,
+          "avg_saturation": 19.3,
+          "width": 1329,
+          "height": 3480,
+          "contrast_ratio": 141.0,
+          "is_bimodal": false,
+          "histogram_clipping": 0.007,
+          "content_coverage": 0.76,
+          "applied_steps": [
+            "GRAYSCALE(sat=19)"
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_token_count": 5251,
+      "candidates_token_count": 654,
+      "total_token_count": 7452,
+      "thinking_token_count": 1547
+    },
+    "cost_info": {
+      "total_cost": 0.0032103,
+      "model_name": "Gemini 2.5 Flash",
+      "input_cost": 0.0015753,
+      "output_cost": 0.0016350000000000002
+    },
+    "retry_count": 0
+  }
+}

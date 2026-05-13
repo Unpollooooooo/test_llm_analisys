@@ -1,0 +1,170 @@
+{
+  "receipt_guid": "69e602762bfcf6b2e630f7e3",
+  "shop_brand": null,
+  "analysis": {
+    "document_type": "receipt",
+    "merchant": {
+      "name": "COOPERATIVA L'UNITARIA",
+      "brand_name": "COOPERATIVA L'UNITARIA",
+      "address": "Via del Sesto, 3 55016 Porcari (LU)",
+      "vat_number": "00918220468",
+      "date": "2026-04-17",
+      "receipt_number": "0220-0023",
+      "notes": ""
+    },
+    "items": [
+      {
+        "description": "RETE10 RETE PER ZAP",
+        "description_full": "Rete 10 Rete per Zap",
+        "category": "other",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 5.0,
+        "discount": 0.0,
+        "total_price": 5.0,
+        "_catalog_method": "gemini_only",
+        "_catalog_confidence": 0.4,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 28,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 28,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "COLLA TO PIANTE",
+        "description_full": "Colla per Piante",
+        "category": "other",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 2.5,
+        "discount": 0.0,
+        "total_price": 2.5,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 28,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 28,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "MATCH",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "PIANTINE",
+        "description_full": "Piantine",
+        "category": "other",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 2.1,
+        "discount": 0.0,
+        "total_price": 2.1,
+        "_catalog_method": "gemini_only",
+        "_catalog_confidence": 0.4,
+        "_alignment_override": true,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 23,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 23,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      }
+    ],
+    "totals": {
+      "total_amount": 9.6,
+      "tax_amount": 1.54,
+      "item_count": null
+    }
+  },
+  "promo_status": "NO_PROMO",
+  "metadata": {
+    "version": "2.0.0+6c131bf",
+    "pars_dt": "2026-04-20T10:40:50.242+00:00",
+    "processing_status": "CLEAN",
+    "flags": [],
+    "preprocessing": [
+      {
+        "image_index": 0,
+        "tile_index": 0,
+        "steps": [
+          "CLAHE(std=27,clip=0.00)"
+        ],
+        "stats": {
+          "mean_brightness": 161.7,
+          "std_brightness": 26.8,
+          "noise_level": 55.0,
+          "skew_angle": 0.0,
+          "avg_saturation": 46.9,
+          "width": 1485,
+          "height": 2348,
+          "contrast_ratio": 88.0,
+          "is_bimodal": false,
+          "histogram_clipping": 0.0,
+          "content_coverage": 0.56,
+          "applied_steps": [
+            "CLAHE(std=27,clip=0.00)"
+          ]
+        }
+      },
+      {
+        "image_index": 1,
+        "tile_index": 1,
+        "steps": [
+          "CLAHE(std=26,clip=0.00)"
+        ],
+        "stats": {
+          "mean_brightness": 155.1,
+          "std_brightness": 25.7,
+          "noise_level": 38.0,
+          "skew_angle": 0.0,
+          "avg_saturation": 48.6,
+          "width": 1487,
+          "height": 2380,
+          "contrast_ratio": 83.0,
+          "is_bimodal": false,
+          "histogram_clipping": 0.0,
+          "content_coverage": 0.6,
+          "applied_steps": [
+            "CLAHE(std=26,clip=0.00)"
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_token_count": 3445,
+      "candidates_token_count": 483,
+      "total_token_count": 5851,
+      "thinking_token_count": 1923
+    },
+    "cost_info": {
+      "total_cost": 0.002241,
+      "model_name": "Gemini 2.5 Flash",
+      "input_cost": 0.0010335,
+      "output_cost": 0.0012075
+    },
+    "retry_count": 0
+  }
+}

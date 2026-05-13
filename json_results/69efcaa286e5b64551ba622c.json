@@ -1,0 +1,219 @@
+{
+  "receipt_guid": "69efcaa286e5b64551ba622c",
+  "shop_brand": null,
+  "analysis": {
+    "document_type": "receipt",
+    "merchant": {
+      "name": "Numeri Primi S.r.l.",
+      "brand_name": "Numeri Primi",
+      "address": "Via Salvatore Matarrese n. 2/5 70124 BARI",
+      "vat_number": "06817290726",
+      "date": "2026-04-27",
+      "receipt_number": "2563-0091",
+      "notes": "[SYSTEM: JSON REPAIRED/TRUNCATED]"
+    },
+    "items": [
+      {
+        "description": "FAGIOLINI FINI EXTRA",
+        "description_full": "Fagiolini Fini Extra",
+        "category": "produce",
+        "quantity": 0.37,
+        "unit_of_measure": "kg",
+        "unit_price": 11.1,
+        "discount": 4.11,
+        "total_price": 0.0,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": "8007490051194",
+        "is_promo_item": false,
+        "match_confidence": 74,
+        "promo_match": {
+          "publisher_guid": "68ed26e800cc667d09dd07fc",
+          "product_guid": "68ed2896ec4f0a74a0f2c28d",
+          "product_name": "Tortelloni Funghi Porcini 250 g Antica Bottega",
+          "brand_name": "Fini",
+          "match_confidence": 74,
+          "size_conflict": null,
+          "price_conflict": true
+        },
+        "match_signals": {
+          "brand": "MATCH",
+          "text": "MED",
+          "text_score": 75,
+          "variant": "PARTIAL",
+          "variant_jw": 0.594,
+          "price": "CONFLICT",
+          "size": "UNKNOWN",
+          "category": "OK",
+          "decision": "AMBIGUOUS"
+        }
+      },
+      {
+        "description": "FLAUTI M/BIANCO CIOCC.GR. 280",
+        "description_full": "Flauti Mulino Bianco Cioccolato Gr. 280",
+        "category": "bakery",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 2.58,
+        "discount": 2.58,
+        "total_price": 0.0,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": "8003650022103",
+        "is_promo_item": false,
+        "match_confidence": 74,
+        "promo_match": {
+          "publisher_guid": "6939bd34e84bd0409997e7c9",
+          "product_guid": "6939c6789cf06812292571db",
+          "product_name": "Bianco Vivo IdroCaps 10 caps",
+          "brand_name": "Omino Bianco",
+          "match_confidence": 74,
+          "size_conflict": null,
+          "price_conflict": null
+        },
+        "match_signals": {
+          "brand": "MATCH",
+          "text": "MED",
+          "text_score": 75,
+          "variant": "PARTIAL",
+          "variant_jw": 0.544,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK",
+          "decision": "AMBIGUOUS"
+        }
+      },
+      {
+        "description": "RIC.DURA SALATA PREJADA P 2 K.6",
+        "description_full": "Ricotta Dura Salata Prejada P 2 K.6",
+        "category": "dairy",
+        "quantity": 0.214,
+        "unit_of_measure": "kg",
+        "unit_price": 10.0,
+        "discount": 2.46,
+        "total_price": 0.0,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 25,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 25,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      }
+    ],
+    "totals": {
+      "total_amount": 0.0,
+      "tax_amount": 0.0
+    }
+  },
+  "promo_status": "PROMO_AMBIGUOUS",
+  "metadata": {
+    "version": "2.0.0+unknown",
+    "pars_dt": "2026-04-27T20:47:05.153+00:00",
+    "processing_status": "REPAIRED",
+    "flags": [
+      "TRUNCATED",
+      "AUTO_REPAIRED",
+      "AUTO_REPAIRED"
+    ],
+    "preprocessing": [
+      {
+        "image_index": 0,
+        "tile_index": 0,
+        "steps": [
+          "GRAYSCALE(sat=21)",
+          "CLAHE(std=31,clip=0.01)"
+        ],
+        "stats": {
+          "mean_brightness": 142.1,
+          "std_brightness": 31.3,
+          "noise_level": 335.0,
+          "skew_angle": 0.0,
+          "avg_saturation": 20.6,
+          "width": 1726,
+          "height": 1955,
+          "contrast_ratio": 96.0,
+          "is_bimodal": false,
+          "histogram_clipping": 0.006,
+          "content_coverage": 0.88,
+          "applied_steps": [
+            "GRAYSCALE(sat=21)",
+            "CLAHE(std=31,clip=0.01)"
+          ]
+        }
+      },
+      {
+        "image_index": 1,
+        "tile_index": 1,
+        "steps": [
+          "GRAYSCALE(sat=22)",
+          "CLAHE(std=31,clip=0.01)"
+        ],
+        "stats": {
+          "mean_brightness": 143.7,
+          "std_brightness": 31.4,
+          "noise_level": 472.0,
+          "skew_angle": 0.0,
+          "avg_saturation": 22.1,
+          "width": 1697,
+          "height": 1898,
+          "contrast_ratio": 97.0,
+          "is_bimodal": false,
+          "histogram_clipping": 0.006,
+          "content_coverage": 0.96,
+          "applied_steps": [
+            "GRAYSCALE(sat=22)",
+            "CLAHE(std=31,clip=0.01)"
+          ]
+        }
+      },
+      {
+        "image_index": 2,
+        "tile_index": 2,
+        "steps": [
+          "GRAYSCALE(sat=24)",
+          "CLAHE(std=29,clip=0.00)"
+        ],
+        "stats": {
+          "mean_brightness": 143.4,
+          "std_brightness": 29.0,
+          "noise_level": 1014.0,
+          "skew_angle": 0.0,
+          "avg_saturation": 24.2,
+          "width": 1629,
+          "height": 1801,
+          "contrast_ratio": 94.0,
+          "is_bimodal": false,
+          "histogram_clipping": 0.004,
+          "content_coverage": 0.96,
+          "applied_steps": [
+            "GRAYSCALE(sat=24)",
+            "CLAHE(std=29,clip=0.00)"
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_token_count": 3703,
+      "candidates_token_count": 16501,
+      "total_token_count": 23689,
+      "thinking_token_count": 3485
+    },
+    "cost_info": {
+      "total_cost": 0.0423634,
+      "model_name": "Gemini 2.5 Flash",
+      "input_cost": 0.0011109,
+      "output_cost": 0.041252500000000004
+    },
+    "retry_count": 0
+  }
+}

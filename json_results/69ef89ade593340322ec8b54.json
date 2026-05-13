@@ -1,0 +1,94 @@
+{
+  "receipt_guid": "69ef89ade593340322ec8b54",
+  "shop_brand": null,
+  "analysis": {
+    "document_type": "receipt",
+    "merchant": {
+      "name": "SUPERMERCATO CHIARAVALLE di Stacchiotti Gianfranco",
+      "brand_name": "Si Supermerca",
+      "address": "Via della Repubblica, 64/66",
+      "vat_number": "02351850421",
+      "date": "2026-04-27",
+      "receipt_number": "2555-0399",
+      "notes": ""
+    },
+    "items": [
+      {
+        "description": "ACQUA MIN.NAT.S.ANNA",
+        "description_full": "Acqua Minerale Naturale Sant'Anna",
+        "category": "beverages",
+        "quantity": 6.0,
+        "unit_of_measure": "pz",
+        "unit_price": 0.55,
+        "discount": 0.0,
+        "total_price": 3.3,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 33,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 33,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "INCOMPATIBLE"
+        }
+      }
+    ],
+    "totals": {
+      "total_amount": 3.3,
+      "tax_amount": 0.0,
+      "item_count": null
+    }
+  },
+  "promo_status": "NO_PROMO",
+  "metadata": {
+    "version": "2.0.0+unknown",
+    "pars_dt": "2026-04-27T16:08:21.185+00:00",
+    "processing_status": "CLEAN",
+    "flags": [],
+    "preprocessing": [
+      {
+        "image_index": 0,
+        "tile_index": 0,
+        "steps": [
+          "GRAYSCALE(sat=24)"
+        ],
+        "stats": {
+          "mean_brightness": 182.4,
+          "std_brightness": 42.1,
+          "noise_level": 525.0,
+          "skew_angle": 0.0,
+          "avg_saturation": 24.1,
+          "width": 1219,
+          "height": 2826,
+          "contrast_ratio": 155.0,
+          "is_bimodal": false,
+          "histogram_clipping": 0.003,
+          "content_coverage": 0.88,
+          "applied_steps": [
+            "GRAYSCALE(sat=24)"
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_token_count": 5251,
+      "candidates_token_count": 229,
+      "total_token_count": 9257,
+      "thinking_token_count": 3777
+    },
+    "cost_info": {
+      "total_cost": 0.0021478,
+      "model_name": "Gemini 2.5 Flash",
+      "input_cost": 0.0015753,
+      "output_cost": 0.0005725000000000001
+    },
+    "retry_count": 0
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "receipt_guid": "69e3b4c9551a2cb157c0824b",
+  "shop_brand": null,
+  "analysis": {
+    "document_type": "receipt",
+    "merchant": {
+      "name": "SPAZIO CONAD GARGANO 4.0 SRL",
+      "brand_name": "Conad",
+      "address": "CONTRADA PACE LOCALITA' MACCHIA 71037 MONTE SANT'ANGELO (FG",
+      "vat_number": "04308610718",
+      "date": "2026-04-16",
+      "receipt_number": "2458-0286",
+      "notes": "[SYSTEM: JSON REPAIRED/TRUNCATED]"
+    },
+    "items": [
+      {
+        "description": "BIRRA PERONI CL33X2",
+        "description_full": "Birra Peroni CL33X2",
+        "category": "beverages",
+        "quantity": 49,
+        "unit_of_measure": "pz",
+        "unit_price": 1.54,
+        "discount": 37.73,
+        "total_price": 37.73,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 28,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 28,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      }
+    ],
+    "totals": {
+      "total_amount": 0.0,
+      "tax_amount": 0.0
+    }
+  },
+  "promo_status": "NO_PROMO",
+  "metadata": {
+    "version": "2.0.0+6c131bf",
+    "pars_dt": "2026-04-18T16:46:36.164+00:00",
+    "processing_status": "REPAIRED",
+    "flags": [
+      "TRUNCATED",
+      "AUTO_REPAIRED",
+      "AUTO_REPAIRED"
+    ],
+    "preprocessing": [
+      {
+        "image_index": 0,
+        "tile_index": 0,
+        "steps": [
+          "PASSTHROUGH(no preprocessing needed)"
+        ],
+        "stats": {
+          "mean_brightness": 152.3,
+          "std_brightness": 57.7,
+          "noise_level": 511.0,
+          "skew_angle": 0.0,
+          "avg_saturation": 40.8,
+          "width": 1742,
+          "height": 3684,
+          "contrast_ratio": 187.0,
+          "is_bimodal": false,
+          "histogram_clipping": 0.033,
+          "content_coverage": 0.96,
+          "applied_steps": [
+            "PASSTHROUGH(no preprocessing needed)"
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_token_count": 5251,
+      "candidates_token_count": 18336,
+      "total_token_count": 25236,
+      "thinking_token_count": 1649
+    },
+    "cost_info": {
+      "total_cost": 0.04741530000000001,
+      "model_name": "Gemini 2.5 Flash",
+      "input_cost": 0.0015753,
+      "output_cost": 0.045840000000000006
+    },
+    "retry_count": 0
+  }
+}

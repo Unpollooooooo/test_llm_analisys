@@ -1,0 +1,366 @@
+{
+  "receipt_guid": "69eb94c5551a2cb157c0d3b9",
+  "shop_brand": null,
+  "analysis": {
+    "document_type": "receipt",
+    "merchant": {
+      "name": "Action Italy S.R.L.",
+      "brand_name": "ACTION",
+      "address": "Via Giosuè Carducci 123",
+      "vat_number": "IT10955660963",
+      "date": "2026-04-21",
+      "receipt_number": "D145010470154025",
+      "notes": ""
+    },
+    "items": [
+      {
+        "description": "lipton ice tea senza gas pesca 500 ml",
+        "description_full": "Lipton Ice Tea Senza Gas Pesca 500 ml",
+        "category": "beverages",
+        "quantity": 1.0,
+        "unit_of_measure": "ml",
+        "unit_price": 0.98,
+        "discount": 0.0,
+        "total_price": 0.98,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 28,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 28,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "CONFLICT",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "nestlé lion white confezione da 5",
+        "description_full": "Nestlé Lion White Confezione da 5",
+        "category": "pantry",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 2.29,
+        "discount": 0.0,
+        "total_price": 2.29,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 31,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 31,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "cucchiai cioccolato 55g fairtrade",
+        "description_full": "Cucchiai Cioccolato 55g Fairtrade",
+        "category": "pantry",
+        "quantity": 1.0,
+        "unit_of_measure": "g",
+        "unit_price": 0.79,
+        "discount": 0.0,
+        "total_price": 0.79,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 34,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 34,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "CONFLICT",
+          "size": "CONFLICT",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "calzini sneaker suola spugna 3p 35-46 nr",
+        "description_full": "Calzini Sneaker Suola Spugna 3 Paia 35-46",
+        "category": "other",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 2.99,
+        "discount": 0.0,
+        "total_price": 2.99,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 27,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 27,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "borsa da tr. action poliest. 50x40x15cm",
+        "description_full": "Borsa da Trasporto Action Poliestere 50x40x15cm",
+        "category": "other",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 0.39,
+        "discount": 0.0,
+        "total_price": 0.39,
+        "_catalog_method": "gemini_only",
+        "_catalog_confidence": 0.52,
+        "_alignment_override": true,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 25,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 25,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "mars mini candybar 12 pz 227 g",
+        "description_full": "Mars Mini Candybar 12 Pezzi 227 g",
+        "category": "pantry",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 2.59,
+        "discount": 0.0,
+        "total_price": 2.59,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 27,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 27,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "calzini sneaker lotto 3p 39-42 bianco",
+        "description_full": "Calzini Sneaker Lotto 3 Paia 39-42 Bianco",
+        "category": "other",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 2.18,
+        "discount": 0.0,
+        "total_price": 2.18,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": "8003650015518",
+        "is_promo_item": false,
+        "match_confidence": 72,
+        "promo_match": {
+          "publisher_guid": "6939bd34e84bd0409997e7c9",
+          "product_guid": "6939c6789cf06812292571d6",
+          "product_name": "Detersivo Lavatrice Liquido Muschio Bianco, 23 Lavaggi",
+          "brand_name": "Omino Bianco",
+          "match_confidence": 72,
+          "size_conflict": null,
+          "price_conflict": null
+        },
+        "match_signals": {
+          "brand": "MATCH",
+          "text": "MED",
+          "text_score": 72,
+          "variant": "PARTIAL",
+          "variant_jw": 0.548,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK",
+          "decision": "AMBIGUOUS"
+        }
+      },
+      {
+        "description": "elbow grease det frigg. aria 500ml",
+        "description_full": "Elbow Grease Detergente Friggitrice Aria 500ml",
+        "category": "home_care",
+        "quantity": 1.0,
+        "unit_of_measure": "ml",
+        "unit_price": 1.57,
+        "discount": 0.0,
+        "total_price": 1.57,
+        "_catalog_method": "gemini_only",
+        "_catalog_confidence": 0.78,
+        "_alignment_override": true,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 31,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 31,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "MATCH",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "fresh courage menta piperita 200g",
+        "description_full": "Fresh Courage Menta Piperita 200g",
+        "category": "pantry",
+        "quantity": 1.0,
+        "unit_of_measure": "g",
+        "unit_price": 0.99,
+        "discount": 0.0,
+        "total_price": 0.99,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 30,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 30,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "CONFLICT",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "alim.base nature fit 800g parrocchetti",
+        "description_full": "Alimento Base Nature Fit 800g Parrocchetti",
+        "category": "other",
+        "quantity": 1.0,
+        "unit_of_measure": "g",
+        "unit_price": 1.79,
+        "discount": 0.0,
+        "total_price": 1.79,
+        "_catalog_method": "gemini_only",
+        "_catalog_confidence": 0.46,
+        "_alignment_override": true,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 29,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 29,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "MATCH",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "prot pavimenti schiuma 133pz nero",
+        "description_full": "Protezione Pavimenti Schiuma 133 Pezzi Nero",
+        "category": "home_care",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 1.95,
+        "discount": 0.0,
+        "total_price": 1.95,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 34,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 34,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      }
+    ],
+    "totals": {
+      "total_amount": 18.51,
+      "tax_amount": 2.75,
+      "item_count": 11
+    }
+  },
+  "promo_status": "PROMO_AMBIGUOUS",
+  "metadata": {
+    "version": "2.0.0+6c131bf",
+    "pars_dt": "2026-04-24T16:06:19.771+00:00",
+    "processing_status": "CLEAN",
+    "flags": [],
+    "preprocessing": [
+      {
+        "image_index": 0,
+        "tile_index": 0,
+        "steps": [
+          "GRAYSCALE(sat=34)"
+        ],
+        "stats": {
+          "mean_brightness": 166.5,
+          "std_brightness": 45.8,
+          "noise_level": 220.0,
+          "skew_angle": 0.0,
+          "avg_saturation": 34.0,
+          "width": 1598,
+          "height": 3534,
+          "contrast_ratio": 142.0,
+          "is_bimodal": true,
+          "histogram_clipping": 0.004,
+          "content_coverage": 0.76,
+          "applied_steps": [
+            "GRAYSCALE(sat=34)"
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_token_count": 5251,
+      "candidates_token_count": 1464,
+      "total_token_count": 9164,
+      "thinking_token_count": 2449
+    },
+    "cost_info": {
+      "total_cost": 0.0052353,
+      "model_name": "Gemini 2.5 Flash",
+      "input_cost": 0.0015753,
+      "output_cost": 0.0036600000000000005
+    },
+    "retry_count": 0
+  }
+}

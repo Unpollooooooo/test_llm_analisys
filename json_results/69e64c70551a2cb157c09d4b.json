@@ -1,0 +1,120 @@
+{
+  "receipt_guid": "69e64c70551a2cb157c09d4b",
+  "shop_brand": null,
+  "analysis": {
+    "document_type": "receipt",
+    "merchant": {
+      "name": "Agrifarma S.p.A.",
+      "brand_name": "ARCAPLANET",
+      "address": "Via Dei Sampieri C/O Casetta Mattei, 92 00148 Roma (RM)",
+      "vat_number": "01067670990",
+      "date": "2026-04-20",
+      "receipt_number": "0190-0038",
+      "notes": ""
+    },
+    "items": [
+      {
+        "description": "HI LAMB DOG GR.400 ADULT AGNELLO CAROT",
+        "description_full": "Hi Lamb Dog 400g Adult Agnello Carote",
+        "category": "other",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 3.05,
+        "discount": 0.0,
+        "total_price": 3.05,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 26,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 26,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "MATCH",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "HI BEEF DOG GR.400 ADULT MANZO PATATE",
+        "description_full": "Hi Beef Dog 400g Adult Manzo Patate",
+        "category": "other",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 3.05,
+        "discount": 0.0,
+        "total_price": 3.05,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 27,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 27,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      }
+    ],
+    "totals": {
+      "total_amount": 6.1,
+      "tax_amount": 1.1,
+      "item_count": null
+    }
+  },
+  "promo_status": "NO_PROMO",
+  "metadata": {
+    "version": "2.0.0+6c131bf",
+    "pars_dt": "2026-04-20T15:55:58.201+00:00",
+    "processing_status": "CLEAN",
+    "flags": [],
+    "preprocessing": [
+      {
+        "image_index": 0,
+        "tile_index": 0,
+        "steps": [
+          "PASSTHROUGH(no preprocessing needed)"
+        ],
+        "stats": {
+          "mean_brightness": 150.7,
+          "std_brightness": 39.1,
+          "noise_level": 219.0,
+          "skew_angle": 0.0,
+          "avg_saturation": 41.9,
+          "width": 1143,
+          "height": 1783,
+          "contrast_ratio": 136.0,
+          "is_bimodal": true,
+          "histogram_clipping": 0.001,
+          "content_coverage": 0.56,
+          "applied_steps": [
+            "PASSTHROUGH(no preprocessing needed)"
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_token_count": 4735,
+      "candidates_token_count": 341,
+      "total_token_count": 5772,
+      "thinking_token_count": 696
+    },
+    "cost_info": {
+      "total_cost": 0.002273,
+      "model_name": "Gemini 2.5 Flash",
+      "input_cost": 0.0014204999999999999,
+      "output_cost": 0.0008525000000000001
+    },
+    "retry_count": 0
+  }
+}

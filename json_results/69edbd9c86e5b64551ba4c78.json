@@ -1,0 +1,156 @@
+{
+  "receipt_guid": "69edbd9c86e5b64551ba4c78",
+  "shop_brand": null,
+  "analysis": {
+    "document_type": "receipt",
+    "merchant": {
+      "name": "MA.TER. S.R.L.",
+      "brand_name": "CASA MIA",
+      "address": "PIAZZA GENERALE DALLA CHIESA, 15 81100 CASERTA",
+      "vat_number": "03796700619",
+      "date": "2026-04-22",
+      "receipt_number": "2031-0149",
+      "notes": ""
+    },
+    "items": [
+      {
+        "description": "OVOPIJ\n UOVA M GABBIA X10",
+        "description_full": "Ovopiu Uova M Gabbia x10",
+        "category": "dairy",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 2.39,
+        "discount": 0.0,
+        "total_price": 2.39,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 33,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 33,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "MATCH",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "GALBUSERA TRA GR250",
+        "description_full": "Galbusera Turco",
+        "category": "bakery",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 0.99,
+        "discount": 0.0,
+        "total_price": 0.99,
+        "_catalog_method": "promo_catalog",
+        "_catalog_confidence": 0.7,
+        "_gemini_original": "Galbusera Treccia Gr. 250",
+        "barcode": "8002190006307",
+        "is_promo_item": false,
+        "match_confidence": 74,
+        "promo_match": {
+          "publisher_guid": "651428fc60b55747dd7fc26b",
+          "product_guid": "68c17ae8ebe6813d6c4765ff",
+          "product_name": "RisosuRiso cracker con riso Venere, in sacchetto",
+          "brand_name": "Galbusera",
+          "match_confidence": 74,
+          "size_conflict": null,
+          "price_conflict": null
+        },
+        "match_signals": {
+          "brand": "MATCH",
+          "text": "HIGH",
+          "text_score": 85,
+          "variant": "PARTIAL",
+          "variant_jw": 0.562,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK",
+          "decision": "AMBIGUOUS"
+        }
+      },
+      {
+        "description": "BIRRA CORONA EXTRA CL33",
+        "description_full": "Birra Corona Extra Cl. 33",
+        "category": "beverages",
+        "quantity": 3.0,
+        "unit_of_measure": "pz",
+        "unit_price": 0.89,
+        "discount": 0.0,
+        "total_price": 2.67,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 29,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 29,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      }
+    ],
+    "totals": {
+      "total_amount": 6.05,
+      "tax_amount": 0.0,
+      "item_count": 5
+    }
+  },
+  "promo_status": "PROMO_AMBIGUOUS",
+  "metadata": {
+    "version": "2.0.0+6c131bf",
+    "pars_dt": "2026-04-26T07:24:40.026+00:00",
+    "processing_status": "CLEAN",
+    "flags": [],
+    "preprocessing": [
+      {
+        "image_index": 0,
+        "tile_index": 0,
+        "steps": [
+          "GRAYSCALE(sat=32)"
+        ],
+        "stats": {
+          "mean_brightness": 168.5,
+          "std_brightness": 35.2,
+          "noise_level": 170.0,
+          "skew_angle": 0.0,
+          "avg_saturation": 31.8,
+          "width": 1920,
+          "height": 2560,
+          "contrast_ratio": 108.0,
+          "is_bimodal": true,
+          "histogram_clipping": 0.0,
+          "content_coverage": 0.96,
+          "applied_steps": [
+            "GRAYSCALE(sat=32)"
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_token_count": 6283,
+      "candidates_token_count": 416,
+      "total_token_count": 7749,
+      "thinking_token_count": 1050
+    },
+    "cost_info": {
+      "total_cost": 0.0029249000000000002,
+      "model_name": "Gemini 2.5 Flash",
+      "input_cost": 0.0018849,
+      "output_cost": 0.0010400000000000001
+    },
+    "retry_count": 0
+  }
+}

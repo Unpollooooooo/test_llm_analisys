@@ -1,0 +1,147 @@
+{
+  "receipt_guid": "69e0057413d3bd235394283e",
+  "shop_brand": null,
+  "analysis": {
+    "document_type": "receipt",
+    "merchant": {
+      "name": "PALMERI ANTONINO & C. S.A.S.",
+      "brand_name": "Coop",
+      "address": "VIA SANTA LUCIA, sn 90034 - CORLEONE -PA-",
+      "vat_number": "03260510825",
+      "date": "2026-04-15",
+      "receipt_number": "0848-0061",
+      "notes": ""
+    },
+    "items": [
+      {
+        "description": "BAULI BUONDI CLASSICO X5",
+        "description_full": "Bauli Buondioli Classico x5",
+        "category": "bakery",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 1.79,
+        "discount": 0.5,
+        "total_price": 1.29,
+        "_catalog_method": "gemini_only",
+        "_catalog_confidence": 0.49,
+        "_alignment_override": true,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 29,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 29,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "MATCH",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "S.C.PIU GUSTO LIME MPK G",
+        "description_full": "San Carlo Più Gusto Lime Multipack G",
+        "category": "pantry",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 3.15,
+        "discount": 0.0,
+        "total_price": 3.15,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 28,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 28,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "BARILLA TORTELLINI PROSC",
+        "description_full": "Barilla Tortellini Prosciutto",
+        "category": "pantry",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 4.55,
+        "discount": 0.76,
+        "total_price": 3.79,
+        "_catalog_method": "gemini_only",
+        "_catalog_confidence": 0.52,
+        "_alignment_override": true,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 33,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 33,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      }
+    ],
+    "totals": {
+      "total_amount": 8.23,
+      "tax_amount": 0.75,
+      "item_count": 3
+    }
+  },
+  "promo_status": "NO_PROMO",
+  "metadata": {
+    "version": "1.0.0+e1ba314",
+    "processing_status": "CLEAN",
+    "flags": [],
+    "preprocessing": [
+      {
+        "image_index": 0,
+        "tile_index": 0,
+        "steps": [
+          "PASSTHROUGH(no preprocessing needed)"
+        ],
+        "stats": {
+          "mean_brightness": 191.4,
+          "std_brightness": 46.5,
+          "noise_level": 133.0,
+          "skew_angle": 0.0,
+          "avg_saturation": 40.8,
+          "width": 1417,
+          "height": 3294,
+          "contrast_ratio": 152.0,
+          "is_bimodal": false,
+          "histogram_clipping": 0.002,
+          "content_coverage": 0.68,
+          "applied_steps": [
+            "PASSTHROUGH(no preprocessing needed)"
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_token_count": 5251,
+      "candidates_token_count": 412,
+      "total_token_count": 7414,
+      "thinking_token_count": 1751
+    },
+    "cost_info": {
+      "total_cost": 0.0026053,
+      "model_name": "Gemini 2.5 Flash",
+      "input_cost": 0.0015753,
+      "output_cost": 0.00103
+    },
+    "retry_count": 0
+  }
+}

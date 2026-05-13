@@ -1,0 +1,120 @@
+{
+  "receipt_guid": "69eb81033da34a89f70543b5",
+  "shop_brand": null,
+  "analysis": {
+    "document_type": "receipt",
+    "merchant": {
+      "name": "PAROLE E PENSIERI DI GAMBERALE FERNANDO",
+      "brand_name": "PAROLE E PENSIERI",
+      "address": "C/O CENTRO COMMERCIALE DUE MARI LOC, COMUNI CONDOMINI 88025 MAIDA (CZ)",
+      "vat_number": "03256090790",
+      "date": "2026-04-12",
+      "receipt_number": "2200-0116",
+      "notes": ""
+    },
+    "items": [
+      {
+        "description": "BUSTINA A SORPRESA D",
+        "description_full": "Bustina a Sorpresa",
+        "category": "other",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 3.5,
+        "discount": 0.0,
+        "total_price": 3.5,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 28,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 28,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "FOGLIO ACETATO A4 PE",
+        "description_full": "Foglio Acetato A4",
+        "category": "other",
+        "quantity": 6.0,
+        "unit_of_measure": "pz",
+        "unit_price": 0.3,
+        "discount": 0.0,
+        "total_price": 1.8,
+        "_catalog_method": "gemini_only",
+        "_catalog_confidence": 0.4,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 25,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 25,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      }
+    ],
+    "totals": {
+      "total_amount": 5.3,
+      "tax_amount": 0.96,
+      "item_count": null
+    }
+  },
+  "promo_status": "NO_PROMO",
+  "metadata": {
+    "version": "2.0.0+6c131bf",
+    "pars_dt": "2026-04-24T14:41:41.302+00:00",
+    "processing_status": "CLEAN",
+    "flags": [],
+    "preprocessing": [
+      {
+        "image_index": 0,
+        "tile_index": 0,
+        "steps": [
+          "DESKEW(angle=-10.0°)"
+        ],
+        "stats": {
+          "mean_brightness": 116.5,
+          "std_brightness": 58.8,
+          "noise_level": 817.0,
+          "skew_angle": -10.04,
+          "avg_saturation": 59.0,
+          "width": 1468,
+          "height": 2427,
+          "contrast_ratio": 158.0,
+          "is_bimodal": true,
+          "histogram_clipping": 0.006,
+          "content_coverage": 0.84,
+          "applied_steps": [
+            "DESKEW(angle=-10.0°)"
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_token_count": 5251,
+      "candidates_token_count": 320,
+      "total_token_count": 6438,
+      "thinking_token_count": 867
+    },
+    "cost_info": {
+      "total_cost": 0.0023753,
+      "model_name": "Gemini 2.5 Flash",
+      "input_cost": 0.0015753,
+      "output_cost": 0.0008
+    },
+    "retry_count": 0
+  }
+}

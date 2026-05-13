@@ -1,0 +1,149 @@
+{
+  "receipt_guid": "69e25fab551a2cb157c0732b",
+  "shop_brand": null,
+  "analysis": {
+    "document_type": "receipt",
+    "merchant": {
+      "name": "NOVA COOP SC",
+      "brand_name": "Coop",
+      "address": "PIAZZA ALDO MORO 50 10042 NICHELINO (TO)",
+      "vat_number": "01314250034",
+      "date": "2026-04-17",
+      "receipt_number": "0087-0006",
+      "notes": ""
+    },
+    "items": [
+      {
+        "description": "PAELLA MSC FROSTA",
+        "description_full": "Paella MSC Frosta",
+        "category": "pantry",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 5.09,
+        "discount": 2.04,
+        "total_price": 3.05,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": "8052789532496",
+        "is_promo_item": true,
+        "match_confidence": 92,
+        "promo_match": {
+          "publisher_guid": "6894af7f79abb7f7561d5897",
+          "product_guid": "6895d337ce8bbb15b6624af9",
+          "product_name": "Paella",
+          "brand_name": "FRoSTA",
+          "match_confidence": 92,
+          "size_conflict": null,
+          "price_conflict": false
+        },
+        "match_signals": {
+          "brand": "MATCH",
+          "text": "HIGH",
+          "text_score": 92,
+          "variant": "MATCH",
+          "variant_jw": 1.0,
+          "price": "MATCH",
+          "size": "UNKNOWN",
+          "category": "OK",
+          "decision": "PROMO_FOUND"
+        }
+      }
+    ],
+    "totals": {
+      "total_amount": 3.05,
+      "tax_amount": 0.28,
+      "item_count": 1
+    }
+  },
+  "promo_status": "PROMO_FOUND",
+  "metadata": {
+    "version": "2.0.0+6c131bf",
+    "pars_dt": "2026-04-17T16:28:54.925+00:00",
+    "processing_status": "CLEAN",
+    "flags": [],
+    "preprocessing": [
+      {
+        "image_index": 0,
+        "tile_index": 0,
+        "steps": [
+          "CLAHE(std=34,clip=0.00)"
+        ],
+        "stats": {
+          "mean_brightness": 109.8,
+          "std_brightness": 34.1,
+          "noise_level": 87.0,
+          "skew_angle": 0.0,
+          "avg_saturation": 67.3,
+          "width": 1902,
+          "height": 2560,
+          "contrast_ratio": 109.0,
+          "is_bimodal": false,
+          "histogram_clipping": 0.003,
+          "content_coverage": 0.84,
+          "applied_steps": [
+            "CLAHE(std=34,clip=0.00)"
+          ]
+        }
+      },
+      {
+        "image_index": 1,
+        "tile_index": 1,
+        "steps": [
+          "THRESHOLD(contrast=89,bright=99)"
+        ],
+        "stats": {
+          "mean_brightness": 99.4,
+          "std_brightness": 26.7,
+          "noise_level": 50.0,
+          "skew_angle": 0.0,
+          "avg_saturation": 51.4,
+          "width": 1920,
+          "height": 2560,
+          "contrast_ratio": 89.0,
+          "is_bimodal": false,
+          "histogram_clipping": 0.001,
+          "content_coverage": 0.44,
+          "applied_steps": [
+            "THRESHOLD(contrast=89,bright=99)"
+          ]
+        }
+      },
+      {
+        "image_index": 2,
+        "tile_index": 2,
+        "steps": [
+          "PASSTHROUGH(no preprocessing needed)"
+        ],
+        "stats": {
+          "mean_brightness": 75.7,
+          "std_brightness": 40.1,
+          "noise_level": 80.0,
+          "skew_angle": 0.0,
+          "avg_saturation": 115.8,
+          "width": 1920,
+          "height": 300,
+          "contrast_ratio": 115.0,
+          "is_bimodal": true,
+          "histogram_clipping": 0.005,
+          "content_coverage": 0.92,
+          "applied_steps": [
+            "PASSTHROUGH(no preprocessing needed)"
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_token_count": 3703,
+      "candidates_token_count": 225,
+      "total_token_count": 4356,
+      "thinking_token_count": 428
+    },
+    "cost_info": {
+      "total_cost": 0.0016734,
+      "model_name": "Gemini 2.5 Flash",
+      "input_cost": 0.0011109,
+      "output_cost": 0.0005625000000000001
+    },
+    "retry_count": 0
+  }
+}

@@ -1,0 +1,231 @@
+{
+  "receipt_guid": "69ebd6a286e5b64551ba4018",
+  "shop_brand": null,
+  "analysis": {
+    "document_type": "receipt",
+    "merchant": {
+      "name": "ESSELUNGA S.P.A.",
+      "brand_name": "Esselunga",
+      "address": "Viale Risorgimento n. 34 FINO MORNASCO",
+      "vat_number": "04916380159",
+      "date": "2026-04-24",
+      "receipt_number": "1663-01CO",
+      "notes": ""
+    },
+    "items": [
+      {
+        "description": "HAG CPS FORMATO DA 30",
+        "description_full": "Hag Capsule Formato da 30",
+        "category": "beverages",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 9.49,
+        "discount": 0.0,
+        "total_price": 9.49,
+        "_catalog_method": "gemini_only",
+        "_catalog_confidence": 0.85,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 27,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 27,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "DOVE BD SETA 700ML",
+        "description_full": "Dove bagnodoccia seta preziosa 450 ml",
+        "category": "personal_care",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 11.98,
+        "discount": 2.33,
+        "total_price": 9.65,
+        "_catalog_method": "promo_catalog",
+        "_catalog_confidence": 0.7,
+        "_gemini_original": "Dove Bagnodoccia Seta 700ml",
+        "barcode": "8720181494291",
+        "is_promo_item": false,
+        "match_confidence": 74,
+        "promo_match": {
+          "publisher_guid": "6908893d7cb8558c28a80692",
+          "product_guid": "694942b29cf0681229257f80",
+          "product_name": "Dove bagnodoccia seta preziosa 700 ml",
+          "brand_name": "Dove",
+          "match_confidence": 74,
+          "size_conflict": false,
+          "price_conflict": true
+        },
+        "match_signals": {
+          "brand": "MATCH",
+          "text": "HIGH",
+          "text_score": 85,
+          "variant": "MATCH",
+          "variant_jw": 1.0,
+          "price": "CONFLICT",
+          "size": "MATCH",
+          "category": "OK",
+          "decision": "AMBIGUOUS"
+        }
+      },
+      {
+        "description": "ROSA CONTI ZECCA",
+        "description_full": "Rosa Conti Zecca",
+        "category": "pantry",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 3.72,
+        "discount": 1.92,
+        "total_price": 1.8,
+        "_catalog_method": "gemini_only",
+        "_catalog_confidence": 0.4,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 30,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 30,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "ROSA CONTI ZECCA",
+        "description_full": "Rosa Conti Zecca",
+        "category": "pantry",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 3.72,
+        "discount": 1.92,
+        "total_price": 1.8,
+        "_catalog_method": "gemini_only",
+        "_catalog_confidence": 0.4,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 30,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 30,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "BUONO CAFFE",
+        "description_full": "Buono Caffeina",
+        "category": "other",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 4.0,
+        "discount": 0.0,
+        "total_price": 4.0,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 26,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 26,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "MATCH",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      }
+    ],
+    "totals": {
+      "total_amount": 23.06,
+      "tax_amount": 4.16,
+      "item_count": null
+    }
+  },
+  "promo_status": "PROMO_AMBIGUOUS",
+  "metadata": {
+    "version": "2.0.0+6c131bf",
+    "pars_dt": "2026-04-24T20:48:40.537+00:00",
+    "processing_status": "CLEAN",
+    "flags": [],
+    "preprocessing": [
+      {
+        "image_index": 0,
+        "tile_index": 0,
+        "steps": [
+          "GRAYSCALE(sat=28)"
+        ],
+        "stats": {
+          "mean_brightness": 159.1,
+          "std_brightness": 36.1,
+          "noise_level": 448.0,
+          "skew_angle": 0.0,
+          "avg_saturation": 27.9,
+          "width": 1920,
+          "height": 996,
+          "contrast_ratio": 126.0,
+          "is_bimodal": false,
+          "histogram_clipping": 0.0,
+          "content_coverage": 0.88,
+          "applied_steps": [
+            "GRAYSCALE(sat=28)"
+          ]
+        }
+      },
+      {
+        "image_index": 1,
+        "tile_index": 1,
+        "steps": [
+          "GRAYSCALE(sat=35)"
+        ],
+        "stats": {
+          "mean_brightness": 154.0,
+          "std_brightness": 36.8,
+          "noise_level": 188.0,
+          "skew_angle": 0.0,
+          "avg_saturation": 35.1,
+          "width": 1920,
+          "height": 3705,
+          "contrast_ratio": 111.0,
+          "is_bimodal": true,
+          "histogram_clipping": 0.001,
+          "content_coverage": 0.72,
+          "applied_steps": [
+            "GRAYSCALE(sat=35)"
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_token_count": 3445,
+      "candidates_token_count": 697,
+      "total_token_count": 11459,
+      "thinking_token_count": 7317
+    },
+    "cost_info": {
+      "total_cost": 0.002776,
+      "model_name": "Gemini 2.5 Flash",
+      "input_cost": 0.0010335,
+      "output_cost": 0.0017425000000000001
+    },
+    "retry_count": 0
+  }
+}

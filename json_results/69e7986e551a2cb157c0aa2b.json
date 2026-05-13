@@ -1,0 +1,147 @@
+{
+  "receipt_guid": "69e7986e551a2cb157c0aa2b",
+  "shop_brand": null,
+  "analysis": {
+    "document_type": "receipt",
+    "merchant": {
+      "name": "JOLLY MARKET S.R.L.",
+      "brand_name": "UNES",
+      "address": "P.ZA TRENTO TRIESTE, 13 SESTO S.G. -MI",
+      "vat_number": "00780810156",
+      "date": "2026-04-21",
+      "receipt_number": "DOC.0274-0073",
+      "notes": ""
+    },
+    "items": [
+      {
+        "description": "COCA COLA LATTINA",
+        "description_full": "Coca Cola Lattina",
+        "category": "beverages",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 0.9,
+        "discount": 0.0,
+        "total_price": 0.9,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 31,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 31,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "WURSTEL PS U! 100",
+        "description_full": "Wurstel PS U! 100",
+        "category": "meat_fish",
+        "quantity": 4.0,
+        "unit_of_measure": "pz",
+        "unit_price": 0.79,
+        "discount": 0.0,
+        "total_price": 3.16,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 28,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 28,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "COLLUT.SENSIT/CAR U!",
+        "description_full": "Collutorio Sensitiv/Carie",
+        "category": "personal_care",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 1.69,
+        "discount": 0.0,
+        "total_price": 1.69,
+        "_catalog_method": "gemini_only",
+        "_catalog_confidence": 0.57,
+        "_alignment_override": true,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 28,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 28,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      }
+    ],
+    "totals": {
+      "total_amount": 5.75,
+      "tax_amount": 0.0,
+      "item_count": 6
+    }
+  },
+  "promo_status": "NO_PROMO",
+  "metadata": {
+    "version": "2.0.0+6c131bf",
+    "pars_dt": "2026-04-21T15:32:31.830+00:00",
+    "processing_status": "CLEAN",
+    "flags": [],
+    "preprocessing": [
+      {
+        "image_index": 0,
+        "tile_index": 0,
+        "steps": [
+          "GRAYSCALE(sat=31)"
+        ],
+        "stats": {
+          "mean_brightness": 75.4,
+          "std_brightness": 43.9,
+          "noise_level": 163.0,
+          "skew_angle": 0.0,
+          "avg_saturation": 31.4,
+          "width": 1920,
+          "height": 2560,
+          "contrast_ratio": 122.0,
+          "is_bimodal": true,
+          "histogram_clipping": 0.002,
+          "content_coverage": 0.48,
+          "applied_steps": [
+            "GRAYSCALE(sat=31)"
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_token_count": 6283,
+      "candidates_token_count": 505,
+      "total_token_count": 8278,
+      "thinking_token_count": 1490
+    },
+    "cost_info": {
+      "total_cost": 0.0031474,
+      "model_name": "Gemini 2.5 Flash",
+      "input_cost": 0.0018849,
+      "output_cost": 0.0012625000000000002
+    },
+    "retry_count": 0
+  }
+}

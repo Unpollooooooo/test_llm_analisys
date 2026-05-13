@@ -1,0 +1,297 @@
+{
+  "receipt_guid": "69eeaf683da34a89f7055e62",
+  "shop_brand": null,
+  "analysis": {
+    "document_type": "receipt",
+    "merchant": {
+      "name": "COOPERATIVA DI CONSUMO SCRL",
+      "brand_name": "COOPERATIVA DI CONSUMO",
+      "address": "VIA ZANOLI, 3 24020 COLERE (BG)",
+      "vat_number": "00322120163",
+      "date": "2026-04-26",
+      "receipt_number": "0207-0215",
+      "notes": ""
+    },
+    "items": [
+      {
+        "description": "BISC 3MARIE ANCORAUNO KRU",
+        "description_full": "Biscotti 3 Marie Ancorauno Kru",
+        "category": "bakery",
+        "quantity": 1,
+        "unit_of_measure": "pz",
+        "unit_price": 2.99,
+        "discount": 0,
+        "total_price": 2.99,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": "8002190006741",
+        "is_promo_item": false,
+        "match_confidence": 74,
+        "promo_match": {
+          "publisher_guid": "651428fc60b55747dd7fc26b",
+          "product_guid": "6514360fc30d86168501606e",
+          "product_name": "Ancora Uno: cioccolato in frolla krumiro",
+          "brand_name": "Tre Marie",
+          "match_confidence": 74,
+          "size_conflict": null,
+          "price_conflict": null
+        },
+        "match_signals": {
+          "brand": "MATCH",
+          "text": "MED",
+          "text_score": 76,
+          "variant": "MATCH",
+          "variant_jw": 0.783,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK",
+          "decision": "AMBIGUOUS"
+        }
+      },
+      {
+        "description": "BISC 3MARIE ANCORAUNO KRU",
+        "description_full": "Biscotti 3 Marie Ancorauno Kru",
+        "category": "bakery",
+        "quantity": 1,
+        "unit_of_measure": "pz",
+        "unit_price": 2.99,
+        "discount": 0,
+        "total_price": 2.99,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": "8002190006741",
+        "is_promo_item": false,
+        "match_confidence": 74,
+        "promo_match": {
+          "publisher_guid": "651428fc60b55747dd7fc26b",
+          "product_guid": "6514360fc30d86168501606e",
+          "product_name": "Ancora Uno: cioccolato in frolla krumiro",
+          "brand_name": "Tre Marie",
+          "match_confidence": 74,
+          "size_conflict": null,
+          "price_conflict": null
+        },
+        "match_signals": {
+          "brand": "MATCH",
+          "text": "MED",
+          "text_score": 76,
+          "variant": "MATCH",
+          "variant_jw": 0.783,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK",
+          "decision": "AMBIGUOUS"
+        }
+      },
+      {
+        "description": "BISC 3MARIE ANCORAUNO KRU",
+        "description_full": "Biscotti 3 Marie Ancorauno Kru",
+        "category": "bakery",
+        "quantity": 1,
+        "unit_of_measure": "pz",
+        "unit_price": 2.99,
+        "discount": 0,
+        "total_price": 2.99,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": "8002190006741",
+        "is_promo_item": false,
+        "match_confidence": 74,
+        "promo_match": {
+          "publisher_guid": "651428fc60b55747dd7fc26b",
+          "product_guid": "6514360fc30d86168501606e",
+          "product_name": "Ancora Uno: cioccolato in frolla krumiro",
+          "brand_name": "Tre Marie",
+          "match_confidence": 74,
+          "size_conflict": null,
+          "price_conflict": null
+        },
+        "match_signals": {
+          "brand": "MATCH",
+          "text": "MED",
+          "text_score": 76,
+          "variant": "MATCH",
+          "variant_jw": 0.783,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK",
+          "decision": "AMBIGUOUS"
+        }
+      },
+      {
+        "description": "POLENTA VALSUGANA 375 G",
+        "description_full": "Polenta Valsugana La Bianca",
+        "category": "pantry",
+        "quantity": 1,
+        "unit_of_measure": "pz",
+        "unit_price": 2.29,
+        "discount": 0,
+        "total_price": 2.29,
+        "_catalog_method": "promo_catalog",
+        "_catalog_confidence": 0.7,
+        "_gemini_original": "Polenta Valsugana 375 Grammi",
+        "barcode": "8001160000505",
+        "is_promo_item": true,
+        "match_confidence": 85,
+        "promo_match": {
+          "publisher_guid": "649b069a8d4d6775eaecf33f",
+          "product_guid": "65142d10c30d861685016021",
+          "product_name": "La Classica",
+          "brand_name": "Polenta Valsugana",
+          "match_confidence": 85,
+          "size_conflict": false,
+          "price_conflict": false
+        },
+        "match_signals": {
+          "brand": "MATCH",
+          "text": "HIGH",
+          "text_score": 85,
+          "variant": "MATCH",
+          "variant_jw": 0.875,
+          "price": "MATCH",
+          "size": "MATCH",
+          "category": "OK",
+          "decision": "PROMO_FOUND"
+        }
+      },
+      {
+        "description": "POLENTA VALSUGANA 375 G",
+        "description_full": "Polenta Valsugana La Bianca",
+        "category": "pantry",
+        "quantity": 1,
+        "unit_of_measure": "pz",
+        "unit_price": 2.29,
+        "discount": 0,
+        "total_price": 2.29,
+        "_catalog_method": "cache",
+        "_catalog_confidence": 0.7,
+        "_gemini_original": "Polenta Valsugana 375 Grammi",
+        "barcode": "8001840285109",
+        "is_promo_item": true,
+        "match_confidence": 100,
+        "promo_match": {
+          "publisher_guid": "649b069a8d4d6775eaecf33f",
+          "product_guid": "6568948b036ecb11a785cfc2",
+          "product_name": "La Bianca",
+          "brand_name": "Polenta Valsugana",
+          "match_confidence": 100,
+          "size_conflict": false,
+          "price_conflict": false
+        },
+        "match_signals": {
+          "brand": "MATCH",
+          "text": "HIGH",
+          "text_score": 100,
+          "variant": "MATCH",
+          "variant_jw": 1.0,
+          "price": "MATCH",
+          "size": "MATCH",
+          "category": "OK",
+          "decision": "PROMO_FOUND"
+        }
+      },
+      {
+        "description": "TENA PANTS M",
+        "description_full": "Tena Pants Medium",
+        "category": "personal_care",
+        "quantity": 1,
+        "unit_of_measure": "pz",
+        "unit_price": 12.45,
+        "discount": 0,
+        "total_price": 12.45,
+        "_catalog_method": "gemini_only",
+        "_catalog_confidence": 0.4,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 33,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 33,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "CONFLICT",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "TENA PANTS M",
+        "description_full": "Tena Pants Medium",
+        "category": "personal_care",
+        "quantity": 1,
+        "unit_of_measure": "pz",
+        "unit_price": 12.45,
+        "discount": 0,
+        "total_price": 12.45,
+        "_catalog_method": "gemini_only",
+        "_catalog_confidence": 0.4,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 33,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 33,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "CONFLICT",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      }
+    ],
+    "totals": {
+      "total_amount": 38.45,
+      "tax_amount": 5.49,
+      "item_count": null
+    }
+  },
+  "promo_status": "PROMO_FOUND",
+  "metadata": {
+    "version": "2.0.0+6c131bf",
+    "pars_dt": "2026-04-27T00:37:29.438+00:00",
+    "processing_status": "CLEAN",
+    "flags": [],
+    "preprocessing": [
+      {
+        "image_index": 0,
+        "tile_index": 0,
+        "steps": [
+          "GRAYSCALE(sat=39)"
+        ],
+        "stats": {
+          "mean_brightness": 173.0,
+          "std_brightness": 48.9,
+          "noise_level": 137.0,
+          "skew_angle": 0.0,
+          "avg_saturation": 39.1,
+          "width": 1920,
+          "height": 3684,
+          "contrast_ratio": 160.0,
+          "is_bimodal": false,
+          "histogram_clipping": 0.0,
+          "content_coverage": 0.8,
+          "applied_steps": [
+            "GRAYSCALE(sat=39)"
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_token_count": 5251,
+      "candidates_token_count": 912,
+      "total_token_count": 7535,
+      "thinking_token_count": 1372
+    },
+    "cost_info": {
+      "total_cost": 0.0038553000000000003,
+      "model_name": "Gemini 2.5 Flash",
+      "input_cost": 0.0015753,
+      "output_cost": 0.0022800000000000003
+    },
+    "retry_count": 0
+  }
+}

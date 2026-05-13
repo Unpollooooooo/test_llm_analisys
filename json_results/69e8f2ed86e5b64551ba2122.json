@@ -1,0 +1,104 @@
+{
+  "receipt_guid": "69e8f2ed86e5b64551ba2122",
+  "shop_brand": null,
+  "analysis": {
+    "document_type": "receipt",
+    "merchant": {
+      "name": "ORTOFRUTTA DA MICHELE",
+      "brand_name": "Ortofrutta da Michele",
+      "address": "PIAZZA G. MATTEOTTI 2 BICCARI (FG)",
+      "vat_number": "04088130713",
+      "date": "2022-04-26",
+      "receipt_number": "0516-0019",
+      "notes": ""
+    },
+    "items": [
+      {
+        "description": "ARBI SUGO SCAMPI",
+        "description_full": "Arbi Sugo Scampi",
+        "category": "pantry",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 3.9,
+        "discount": 0.0,
+        "total_price": 3.9,
+        "_catalog_method": "gemini_only",
+        "_catalog_confidence": 0.4,
+        "_alignment_override": true,
+        "barcode": "8002202000699",
+        "is_promo_item": true,
+        "match_confidence": 97,
+        "promo_match": {
+          "publisher_guid": "68d3fe899c9800d05b3cb2eb",
+          "product_guid": "68e39a57719aebebe1426aaf",
+          "product_name": "Condiscampi - sugo pronto agli scampi",
+          "brand_name": "Arbi",
+          "match_confidence": 97,
+          "size_conflict": null,
+          "price_conflict": null
+        },
+        "match_signals": {
+          "brand": "MATCH",
+          "text": "HIGH",
+          "text_score": 97,
+          "variant": "MATCH",
+          "variant_jw": 1.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK",
+          "decision": "PROMO_FOUND"
+        }
+      }
+    ],
+    "totals": {
+      "total_amount": 3.9,
+      "tax_amount": 0.0,
+      "item_count": null
+    }
+  },
+  "promo_status": "PROMO_FOUND",
+  "metadata": {
+    "version": "2.0.0+6c131bf",
+    "pars_dt": "2026-04-22T16:10:45.399+00:00",
+    "processing_status": "CLEAN",
+    "flags": [],
+    "preprocessing": [
+      {
+        "image_index": 0,
+        "tile_index": 0,
+        "steps": [
+          "GRAYSCALE(sat=40)"
+        ],
+        "stats": {
+          "mean_brightness": 161.8,
+          "std_brightness": 44.0,
+          "noise_level": 190.0,
+          "skew_angle": 0.0,
+          "avg_saturation": 39.6,
+          "width": 1419,
+          "height": 2517,
+          "contrast_ratio": 138.0,
+          "is_bimodal": false,
+          "histogram_clipping": 0.0,
+          "content_coverage": 0.8,
+          "applied_steps": [
+            "GRAYSCALE(sat=40)"
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_token_count": 5251,
+      "candidates_token_count": 224,
+      "total_token_count": 6439,
+      "thinking_token_count": 964
+    },
+    "cost_info": {
+      "total_cost": 0.0021353,
+      "model_name": "Gemini 2.5 Flash",
+      "input_cost": 0.0015753,
+      "output_cost": 0.0005600000000000001
+    },
+    "retry_count": 0
+  }
+}

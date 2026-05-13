@@ -1,0 +1,385 @@
+{
+  "receipt_guid": "69e31ab2551a2cb157c07715",
+  "shop_brand": null,
+  "analysis": {
+    "document_type": "receipt",
+    "merchant": {
+      "name": "",
+      "brand_name": "",
+      "address": "",
+      "vat_number": "",
+      "date": "2026-04-10",
+      "receipt_number": "",
+      "notes": "Many product lines do not have a visible price, so they could not be extracted."
+    },
+    "items": [
+      {
+        "description": "BIRRA BUD CL.33 BOTT",
+        "description_full": "Birra Bud Cl.33 Bottiglia",
+        "category": "beverages",
+        "quantity": 25,
+        "unit_of_measure": "pz",
+        "unit_price": 0.95,
+        "discount": 0.0,
+        "total_price": 23.75,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 23,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 23,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "CONFLICT",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "CERES STRONG ALE CL.",
+        "description_full": "Ceres Strong Ale Cl.",
+        "category": "beverages",
+        "quantity": 9,
+        "unit_of_measure": "pz",
+        "unit_price": 4.49,
+        "discount": 0.0,
+        "total_price": 40.41,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 26,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 26,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "INCOMPATIBLE"
+        }
+      },
+      {
+        "description": "CRT.GHIACCIO CUB.2KG",
+        "description_full": "Cartone Ghiaccio Cubetti 2kg",
+        "category": "pantry",
+        "quantity": 1,
+        "unit_of_measure": "pz",
+        "unit_price": 7.7,
+        "discount": 0.0,
+        "total_price": 7.7,
+        "_catalog_method": "gemini_only",
+        "_catalog_confidence": 0.85,
+        "_alignment_override": true,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 36,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 36,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "MATCH",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "PROSECCO VALD'OCA MI",
+        "description_full": "Prosecco",
+        "category": "beverages",
+        "quantity": 6,
+        "unit_of_measure": "pz",
+        "unit_price": 7.7,
+        "discount": 0.0,
+        "total_price": 46.2,
+        "_catalog_method": "fuzzy",
+        "_catalog_confidence": 0.7,
+        "_gemini_original": "Prosecco Valdobbiadene Oca Millesimato",
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 24,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 24,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "CONFLICT",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "PROSECCO VALD'OCA MI",
+        "description_full": "Prosecco",
+        "category": "beverages",
+        "quantity": 6,
+        "unit_of_measure": "pz",
+        "unit_price": 7.7,
+        "discount": 0.0,
+        "total_price": 46.2,
+        "_catalog_method": "cache",
+        "_catalog_confidence": 0.7,
+        "_gemini_original": "Prosecco Valdobbiadene Oca Millesimato",
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 24,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 24,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "CONFLICT",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "PROSECCO VALD'OCA MI",
+        "description_full": "Prosecco",
+        "category": "beverages",
+        "quantity": 6,
+        "unit_of_measure": "pz",
+        "unit_price": 7.7,
+        "discount": 0.0,
+        "total_price": 46.2,
+        "_catalog_method": "cache",
+        "_catalog_confidence": 0.7,
+        "_gemini_original": "Prosecco Valdobbiadene Oca Millesimato",
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 24,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 24,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "CONFLICT",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "PROSECCO VALD'OCA MI",
+        "description_full": "Prosecco",
+        "category": "beverages",
+        "quantity": 6,
+        "unit_of_measure": "pz",
+        "unit_price": 7.7,
+        "discount": 0.0,
+        "total_price": 46.2,
+        "_catalog_method": "cache",
+        "_catalog_confidence": 0.7,
+        "_gemini_original": "Prosecco Valdobbiadene Oca Millesimato",
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 24,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 24,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "CONFLICT",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "PROSECCO VALD'OCA MI",
+        "description_full": "Prosecco",
+        "category": "beverages",
+        "quantity": 6,
+        "unit_of_measure": "pz",
+        "unit_price": 7.7,
+        "discount": 0.0,
+        "total_price": 46.2,
+        "_catalog_method": "cache",
+        "_catalog_confidence": 0.7,
+        "_gemini_original": "Prosecco Valdobbiadene Oca Millesimato",
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 24,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 24,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "CONFLICT",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "PROSECCO VALD'OCA MI",
+        "description_full": "Prosecco",
+        "category": "beverages",
+        "quantity": 6,
+        "unit_of_measure": "pz",
+        "unit_price": 7.7,
+        "discount": 0.0,
+        "total_price": 46.2,
+        "_catalog_method": "cache",
+        "_catalog_confidence": 0.7,
+        "_gemini_original": "Prosecco Valdobbiadene Oca Millesimato",
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 24,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 24,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "CONFLICT",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "COCA COLA LATT.CL.33",
+        "description_full": "Coca Cola Lattina Cl.33",
+        "category": "beverages",
+        "quantity": 6,
+        "unit_of_measure": "pz",
+        "unit_price": 1.29,
+        "discount": 0.0,
+        "total_price": 7.74,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 33,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 33,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "SL CARTA IGIENICA",
+        "description_full": "Carta igienica",
+        "category": "home_care",
+        "quantity": 10,
+        "unit_of_measure": "pz",
+        "unit_price": 0.95,
+        "discount": 0.0,
+        "total_price": 9.5,
+        "_catalog_method": "fuzzy",
+        "_catalog_confidence": 0.7,
+        "_gemini_original": "Scottex Carta Igienica",
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 27,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 27,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "INCOMPATIBLE"
+        }
+      }
+    ],
+    "totals": {
+      "total_amount": 0.0,
+      "tax_amount": 0.0,
+      "item_count": 151
+    }
+  },
+  "promo_status": "NO_PROMO",
+  "metadata": {
+    "version": "2.0.0+6c131bf",
+    "pars_dt": "2026-04-18T05:48:17.053+00:00",
+    "processing_status": "CLEAN",
+    "flags": [],
+    "preprocessing": [
+      {
+        "image_index": 0,
+        "tile_index": 0,
+        "steps": [
+          "GRAYSCALE(sat=33)"
+        ],
+        "stats": {
+          "mean_brightness": 159.5,
+          "std_brightness": 57.7,
+          "noise_level": 1568.0,
+          "skew_angle": 0.0,
+          "avg_saturation": 32.7,
+          "width": 1052,
+          "height": 365,
+          "contrast_ratio": 203.0,
+          "is_bimodal": false,
+          "histogram_clipping": 0.014,
+          "content_coverage": 0.92,
+          "applied_steps": [
+            "GRAYSCALE(sat=33)"
+          ]
+        }
+      },
+      {
+        "image_index": 1,
+        "tile_index": 1,
+        "steps": [
+          "GRAYSCALE(sat=21)"
+        ],
+        "stats": {
+          "mean_brightness": 152.7,
+          "std_brightness": 76.4,
+          "noise_level": 351.0,
+          "skew_angle": 0.0,
+          "avg_saturation": 21.3,
+          "width": 758,
+          "height": 3690,
+          "contrast_ratio": 213.0,
+          "is_bimodal": true,
+          "histogram_clipping": 0.017,
+          "content_coverage": 0.84,
+          "applied_steps": [
+            "GRAYSCALE(sat=21)"
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_token_count": 3445,
+      "candidates_token_count": 1322,
+      "total_token_count": 10725,
+      "thinking_token_count": 5958
+    },
+    "cost_info": {
+      "total_cost": 0.0043385,
+      "model_name": "Gemini 2.5 Flash",
+      "input_cost": 0.0010335,
+      "output_cost": 0.003305
+    },
+    "retry_count": 0
+  }
+}

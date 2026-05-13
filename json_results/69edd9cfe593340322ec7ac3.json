@@ -1,0 +1,67 @@
+{
+  "receipt_guid": "69edd9cfe593340322ec7ac3",
+  "shop_brand": null,
+  "analysis": {
+    "document_type": "receipt",
+    "merchant": {
+      "name": "Migross",
+      "brand_name": "Migross",
+      "address": "",
+      "vat_number": "",
+      "date": "2006-04-24",
+      "receipt_number": "",
+      "notes": ""
+    },
+    "items": [],
+    "totals": {
+      "total_amount": 60.16,
+      "tax_amount": 0.0,
+      "item_count": 19
+    }
+  },
+  "promo_status": "NO_PROMO",
+  "metadata": {
+    "version": "2.0.0+6c131bf",
+    "pars_dt": "2026-04-26T09:24:59.017+00:00",
+    "processing_status": "CLEAN",
+    "flags": [],
+    "preprocessing": [
+      {
+        "image_index": 0,
+        "tile_index": 0,
+        "steps": [
+          "GRAYSCALE(sat=15)"
+        ],
+        "stats": {
+          "mean_brightness": 167.6,
+          "std_brightness": 39.0,
+          "noise_level": 26.0,
+          "skew_angle": 0.0,
+          "avg_saturation": 14.5,
+          "width": 1920,
+          "height": 2560,
+          "contrast_ratio": 152.0,
+          "is_bimodal": false,
+          "histogram_clipping": 0.002,
+          "content_coverage": 0.08,
+          "applied_steps": [
+            "GRAYSCALE(sat=15)"
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_token_count": 6283,
+      "candidates_token_count": 101,
+      "total_token_count": 7300,
+      "thinking_token_count": 916
+    },
+    "cost_info": {
+      "total_cost": 0.0021374,
+      "model_name": "Gemini 2.5 Flash",
+      "input_cost": 0.0018849,
+      "output_cost": 0.0002525
+    },
+    "retry_count": 0
+  }
+}

@@ -1,0 +1,130 @@
+{
+  "receipt_guid": "69f0d82ae593340322ec98d8",
+  "shop_brand": null,
+  "analysis": {
+    "document_type": "receipt",
+    "merchant": {
+      "name": "F.LLI IACONO G. & C.SNC",
+      "brand_name": "PROSHOP",
+      "address": "VIA MANZONI 169 - 92100 AGRIGENTO",
+      "vat_number": "01845560844",
+      "date": "2026-04-28",
+      "receipt_number": "2249-0115",
+      "notes": ""
+    },
+    "items": [
+      {
+        "description": "*IGIENICA SCOTION",
+        "description_full": "Igienica Scotton",
+        "category": "personal_care",
+        "quantity": 2.0,
+        "unit_of_measure": "pz",
+        "unit_price": 3.75,
+        "discount": 0.0,
+        "total_price": 7.5,
+        "_catalog_method": "gemini_only",
+        "_catalog_confidence": 0.4,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 28,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 28,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "DOMOPAK CUSTODIE",
+        "description_full": "Domopak Custodie",
+        "category": "home_care",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 1.55,
+        "discount": 0.0,
+        "total_price": 1.55,
+        "_catalog_method": "gemini_only",
+        "_catalog_confidence": 0.4,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 23,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 23,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      }
+    ],
+    "totals": {
+      "total_amount": 9.05,
+      "tax_amount": 1.63,
+      "item_count": null
+    },
+    "quality_flags": []
+  },
+  "promo_status": "NO_PROMO",
+  "metadata": {
+    "version": "2.1.0+bbfe08e",
+    "pars_dt": "2026-04-28T15:54:48.623+00:00",
+    "processing_status": "CLEAN",
+    "flags": [],
+    "preprocessing": [
+      {
+        "image_index": 0,
+        "tile_index": 0,
+        "steps": [
+          "GRAYSCALE(sat=25)",
+          "CLAHE(std=28,clip=0.00)"
+        ],
+        "stats": {
+          "mean_brightness": 156.7,
+          "std_brightness": 27.7,
+          "noise_level": 105.0,
+          "skew_angle": 0.0,
+          "avg_saturation": 25.4,
+          "width": 1248,
+          "height": 1588,
+          "contrast_ratio": 90.0,
+          "is_bimodal": false,
+          "histogram_clipping": 0.0,
+          "content_coverage": 0.68,
+          "applied_steps": [
+            "GRAYSCALE(sat=25)",
+            "CLAHE(std=28,clip=0.00)"
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_token_count": 4982,
+      "candidates_token_count": 312,
+      "total_token_count": 6376,
+      "thinking_token_count": 1082
+    },
+    "cost_info": {
+      "total_cost": 0.0022746,
+      "model_name": "Gemini 2.5 Flash",
+      "input_cost": 0.0014946,
+      "output_cost": 0.0007800000000000001
+    },
+    "retry_count": 0,
+    "validation_errors": [
+      {
+        "code": "NO_PREMIUM_PRODUCTS",
+        "message": "Lo scontrino non contiene prodotti premianti"
+      }
+    ],
+    "is_valid": false
+  }
+}

@@ -1,0 +1,251 @@
+{
+  "receipt_guid": "69ee38b086e5b64551ba532c",
+  "shop_brand": null,
+  "analysis": {
+    "document_type": "receipt",
+    "merchant": {
+      "name": "Bennet",
+      "brand_name": "Bennet",
+      "address": "Via Scarrone - Strada Debouche Nichelino (TO)",
+      "vat_number": "07071700152",
+      "date": "2026-04-24",
+      "receipt_number": "N2759-0043",
+      "notes": ""
+    },
+    "items": [
+      {
+        "description": "TORTELLINI PROSC. CRUDO E",
+        "description_full": "Tortellini Prosciutto Crudo",
+        "category": "pantry",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 3.78,
+        "discount": 0.0,
+        "total_price": 3.78,
+        "_catalog_method": "gemini_only",
+        "_catalog_confidence": 0.85,
+        "_alignment_override": true,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 35,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 35,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "MATCH",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "TORTELLINI PROSC. CRUDO E",
+        "description_full": "Tortellini Prosciutto Crudo",
+        "category": "pantry",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 3.78,
+        "discount": 3.78,
+        "total_price": 0.0,
+        "_catalog_method": "gemini_only",
+        "_catalog_confidence": 0.85,
+        "_alignment_override": true,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 35,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 35,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "MATCH",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "COLUSS BISC.BOCCE CIOC G",
+        "description_full": "Colussi Biscotti Bocce Cioccolato",
+        "category": "bakery",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 3.99,
+        "discount": 0.0,
+        "total_price": 3.99,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 35,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 35,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "MATCH",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "COLUSS BISC.BOCCE CIOC G",
+        "description_full": "Colussi Biscotti Bocce Cioccolato",
+        "category": "bakery",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 3.99,
+        "discount": 3.99,
+        "total_price": 0.0,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 35,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 35,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "MATCH",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "TE' ATI 25 FILTRI GR 3",
+        "description_full": "Tè Ati 25 Filtri",
+        "category": "beverages",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 1.59,
+        "discount": 0.0,
+        "total_price": 1.59,
+        "_catalog_method": "gemini_only",
+        "_catalog_confidence": 0.73,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 27,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 27,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "TE' ATI 25 FILTRI GR 3",
+        "description_full": "Tè Ati 25 Filtri",
+        "category": "beverages",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 1.59,
+        "discount": 1.59,
+        "total_price": 0.0,
+        "_catalog_method": "gemini_only",
+        "_catalog_confidence": 0.73,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 27,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 27,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      }
+    ],
+    "totals": {
+      "total_amount": 9.363,
+      "tax_amount": 0.85,
+      "item_count": null
+    }
+  },
+  "promo_status": "NO_PROMO",
+  "metadata": {
+    "version": "2.0.0+6c131bf",
+    "pars_dt": "2026-04-26T16:10:59.178+00:00",
+    "processing_status": "CLEAN",
+    "flags": [],
+    "preprocessing": [
+      {
+        "image_index": 0,
+        "tile_index": 0,
+        "steps": [
+          "GRAYSCALE(sat=35)"
+        ],
+        "stats": {
+          "mean_brightness": 199.7,
+          "std_brightness": 47.8,
+          "noise_level": 627.0,
+          "skew_angle": 0.0,
+          "avg_saturation": 35.0,
+          "width": 1733,
+          "height": 1062,
+          "contrast_ratio": 145.0,
+          "is_bimodal": false,
+          "histogram_clipping": 0.074,
+          "content_coverage": 0.96,
+          "applied_steps": [
+            "GRAYSCALE(sat=35)"
+          ]
+        }
+      },
+      {
+        "image_index": 1,
+        "tile_index": 1,
+        "steps": [
+          "DESKEW(angle=2.9°)",
+          "GRAYSCALE(sat=20)"
+        ],
+        "stats": {
+          "mean_brightness": 190.9,
+          "std_brightness": 53.0,
+          "noise_level": 527.0,
+          "skew_angle": 2.87,
+          "avg_saturation": 19.6,
+          "width": 962,
+          "height": 2560,
+          "contrast_ratio": 169.0,
+          "is_bimodal": false,
+          "histogram_clipping": 0.025,
+          "content_coverage": 0.96,
+          "applied_steps": [
+            "DESKEW(angle=2.9°)",
+            "GRAYSCALE(sat=20)"
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_token_count": 3445,
+      "candidates_token_count": 648,
+      "total_token_count": 6410,
+      "thinking_token_count": 2317
+    },
+    "cost_info": {
+      "total_cost": 0.0026535,
+      "model_name": "Gemini 2.5 Flash",
+      "input_cost": 0.0010335,
+      "output_cost": 0.0016200000000000001
+    },
+    "retry_count": 0
+  }
+}

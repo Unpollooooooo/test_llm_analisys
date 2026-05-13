@@ -1,0 +1,459 @@
+{
+  "receipt_guid": "69ef3c4c3da34a89f705629d",
+  "shop_brand": null,
+  "analysis": {
+    "document_type": "receipt",
+    "merchant": {
+      "name": "SUPERMERCATO CONAD CAFEA TRNC SRL",
+      "brand_name": "CONAD",
+      "address": "Corso Garibaldi, 209 P.IVA 0482713651 84081 Baronissi (SA)",
+      "vat_number": "0482713651",
+      "date": "2024-04-27",
+      "receipt_number": "2582-0089",
+      "notes": ""
+    },
+    "items": [
+      {
+        "description": "LATTI BICC. LIMONE",
+        "description_full": "Latticini Bicchiere Limone",
+        "category": "dairy",
+        "quantity": 2,
+        "unit_of_measure": "pz",
+        "unit_price": 1.19,
+        "discount": 0.39,
+        "total_price": 1.99,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 28,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 28,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "ESTATHE BICC. LIMONE",
+        "description_full": "Estathe Bicchiere Limone",
+        "category": "beverages",
+        "quantity": 2,
+        "unit_of_measure": "pz",
+        "unit_price": 1.17,
+        "discount": 0.35,
+        "total_price": 1.99,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 26,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 26,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "WURSTEL SUINO",
+        "description_full": "Wurstel Suino",
+        "category": "meat_fish",
+        "quantity": 2,
+        "unit_of_measure": "pz",
+        "unit_price": 1.95,
+        "discount": 0.41,
+        "total_price": 3.49,
+        "_catalog_method": "fuzzy",
+        "_catalog_confidence": 1.0,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 28,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 28,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "MATCH",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "PEPE NERO COL.K",
+        "description_full": "Pepe Nero Colorato",
+        "category": "pantry",
+        "quantity": 1,
+        "unit_of_measure": "pz",
+        "unit_price": 2.69,
+        "discount": 0,
+        "total_price": 2.69,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 28,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 28,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "COPPA DEL NONNO CLAS",
+        "description_full": "Coppa del Nonno Classica",
+        "category": "dairy",
+        "quantity": 2,
+        "unit_of_measure": "pz",
+        "unit_price": 1.95,
+        "discount": 1.71,
+        "total_price": 2.19,
+        "_catalog_method": "gemini_only",
+        "_catalog_confidence": 0.85,
+        "_alignment_override": true,
+        "barcode": "8007222205802",
+        "is_promo_item": true,
+        "match_confidence": 73,
+        "promo_match": {
+          "publisher_guid": "68fa6e0f7cb8558c28a80690",
+          "product_guid": "68fa6e99b82c644e33de2b3e",
+          "product_name": "Burrata Nonno Nanni 125g",
+          "brand_name": "Nonno Nanni",
+          "match_confidence": 73,
+          "size_conflict": null,
+          "price_conflict": false
+        },
+        "match_signals": {
+          "brand": "MATCH",
+          "text": "MED",
+          "text_score": 73,
+          "variant": "PARTIAL",
+          "variant_jw": 0.512,
+          "price": "MATCH",
+          "size": "UNKNOWN",
+          "category": "OK",
+          "decision": "PROMO_FOUND"
+        }
+      },
+      {
+        "description": "PANETTONCINO ROBERTO GR",
+        "description_full": "Panettoncino Roberto Grano",
+        "category": "bakery",
+        "quantity": 2,
+        "unit_of_measure": "pz",
+        "unit_price": 2.29,
+        "discount": 0.89,
+        "total_price": 3.69,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 30,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 30,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "PAS.2,38 SEM.MOLTSANA S",
+        "description_full": "Semola",
+        "category": "pantry",
+        "quantity": 2,
+        "unit_of_measure": "pz",
+        "unit_price": 0.79,
+        "discount": 0,
+        "total_price": 1.58,
+        "_catalog_method": "fuzzy",
+        "_catalog_confidence": 0.7,
+        "_gemini_original": "Passata di Pomodoro Semilavorata Moltisana",
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 20,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 20,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "P/GEM.1,19 MOLTSANA PEN",
+        "description_full": "P GEM 1,19 MOLTSANA PEN",
+        "category": "pantry",
+        "quantity": 2,
+        "unit_of_measure": "pz",
+        "unit_price": 0.79,
+        "discount": 0,
+        "total_price": 1.58,
+        "_catalog_method": "abbreviation",
+        "_catalog_confidence": 0.7,
+        "_gemini_original": "Pasta Gemelli Moltisana Penne",
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 26,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 26,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "BIS.ROCKIE CIOCCOTOLA",
+        "description_full": "BIS ROCKIE CIOCCOTOLA",
+        "category": "bakery",
+        "quantity": 1,
+        "unit_of_measure": "pz",
+        "unit_price": 1.19,
+        "discount": 0,
+        "total_price": 1.19,
+        "_catalog_method": "abbreviation",
+        "_catalog_confidence": 0.7,
+        "_gemini_original": "Biscotti Rockie Cioccolato",
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 31,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 31,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "COCCODRI HARIBO BSI",
+        "description_full": "Coccodrilli Haribo Busta",
+        "category": "pantry",
+        "quantity": 1,
+        "unit_of_measure": "pz",
+        "unit_price": 1.39,
+        "discount": 0,
+        "total_price": 1.39,
+        "_catalog_method": "gemini_only",
+        "_catalog_confidence": 0.85,
+        "_alignment_override": true,
+        "barcode": "8426617651329",
+        "is_promo_item": true,
+        "match_confidence": 87,
+        "promo_match": {
+          "publisher_guid": "68f277a400cc667d09dd0800",
+          "product_guid": "68f27b13b82c644e33de2788",
+          "product_name": "Coccodrì",
+          "brand_name": "Haribo",
+          "match_confidence": 87,
+          "size_conflict": null,
+          "price_conflict": null
+        },
+        "match_signals": {
+          "brand": "MATCH",
+          "text": "HIGH",
+          "text_score": 87,
+          "variant": "MATCH",
+          "variant_jw": 0.945,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK",
+          "decision": "PROMO_FOUND"
+        }
+      },
+      {
+        "description": "TONNO MARE 1,64",
+        "description_full": "Tonno Mare",
+        "category": "pantry",
+        "quantity": 1,
+        "unit_of_measure": "pz",
+        "unit_price": 1.64,
+        "discount": 0,
+        "total_price": 1.64,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 30,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 30,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "IDENTIF.MENTADENT C.",
+        "description_full": "Identifrico Mentadent Classico",
+        "category": "personal_care",
+        "quantity": 1,
+        "unit_of_measure": "pz",
+        "unit_price": 2.49,
+        "discount": 0,
+        "total_price": 2.49,
+        "_catalog_method": "gemini_only",
+        "_catalog_confidence": 0.57,
+        "_alignment_override": true,
+        "barcode": "8720181226809",
+        "is_promo_item": false,
+        "match_confidence": 74,
+        "promo_match": {
+          "publisher_guid": "6908893d7cb8558c28a80692",
+          "product_guid": "694942af9cf0681229257f2a",
+          "product_name": "Mentadent Tecnic Delicato soft 2 pz",
+          "brand_name": "Mentadent",
+          "match_confidence": 74,
+          "size_conflict": null,
+          "price_conflict": null
+        },
+        "match_signals": {
+          "brand": "MATCH",
+          "text": "HIGH",
+          "text_score": 80,
+          "variant": "PARTIAL",
+          "variant_jw": 0.69,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK",
+          "decision": "AMBIGUOUS"
+        }
+      }
+    ],
+    "totals": {
+      "total_amount": 24.21,
+      "tax_amount": 0.0,
+      "item_count": null
+    }
+  },
+  "promo_status": "PROMO_FOUND",
+  "metadata": {
+    "version": "2.0.0+unknown",
+    "pars_dt": "2026-04-27T10:38:29.881+00:00",
+    "processing_status": "CLEAN",
+    "flags": [],
+    "preprocessing": [
+      {
+        "image_index": 0,
+        "tile_index": 0,
+        "steps": [
+          "GRAYSCALE(sat=30)"
+        ],
+        "stats": {
+          "mean_brightness": 159.8,
+          "std_brightness": 39.1,
+          "noise_level": 1167.0,
+          "skew_angle": 0.0,
+          "avg_saturation": 29.7,
+          "width": 1920,
+          "height": 984,
+          "contrast_ratio": 123.0,
+          "is_bimodal": false,
+          "histogram_clipping": 0.0,
+          "content_coverage": 1.0,
+          "applied_steps": [
+            "GRAYSCALE(sat=30)"
+          ]
+        }
+      },
+      {
+        "image_index": 1,
+        "tile_index": 1,
+        "steps": [
+          "RESIZE(422→800)"
+        ],
+        "stats": {
+          "mean_brightness": 136.6,
+          "std_brightness": 36.4,
+          "noise_level": 268.0,
+          "skew_angle": 0.0,
+          "avg_saturation": 40.8,
+          "width": 422,
+          "height": 3744,
+          "contrast_ratio": 118.0,
+          "is_bimodal": true,
+          "histogram_clipping": 0.0,
+          "content_coverage": 1.0,
+          "applied_steps": [
+            "RESIZE(422→800)"
+          ]
+        }
+      },
+      {
+        "image_index": 2,
+        "tile_index": 2,
+        "steps": [
+          "GRAYSCALE(sat=26)"
+        ],
+        "stats": {
+          "mean_brightness": 158.2,
+          "std_brightness": 39.0,
+          "noise_level": 255.0,
+          "skew_angle": 0.0,
+          "avg_saturation": 25.7,
+          "width": 1920,
+          "height": 3605,
+          "contrast_ratio": 124.0,
+          "is_bimodal": false,
+          "histogram_clipping": 0.0,
+          "content_coverage": 0.76,
+          "applied_steps": [
+            "GRAYSCALE(sat=26)"
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_token_count": 3703,
+      "candidates_token_count": 1417,
+      "total_token_count": 8630,
+      "thinking_token_count": 3510
+    },
+    "cost_info": {
+      "total_cost": 0.0046534,
+      "model_name": "Gemini 2.5 Flash",
+      "input_cost": 0.0011109,
+      "output_cost": 0.0035425
+    },
+    "retry_count": 0
+  }
+}

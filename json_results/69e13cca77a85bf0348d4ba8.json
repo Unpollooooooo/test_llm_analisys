@@ -1,0 +1,404 @@
+{
+  "receipt_guid": "69e13cca77a85bf0348d4ba8",
+  "shop_brand": null,
+  "analysis": {
+    "document_type": "receipt",
+    "merchant": {
+      "name": "CAFFE TROMBETTA SPA",
+      "brand_name": "CAFFE TROMBETTA SPA",
+      "address": "Via degli Alberini, 19 00155 ROMA (RM)",
+      "vat_number": "00897321006",
+      "date": "2026-04-15",
+      "receipt_number": "2512-0060",
+      "notes": ""
+    },
+    "items": [
+      {
+        "description": "LATTE ELLEDI S/LATT.",
+        "description_full": "Latte Elledi Senza Lattosio",
+        "category": "dairy",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 2.14,
+        "discount": 0.0,
+        "total_price": 2.14,
+        "_catalog_method": "gemini_only",
+        "_catalog_confidence": 0.52,
+        "_alignment_override": true,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 37,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 37,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "800\n4730164030LE SPI",
+        "description_full": "800\n4730164030LE SPI",
+        "category": "other",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 1.9,
+        "discount": 0.0,
+        "total_price": 1.9,
+        "_catalog_method": "gemini_only",
+        "_catalog_confidence": 0.4,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 23,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 23,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "CUKI ALLUMINIO MT 8",
+        "description_full": "Cuki Alluminio Metri 8",
+        "category": "home_care",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 1.79,
+        "discount": 0.0,
+        "total_price": 1.79,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 25,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 25,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "MATCH",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "BOCCONCINI MERLUZZO",
+        "description_full": "Bocconcini di Merluzzo",
+        "category": "meat_fish",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 3.49,
+        "discount": 0.0,
+        "total_price": 3.49,
+        "_catalog_method": "gemini_only",
+        "_catalog_confidence": 0.4,
+        "_alignment_override": true,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 40,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 40,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "MATCH",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "AMATORI POLPETTINE R",
+        "description_full": "Amatori Polpettine",
+        "category": "meat_fish",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 2.5,
+        "discount": 0.0,
+        "total_price": 2.5,
+        "_catalog_method": "gemini_only",
+        "_catalog_confidence": 0.85,
+        "_alignment_override": true,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 30,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 30,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "HAMEURGER TACCH.400G",
+        "description_full": "Hamburger Tacchino 400g",
+        "category": "meat_fish",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 3.99,
+        "discount": 0.0,
+        "total_price": 3.99,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 30,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 30,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "MATCH",
+          "category": "INCOMPATIBLE"
+        }
+      },
+      {
+        "description": "AGRETTI",
+        "description_full": "Agretti",
+        "category": "produce",
+        "quantity": 0.314,
+        "unit_of_measure": "kg",
+        "unit_price": 2.49,
+        "discount": 0.0,
+        "total_price": 0.78,
+        "_catalog_method": "fuzzy",
+        "_catalog_confidence": 1.0,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 24,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 24,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "CONFLICT",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "BUSTINA BIODEG.ORTOF",
+        "description_full": "Bustina Biodegradabile Ortofrutta",
+        "category": "other",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 0.01,
+        "discount": 0.0,
+        "total_price": 0.01,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 30,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 30,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "CONFLICT",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "INSALATINE TENERE200",
+        "description_full": "Insalatine Tenere 200g",
+        "category": "produce",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 1.49,
+        "discount": 0.0,
+        "total_price": 1.49,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 28,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 28,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "PO ZUCCA TAGLIATA",
+        "description_full": "Porzione Zucca Tagliata",
+        "category": "produce",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 2.06,
+        "discount": 0.0,
+        "total_price": 2.06,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 28,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 28,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      }
+    ],
+    "totals": {
+      "total_amount": 20.15,
+      "tax_amount": 1.65,
+      "item_count": 10
+    }
+  },
+  "promo_status": "NO_PROMO",
+  "metadata": {
+    "version": "1.0.0+6c131bf",
+    "pars_dt": "2026-04-16T19:48:27.636+00:00",
+    "processing_status": "CLEAN",
+    "flags": [],
+    "preprocessing": [
+      {
+        "image_index": 0,
+        "tile_index": 0,
+        "steps": [
+          "GRAYSCALE(sat=6)",
+          "CLAHE(std=43,clip=0.15)",
+          "RESIZE(589→800)"
+        ],
+        "stats": {
+          "mean_brightness": 211.5,
+          "std_brightness": 43.0,
+          "noise_level": 519.0,
+          "skew_angle": 0.0,
+          "avg_saturation": 5.5,
+          "width": 589,
+          "height": 2381,
+          "contrast_ratio": 133.0,
+          "is_bimodal": false,
+          "histogram_clipping": 0.148,
+          "content_coverage": 0.88,
+          "applied_steps": [
+            "GRAYSCALE(sat=6)",
+            "CLAHE(std=43,clip=0.15)",
+            "RESIZE(589→800)"
+          ]
+        }
+      },
+      {
+        "image_index": 1,
+        "tile_index": 1,
+        "steps": [
+          "GRAYSCALE(sat=7)"
+        ],
+        "stats": {
+          "mean_brightness": 143.3,
+          "std_brightness": 59.0,
+          "noise_level": 325.0,
+          "skew_angle": 0.0,
+          "avg_saturation": 7.1,
+          "width": 1549,
+          "height": 2374,
+          "contrast_ratio": 175.0,
+          "is_bimodal": true,
+          "histogram_clipping": 0.002,
+          "content_coverage": 1.0,
+          "applied_steps": [
+            "GRAYSCALE(sat=7)"
+          ]
+        }
+      },
+      {
+        "image_index": 2,
+        "tile_index": 2,
+        "steps": [
+          "PASSTHROUGH(no preprocessing needed)"
+        ],
+        "stats": {
+          "mean_brightness": 129.6,
+          "std_brightness": 63.0,
+          "noise_level": 401.0,
+          "skew_angle": 0.0,
+          "avg_saturation": 63.4,
+          "width": 1648,
+          "height": 1972,
+          "contrast_ratio": 211.0,
+          "is_bimodal": false,
+          "histogram_clipping": 0.034,
+          "content_coverage": 0.96,
+          "applied_steps": [
+            "PASSTHROUGH(no preprocessing needed)"
+          ]
+        }
+      },
+      {
+        "image_index": 3,
+        "tile_index": 3,
+        "steps": [
+          "GRAYSCALE(sat=33)"
+        ],
+        "stats": {
+          "mean_brightness": 154.7,
+          "std_brightness": 61.2,
+          "noise_level": 384.0,
+          "skew_angle": 0.0,
+          "avg_saturation": 32.7,
+          "width": 1345,
+          "height": 1329,
+          "contrast_ratio": 164.0,
+          "is_bimodal": true,
+          "histogram_clipping": 0.008,
+          "content_coverage": 1.0,
+          "applied_steps": [
+            "GRAYSCALE(sat=33)"
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_token_count": 3961,
+      "candidates_token_count": 994,
+      "total_token_count": 7686,
+      "thinking_token_count": 2731
+    },
+    "cost_info": {
+      "total_cost": 0.0036733,
+      "model_name": "Gemini 2.5 Flash",
+      "input_cost": 0.0011883,
+      "output_cost": 0.0024850000000000002
+    },
+    "retry_count": 0
+  }
+}

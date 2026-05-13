@@ -1,0 +1,121 @@
+{
+  "receipt_guid": "69e3e233551a2cb157c0851f",
+  "shop_brand": null,
+  "analysis": {
+    "document_type": "receipt",
+    "merchant": {
+      "name": "DE MARCO S.R.L.",
+      "brand_name": "de marco",
+      "address": "Via dei Rotondesi in Argentina Rotonda - 85048 (PZ)",
+      "vat_number": "01675990764",
+      "date": "2026-04-18",
+      "receipt_number": "2498-0110",
+      "notes": ""
+    },
+    "items": [
+      {
+        "description": "ASS ULTRA LYCIA C/ALI.",
+        "description_full": "ASS ULTRA LYCIA C ALI",
+        "category": "personal_care",
+        "quantity": 1,
+        "unit_of_measure": "pz",
+        "unit_price": 1.35,
+        "discount": 0,
+        "total_price": 1.35,
+        "_catalog_method": "abbreviation",
+        "_catalog_confidence": 0.7,
+        "_gemini_original": "Assorbenti Ultra Lycia con Ali",
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 26,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 26,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "NUVENIA SOTTILE ALI NO.",
+        "description_full": "Nuvenia Sottile Ali Notte",
+        "category": "personal_care",
+        "quantity": 1,
+        "unit_of_measure": "pz",
+        "unit_price": 1.77,
+        "discount": 0,
+        "total_price": 1.77,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 29,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 29,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      }
+    ],
+    "totals": {
+      "total_amount": 3.1,
+      "tax_amount": 0.28,
+      "item_count": 2
+    }
+  },
+  "promo_status": "NO_PROMO",
+  "metadata": {
+    "version": "2.0.0+6c131bf",
+    "pars_dt": "2026-04-18T19:58:21.318+00:00",
+    "processing_status": "CLEAN",
+    "flags": [],
+    "preprocessing": [
+      {
+        "image_index": 0,
+        "tile_index": 0,
+        "steps": [
+          "GRAYSCALE(sat=20)"
+        ],
+        "stats": {
+          "mean_brightness": 141.5,
+          "std_brightness": 39.8,
+          "noise_level": 117.0,
+          "skew_angle": 0.0,
+          "avg_saturation": 19.9,
+          "width": 1920,
+          "height": 2956,
+          "contrast_ratio": 131.0,
+          "is_bimodal": false,
+          "histogram_clipping": 0.005,
+          "content_coverage": 0.68,
+          "applied_steps": [
+            "GRAYSCALE(sat=20)"
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_token_count": 6283,
+      "candidates_token_count": 393,
+      "total_token_count": 7984,
+      "thinking_token_count": 1308
+    },
+    "cost_info": {
+      "total_cost": 0.0028674,
+      "model_name": "Gemini 2.5 Flash",
+      "input_cost": 0.0018849,
+      "output_cost": 0.0009825
+    },
+    "retry_count": 0
+  }
+}

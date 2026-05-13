@@ -1,0 +1,95 @@
+{
+  "receipt_guid": "69ede8e53da34a89f70557e0",
+  "shop_brand": null,
+  "analysis": {
+    "document_type": "receipt",
+    "merchant": {
+      "name": "LUCKY STAR SRL",
+      "brand_name": "LUCKY STAR",
+      "address": "SS 16 KM 8 72015 FASANO BR",
+      "vat_number": "03426250738",
+      "date": "2026-04-25",
+      "receipt_number": "0549-0021",
+      "notes": ""
+    },
+    "items": [
+      {
+        "description": "INFORMATICA",
+        "description_full": "Informatica",
+        "category": "other",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 7.9,
+        "discount": 0.0,
+        "total_price": 7.9,
+        "_catalog_method": "gemini_only",
+        "_catalog_confidence": 0.4,
+        "_alignment_override": true,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 25,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 25,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      }
+    ],
+    "totals": {
+      "total_amount": 7.9,
+      "tax_amount": 1.42,
+      "item_count": 1
+    }
+  },
+  "promo_status": "NO_PROMO",
+  "metadata": {
+    "version": "2.0.0+6c131bf",
+    "pars_dt": "2026-04-26T10:29:43.113+00:00",
+    "processing_status": "CLEAN",
+    "flags": [],
+    "preprocessing": [
+      {
+        "image_index": 0,
+        "tile_index": 0,
+        "steps": [
+          "PASSTHROUGH(no preprocessing needed)"
+        ],
+        "stats": {
+          "mean_brightness": 180.0,
+          "std_brightness": 67.0,
+          "noise_level": 246.0,
+          "skew_angle": 0.0,
+          "avg_saturation": 58.8,
+          "width": 1443,
+          "height": 2251,
+          "contrast_ratio": 204.0,
+          "is_bimodal": false,
+          "histogram_clipping": 0.001,
+          "content_coverage": 0.8,
+          "applied_steps": [
+            "PASSTHROUGH(no preprocessing needed)"
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_token_count": 4735,
+      "candidates_token_count": 210,
+      "total_token_count": 5871,
+      "thinking_token_count": 926
+    },
+    "cost_info": {
+      "total_cost": 0.0019455,
+      "model_name": "Gemini 2.5 Flash",
+      "input_cost": 0.0014204999999999999,
+      "output_cost": 0.0005250000000000001
+    },
+    "retry_count": 0
+  }
+}

@@ -1,0 +1,258 @@
+{
+  "receipt_guid": "69e6599a551a2cb157c09e16",
+  "shop_brand": null,
+  "analysis": {
+    "document_type": "receipt",
+    "merchant": {
+      "name": "ALBA GROUP SRL",
+      "brand_name": "ALBA GROUP SRL",
+      "address": "VIA GIACOMO MATTEOTTI 19-A 89046 MARINA DI GIOIOSA JONICA RC",
+      "vat_number": "02702360800",
+      "date": "2026-04-20",
+      "receipt_number": "1070-0151",
+      "notes": ""
+    },
+    "items": [
+      {
+        "description": "VASO MEDITERRANEO CM.20 BIANCO",
+        "description_full": "Vaso Mediterraneo CM.20 Bianco",
+        "category": "home_care",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 1.1,
+        "discount": 0.0,
+        "total_price": 1.1,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": "8003650015518",
+        "is_promo_item": false,
+        "match_confidence": 74,
+        "promo_match": {
+          "publisher_guid": "6939bd34e84bd0409997e7c9",
+          "product_guid": "6939c6789cf06812292571d6",
+          "product_name": "Detersivo Lavatrice Liquido Muschio Bianco, 23 Lavaggi",
+          "brand_name": "Omino Bianco",
+          "match_confidence": 74,
+          "size_conflict": null,
+          "price_conflict": null
+        },
+        "match_signals": {
+          "brand": "MATCH",
+          "text": "MED",
+          "text_score": 76,
+          "variant": "PARTIAL",
+          "variant_jw": 0.562,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK",
+          "decision": "AMBIGUOUS"
+        }
+      },
+      {
+        "description": "FIORANO CONCIME LIQUIDO UNIVERSA",
+        "description_full": "Fiorano Concime Liquido Universale",
+        "category": "home_care",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 2.95,
+        "discount": 0.0,
+        "total_price": 2.95,
+        "_catalog_method": "gemini_only",
+        "_catalog_confidence": 0.49,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 37,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 37,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "FC CONTENITORE MULTIUSO RETT. 0.",
+        "description_full": "FC CONTENITORE MULTIUSO RETT 0",
+        "category": "home_care",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 1.0,
+        "discount": 0.0,
+        "total_price": 1.0,
+        "_catalog_method": "abbreviation",
+        "_catalog_confidence": 0.7,
+        "_gemini_original": "FC Contenitore Multiuso Rettangolare",
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 29,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 29,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "PAMPERS SOLE&LUNA SALVIETTINE PZ",
+        "description_full": "Pampers Sole & Luna Salviettine Pezzi",
+        "category": "personal_care",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 0.99,
+        "discount": 0.0,
+        "total_price": 0.99,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 29,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 29,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "MY GELO SACCO-GELO FORMATO NORMA",
+        "description_full": "My Gelo Sacco-Gelo Formato Norma",
+        "category": "home_care",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 0.95,
+        "discount": 0.26,
+        "total_price": 0.69,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 26,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 26,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "AD COPERCHIO VETRO CM.22",
+        "description_full": "AD COPERCHIO VETRO CM 22",
+        "category": "home_care",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 3.45,
+        "discount": 0.0,
+        "total_price": 3.45,
+        "_catalog_method": "abbreviation",
+        "_catalog_confidence": 0.7,
+        "_gemini_original": "Ad Coperchio Vetro CM.22",
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 26,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 26,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "MATCH",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      }
+    ],
+    "totals": {
+      "total_amount": 10.18,
+      "tax_amount": 0.0,
+      "item_count": 6
+    }
+  },
+  "promo_status": "PROMO_AMBIGUOUS",
+  "metadata": {
+    "version": "2.0.0+6c131bf",
+    "pars_dt": "2026-04-20T16:52:43.734+00:00",
+    "processing_status": "CLEAN",
+    "flags": [],
+    "preprocessing": [
+      {
+        "image_index": 0,
+        "tile_index": 0,
+        "steps": [
+          "PASSTHROUGH(no preprocessing needed)"
+        ],
+        "stats": {
+          "mean_brightness": 136.2,
+          "std_brightness": 56.6,
+          "noise_level": 248.0,
+          "skew_angle": 0.0,
+          "avg_saturation": 61.7,
+          "width": 1920,
+          "height": 2554,
+          "contrast_ratio": 161.0,
+          "is_bimodal": false,
+          "histogram_clipping": 0.001,
+          "content_coverage": 0.92,
+          "applied_steps": [
+            "PASSTHROUGH(no preprocessing needed)"
+          ]
+        }
+      },
+      {
+        "image_index": 1,
+        "tile_index": 1,
+        "steps": [
+          "RESIZE(512→800)"
+        ],
+        "stats": {
+          "mean_brightness": 106.2,
+          "std_brightness": 49.7,
+          "noise_level": 331.0,
+          "skew_angle": 0.0,
+          "avg_saturation": 77.4,
+          "width": 512,
+          "height": 2560,
+          "contrast_ratio": 156.0,
+          "is_bimodal": true,
+          "histogram_clipping": 0.0,
+          "content_coverage": 0.96,
+          "applied_steps": [
+            "RESIZE(512→800)"
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_token_count": 3445,
+      "candidates_token_count": 869,
+      "total_token_count": 6445,
+      "thinking_token_count": 2131
+    },
+    "cost_info": {
+      "total_cost": 0.0032060000000000005,
+      "model_name": "Gemini 2.5 Flash",
+      "input_cost": 0.0010335,
+      "output_cost": 0.0021725000000000004
+    },
+    "retry_count": 0
+  }
+}

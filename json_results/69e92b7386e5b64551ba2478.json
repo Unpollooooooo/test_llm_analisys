@@ -1,0 +1,182 @@
+{
+  "receipt_guid": "69e92b7386e5b64551ba2478",
+  "shop_brand": null,
+  "analysis": {
+    "document_type": "receipt",
+    "merchant": {
+      "name": "AMATI PROFUMERIA",
+      "brand_name": "AMATI beauty collection",
+      "address": "VIA EMILIA N.28 74121 TARANTO (TA) SEDE EG. VIA CUGINI 49A TA",
+      "vat_number": "03121690733",
+      "date": "2026-04-20",
+      "receipt_number": "1984-0190",
+      "notes": ""
+    },
+    "items": [
+      {
+        "description": "ACCENTRA SPAZZO",
+        "description_full": "Accentra Spazzola",
+        "category": "personal_care",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 2.9,
+        "discount": 0.0,
+        "total_price": 2.9,
+        "_catalog_method": "gemini_only",
+        "_catalog_confidence": 0.57,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 33,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 33,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "DIXAN COLOR 15",
+        "description_full": "Dixan Color 15",
+        "category": "home_care",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 3.0,
+        "discount": 0.0,
+        "total_price": 3.0,
+        "_catalog_method": "gemini_only",
+        "_catalog_confidence": 0.4,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 31,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 31,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "DOVE DEO ORIGIN",
+        "description_full": "Dove Deodorante Original",
+        "category": "personal_care",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 2.4,
+        "discount": 0.0,
+        "total_price": 2.4,
+        "_catalog_method": "gemini_only",
+        "_catalog_confidence": 0.85,
+        "_alignment_override": true,
+        "barcode": "59095842",
+        "is_promo_item": true,
+        "match_confidence": 86,
+        "promo_match": {
+          "publisher_guid": "6908893d7cb8558c28a80692",
+          "product_guid": "694942b49cf0681229257fba",
+          "product_name": "Dove Original Roll-On Advanced Care 50 ml",
+          "brand_name": "Dove",
+          "match_confidence": 86,
+          "size_conflict": null,
+          "price_conflict": null
+        },
+        "match_signals": {
+          "brand": "MATCH",
+          "text": "HIGH",
+          "text_score": 86,
+          "variant": "MATCH",
+          "variant_jw": 0.788,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK",
+          "decision": "PROMO_FOUND"
+        }
+      },
+      {
+        "description": "DIXAN EXPERT IG",
+        "description_full": "Dixan Expert Igiene",
+        "category": "home_care",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 1.9,
+        "discount": 0.0,
+        "total_price": 1.9,
+        "_catalog_method": "gemini_only",
+        "_catalog_confidence": 0.52,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 27,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 27,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      }
+    ],
+    "totals": {
+      "total_amount": 10.2,
+      "tax_amount": 1.84,
+      "item_count": null
+    }
+  },
+  "promo_status": "PROMO_FOUND",
+  "metadata": {
+    "version": "2.0.0+6c131bf",
+    "pars_dt": "2026-04-22T20:12:24.120+00:00",
+    "processing_status": "CLEAN",
+    "flags": [],
+    "preprocessing": [
+      {
+        "image_index": 0,
+        "tile_index": 0,
+        "steps": [
+          "PASSTHROUGH(no preprocessing needed)"
+        ],
+        "stats": {
+          "mean_brightness": 107.4,
+          "std_brightness": 57.7,
+          "noise_level": 161.0,
+          "skew_angle": 0.0,
+          "avg_saturation": 88.5,
+          "width": 1920,
+          "height": 2560,
+          "contrast_ratio": 180.0,
+          "is_bimodal": true,
+          "histogram_clipping": 0.054,
+          "content_coverage": 0.64,
+          "applied_steps": [
+            "PASSTHROUGH(no preprocessing needed)"
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_token_count": 6283,
+      "candidates_token_count": 603,
+      "total_token_count": 8752,
+      "thinking_token_count": 1866
+    },
+    "cost_info": {
+      "total_cost": 0.0033924000000000003,
+      "model_name": "Gemini 2.5 Flash",
+      "input_cost": 0.0018849,
+      "output_cost": 0.0015075000000000002
+    },
+    "retry_count": 0
+  }
+}

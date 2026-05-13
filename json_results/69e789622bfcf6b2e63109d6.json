@@ -1,0 +1,146 @@
+{
+  "receipt_guid": "69e789622bfcf6b2e63109d6",
+  "shop_brand": null,
+  "analysis": {
+    "document_type": "receipt",
+    "merchant": {
+      "name": "Eurospin Tirrenica S.P.A.",
+      "brand_name": "Eurospin",
+      "address": "P.V. Via Cortina San Nicolò, 60 S.S. per Sassoferrato 60044 - FABRIANO (AN)",
+      "vat_number": "02049850544",
+      "date": "2026-04-21",
+      "receipt_number": "02717-00413",
+      "notes": ""
+    },
+    "items": [
+      {
+        "description": "CORNET, BURRO 200g",
+        "description_full": "Cornetto Burro 200g",
+        "category": "bakery",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 1.9,
+        "discount": 0.0,
+        "total_price": 1.9,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 30,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 30,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "CONFLICT",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "ACQUA NATURALE 21",
+        "description_full": "Acqua Naturale",
+        "category": "beverages",
+        "quantity": 6.0,
+        "unit_of_measure": "pz",
+        "unit_price": 0.21,
+        "discount": 0.0,
+        "total_price": 1.26,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 30,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 30,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "INCOMPATIBLE"
+        }
+      },
+      {
+        "description": "ACQUA NATURALE 21",
+        "description_full": "Acqua Naturale",
+        "category": "beverages",
+        "quantity": 6.0,
+        "unit_of_measure": "pz",
+        "unit_price": 0.21,
+        "discount": 0.0,
+        "total_price": 1.26,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 30,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 30,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "INCOMPATIBLE"
+        }
+      }
+    ],
+    "totals": {
+      "total_amount": 4.42,
+      "tax_amount": 0.62,
+      "item_count": null
+    }
+  },
+  "promo_status": "NO_PROMO",
+  "metadata": {
+    "version": "2.0.0+6c131bf",
+    "pars_dt": "2026-04-21T14:28:10.937+00:00",
+    "processing_status": "CLEAN",
+    "flags": [],
+    "preprocessing": [
+      {
+        "image_index": 0,
+        "tile_index": 0,
+        "steps": [
+          "GRAYSCALE(sat=22)"
+        ],
+        "stats": {
+          "mean_brightness": 161.6,
+          "std_brightness": 45.4,
+          "noise_level": 222.0,
+          "skew_angle": 0.0,
+          "avg_saturation": 21.6,
+          "width": 1608,
+          "height": 2560,
+          "contrast_ratio": 137.0,
+          "is_bimodal": true,
+          "histogram_clipping": 0.001,
+          "content_coverage": 0.84,
+          "applied_steps": [
+            "GRAYSCALE(sat=22)"
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_token_count": 6283,
+      "candidates_token_count": 409,
+      "total_token_count": 7569,
+      "thinking_token_count": 877
+    },
+    "cost_info": {
+      "total_cost": 0.0029074,
+      "model_name": "Gemini 2.5 Flash",
+      "input_cost": 0.0018849,
+      "output_cost": 0.0010225000000000002
+    },
+    "retry_count": 0
+  }
+}

@@ -1,0 +1,94 @@
+{
+  "receipt_guid": "69eb3091551a2cb157c0cd86",
+  "shop_brand": null,
+  "analysis": {
+    "document_type": "receipt",
+    "merchant": {
+      "name": "di Vaudagna Emanuele",
+      "brand_name": "VEM Z4",
+      "address": "Via Audello, 18 Caselle Torinese (TO)",
+      "vat_number": "13136830018",
+      "date": "2026-04-18",
+      "receipt_number": "DCW2026/7045-0077",
+      "notes": ""
+    },
+    "items": [
+      {
+        "description": "Maglia",
+        "description_full": "Maglia",
+        "category": "other",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 25.0,
+        "discount": 0.0,
+        "total_price": 25.0,
+        "_catalog_method": "fuzzy",
+        "_catalog_confidence": 1.0,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 22,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 22,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      }
+    ],
+    "totals": {
+      "total_amount": 25.0,
+      "tax_amount": 0.0,
+      "item_count": null
+    }
+  },
+  "promo_status": "NO_PROMO",
+  "metadata": {
+    "version": "2.0.0+6c131bf",
+    "pars_dt": "2026-04-24T08:58:17.586+00:00",
+    "processing_status": "CLEAN",
+    "flags": [],
+    "preprocessing": [
+      {
+        "image_index": 0,
+        "tile_index": 0,
+        "steps": [
+          "PASSTHROUGH(no preprocessing needed)"
+        ],
+        "stats": {
+          "mean_brightness": 154.2,
+          "std_brightness": 40.4,
+          "noise_level": 800.0,
+          "skew_angle": 0.0,
+          "avg_saturation": 57.6,
+          "width": 1896,
+          "height": 1440,
+          "contrast_ratio": 134.0,
+          "is_bimodal": false,
+          "histogram_clipping": 0.0,
+          "content_coverage": 1.0,
+          "applied_steps": [
+            "PASSTHROUGH(no preprocessing needed)"
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_token_count": 4735,
+      "candidates_token_count": 216,
+      "total_token_count": 5478,
+      "thinking_token_count": 527
+    },
+    "cost_info": {
+      "total_cost": 0.0019605,
+      "model_name": "Gemini 2.5 Flash",
+      "input_cost": 0.0014204999999999999,
+      "output_cost": 0.00054
+    },
+    "retry_count": 0
+  }
+}

@@ -1,0 +1,235 @@
+{
+  "receipt_guid": "69f0e824e593340322ec99d1",
+  "shop_brand": null,
+  "analysis": {
+    "document_type": "receipt",
+    "merchant": {
+      "name": "F.lli Miccio srl",
+      "brand_name": "Coop",
+      "address": "Via Ammendola, 2 80047 San Giuseppe Vesuviano (NA)",
+      "vat_number": "04812211219",
+      "date": "2026-04-27",
+      "receipt_number": "1775-0049",
+      "notes": ""
+    },
+    "items": [
+      {
+        "description": "COOP FROLL GR SAR C/GO.",
+        "description_full": "Coop Frollini Grano Saraceno con Gocce",
+        "category": "bakery",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 2.98,
+        "discount": 0.0,
+        "total_price": 2.98,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 32,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 32,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "MATCH",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "PASQUIER PANINI AL LAT",
+        "description_full": "Pasquier Panini al Latte",
+        "category": "bakery",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 1.0,
+        "discount": 0.0,
+        "total_price": 1.0,
+        "_catalog_method": "gemini_only",
+        "_catalog_confidence": 0.49,
+        "_alignment_override": true,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 28,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 28,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "COOP PLUM CAKE INTEGRA.",
+        "description_full": "Coop Plum Cake Integrale",
+        "category": "bakery",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 1.38,
+        "discount": 0.0,
+        "total_price": 1.38,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 31,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 31,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "MATCH",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "RED BULL ENERGY DRINK.",
+        "description_full": "Red Bull Energy Drink 250 ml x 2",
+        "category": "beverages",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 2.09,
+        "discount": 0.0,
+        "total_price": 2.09,
+        "_catalog_method": "promo_catalog",
+        "_catalog_confidence": 0.7,
+        "_gemini_original": "Red Bull Energy Drink",
+        "barcode": "9002490208318",
+        "is_promo_item": true,
+        "match_confidence": 85,
+        "promo_match": {
+          "publisher_guid": "6720a7b2c522bbb00d0651a1",
+          "product_guid": "672356e156329e8499ff215d",
+          "product_name": "Red Bull Energy Drink 250 ml x 2",
+          "brand_name": "Red Bull",
+          "match_confidence": 85,
+          "size_conflict": null,
+          "price_conflict": false
+        },
+        "match_signals": {
+          "brand": "MATCH",
+          "text": "HIGH",
+          "text_score": 85,
+          "variant": "MATCH",
+          "variant_jw": 1.0,
+          "price": "MATCH",
+          "size": "UNKNOWN",
+          "category": "OK",
+          "decision": "PROMO_FOUND"
+        }
+      },
+      {
+        "description": "COOP SHOPPER",
+        "description_full": "Coop Shopper",
+        "category": "other",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 0.12,
+        "discount": 0.0,
+        "total_price": 0.12,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 26,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 26,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "CONFLICT",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      }
+    ],
+    "totals": {
+      "total_amount": 8.35,
+      "tax_amount": 0.96,
+      "item_count": 5
+    },
+    "quality_flags": []
+  },
+  "promo_status": "PROMO_FOUND",
+  "metadata": {
+    "version": "2.1.0+bbfe08e",
+    "pars_dt": "2026-04-28T17:03:34.484+00:00",
+    "processing_status": "CLEAN",
+    "flags": [],
+    "preprocessing": [
+      {
+        "image_index": 0,
+        "tile_index": 0,
+        "steps": [
+          "GRAYSCALE(sat=28)"
+        ],
+        "stats": {
+          "mean_brightness": 176.7,
+          "std_brightness": 37.5,
+          "noise_level": 852.0,
+          "skew_angle": 0.0,
+          "avg_saturation": 27.6,
+          "width": 1502,
+          "height": 669,
+          "contrast_ratio": 120.0,
+          "is_bimodal": false,
+          "histogram_clipping": 0.0,
+          "content_coverage": 0.96,
+          "applied_steps": [
+            "GRAYSCALE(sat=28)"
+          ]
+        }
+      },
+      {
+        "image_index": 1,
+        "tile_index": 1,
+        "steps": [
+          "GRAYSCALE(sat=20)"
+        ],
+        "stats": {
+          "mean_brightness": 173.6,
+          "std_brightness": 39.4,
+          "noise_level": 313.0,
+          "skew_angle": 0.0,
+          "avg_saturation": 19.9,
+          "width": 1049,
+          "height": 2355,
+          "contrast_ratio": 132.0,
+          "is_bimodal": false,
+          "histogram_clipping": 0.001,
+          "content_coverage": 0.88,
+          "applied_steps": [
+            "GRAYSCALE(sat=20)"
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_token_count": 3692,
+      "candidates_token_count": 702,
+      "total_token_count": 7689,
+      "thinking_token_count": 3295
+    },
+    "cost_info": {
+      "total_cost": 0.0028626,
+      "model_name": "Gemini 2.5 Flash",
+      "input_cost": 0.0011076,
+      "output_cost": 0.001755
+    },
+    "retry_count": 0,
+    "validation_errors": [],
+    "is_valid": true
+  }
+}

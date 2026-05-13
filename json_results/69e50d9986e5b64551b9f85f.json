@@ -1,0 +1,69 @@
+{
+  "receipt_guid": "69e50d9986e5b64551b9f85f",
+  "shop_brand": null,
+  "analysis": {
+    "document_type": "receipt",
+    "merchant": {
+      "name": "IN's mercato",
+      "brand_name": "IN's",
+      "address": "STRADA ARGINI PARMA 18A 43100 - PARMA",
+      "vat_number": "02896940273",
+      "date": "2026-04-17",
+      "receipt_number": "4513 0404/002/003",
+      "notes": ""
+    },
+    "items": [],
+    "totals": {
+      "total_amount": 0.0,
+      "tax_amount": 0.0,
+      "item_count": null
+    }
+  },
+  "promo_status": "NO_PROMO",
+  "metadata": {
+    "version": "2.0.0+6c131bf",
+    "pars_dt": "2026-04-19T17:15:29.247+00:00",
+    "processing_status": "CLEAN",
+    "flags": [],
+    "preprocessing": [
+      {
+        "image_index": 0,
+        "tile_index": 0,
+        "steps": [
+          "GRAYSCALE(sat=26)",
+          "CLAHE(std=30,clip=0.01)"
+        ],
+        "stats": {
+          "mean_brightness": 156.1,
+          "std_brightness": 29.6,
+          "noise_level": 93.0,
+          "skew_angle": 0.0,
+          "avg_saturation": 26.4,
+          "width": 1920,
+          "height": 3723,
+          "contrast_ratio": 84.0,
+          "is_bimodal": false,
+          "histogram_clipping": 0.008,
+          "content_coverage": 0.12,
+          "applied_steps": [
+            "GRAYSCALE(sat=26)",
+            "CLAHE(std=30,clip=0.01)"
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_token_count": 5251,
+      "candidates_token_count": 188,
+      "total_token_count": 6250,
+      "thinking_token_count": 811
+    },
+    "cost_info": {
+      "total_cost": 0.0020453,
+      "model_name": "Gemini 2.5 Flash",
+      "input_cost": 0.0015753,
+      "output_cost": 0.00047000000000000004
+    },
+    "retry_count": 0
+  }
+}

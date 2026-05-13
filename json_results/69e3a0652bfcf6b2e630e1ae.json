@@ -1,0 +1,124 @@
+{
+  "receipt_guid": "69e3a0652bfcf6b2e630e1ae",
+  "shop_brand": null,
+  "analysis": {
+    "document_type": "receipt",
+    "merchant": {
+      "name": "null",
+      "brand_name": "null",
+      "address": "null",
+      "vat_number": "null",
+      "date": "null",
+      "receipt_number": "null",
+      "notes": "null"
+    },
+    "items": [
+      {
+        "description": "ACQUA NAT.ROCCHETTA",
+        "description_full": "Acqua Naturale Rocchetta",
+        "category": "beverages",
+        "quantity": 6.0,
+        "unit_of_measure": "l",
+        "unit_price": 0.55,
+        "discount": 0.0,
+        "total_price": 3.3,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 33,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 33,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "INCOMPATIBLE"
+        }
+      },
+      {
+        "description": "ACQUA NAT.FIUGGI VT",
+        "description_full": "Acqua Naturale Fiuggi Vetro",
+        "category": "beverages",
+        "quantity": 12.0,
+        "unit_of_measure": "l",
+        "unit_price": 1.1,
+        "discount": 0.0,
+        "total_price": 13.2,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 30,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 30,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "INCOMPATIBLE"
+        }
+      }
+    ],
+    "totals": {
+      "total_amount": 0.0,
+      "tax_amount": 0.0,
+      "item_count": 33
+    }
+  },
+  "promo_status": "NO_PROMO",
+  "metadata": {
+    "version": "2.0.0+6c131bf",
+    "pars_dt": "2026-04-18T15:18:14.377+00:00",
+    "processing_status": "CLEAN",
+    "flags": [],
+    "preprocessing": [
+      {
+        "image_index": 0,
+        "tile_index": 0,
+        "steps": [
+          "GRAYSCALE(sat=39)",
+          "CLAHE(std=31,clip=0.00)",
+          "RESIZE(532→800)"
+        ],
+        "stats": {
+          "mean_brightness": 142.9,
+          "std_brightness": 31.5,
+          "noise_level": 984.0,
+          "skew_angle": 0.0,
+          "avg_saturation": 38.7,
+          "width": 532,
+          "height": 1831,
+          "contrast_ratio": 110.0,
+          "is_bimodal": false,
+          "histogram_clipping": 0.001,
+          "content_coverage": 0.68,
+          "applied_steps": [
+            "GRAYSCALE(sat=39)",
+            "CLAHE(std=31,clip=0.00)",
+            "RESIZE(532→800)"
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_token_count": 6283,
+      "candidates_token_count": 258,
+      "total_token_count": 11521,
+      "thinking_token_count": 4980
+    },
+    "cost_info": {
+      "total_cost": 0.0025299,
+      "model_name": "Gemini 2.5 Flash",
+      "input_cost": 0.0018849,
+      "output_cost": 0.0006450000000000001
+    },
+    "retry_count": 0
+  }
+}

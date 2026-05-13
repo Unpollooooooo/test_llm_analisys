@@ -1,0 +1,94 @@
+{
+  "receipt_guid": "69e089a213d3bd23539429d5",
+  "shop_brand": null,
+  "analysis": {
+    "document_type": "receipt",
+    "merchant": {
+      "name": "TIGOTA",
+      "brand_name": "TIGOTA",
+      "address": "VIA MART. LIBERTA' ANG. XX SETT. 48024 MASSA LOMBARDA (RA)",
+      "vat_number": "02466210289",
+      "date": "2026-04-04",
+      "receipt_number": "2396-0035",
+      "notes": ""
+    },
+    "items": [
+      {
+        "description": "RIMMEL FT LAST.FIN.35H",
+        "description_full": "RIMMEL FT LAST FIN 35H",
+        "category": "personal_care",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 10.9,
+        "discount": 0.0,
+        "total_price": 10.9,
+        "_catalog_method": "abbreviation",
+        "_catalog_confidence": 0.7,
+        "_gemini_original": "Rimmel Foundation Lasting Finish 35H",
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 28,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 28,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "INCOMPATIBLE"
+        }
+      }
+    ],
+    "totals": {
+      "total_amount": 10.9,
+      "tax_amount": 1.97,
+      "item_count": 1
+    }
+  },
+  "promo_status": "NO_PROMO",
+  "metadata": {
+    "version": "1.0.0+e1ba314",
+    "processing_status": "CLEAN",
+    "flags": [],
+    "preprocessing": [
+      {
+        "image_index": 0,
+        "tile_index": 0,
+        "steps": [
+          "PASSTHROUGH(no preprocessing needed)"
+        ],
+        "stats": {
+          "mean_brightness": 172.8,
+          "std_brightness": 43.6,
+          "noise_level": 551.0,
+          "skew_angle": 0.0,
+          "avg_saturation": 42.8,
+          "width": 698,
+          "height": 2484,
+          "contrast_ratio": 136.0,
+          "is_bimodal": false,
+          "histogram_clipping": 0.0,
+          "content_coverage": 0.96,
+          "applied_steps": [
+            "PASSTHROUGH(no preprocessing needed)"
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_token_count": 6283,
+      "candidates_token_count": 240,
+      "total_token_count": 7062,
+      "thinking_token_count": 539
+    },
+    "cost_info": {
+      "total_cost": 0.0024849,
+      "model_name": "Gemini 2.5 Flash",
+      "input_cost": 0.0018849,
+      "output_cost": 0.0006000000000000001
+    },
+    "retry_count": 0
+  }
+}

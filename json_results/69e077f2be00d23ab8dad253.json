@@ -1,0 +1,94 @@
+{
+  "receipt_guid": "69e077f2be00d23ab8dad253",
+  "shop_brand": null,
+  "analysis": {
+    "document_type": "receipt",
+    "merchant": {
+      "name": "IN'S mercato",
+      "brand_name": "IN'S",
+      "address": "VIA VITTORIO VENETO, 143 DORNO (PV)",
+      "vat_number": "02896940273",
+      "date": "2015-04-26",
+      "receipt_number": "1445-0390",
+      "notes": ""
+    },
+    "items": [
+      {
+        "description": "FROL.SENZA LATTE/UOV",
+        "description_full": "Frollini Senza Latte/Uova",
+        "category": "bakery",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 1.19,
+        "discount": 0.0,
+        "total_price": 1.19,
+        "_catalog_method": "gemini_only",
+        "_catalog_confidence": 0.57,
+        "_alignment_override": true,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 29,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 29,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "CONFLICT",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      }
+    ],
+    "totals": {
+      "total_amount": 1.19,
+      "tax_amount": 0.11,
+      "item_count": 1
+    }
+  },
+  "promo_status": "NO_PROMO",
+  "metadata": {
+    "version": "1.0.0+e1ba314",
+    "processing_status": "CLEAN",
+    "flags": [],
+    "preprocessing": [
+      {
+        "image_index": 0,
+        "tile_index": 0,
+        "steps": [
+          "GRAYSCALE(sat=32)"
+        ],
+        "stats": {
+          "mean_brightness": 165.5,
+          "std_brightness": 57.7,
+          "noise_level": 225.0,
+          "skew_angle": 0.0,
+          "avg_saturation": 31.7,
+          "width": 1920,
+          "height": 817,
+          "contrast_ratio": 175.0,
+          "is_bimodal": true,
+          "histogram_clipping": 0.001,
+          "content_coverage": 0.84,
+          "applied_steps": [
+            "GRAYSCALE(sat=32)"
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_token_count": 5251,
+      "candidates_token_count": 227,
+      "total_token_count": 6759,
+      "thinking_token_count": 1281
+    },
+    "cost_info": {
+      "total_cost": 0.0021428000000000003,
+      "model_name": "Gemini 2.5 Flash",
+      "input_cost": 0.0015753,
+      "output_cost": 0.0005675000000000001
+    },
+    "retry_count": 0
+  }
+}

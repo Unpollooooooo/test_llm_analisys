@@ -1,0 +1,210 @@
+{
+  "receipt_guid": "69e1666a77a85bf0348d4c92",
+  "shop_brand": null,
+  "analysis": {
+    "document_type": "receipt",
+    "merchant": {
+      "name": "MEGAGEST S.R.L.",
+      "brand_name": "SUPERMERCATI DOK",
+      "address": "VIA MARCONI ANG. VIA DE GASPERI, N.C. 74023 GROTTAGLIE (TA)",
+      "vat_number": "04185320720",
+      "date": "2026-04-14",
+      "receipt_number": "2683-0096",
+      "notes": ""
+    },
+    "items": [
+      {
+        "description": "FORMAGGIO DURO ITALIANO",
+        "description_full": "Formaggio Duro Italiano",
+        "category": "dairy",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 2.79,
+        "discount": 0.0,
+        "total_price": 2.79,
+        "_catalog_method": "gemini_only",
+        "_catalog_confidence": 0.85,
+        "_alignment_override": true,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 31,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 31,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "SLX THE CLASSICO FL.25",
+        "description_full": "SLX The Classico Flacone 25",
+        "category": "home_care",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 1.0,
+        "discount": 0.0,
+        "total_price": 1.0,
+        "_catalog_method": "gemini_only",
+        "_catalog_confidence": 0.47,
+        "_alignment_override": true,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 30,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 30,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "SLX COLLUT.ACTION PLUS ML500",
+        "description_full": "SLX Collutorio Action Plus 500ml",
+        "category": "personal_care",
+        "quantity": 1.0,
+        "unit_of_measure": "ml",
+        "unit_price": 1.39,
+        "discount": 0.0,
+        "total_price": 1.39,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 29,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 29,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "MENTADENT PROTEZ.BIANCO ML.75",
+        "description_full": "Mentadent Protezione Bianco 75ml",
+        "category": "personal_care",
+        "quantity": 1.0,
+        "unit_of_measure": "ml",
+        "unit_price": 1.0,
+        "discount": 0.0,
+        "total_price": 1.0,
+        "_catalog_method": "gemini_only",
+        "_catalog_confidence": 0.54,
+        "_alignment_override": true,
+        "barcode": "8717163733653",
+        "is_promo_item": true,
+        "match_confidence": 96,
+        "promo_match": {
+          "publisher_guid": "6908893d7cb8558c28a80692",
+          "product_guid": "694942b19cf0681229257f60",
+          "product_name": "Mentadent Protezione Famiglia Bianco Quotidiano 75 ml",
+          "brand_name": "Mentadent",
+          "match_confidence": 96,
+          "size_conflict": false,
+          "price_conflict": false
+        },
+        "match_signals": {
+          "brand": "MATCH",
+          "text": "HIGH",
+          "text_score": 96,
+          "variant": "MATCH",
+          "variant_jw": 1.0,
+          "price": "UNKNOWN",
+          "size": "MATCH",
+          "category": "OK",
+          "decision": "PROMO_FOUND"
+        }
+      },
+      {
+        "description": "BALOCCO RISOFROLLE GR.700",
+        "description_full": "Balocco Risofrolle 700g",
+        "category": "bakery",
+        "quantity": 1.0,
+        "unit_of_measure": "g",
+        "unit_price": 1.39,
+        "discount": 0.0,
+        "total_price": 1.39,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 29,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 29,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      }
+    ],
+    "totals": {
+      "total_amount": 7.57,
+      "tax_amount": 0.76,
+      "item_count": null
+    }
+  },
+  "promo_status": "PROMO_FOUND",
+  "metadata": {
+    "version": "1.0.0+6c131bf",
+    "pars_dt": "2026-04-16T22:45:32.098+00:00",
+    "processing_status": "CLEAN",
+    "flags": [],
+    "preprocessing": [
+      {
+        "image_index": 0,
+        "tile_index": 0,
+        "steps": [
+          "GRAYSCALE(sat=37)"
+        ],
+        "stats": {
+          "mean_brightness": 189.3,
+          "std_brightness": 55.5,
+          "noise_level": 885.0,
+          "skew_angle": 0.0,
+          "avg_saturation": 37.2,
+          "width": 1376,
+          "height": 2560,
+          "contrast_ratio": 188.0,
+          "is_bimodal": false,
+          "histogram_clipping": 0.027,
+          "content_coverage": 0.72,
+          "applied_steps": [
+            "GRAYSCALE(sat=37)"
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_token_count": 5251,
+      "candidates_token_count": 592,
+      "total_token_count": 7134,
+      "thinking_token_count": 1291
+    },
+    "cost_info": {
+      "total_cost": 0.0030553000000000004,
+      "model_name": "Gemini 2.5 Flash",
+      "input_cost": 0.0015753,
+      "output_cost": 0.0014800000000000002
+    },
+    "retry_count": 0
+  }
+}

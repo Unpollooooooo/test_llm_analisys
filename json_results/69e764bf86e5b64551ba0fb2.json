@@ -1,0 +1,209 @@
+{
+  "receipt_guid": "69e764bf86e5b64551ba0fb2",
+  "shop_brand": null,
+  "analysis": {
+    "document_type": "receipt",
+    "merchant": {
+      "name": "FAMIGLIA COOPERATIVA ANAUNIA SOC. COOP.",
+      "brand_name": "Coop",
+      "address": "PIAZZETTA BERTOLINI, 7 38023 CLES -TN-",
+      "vat_number": "00104580220",
+      "date": "2026-04-21",
+      "receipt_number": "2541-0131",
+      "notes": ""
+    },
+    "items": [
+      {
+        "description": "BIRRA MORETTI FILTR.",
+        "description_full": "Birra Moretti Filtrata",
+        "category": "beverages",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 2.99,
+        "discount": 0.0,
+        "total_price": 2.99,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 30,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 30,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "BANANE COOP",
+        "description_full": "Banane Coop",
+        "category": "produce",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 0.36,
+        "discount": 0.17,
+        "total_price": 0.19,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 36,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 36,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "CONFLICT",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "FANTA MINI LATTINA",
+        "description_full": "Fanta Mini Lattina",
+        "category": "beverages",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 3.09,
+        "discount": 0.5,
+        "total_price": 2.59,
+        "_catalog_method": "gemini_only",
+        "_catalog_confidence": 0.4,
+        "_alignment_override": true,
+        "barcode": "5449000050809",
+        "is_promo_item": true,
+        "match_confidence": 90,
+        "promo_match": {
+          "publisher_guid": "6972630efc7f1b23d3ed374d",
+          "product_guid": "697265eac82db0227dd24966",
+          "product_name": "Fanta Original Lattina 50 cl",
+          "brand_name": "Fanta",
+          "match_confidence": 90,
+          "size_conflict": null,
+          "price_conflict": null
+        },
+        "match_signals": {
+          "brand": "MATCH",
+          "text": "HIGH",
+          "text_score": 90,
+          "variant": "MATCH",
+          "variant_jw": 0.801,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK",
+          "decision": "PROMO_FOUND"
+        }
+      },
+      {
+        "description": "CAFFE' MAC.MOKA COOP",
+        "description_full": "Caffe'istant. Macinato Moka Coop",
+        "category": "pantry",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 2.59,
+        "discount": 0.0,
+        "total_price": 2.59,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 27,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 27,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "PANE BANANE LE MADDA",
+        "description_full": "Pane Banane Le Madda",
+        "category": "bakery",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 0.55,
+        "discount": 0.0,
+        "total_price": 0.55,
+        "_catalog_method": "gemini_only",
+        "_catalog_confidence": 0.4,
+        "_alignment_override": true,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 30,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 30,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "CONFLICT",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      }
+    ],
+    "totals": {
+      "total_amount": 8.91,
+      "tax_amount": 0.0,
+      "item_count": 5
+    }
+  },
+  "promo_status": "PROMO_FOUND",
+  "metadata": {
+    "version": "2.0.0+6c131bf",
+    "pars_dt": "2026-04-21T11:52:12.827+00:00",
+    "processing_status": "CLEAN",
+    "flags": [],
+    "preprocessing": [
+      {
+        "image_index": 0,
+        "tile_index": 0,
+        "steps": [
+          "CLAHE(std=28,clip=0.00)"
+        ],
+        "stats": {
+          "mean_brightness": 155.4,
+          "std_brightness": 27.9,
+          "noise_level": 435.0,
+          "skew_angle": 0.0,
+          "avg_saturation": 43.5,
+          "width": 633,
+          "height": 2310,
+          "contrast_ratio": 99.0,
+          "is_bimodal": false,
+          "histogram_clipping": 0.0,
+          "content_coverage": 0.88,
+          "applied_steps": [
+            "CLAHE(std=28,clip=0.00)"
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_token_count": 6283,
+      "candidates_token_count": 700,
+      "total_token_count": 8998,
+      "thinking_token_count": 2015
+    },
+    "cost_info": {
+      "total_cost": 0.0036349,
+      "model_name": "Gemini 2.5 Flash",
+      "input_cost": 0.0018849,
+      "output_cost": 0.00175
+    },
+    "retry_count": 0
+  }
+}

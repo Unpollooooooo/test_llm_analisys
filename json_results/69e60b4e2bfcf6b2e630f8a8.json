@@ -1,0 +1,104 @@
+{
+  "receipt_guid": "69e60b4e2bfcf6b2e630f8a8",
+  "shop_brand": null,
+  "analysis": {
+    "document_type": "receipt",
+    "merchant": {
+      "name": "GROWING S.R.L.",
+      "brand_name": "Coop",
+      "address": "VIA B. GIORDANO, 22 90046 MONREALE (PA)",
+      "vat_number": "06833050823",
+      "date": "2016-04-16",
+      "receipt_number": "1443-0015",
+      "notes": ""
+    },
+    "items": [
+      {
+        "description": "# LOACKER WAF.",
+        "description_full": "Loacker Wafers",
+        "category": "pantry",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 1.99,
+        "discount": 0.0,
+        "total_price": 1.99,
+        "_catalog_method": "gemini_only",
+        "_catalog_confidence": 0.85,
+        "_alignment_override": true,
+        "barcode": "8000380192199",
+        "is_promo_item": true,
+        "match_confidence": 100,
+        "promo_match": {
+          "publisher_guid": "68fb20d97cb8558c28a80691",
+          "product_guid": "68fb2b52b82c644e33de2bbc",
+          "product_name": "Classic Double Choc Wafer al Cacao dell'Ecuador con crema al Cioccolato Wafers 175g",
+          "brand_name": "Loacker",
+          "match_confidence": 100,
+          "size_conflict": null,
+          "price_conflict": false
+        },
+        "match_signals": {
+          "brand": "MATCH",
+          "text": "HIGH",
+          "text_score": 100,
+          "variant": "MATCH",
+          "variant_jw": 1.0,
+          "price": "MATCH",
+          "size": "UNKNOWN",
+          "category": "OK",
+          "decision": "PROMO_FOUND"
+        }
+      }
+    ],
+    "totals": {
+      "total_amount": 1.99,
+      "tax_amount": 0.0,
+      "item_count": 1
+    }
+  },
+  "promo_status": "PROMO_FOUND",
+  "metadata": {
+    "version": "2.0.0+6c131bf",
+    "pars_dt": "2026-04-20T11:18:00.307+00:00",
+    "processing_status": "CLEAN",
+    "flags": [],
+    "preprocessing": [
+      {
+        "image_index": 0,
+        "tile_index": 0,
+        "steps": [
+          "GRAYSCALE(sat=38)"
+        ],
+        "stats": {
+          "mean_brightness": 178.5,
+          "std_brightness": 45.8,
+          "noise_level": 535.0,
+          "skew_angle": 0.0,
+          "avg_saturation": 37.7,
+          "width": 844,
+          "height": 2326,
+          "contrast_ratio": 166.0,
+          "is_bimodal": false,
+          "histogram_clipping": 0.001,
+          "content_coverage": 0.8,
+          "applied_steps": [
+            "GRAYSCALE(sat=38)"
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_token_count": 5767,
+      "candidates_token_count": 288,
+      "total_token_count": 7219,
+      "thinking_token_count": 1164
+    },
+    "cost_info": {
+      "total_cost": 0.0024500999999999998,
+      "model_name": "Gemini 2.5 Flash",
+      "input_cost": 0.0017300999999999998,
+      "output_cost": 0.00072
+    },
+    "retry_count": 0
+  }
+}

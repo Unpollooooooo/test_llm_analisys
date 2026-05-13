@@ -1,0 +1,189 @@
+{
+  "receipt_guid": "69ee154e86e5b64551ba51e9",
+  "shop_brand": null,
+  "analysis": {
+    "document_type": "receipt",
+    "merchant": {
+      "name": "F.lli Miccio srl",
+      "brand_name": "Coop",
+      "address": "Via Ammendola, 2 80047 San Giuseppe Vesuviano (NA)",
+      "vat_number": "04812211219",
+      "date": "2026-04-20",
+      "receipt_number": "1768-0063",
+      "notes": "[SYSTEM: JSON REPAIRED/TRUNCATED]"
+    },
+    "items": [
+      {
+        "description": "COOP SALVASLIP STESI M.",
+        "description_full": "Coop Salvaslip Stesi Maxi",
+        "category": "personal_care",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 1.99,
+        "discount": 0.0,
+        "total_price": 1.99,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 26,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 26,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "COOP SALVASLIP STESI M.",
+        "description_full": "Coop Salvaslip Stesi Maxi",
+        "category": "personal_care",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 1.99,
+        "discount": 0.0,
+        "total_price": 1.99,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 26,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 26,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "GRISSINBON FET BISCOT.",
+        "description_full": "Grissinbon Fette Biscottate",
+        "category": "bakery",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 1.49,
+        "discount": 0.0,
+        "total_price": 1.49,
+        "_catalog_method": "gemini_only",
+        "_catalog_confidence": 0.63,
+        "_alignment_override": true,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 28,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 28,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "VICENZI MINISNACK D IT.",
+        "description_full": "Vicenzi Minisnack Dolce Italiano",
+        "category": "pantry",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 1.6,
+        "discount": 0.0,
+        "total_price": 1.6,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": "8000350009083",
+        "is_promo_item": false,
+        "match_confidence": 74,
+        "promo_match": {
+          "publisher_guid": "68dd28b454c085c2c77c7ac1",
+          "product_guid": "69036f58b82c644e33de2edf",
+          "product_name": "Millefoglie Snack Con Crema Di Pistacchio",
+          "brand_name": "Pasticceria Matilde Vicenzi",
+          "match_confidence": 74,
+          "size_conflict": null,
+          "price_conflict": null
+        },
+        "match_signals": {
+          "brand": "MATCH",
+          "text": "HIGH",
+          "text_score": 84,
+          "variant": "PARTIAL",
+          "variant_jw": 0.63,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK",
+          "decision": "AMBIGUOUS"
+        }
+      }
+    ],
+    "totals": {
+      "total_amount": 0.0,
+      "tax_amount": 0.0
+    }
+  },
+  "promo_status": "PROMO_AMBIGUOUS",
+  "metadata": {
+    "version": "2.0.0+6c131bf",
+    "pars_dt": "2026-04-26T13:41:27.477+00:00",
+    "processing_status": "REPAIRED",
+    "flags": [
+      "TRUNCATED",
+      "AUTO_REPAIRED",
+      "AUTO_REPAIRED"
+    ],
+    "preprocessing": [
+      {
+        "image_index": 0,
+        "tile_index": 0,
+        "steps": [
+          "DENOISE+SHARPEN(noise=1878)",
+          "GRAYSCALE(sat=29)",
+          "CLAHE(std=31,clip=0.00)"
+        ],
+        "stats": {
+          "mean_brightness": 143.2,
+          "std_brightness": 31.4,
+          "noise_level": 1878.0,
+          "skew_angle": -0.95,
+          "avg_saturation": 28.7,
+          "width": 1920,
+          "height": 2560,
+          "contrast_ratio": 98.0,
+          "is_bimodal": false,
+          "histogram_clipping": 0.002,
+          "content_coverage": 1.0,
+          "applied_steps": [
+            "DENOISE+SHARPEN(noise=1878)",
+            "GRAYSCALE(sat=29)",
+            "CLAHE(std=31,clip=0.00)"
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_token_count": 6283,
+      "candidates_token_count": 18609,
+      "total_token_count": 26269,
+      "thinking_token_count": 1377
+    },
+    "cost_info": {
+      "total_cost": 0.0484074,
+      "model_name": "Gemini 2.5 Flash",
+      "input_cost": 0.0018849,
+      "output_cost": 0.0465225
+    },
+    "retry_count": 0
+  }
+}

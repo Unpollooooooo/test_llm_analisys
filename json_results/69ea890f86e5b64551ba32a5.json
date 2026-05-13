@@ -1,0 +1,142 @@
+{
+  "receipt_guid": "69ea890f86e5b64551ba32a5",
+  "shop_brand": null,
+  "analysis": {
+    "document_type": "receipt",
+    "merchant": {
+      "name": "IPER MONTEBELLO S.P.A.",
+      "brand_name": "IPER",
+      "address": "Via Portico, 71 24050 ORIO AL SERIO (BG)",
+      "vat_number": "03585750155",
+      "date": "2026-04-13",
+      "receipt_number": "1482-0166",
+      "notes": ""
+    },
+    "items": [
+      {
+        "description": "CARAM. VAMPIRI HARIBO",
+        "description_full": "Caramelle Vampiri Haribo",
+        "category": "pantry",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 1.79,
+        "discount": 0.0,
+        "total_price": 1.79,
+        "_catalog_method": "gemini_only",
+        "_catalog_confidence": 0.85,
+        "_alignment_override": true,
+        "barcode": "4001686423424",
+        "is_promo_item": true,
+        "match_confidence": 84,
+        "promo_match": {
+          "publisher_guid": "68f277a400cc667d09dd0800",
+          "product_guid": "6903b555b82c644e33de2f37",
+          "product_name": "Banane",
+          "brand_name": "Haribo",
+          "match_confidence": 84,
+          "size_conflict": null,
+          "price_conflict": false
+        },
+        "match_signals": {
+          "brand": "MATCH",
+          "text": "HIGH",
+          "text_score": 84,
+          "variant": "PARTIAL",
+          "variant_jw": 0.611,
+          "price": "MATCH",
+          "size": "UNKNOWN",
+          "category": "OK",
+          "decision": "PROMO_FOUND"
+        }
+      },
+      {
+        "description": "RED BULL ENERGY DRIN",
+        "description_full": "Red Bull Energy Drink 355 ml",
+        "category": "beverages",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 1.39,
+        "discount": 0.0,
+        "total_price": 1.39,
+        "_catalog_method": "cache",
+        "_catalog_confidence": 0.7,
+        "_gemini_original": "Red Bull Energy Drink",
+        "barcode": "9002490210939",
+        "is_promo_item": true,
+        "match_confidence": 97,
+        "promo_match": {
+          "publisher_guid": "6720a7b2c522bbb00d0651a1",
+          "product_guid": "6723567e56329e8499ff215a",
+          "product_name": "Red Bull Energy Drink 355 ml",
+          "brand_name": "Red Bull",
+          "match_confidence": 97,
+          "size_conflict": null,
+          "price_conflict": null
+        },
+        "match_signals": {
+          "brand": "MATCH",
+          "text": "HIGH",
+          "text_score": 97,
+          "variant": "MATCH",
+          "variant_jw": 1.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK",
+          "decision": "PROMO_FOUND"
+        }
+      }
+    ],
+    "totals": {
+      "total_amount": 3.18,
+      "tax_amount": 0.41,
+      "item_count": 2
+    }
+  },
+  "promo_status": "PROMO_FOUND",
+  "metadata": {
+    "version": "2.0.0+6c131bf",
+    "pars_dt": "2026-04-23T21:03:30.141+00:00",
+    "processing_status": "CLEAN",
+    "flags": [],
+    "preprocessing": [
+      {
+        "image_index": 0,
+        "tile_index": 0,
+        "steps": [
+          "GRAYSCALE(sat=21)",
+          "CLAHE(std=32,clip=0.00)"
+        ],
+        "stats": {
+          "mean_brightness": 147.8,
+          "std_brightness": 31.6,
+          "noise_level": 87.0,
+          "skew_angle": 0.0,
+          "avg_saturation": 21.5,
+          "width": 1705,
+          "height": 2100,
+          "contrast_ratio": 90.0,
+          "is_bimodal": true,
+          "histogram_clipping": 0.003,
+          "content_coverage": 0.72,
+          "applied_steps": [
+            "GRAYSCALE(sat=21)",
+            "CLAHE(std=32,clip=0.00)"
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_token_count": 5509,
+      "candidates_token_count": 310,
+      "total_token_count": 6515,
+      "thinking_token_count": 696
+    },
+    "cost_info": {
+      "total_cost": 0.0024277,
+      "model_name": "Gemini 2.5 Flash",
+      "input_cost": 0.0016527,
+      "output_cost": 0.0007750000000000001
+    },
+    "retry_count": 0
+  }
+}

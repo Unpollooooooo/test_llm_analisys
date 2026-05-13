@@ -1,0 +1,145 @@
+{
+  "receipt_guid": "69e3a095551a2cb157c080e4",
+  "shop_brand": null,
+  "analysis": {
+    "document_type": "receipt",
+    "merchant": {
+      "name": "MAIORA S.R.L. - FIL. 126 TERLIZZI",
+      "brand_name": "Maiora",
+      "address": "VIALE ALDO MORO snc 70038 TERLIZZI (BA)",
+      "vat_number": "07390770720",
+      "date": "2026-04-17",
+      "receipt_number": "781002358",
+      "notes": ""
+    },
+    "items": [
+      {
+        "description": "POM. GRAPP.CILIEG.1",
+        "description_full": "Pomodoro Grappolo Ciliegino",
+        "category": "produce",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 2.69,
+        "discount": 0.0,
+        "total_price": 2.69,
+        "_catalog_method": "gemini_only",
+        "_catalog_confidence": 0.75,
+        "_alignment_override": true,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 31,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 31,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "MACINATO SCELTISSIMO DI",
+        "description_full": "Macinato Sceltissimo di Bovino",
+        "category": "meat_fish",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 4.08,
+        "discount": 0.0,
+        "total_price": 4.08,
+        "_catalog_method": "gemini_only",
+        "_catalog_confidence": 0.4,
+        "_alignment_override": true,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 27,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 27,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      }
+    ],
+    "totals": {
+      "total_amount": 7.57,
+      "tax_amount": 0.5,
+      "item_count": null
+    }
+  },
+  "promo_status": "NO_PROMO",
+  "metadata": {
+    "version": "2.0.0+6c131bf",
+    "pars_dt": "2026-04-18T15:19:00.036+00:00",
+    "processing_status": "CLEAN",
+    "flags": [],
+    "preprocessing": [
+      {
+        "image_index": 0,
+        "tile_index": 0,
+        "steps": [
+          "GRAYSCALE(sat=39)"
+        ],
+        "stats": {
+          "mean_brightness": 177.8,
+          "std_brightness": 58.5,
+          "noise_level": 678.0,
+          "skew_angle": 0.95,
+          "avg_saturation": 39.2,
+          "width": 802,
+          "height": 3286,
+          "contrast_ratio": 185.0,
+          "is_bimodal": false,
+          "histogram_clipping": 0.004,
+          "content_coverage": 0.92,
+          "applied_steps": [
+            "GRAYSCALE(sat=39)"
+          ]
+        }
+      },
+      {
+        "image_index": 1,
+        "tile_index": 1,
+        "steps": [
+          "PASSTHROUGH(no preprocessing needed)"
+        ],
+        "stats": {
+          "mean_brightness": 180.9,
+          "std_brightness": 58.0,
+          "noise_level": 1511.0,
+          "skew_angle": 0.0,
+          "avg_saturation": 40.7,
+          "width": 1890,
+          "height": 585,
+          "contrast_ratio": 182.0,
+          "is_bimodal": false,
+          "histogram_clipping": 0.006,
+          "content_coverage": 0.92,
+          "applied_steps": [
+            "PASSTHROUGH(no preprocessing needed)"
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_token_count": 3445,
+      "candidates_token_count": 328,
+      "total_token_count": 7491,
+      "thinking_token_count": 3718
+    },
+    "cost_info": {
+      "total_cost": 0.0018535000000000001,
+      "model_name": "Gemini 2.5 Flash",
+      "input_cost": 0.0010335,
+      "output_cost": 0.0008200000000000001
+    },
+    "retry_count": 0
+  }
+}

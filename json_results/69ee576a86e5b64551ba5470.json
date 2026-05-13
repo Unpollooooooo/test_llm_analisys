@@ -1,0 +1,184 @@
+{
+  "receipt_guid": "69ee576a86e5b64551ba5470",
+  "shop_brand": null,
+  "analysis": {
+    "document_type": "receipt",
+    "merchant": {
+      "name": "CSD S.R.L.",
+      "brand_name": "Famila",
+      "address": "Via Oberdan S.S. per Carovigno 72019 San Vito dei Normanni (BR)",
+      "vat_number": "01755180740",
+      "date": "2026-04-26",
+      "receipt_number": "1285-0003",
+      "notes": ""
+    },
+    "items": [
+      {
+        "description": "SORBETTIERA DELIZIE S",
+        "description_full": "Sorbettiera Delizie S",
+        "category": "pantry",
+        "quantity": 1,
+        "unit_of_measure": "pz",
+        "unit_price": 4.69,
+        "discount": 0,
+        "total_price": 4.69,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 26,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 26,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "MATCH",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "MENTADENT PROTEZ.FRES",
+        "description_full": "Mentadent Protezione Freschezza",
+        "category": "personal_care",
+        "quantity": 1,
+        "unit_of_measure": "pz",
+        "unit_price": 1.4,
+        "discount": 0,
+        "total_price": 1.4,
+        "_catalog_method": "gemini_only",
+        "_catalog_confidence": 0.85,
+        "_alignment_override": true,
+        "barcode": "8717163733677",
+        "is_promo_item": true,
+        "match_confidence": 99,
+        "promo_match": {
+          "publisher_guid": "6908893d7cb8558c28a80692",
+          "product_guid": "694942b19cf0681229257f5f",
+          "product_name": "Mentadent Protezione Famiglia Freschezza Quotidiana 75 ml",
+          "brand_name": "Mentadent",
+          "match_confidence": 99,
+          "size_conflict": null,
+          "price_conflict": false
+        },
+        "match_signals": {
+          "brand": "MATCH",
+          "text": "HIGH",
+          "text_score": 99,
+          "variant": "MATCH",
+          "variant_jw": 1.0,
+          "price": "MATCH",
+          "size": "UNKNOWN",
+          "category": "OK",
+          "decision": "PROMO_FOUND"
+        }
+      },
+      {
+        "description": "GALLONE CACIORICOTTA",
+        "description_full": "Gallone Cacioricotta",
+        "category": "dairy",
+        "quantity": 1,
+        "unit_of_measure": "pz",
+        "unit_price": 2.99,
+        "discount": 0,
+        "total_price": 2.99,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 34,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 34,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "BASILICO GR. 30",
+        "description_full": "Basilico 30 grammi",
+        "category": "produce",
+        "quantity": 1,
+        "unit_of_measure": "pz",
+        "unit_price": 0.99,
+        "discount": 0,
+        "total_price": 0.99,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 26,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 26,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      }
+    ],
+    "totals": {
+      "total_amount": 10.07,
+      "tax_amount": 0.84,
+      "item_count": null
+    }
+  },
+  "promo_status": "PROMO_FOUND",
+  "metadata": {
+    "version": "2.0.0+6c131bf",
+    "pars_dt": "2026-04-26T18:20:51.102+00:00",
+    "processing_status": "CLEAN",
+    "flags": [],
+    "preprocessing": [
+      {
+        "image_index": 0,
+        "tile_index": 0,
+        "steps": [
+          "GRAYSCALE(sat=8)",
+          "CLAHE(std=35,clip=0.00)"
+        ],
+        "stats": {
+          "mean_brightness": 162.5,
+          "std_brightness": 34.5,
+          "noise_level": 342.0,
+          "skew_angle": 0.0,
+          "avg_saturation": 8.4,
+          "width": 1341,
+          "height": 2366,
+          "contrast_ratio": 124.0,
+          "is_bimodal": false,
+          "histogram_clipping": 0.0,
+          "content_coverage": 0.84,
+          "applied_steps": [
+            "GRAYSCALE(sat=8)",
+            "CLAHE(std=35,clip=0.00)"
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_token_count": 5251,
+      "candidates_token_count": 584,
+      "total_token_count": 6711,
+      "thinking_token_count": 876
+    },
+    "cost_info": {
+      "total_cost": 0.0030353000000000003,
+      "model_name": "Gemini 2.5 Flash",
+      "input_cost": 0.0015753,
+      "output_cost": 0.0014600000000000001
+    },
+    "retry_count": 0
+  }
+}

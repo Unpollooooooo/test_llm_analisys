@@ -1,0 +1,234 @@
+{
+  "receipt_guid": "69ec7e9d551a2cb157c0da64",
+  "shop_brand": null,
+  "analysis": {
+    "document_type": "receipt",
+    "merchant": {
+      "name": "DELFOOD SRL",
+      "brand_name": "Decò",
+      "address": "PIAZZA BERNINI, 41- AVERSA (CE)",
+      "vat_number": "04053810612",
+      "date": "2026-04-25",
+      "receipt_number": "1951-0037",
+      "notes": ""
+    },
+    "items": [
+      {
+        "description": "ARBOREA LATTE UHT PS BRIK (OFF. 0.85)",
+        "description_full": "Arborea Latte UHT Parzialmente Scremato Brik (Offerta 0.85)",
+        "category": "dairy",
+        "quantity": 1,
+        "unit_of_measure": "pz",
+        "unit_price": 1.33,
+        "discount": 0.24,
+        "total_price": 1.09,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 35,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 35,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "BREZZA PANE CASERECCIO AL",
+        "description_full": "Brezza Pane Casereccio al",
+        "category": "bakery",
+        "quantity": 1,
+        "unit_of_measure": "pz",
+        "unit_price": 0.3,
+        "discount": 0,
+        "total_price": 0.3,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 28,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 28,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "INCOMPATIBLE"
+        }
+      },
+      {
+        "description": "ARBOREA LATTE UHT PS BRIK",
+        "description_full": "Arborea Latte UHT Parzialmente Scremato Brik",
+        "category": "dairy",
+        "quantity": 1,
+        "unit_of_measure": "pz",
+        "unit_price": 1.54,
+        "discount": 0.24,
+        "total_price": 1.3,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 37,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 37,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "MATCH",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "DECO SHOP.COMP.30X60 500P",
+        "description_full": "DECO SHOP COMP 30X60 500P",
+        "category": "home_care",
+        "quantity": 1,
+        "unit_of_measure": "pz",
+        "unit_price": 0.1,
+        "discount": 0,
+        "total_price": 0.1,
+        "_catalog_method": "cache",
+        "_catalog_confidence": 0.7,
+        "_gemini_original": "Decò Shop Compresse 30x60 500 Pezzi",
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 27,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 27,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "GAROFALO S/GLUT.400GR PEN",
+        "description_full": "Garofalo Senza Glutine 400gr. Penne",
+        "category": "pantry",
+        "quantity": 1,
+        "unit_of_measure": "pz",
+        "unit_price": 1.99,
+        "discount": 0,
+        "total_price": 1.99,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": "8016784901145",
+        "is_promo_item": false,
+        "match_confidence": 74,
+        "promo_match": {
+          "publisher_guid": "68e9132a00cc667d09dd07fa",
+          "product_guid": "68e91afeec4f0a74a0f2bff7",
+          "product_name": "Mozzarella di Bufala Campana DOP - Linea Latte Nostre Fattorie",
+          "brand_name": "Fattorie Garofalo",
+          "match_confidence": 74,
+          "size_conflict": true,
+          "price_conflict": false
+        },
+        "match_signals": {
+          "brand": "MATCH",
+          "text": "MED",
+          "text_score": 79,
+          "variant": "PARTIAL",
+          "variant_jw": 0.625,
+          "price": "MATCH",
+          "size": "CONFLICT",
+          "category": "OK",
+          "decision": "AMBIGUOUS"
+        }
+      },
+      {
+        "description": "GUSTO DECO PROSC S.DANIEL",
+        "description_full": "Gusto Decò Prosciutto San Daniele",
+        "category": "meat_fish",
+        "quantity": 1,
+        "unit_of_measure": "pz",
+        "unit_price": 3.63,
+        "discount": 0,
+        "total_price": 3.63,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 31,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 31,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      }
+    ],
+    "totals": {
+      "total_amount": 9.02,
+      "tax_amount": 0,
+      "item_count": 7
+    }
+  },
+  "promo_status": "PROMO_AMBIGUOUS",
+  "metadata": {
+    "version": "2.0.0+6c131bf",
+    "pars_dt": "2026-04-25T08:46:10.608+00:00",
+    "processing_status": "CLEAN",
+    "flags": [],
+    "preprocessing": [
+      {
+        "image_index": 0,
+        "tile_index": 0,
+        "steps": [
+          "GRAYSCALE(sat=15)"
+        ],
+        "stats": {
+          "mean_brightness": 166.0,
+          "std_brightness": 37.8,
+          "noise_level": 266.0,
+          "skew_angle": 0.0,
+          "avg_saturation": 14.9,
+          "width": 792,
+          "height": 2265,
+          "contrast_ratio": 132.0,
+          "is_bimodal": false,
+          "histogram_clipping": 0.0,
+          "content_coverage": 0.84,
+          "applied_steps": [
+            "GRAYSCALE(sat=15)"
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_token_count": 5767,
+      "candidates_token_count": 844,
+      "total_token_count": 19248,
+      "thinking_token_count": 12637
+    },
+    "cost_info": {
+      "total_cost": 0.0038401,
+      "model_name": "Gemini 2.5 Flash",
+      "input_cost": 0.0017300999999999998,
+      "output_cost": 0.0021100000000000003
+    },
+    "retry_count": 0
+  }
+}

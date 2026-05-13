@@ -1,0 +1,122 @@
+{
+  "receipt_guid": "69f04b2186e5b64551ba6353",
+  "shop_brand": null,
+  "analysis": {
+    "document_type": "receipt",
+    "merchant": {
+      "name": "NATURA GARDEN DI RENNA DANILA",
+      "brand_name": "Natura Garden",
+      "address": "VIA ANGELO MORELLO SNC CARINI (PA)",
+      "vat_number": "06070870826",
+      "date": "2026-04-23",
+      "receipt_number": "2257-0011",
+      "notes": ""
+    },
+    "items": [
+      {
+        "description": "PROD.10",
+        "description_full": "Prodotto 10",
+        "category": "other",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 20.0,
+        "discount": 0.0,
+        "total_price": 20.0,
+        "_catalog_method": "gemini_only",
+        "_catalog_confidence": 0.81,
+        "_alignment_override": true,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 23,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 23,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "PROD.4",
+        "description_full": "Prodotto 4",
+        "category": "other",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 5.0,
+        "discount": 0.0,
+        "total_price": 5.0,
+        "_catalog_method": "gemini_only",
+        "_catalog_confidence": 0.77,
+        "_alignment_override": true,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 24,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 24,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "MATCH",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      }
+    ],
+    "totals": {
+      "total_amount": 25.0,
+      "tax_amount": 2.01,
+      "item_count": null
+    }
+  },
+  "promo_status": "NO_PROMO",
+  "metadata": {
+    "version": "2.0.0+unknown",
+    "pars_dt": "2026-04-28T05:52:52.051+00:00",
+    "processing_status": "CLEAN",
+    "flags": [],
+    "preprocessing": [
+      {
+        "image_index": 0,
+        "tile_index": 0,
+        "steps": [
+          "GRAYSCALE(sat=29)"
+        ],
+        "stats": {
+          "mean_brightness": 197.9,
+          "std_brightness": 52.6,
+          "noise_level": 157.0,
+          "skew_angle": 0.0,
+          "avg_saturation": 29.2,
+          "width": 1124,
+          "height": 600,
+          "contrast_ratio": 186.0,
+          "is_bimodal": false,
+          "histogram_clipping": 0.042,
+          "content_coverage": 1.0,
+          "applied_steps": [
+            "GRAYSCALE(sat=29)"
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_token_count": 4735,
+      "candidates_token_count": 287,
+      "total_token_count": 5775,
+      "thinking_token_count": 753
+    },
+    "cost_info": {
+      "total_cost": 0.002138,
+      "model_name": "Gemini 2.5 Flash",
+      "input_cost": 0.0014204999999999999,
+      "output_cost": 0.0007175
+    },
+    "retry_count": 0
+  }
+}

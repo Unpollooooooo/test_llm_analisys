@@ -1,0 +1,146 @@
+{
+  "receipt_guid": "69e9d79086e5b64551ba2770",
+  "shop_brand": null,
+  "analysis": {
+    "document_type": "receipt",
+    "merchant": {
+      "name": "SUPERGEST DUE S.R.L.",
+      "brand_name": "CRAI EXTRA",
+      "address": "Via Guglielmi, snc Martina Franca (TA) 74015",
+      "vat_number": "02474920739",
+      "date": "2026-04-23",
+      "receipt_number": "2520-0034",
+      "notes": ""
+    },
+    "items": [
+      {
+        "description": "GRANAR.LATTE FIENO INTERO VI *",
+        "description_full": "Granarolo Latte Fieno Intero",
+        "category": "dairy",
+        "quantity": 1,
+        "unit_of_measure": "pz",
+        "unit_price": 3.05,
+        "discount": 0,
+        "total_price": 3.05,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 30,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 30,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "PERLA LATTE A/Q PAS.TEMP. VI *",
+        "description_full": "Perla Latte Alta Qualità Pastorizzato Temperatura",
+        "category": "dairy",
+        "quantity": 1,
+        "unit_of_measure": "pz",
+        "unit_price": 2.09,
+        "discount": 0,
+        "total_price": 2.09,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 28,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 28,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "MATCH",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "SHOPPER BIOCOMPOSTABILE 2 VI *",
+        "description_full": "Shopper Biocompostabile",
+        "category": "other",
+        "quantity": 1,
+        "unit_of_measure": "pz",
+        "unit_price": 0.05,
+        "discount": 0,
+        "total_price": 0.05,
+        "_catalog_method": "gemini_only",
+        "_catalog_confidence": 0.4,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 31,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 31,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "CONFLICT",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      }
+    ],
+    "totals": {
+      "total_amount": 5.19,
+      "tax_amount": 0.0,
+      "item_count": null
+    }
+  },
+  "promo_status": "NO_PROMO",
+  "metadata": {
+    "version": "2.0.0+6c131bf",
+    "pars_dt": "2026-04-23T08:26:19.296+00:00",
+    "processing_status": "CLEAN",
+    "flags": [],
+    "preprocessing": [
+      {
+        "image_index": 0,
+        "tile_index": 0,
+        "steps": [
+          "GRAYSCALE(sat=24)"
+        ],
+        "stats": {
+          "mean_brightness": 193.0,
+          "std_brightness": 52.6,
+          "noise_level": 509.0,
+          "skew_angle": -0.46,
+          "avg_saturation": 23.8,
+          "width": 986,
+          "height": 3534,
+          "contrast_ratio": 190.0,
+          "is_bimodal": false,
+          "histogram_clipping": 0.01,
+          "content_coverage": 0.88,
+          "applied_steps": [
+            "GRAYSCALE(sat=24)"
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_token_count": 6283,
+      "candidates_token_count": 497,
+      "total_token_count": 7635,
+      "thinking_token_count": 855
+    },
+    "cost_info": {
+      "total_cost": 0.0031274,
+      "model_name": "Gemini 2.5 Flash",
+      "input_cost": 0.0018849,
+      "output_cost": 0.0012425000000000001
+    },
+    "retry_count": 0
+  }
+}

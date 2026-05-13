@@ -1,0 +1,67 @@
+{
+  "receipt_guid": "69ea16f886e5b64551ba2c23",
+  "shop_brand": null,
+  "analysis": {
+    "document_type": "receipt",
+    "merchant": {
+      "name": "bennet",
+      "brand_name": "Bennet",
+      "address": "Piazza Gandhi, 6 Sedriano (MI)",
+      "vat_number": "07071700152",
+      "date": "2026-04-23",
+      "receipt_number": "N0401-0086",
+      "notes": ""
+    },
+    "items": [],
+    "totals": {
+      "total_amount": 0.0,
+      "tax_amount": 0.0,
+      "item_count": null
+    }
+  },
+  "promo_status": "NO_PROMO",
+  "metadata": {
+    "version": "2.0.0+6c131bf",
+    "pars_dt": "2026-04-23T12:56:53.906+00:00",
+    "processing_status": "CLEAN",
+    "flags": [],
+    "preprocessing": [
+      {
+        "image_index": 0,
+        "tile_index": 0,
+        "steps": [
+          "GRAYSCALE(sat=12)"
+        ],
+        "stats": {
+          "mean_brightness": 191.5,
+          "std_brightness": 52.1,
+          "noise_level": 186.0,
+          "skew_angle": 0.0,
+          "avg_saturation": 11.9,
+          "width": 854,
+          "height": 2439,
+          "contrast_ratio": 164.0,
+          "is_bimodal": false,
+          "histogram_clipping": 0.0,
+          "content_coverage": 0.8,
+          "applied_steps": [
+            "GRAYSCALE(sat=12)"
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_token_count": 5767,
+      "candidates_token_count": 169,
+      "total_token_count": 7105,
+      "thinking_token_count": 1169
+    },
+    "cost_info": {
+      "total_cost": 0.0021525999999999997,
+      "model_name": "Gemini 2.5 Flash",
+      "input_cost": 0.0017300999999999998,
+      "output_cost": 0.0004225
+    },
+    "retry_count": 0
+  }
+}

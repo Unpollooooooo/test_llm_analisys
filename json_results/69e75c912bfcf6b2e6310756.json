@@ -1,0 +1,153 @@
+{
+  "receipt_guid": "69e75c912bfcf6b2e6310756",
+  "shop_brand": null,
+  "analysis": {
+    "document_type": "receipt",
+    "merchant": {
+      "name": "MAGAZZINI MAURYS",
+      "brand_name": "Maurys",
+      "address": "VIA GIOLITTI SNC - 00013 MENTANA (RM)",
+      "vat_number": "12561901005",
+      "date": "2026-04-21",
+      "receipt_number": "2543-0138",
+      "notes": ""
+    },
+    "items": [
+      {
+        "description": "ZERB ECO-COCCO 40X65",
+        "description_full": "Zerbinetto Eco-Cocco 40x65",
+        "category": "home_care",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 5.99,
+        "discount": 0.0,
+        "total_price": 5.99,
+        "_catalog_method": "gemini_only",
+        "_catalog_confidence": 0.52,
+        "_alignment_override": true,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 27,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 27,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "INCOMPATIBLE"
+        }
+      },
+      {
+        "description": "BATTERIA ENERGIZER A",
+        "description_full": "Batteria Energizer A",
+        "category": "home_care",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 3.99,
+        "discount": 0.0,
+        "total_price": 3.99,
+        "_catalog_method": "gemini_only",
+        "_catalog_confidence": 0.4,
+        "_alignment_override": true,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 28,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 28,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "BATTERIA ENERGIZER A",
+        "description_full": "Batteria Energizer A",
+        "category": "home_care",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 3.99,
+        "discount": 0.0,
+        "total_price": 3.99,
+        "_catalog_method": "gemini_only",
+        "_catalog_confidence": 0.4,
+        "_alignment_override": true,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 28,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 28,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      }
+    ],
+    "totals": {
+      "total_amount": 13.97,
+      "tax_amount": 0.0,
+      "item_count": 3
+    }
+  },
+  "promo_status": "NO_PROMO",
+  "metadata": {
+    "version": "2.0.0+6c131bf",
+    "pars_dt": "2026-04-21T11:17:00.798+00:00",
+    "processing_status": "CLEAN",
+    "flags": [],
+    "preprocessing": [
+      {
+        "image_index": 0,
+        "tile_index": 0,
+        "steps": [
+          "DESKEW(angle=-2.0°)",
+          "GRAYSCALE(sat=11)",
+          "CLAHE(std=28,clip=0.00)"
+        ],
+        "stats": {
+          "mean_brightness": 177.0,
+          "std_brightness": 28.2,
+          "noise_level": 317.0,
+          "skew_angle": -1.98,
+          "avg_saturation": 10.6,
+          "width": 790,
+          "height": 2521,
+          "contrast_ratio": 90.0,
+          "is_bimodal": false,
+          "histogram_clipping": 0.0,
+          "content_coverage": 0.8,
+          "applied_steps": [
+            "DESKEW(angle=-2.0°)",
+            "GRAYSCALE(sat=11)",
+            "CLAHE(std=28,clip=0.00)"
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_token_count": 5767,
+      "candidates_token_count": 398,
+      "total_token_count": 7098,
+      "thinking_token_count": 933
+    },
+    "cost_info": {
+      "total_cost": 0.0027251,
+      "model_name": "Gemini 2.5 Flash",
+      "input_cost": 0.0017300999999999998,
+      "output_cost": 0.000995
+    },
+    "retry_count": 0
+  }
+}

@@ -1,0 +1,103 @@
+{
+  "receipt_guid": "69e2327386e5b64551b9d895",
+  "shop_brand": null,
+  "analysis": {
+    "document_type": "receipt",
+    "merchant": {
+      "name": "D.N.O SPA CON SOCIO UNICO",
+      "brand_name": "Caddy's",
+      "address": "Via Savona 12 35142 Padova (PD)",
+      "vat_number": "02621450283",
+      "date": "2017-04-26",
+      "receipt_number": "2448-0075",
+      "notes": ""
+    },
+    "items": [
+      {
+        "description": "L'OREAL BB CREAN MAG",
+        "description_full": "L'Oréal BB Cream Magic",
+        "category": "personal_care",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 17.5,
+        "discount": 0.0,
+        "total_price": 17.5,
+        "_catalog_method": "gemini_only",
+        "_catalog_confidence": 0.85,
+        "barcode": "3600522480211",
+        "is_promo_item": false,
+        "match_confidence": 82,
+        "promo_match": {
+          "publisher_guid": "6977b0c2fc7f1b23d3ed374e",
+          "product_guid": "6977beca1e3a26d40f1b3e79",
+          "product_name": "L'Oréal Paris Revitalift Laser Tripla Azione Crema Anti-Età Notte",
+          "brand_name": "L'Oréal Paris",
+          "match_confidence": 82,
+          "size_conflict": false,
+          "price_conflict": false
+        },
+        "match_signals": {
+          "brand": "MATCH",
+          "text": "HIGH",
+          "text_score": 82,
+          "variant": "PARTIAL",
+          "variant_jw": 0.537,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK",
+          "decision": "AMBIGUOUS"
+        }
+      }
+    ],
+    "totals": {
+      "total_amount": 17.5,
+      "tax_amount": 3.16,
+      "item_count": 1
+    }
+  },
+  "promo_status": "PROMO_AMBIGUOUS",
+  "metadata": {
+    "version": "1.0.0+6c131bf",
+    "pars_dt": "2026-04-17T13:15:56.918+00:00",
+    "processing_status": "CLEAN",
+    "flags": [],
+    "preprocessing": [
+      {
+        "image_index": 0,
+        "tile_index": 0,
+        "steps": [
+          "GRAYSCALE(sat=37)"
+        ],
+        "stats": {
+          "mean_brightness": 160.1,
+          "std_brightness": 71.8,
+          "noise_level": 456.0,
+          "skew_angle": 0.0,
+          "avg_saturation": 36.5,
+          "width": 684,
+          "height": 2007,
+          "contrast_ratio": 207.0,
+          "is_bimodal": true,
+          "histogram_clipping": 0.001,
+          "content_coverage": 0.84,
+          "applied_steps": [
+            "GRAYSCALE(sat=37)"
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_token_count": 5767,
+      "candidates_token_count": 230,
+      "total_token_count": 7236,
+      "thinking_token_count": 1239
+    },
+    "cost_info": {
+      "total_cost": 0.0023051,
+      "model_name": "Gemini 2.5 Flash",
+      "input_cost": 0.0017300999999999998,
+      "output_cost": 0.0005750000000000001
+    },
+    "retry_count": 0
+  }
+}

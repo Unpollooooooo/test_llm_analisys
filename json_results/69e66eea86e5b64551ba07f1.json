@@ -1,0 +1,96 @@
+{
+  "receipt_guid": "69e66eea86e5b64551ba07f1",
+  "shop_brand": null,
+  "analysis": {
+    "document_type": "receipt",
+    "merchant": {
+      "name": "ACQUA & SAPONE CO1",
+      "brand_name": "ACQUA & SAPONE",
+      "address": "VIA ROMA, 115 81100 - CASERTA",
+      "vat_number": "00239870686",
+      "date": "null",
+      "receipt_number": "null",
+      "notes": "null"
+    },
+    "items": [
+      {
+        "description": "PAMPERS S.L.MUT.XL",
+        "description_full": "Pampers Salviette Mutandino XL",
+        "category": "personal_care",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 2.99,
+        "discount": 0.0,
+        "total_price": 2.99,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 28,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 28,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      }
+    ],
+    "totals": {
+      "total_amount": 2.99,
+      "tax_amount": 0.27,
+      "item_count": null
+    }
+  },
+  "promo_status": "NO_PROMO",
+  "metadata": {
+    "version": "2.0.0+6c131bf",
+    "pars_dt": "2026-04-20T18:22:55.453+00:00",
+    "processing_status": "CLEAN",
+    "flags": [],
+    "preprocessing": [
+      {
+        "image_index": 0,
+        "tile_index": 0,
+        "steps": [
+          "GRAYSCALE(sat=9)",
+          "CLAHE(std=35,clip=0.00)"
+        ],
+        "stats": {
+          "mean_brightness": 144.5,
+          "std_brightness": 34.7,
+          "noise_level": 99.0,
+          "skew_angle": 0.0,
+          "avg_saturation": 8.8,
+          "width": 1232,
+          "height": 1629,
+          "contrast_ratio": 127.0,
+          "is_bimodal": false,
+          "histogram_clipping": 0.0,
+          "content_coverage": 0.76,
+          "applied_steps": [
+            "GRAYSCALE(sat=9)",
+            "CLAHE(std=35,clip=0.00)"
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_token_count": 4735,
+      "candidates_token_count": 219,
+      "total_token_count": 6009,
+      "thinking_token_count": 1055
+    },
+    "cost_info": {
+      "total_cost": 0.001968,
+      "model_name": "Gemini 2.5 Flash",
+      "input_cost": 0.0014204999999999999,
+      "output_cost": 0.0005475
+    },
+    "retry_count": 0
+  }
+}

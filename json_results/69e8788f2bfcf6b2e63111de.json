@@ -1,0 +1,283 @@
+{
+  "receipt_guid": "69e8788f2bfcf6b2e63111de",
+  "shop_brand": null,
+  "analysis": {
+    "document_type": "receipt",
+    "merchant": {
+      "name": "ALI' SAONARA",
+      "brand_name": "ALI'",
+      "address": "VIA G. UNGARETTI 2 SAONARA",
+      "vat_number": "0034898028",
+      "date": "2026-04-11",
+      "receipt_number": "2679-0036",
+      "notes": ""
+    },
+    "items": [
+      {
+        "description": "BIRRA MESSINA CRIST.SALE CL.50",
+        "description_full": "Birra Messina Cristalli di Sale Cl.50",
+        "category": "beverages",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 2.0,
+        "discount": 0.0,
+        "total_price": 2.0,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 28,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 28,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "PEPSI MAX ZERO ZUCCH.CL.33 LAT",
+        "description_full": "Pepsi Max Zero Zucchero Cl.33 Lattina",
+        "category": "beverages",
+        "quantity": 6.0,
+        "unit_of_measure": "pz",
+        "unit_price": 0.55,
+        "discount": 0.0,
+        "total_price": 3.3,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 29,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 29,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "LINES IDEA ULTRA DUO ALI X 18",
+        "description_full": "Lines Idea Ultra Duo Ali x 18",
+        "category": "personal_care",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 1.0,
+        "discount": 0.0,
+        "total_price": 1.0,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 28,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 28,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "FRAGOLE CESTINO GR.250",
+        "description_full": "Fragole Cestino 250 Gr.",
+        "category": "produce",
+        "quantity": 2.0,
+        "unit_of_measure": "pz",
+        "unit_price": 1.5,
+        "discount": 0.0,
+        "total_price": 3.0,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 30,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 30,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "4 UOVA BIOLOGICHE VALE 220 GR.",
+        "description_full": "4 Uova Biologiche Vale 220 Gr.",
+        "category": "dairy",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 1.0,
+        "discount": 0.0,
+        "total_price": 1.0,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 27,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 27,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "SPOT*LAV.MARS.BUCATO NONNA 50L",
+        "description_full": "Spot Lavatrice Marsiglia Bucato Nonna 50L",
+        "category": "home_care",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 2.0,
+        "discount": 0.0,
+        "total_price": 2.0,
+        "_catalog_method": "gemini_only",
+        "_catalog_confidence": 0.85,
+        "_alignment_override": true,
+        "barcode": "8005360001089",
+        "is_promo_item": false,
+        "match_confidence": 49,
+        "promo_match": {
+          "publisher_guid": "68ed26e800cc667d09dd07fc",
+          "product_guid": "68ef9d27320b319a5fb3c283",
+          "product_name": "Sugo all'Amatriciana",
+          "brand_name": "Le Conserve della Nonna",
+          "match_confidence": 49,
+          "size_conflict": null,
+          "price_conflict": false
+        },
+        "match_signals": {
+          "brand": "MATCH",
+          "text": "MED",
+          "text_score": 73,
+          "variant": "PARTIAL",
+          "variant_jw": 0.684,
+          "price": "MATCH",
+          "size": "UNKNOWN",
+          "category": "INCOMPATIBLE",
+          "decision": "NO_PROMO"
+        }
+      },
+      {
+        "description": "PEPSI MAX ZERO",
+        "description_full": "Pepsi Max Zero",
+        "category": "beverages",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 2.0,
+        "discount": 0.0,
+        "total_price": 2.0,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 27,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 27,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      }
+    ],
+    "totals": {
+      "total_amount": 31.46,
+      "tax_amount": 0.0,
+      "item_count": null
+    }
+  },
+  "promo_status": "NO_PROMO",
+  "metadata": {
+    "version": "2.0.0+6c131bf",
+    "pars_dt": "2026-04-22T07:29:53.780+00:00",
+    "processing_status": "CLEAN",
+    "flags": [],
+    "preprocessing": [
+      {
+        "image_index": 0,
+        "tile_index": 0,
+        "steps": [
+          "GRAYSCALE(sat=13)"
+        ],
+        "stats": {
+          "mean_brightness": 182.1,
+          "std_brightness": 50.3,
+          "noise_level": 616.0,
+          "skew_angle": 0.0,
+          "avg_saturation": 13.1,
+          "width": 1071,
+          "height": 2631,
+          "contrast_ratio": 179.0,
+          "is_bimodal": false,
+          "histogram_clipping": 0.009,
+          "content_coverage": 0.8,
+          "applied_steps": [
+            "GRAYSCALE(sat=13)"
+          ]
+        }
+      },
+      {
+        "image_index": 1,
+        "tile_index": 1,
+        "steps": [
+          "GRAYSCALE(sat=16)"
+        ],
+        "stats": {
+          "mean_brightness": 194.7,
+          "std_brightness": 37.6,
+          "noise_level": 593.0,
+          "skew_angle": -0.98,
+          "avg_saturation": 15.8,
+          "width": 969,
+          "height": 3704,
+          "contrast_ratio": 114.0,
+          "is_bimodal": false,
+          "histogram_clipping": 0.006,
+          "content_coverage": 0.84,
+          "applied_steps": [
+            "GRAYSCALE(sat=16)"
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_token_count": 3445,
+      "candidates_token_count": 944,
+      "total_token_count": 10224,
+      "thinking_token_count": 5835
+    },
+    "cost_info": {
+      "total_cost": 0.0033935,
+      "model_name": "Gemini 2.5 Flash",
+      "input_cost": 0.0010335,
+      "output_cost": 0.00236
+    },
+    "retry_count": 0
+  }
+}

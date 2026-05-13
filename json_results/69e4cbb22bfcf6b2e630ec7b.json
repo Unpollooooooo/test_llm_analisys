@@ -1,0 +1,187 @@
+{
+  "receipt_guid": "69e4cbb22bfcf6b2e630ec7b",
+  "shop_brand": null,
+  "analysis": {
+    "document_type": "receipt",
+    "merchant": {
+      "name": "DI PAOLINI SIMONETTA E C. S.R.L.",
+      "brand_name": "LA TORRE",
+      "address": "VIA CIRCONVALLAZIONE 1 VALEGGIO SUL MINCIO - VERONA",
+      "vat_number": "02360310235",
+      "date": "2026-04-17",
+      "receipt_number": "0895-0024",
+      "notes": ""
+    },
+    "items": [
+      {
+        "description": "COPERTO",
+        "description_full": "Coperto",
+        "category": "other",
+        "quantity": 2.0,
+        "unit_of_measure": "pz",
+        "unit_price": 2.5,
+        "discount": 0.0,
+        "total_price": 5.0,
+        "_catalog_method": "gemini_only",
+        "_catalog_confidence": 0.4,
+        "_alignment_override": true,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 22,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 22,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "MARGHERITA",
+        "description_full": "Margherita",
+        "category": "other",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 6.5,
+        "discount": 0.0,
+        "total_price": 6.5,
+        "_catalog_method": "gemini_only",
+        "_catalog_confidence": 0.85,
+        "_alignment_override": true,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 25,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 25,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "MARGHERITA",
+        "description_full": "Margherita",
+        "category": "other",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 11.5,
+        "discount": 0.0,
+        "total_price": 11.5,
+        "_catalog_method": "gemini_only",
+        "_catalog_confidence": 0.85,
+        "_alignment_override": true,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 24,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 24,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "COCA GRANDE",
+        "description_full": "Coca-Cola Grande",
+        "category": "beverages",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 4.0,
+        "discount": 0.0,
+        "total_price": 4.0,
+        "_catalog_method": "gemini_only",
+        "_catalog_confidence": 0.85,
+        "_alignment_override": true,
+        "barcode": "5449000220288",
+        "is_promo_item": false,
+        "match_confidence": 74,
+        "promo_match": {
+          "publisher_guid": "6972630efc7f1b23d3ed374d",
+          "product_guid": "697265e9872a904015f28120",
+          "product_name": "Coca-Cola Original Taste Lattina 4 x 330 ml",
+          "brand_name": "Coca-Cola",
+          "match_confidence": 74,
+          "size_conflict": null,
+          "price_conflict": null
+        },
+        "match_signals": {
+          "brand": "MATCH",
+          "text": "HIGH",
+          "text_score": 86,
+          "variant": "PARTIAL",
+          "variant_jw": 0.578,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK",
+          "decision": "AMBIGUOUS"
+        }
+      }
+    ],
+    "totals": {
+      "total_amount": 27.0,
+      "tax_amount": 2.45,
+      "item_count": null
+    }
+  },
+  "promo_status": "PROMO_AMBIGUOUS",
+  "metadata": {
+    "version": "2.0.0+6c131bf",
+    "pars_dt": "2026-04-19T12:34:23.451+00:00",
+    "processing_status": "CLEAN",
+    "flags": [],
+    "preprocessing": [
+      {
+        "image_index": 0,
+        "tile_index": 0,
+        "steps": [
+          "GRAYSCALE(sat=29)",
+          "CLAHE(std=30,clip=0.00)"
+        ],
+        "stats": {
+          "mean_brightness": 160.0,
+          "std_brightness": 30.1,
+          "noise_level": 230.0,
+          "skew_angle": 0.0,
+          "avg_saturation": 28.7,
+          "width": 1683,
+          "height": 860,
+          "contrast_ratio": 98.0,
+          "is_bimodal": false,
+          "histogram_clipping": 0.0,
+          "content_coverage": 0.96,
+          "applied_steps": [
+            "GRAYSCALE(sat=29)",
+            "CLAHE(std=30,clip=0.00)"
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_token_count": 4735,
+      "candidates_token_count": 439,
+      "total_token_count": 6429,
+      "thinking_token_count": 1255
+    },
+    "cost_info": {
+      "total_cost": 0.0025180000000000003,
+      "model_name": "Gemini 2.5 Flash",
+      "input_cost": 0.0014204999999999999,
+      "output_cost": 0.0010975000000000002
+    },
+    "retry_count": 0
+  }
+}

@@ -1,0 +1,130 @@
+{
+  "receipt_guid": "69ee704686e5b64551ba5537",
+  "shop_brand": null,
+  "analysis": {
+    "document_type": "receipt",
+    "merchant": {
+      "name": "L'Abbondanza S.r.i.",
+      "brand_name": "Gala",
+      "address": "Via R. Morandi, 6 06012 - C. di Castello (PG)",
+      "vat_number": "00326380540",
+      "date": "2026-04-24",
+      "receipt_number": "2643-0123",
+      "notes": ""
+    },
+    "items": [
+      {
+        "description": "ESCA SUGO RISOTTO SPAG",
+        "description_full": "Esca Sugo Risotto Spaghi",
+        "category": "pantry",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 4.49,
+        "discount": 0.0,
+        "total_price": 4.49,
+        "_catalog_method": "gemini_only",
+        "_catalog_confidence": 0.49,
+        "_alignment_override": true,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 29,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 29,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "MATCH",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "FROSTA 15 BASTONCINI M",
+        "description_full": "FRoSTA 15 Bastoncini di merluzzo",
+        "category": "meat_fish",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 5.98,
+        "discount": 2.49,
+        "total_price": 3.49,
+        "_catalog_method": "promo_catalog",
+        "_catalog_confidence": 1.0,
+        "barcode": "8052789532878",
+        "is_promo_item": true,
+        "match_confidence": 85,
+        "promo_match": {
+          "publisher_guid": "6894af7f79abb7f7561d5897",
+          "product_guid": "6895d333ce8bbb15b6624ac4",
+          "product_name": "10 Bastoncini di merluzzo",
+          "brand_name": "FRoSTA",
+          "match_confidence": 85,
+          "size_conflict": null,
+          "price_conflict": null
+        },
+        "match_signals": {
+          "brand": "MATCH",
+          "text": "HIGH",
+          "text_score": 85,
+          "variant": "MATCH",
+          "variant_jw": 1.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK",
+          "decision": "PROMO_FOUND"
+        }
+      }
+    ],
+    "totals": {
+      "total_amount": 7.98,
+      "tax_amount": 0.73,
+      "item_count": null
+    }
+  },
+  "promo_status": "PROMO_FOUND",
+  "metadata": {
+    "version": "2.0.0+6c131bf",
+    "pars_dt": "2026-04-26T20:06:55.221+00:00",
+    "processing_status": "CLEAN",
+    "flags": [],
+    "preprocessing": [
+      {
+        "image_index": 0,
+        "tile_index": 0,
+        "steps": [
+          "GRAYSCALE(sat=8)"
+        ],
+        "stats": {
+          "mean_brightness": 130.8,
+          "std_brightness": 37.4,
+          "noise_level": 683.0,
+          "skew_angle": 0.0,
+          "avg_saturation": 7.7,
+          "width": 1789,
+          "height": 984,
+          "contrast_ratio": 125.0,
+          "is_bimodal": false,
+          "histogram_clipping": 0.01,
+          "content_coverage": 0.76,
+          "applied_steps": [
+            "GRAYSCALE(sat=8)"
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_token_count": 4735,
+      "candidates_token_count": 410,
+      "total_token_count": 6332,
+      "thinking_token_count": 1187
+    },
+    "cost_info": {
+      "total_cost": 0.0024454999999999998,
+      "model_name": "Gemini 2.5 Flash",
+      "input_cost": 0.0014204999999999999,
+      "output_cost": 0.001025
+    },
+    "retry_count": 0
+  }
+}

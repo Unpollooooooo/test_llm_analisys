@@ -1,0 +1,175 @@
+{
+  "receipt_guid": "69e4885686e5b64551b9efa2",
+  "shop_brand": null,
+  "analysis": {
+    "document_type": "receipt",
+    "merchant": {
+      "name": "Spendibene snc di scuotto S.SC.",
+      "brand_name": "Despar",
+      "address": "Via Caracciolo, 105/111 Meta di Sorrento (NA) 80062",
+      "vat_number": "02640271215",
+      "date": "2026-04-18",
+      "receipt_number": "2489-0236",
+      "notes": ""
+    },
+    "items": [
+      {
+        "description": "GARGIULO OLIO DI SEMI DI",
+        "description_full": "Gargiulo Olio di Semi di",
+        "category": "pantry",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 2.58,
+        "discount": 0.0,
+        "total_price": 2.58,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 39,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 39,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "MATCH",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "PER TE MAXIBURGER",
+        "description_full": "Per Te Maxiburger",
+        "category": "meat_fish",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 1.6,
+        "discount": 0.0,
+        "total_price": 1.6,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 27,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 27,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "INCOMPATIBLE"
+        }
+      },
+      {
+        "description": "MAION.DESPAR 260ML/TW.",
+        "description_full": "Maionese Despar 260ml",
+        "category": "pantry",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 1.99,
+        "discount": 0.0,
+        "total_price": 1.99,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 26,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 26,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "SHOPPER BIO 30 9 9X55 13G",
+        "description_full": "Shopper Bio",
+        "category": "other",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 0.1,
+        "discount": 0.0,
+        "total_price": 0.1,
+        "_catalog_method": "gemini_only",
+        "_catalog_confidence": 0.4,
+        "_alignment_override": true,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 25,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 25,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "CONFLICT",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      }
+    ],
+    "totals": {
+      "total_amount": 6.27,
+      "tax_amount": 0.35,
+      "item_count": null
+    }
+  },
+  "promo_status": "NO_PROMO",
+  "metadata": {
+    "version": "2.0.0+6c131bf",
+    "pars_dt": "2026-04-19T07:47:05.183+00:00",
+    "processing_status": "CLEAN",
+    "flags": [],
+    "preprocessing": [
+      {
+        "image_index": 0,
+        "tile_index": 0,
+        "steps": [
+          "GRAYSCALE(sat=14)",
+          "THRESHOLD(contrast=69,bright=154)"
+        ],
+        "stats": {
+          "mean_brightness": 154.0,
+          "std_brightness": 21.6,
+          "noise_level": 267.0,
+          "skew_angle": 0.0,
+          "avg_saturation": 13.8,
+          "width": 1414,
+          "height": 2231,
+          "contrast_ratio": 69.0,
+          "is_bimodal": false,
+          "histogram_clipping": 0.0,
+          "content_coverage": 0.48,
+          "applied_steps": [
+            "GRAYSCALE(sat=14)",
+            "THRESHOLD(contrast=69,bright=154)"
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_token_count": 4735,
+      "candidates_token_count": 620,
+      "total_token_count": 6668,
+      "thinking_token_count": 1313
+    },
+    "cost_info": {
+      "total_cost": 0.0029705,
+      "model_name": "Gemini 2.5 Flash",
+      "input_cost": 0.0014204999999999999,
+      "output_cost": 0.0015500000000000002
+    },
+    "retry_count": 0
+  }
+}

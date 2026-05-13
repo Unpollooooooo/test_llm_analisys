@@ -1,0 +1,148 @@
+{
+  "receipt_guid": "69eddc743da34a89f70556ee",
+  "shop_brand": null,
+  "analysis": {
+    "document_type": "receipt",
+    "merchant": {
+      "name": "LA COMMERCIALE FIOR DI GRANO DI STACCHIOTTI ORIETTA & C SNC",
+      "brand_name": "LA COMMERCIALE FIOR DI GRANO",
+      "address": "Via S. Giovanni Bosco, 6 - 62100 Macerata (MC)",
+      "vat_number": "02542050428",
+      "date": "2026-04-01",
+      "receipt_number": "0256-0005",
+      "notes": ""
+    },
+    "items": [
+      {
+        "description": "BRIOCHES",
+        "description_full": "Brioches",
+        "category": "bakery",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 1.5,
+        "discount": 0.0,
+        "total_price": 1.5,
+        "_catalog_method": "gemini_only",
+        "_catalog_confidence": 0.85,
+        "_alignment_override": true,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 28,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 28,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "CAFFE TAZZINA",
+        "description_full": "Caffeina Tazzina",
+        "category": "beverages",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 1.3,
+        "discount": 0.0,
+        "total_price": 1.3,
+        "_catalog_method": "gemini_only",
+        "_catalog_confidence": 0.57,
+        "_alignment_override": true,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 27,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 27,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "PIZZA TAGLIO ROSMARI",
+        "description_full": "Pizza Taglio Rosmarino",
+        "category": "bakery",
+        "quantity": 2.0,
+        "unit_of_measure": "pz",
+        "unit_price": 1.0,
+        "discount": 0.0,
+        "total_price": 2.0,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 28,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 28,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "MATCH",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      }
+    ],
+    "totals": {
+      "total_amount": 4.8,
+      "tax_amount": 0.44,
+      "item_count": 4
+    }
+  },
+  "promo_status": "NO_PROMO",
+  "metadata": {
+    "version": "2.0.0+6c131bf",
+    "pars_dt": "2026-04-26T09:36:15.149+00:00",
+    "processing_status": "CLEAN",
+    "flags": [],
+    "preprocessing": [
+      {
+        "image_index": 0,
+        "tile_index": 0,
+        "steps": [
+          "GRAYSCALE(sat=38)"
+        ],
+        "stats": {
+          "mean_brightness": 148.9,
+          "std_brightness": 49.0,
+          "noise_level": 94.0,
+          "skew_angle": 0.0,
+          "avg_saturation": 37.8,
+          "width": 1608,
+          "height": 2334,
+          "contrast_ratio": 168.0,
+          "is_bimodal": true,
+          "histogram_clipping": 0.0,
+          "content_coverage": 0.6,
+          "applied_steps": [
+            "GRAYSCALE(sat=38)"
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_token_count": 6283,
+      "candidates_token_count": 500,
+      "total_token_count": 7778,
+      "thinking_token_count": 995
+    },
+    "cost_info": {
+      "total_cost": 0.0031349,
+      "model_name": "Gemini 2.5 Flash",
+      "input_cost": 0.0018849,
+      "output_cost": 0.00125
+    },
+    "retry_count": 0
+  }
+}

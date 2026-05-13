@@ -1,0 +1,160 @@
+{
+  "receipt_guid": "69e0d04713d3bd2353942ee1",
+  "shop_brand": null,
+  "analysis": {
+    "document_type": "receipt",
+    "merchant": {
+      "name": "GIVICA S.R.L.",
+      "brand_name": "GIVICA",
+      "address": "VIA ENRICO MATTEI 11 90124 PALERMO",
+      "vat_number": "06542780827",
+      "date": "2026-04-15",
+      "receipt_number": "1875-0017",
+      "notes": ""
+    },
+    "items": [
+      {
+        "description": "MENTADENT DENT.PROT.",
+        "description_full": "Mentadent Denti Protetti",
+        "category": "personal_care",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 1.19,
+        "discount": 0.2,
+        "total_price": 0.99,
+        "_catalog_method": "gemini_only",
+        "_catalog_confidence": 0.63,
+        "_alignment_override": true,
+        "barcode": "8717163733684",
+        "is_promo_item": true,
+        "match_confidence": 93,
+        "promo_match": {
+          "publisher_guid": "6908893d7cb8558c28a80692",
+          "product_guid": "694942b19cf0681229257f61",
+          "product_name": "Mentadent Protezione Famiglia Denti Sani e Forti 75 ml",
+          "brand_name": "Mentadent",
+          "match_confidence": 93,
+          "size_conflict": false,
+          "price_conflict": false
+        },
+        "match_signals": {
+          "brand": "MATCH",
+          "text": "HIGH",
+          "text_score": 93,
+          "variant": "MATCH",
+          "variant_jw": 0.935,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK",
+          "decision": "PROMO_FOUND"
+        }
+      },
+      {
+        "description": "ROMAR AMMORBIDENTE L",
+        "description_full": "Romar Ammorbidente Litro",
+        "category": "home_care",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 2.75,
+        "discount": 0.76,
+        "total_price": 1.99,
+        "_catalog_method": "gemini_only",
+        "_catalog_confidence": 0.85,
+        "_alignment_override": true,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 26,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 26,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "TODA 100 CIALDE CAFF",
+        "description_full": "Toda 100 Cialde Caff\n\n",
+        "category": "pantry",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 11.99,
+        "discount": 2.0,
+        "total_price": 9.99,
+        "_catalog_method": "gemini_only",
+        "_catalog_confidence": 0.85,
+        "_alignment_override": true,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 32,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 32,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      }
+    ],
+    "totals": {
+      "total_amount": 12.97,
+      "tax_amount": 2.34,
+      "item_count": 3
+    }
+  },
+  "promo_status": "PROMO_FOUND",
+  "metadata": {
+    "version": "1.0.0+6c131bf",
+    "pars_dt": "2026-04-16T12:04:54.952+00:00",
+    "processing_status": "CLEAN",
+    "flags": [],
+    "preprocessing": [
+      {
+        "image_index": 0,
+        "tile_index": 0,
+        "steps": [
+          "DESKEW(angle=1.0°)",
+          "CLAHE(std=34,clip=0.00)"
+        ],
+        "stats": {
+          "mean_brightness": 143.2,
+          "std_brightness": 33.5,
+          "noise_level": 679.0,
+          "skew_angle": 1.05,
+          "avg_saturation": 71.5,
+          "width": 864,
+          "height": 1975,
+          "contrast_ratio": 121.0,
+          "is_bimodal": false,
+          "histogram_clipping": 0.0,
+          "content_coverage": 0.96,
+          "applied_steps": [
+            "DESKEW(angle=1.0°)",
+            "CLAHE(std=34,clip=0.00)"
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_token_count": 5251,
+      "candidates_token_count": 410,
+      "total_token_count": 6870,
+      "thinking_token_count": 1209
+    },
+    "cost_info": {
+      "total_cost": 0.0026003,
+      "model_name": "Gemini 2.5 Flash",
+      "input_cost": 0.0015753,
+      "output_cost": 0.001025
+    },
+    "retry_count": 0
+  }
+}

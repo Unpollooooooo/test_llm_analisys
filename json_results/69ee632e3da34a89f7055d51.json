@@ -1,0 +1,272 @@
+{
+  "receipt_guid": "69ee632e3da34a89f7055d51",
+  "shop_brand": null,
+  "analysis": {
+    "document_type": "receipt",
+    "merchant": {
+      "name": "LERADICI S.R.L.",
+      "brand_name": "CONAD",
+      "address": "Via Iglesias snc - Sestu (CA)",
+      "vat_number": "00712460369",
+      "date": "2026-04-26",
+      "receipt_number": "1638-0306",
+      "notes": ""
+    },
+    "items": [
+      {
+        "description": "SANTAL ZERO PESCA/MA",
+        "description_full": "Santal Zero Pesca/Mango",
+        "category": "beverages",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 0.75,
+        "discount": 0.0,
+        "total_price": 0.75,
+        "_catalog_method": "gemini_only",
+        "_catalog_confidence": 0.49,
+        "_alignment_override": true,
+        "barcode": "8002580320389",
+        "is_promo_item": true,
+        "match_confidence": 93,
+        "promo_match": {
+          "publisher_guid": "68f0f6bb00cc667d09dd07fe",
+          "product_guid": "69314a856f6ada34183f7073",
+          "product_name": "Santal Mix Pesca Mango Zero Zuccheri Aggiunti*",
+          "brand_name": "Santàl",
+          "match_confidence": 93,
+          "size_conflict": null,
+          "price_conflict": false
+        },
+        "match_signals": {
+          "brand": "MATCH",
+          "text": "HIGH",
+          "text_score": 93,
+          "variant": "MATCH",
+          "variant_jw": 0.945,
+          "price": "MATCH",
+          "size": "UNKNOWN",
+          "category": "OK",
+          "decision": "PROMO_FOUND"
+        }
+      },
+      {
+        "description": "CHIPS GALLO RISO PAP",
+        "description_full": "Chips Gallo Riso Paprika",
+        "category": "pantry",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 1.31,
+        "discount": 0.0,
+        "total_price": 1.31,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 27,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 27,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "FUFI BOCC.405g.",
+        "description_full": "FUFI BOCC 405g",
+        "category": "other",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 0.75,
+        "discount": 0.0,
+        "total_price": 0.75,
+        "_catalog_method": "abbreviation",
+        "_catalog_confidence": 0.7,
+        "_gemini_original": "Fufi Bocconcini 405g",
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 27,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 27,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "CONFLICT",
+          "size": "CONFLICT",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "FUFI BOCC. 405g",
+        "description_full": "FUFI BOCC 405g",
+        "category": "other",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 0.75,
+        "discount": 0.0,
+        "total_price": 0.75,
+        "_catalog_method": "abbreviation",
+        "_catalog_confidence": 0.7,
+        "_gemini_original": "Fufi Bocconcini 405g",
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 27,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 27,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "CONFLICT",
+          "size": "CONFLICT",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "SANTAL ZERO PESCA/MA",
+        "description_full": "Santal Zero Pesca/Mango",
+        "category": "beverages",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 0.75,
+        "discount": 0.0,
+        "total_price": 0.75,
+        "_catalog_method": "gemini_only",
+        "_catalog_confidence": 0.49,
+        "_alignment_override": true,
+        "barcode": "8002580320389",
+        "is_promo_item": true,
+        "match_confidence": 93,
+        "promo_match": {
+          "publisher_guid": "68f0f6bb00cc667d09dd07fe",
+          "product_guid": "69314a856f6ada34183f7073",
+          "product_name": "Santal Mix Pesca Mango Zero Zuccheri Aggiunti*",
+          "brand_name": "Santàl",
+          "match_confidence": 93,
+          "size_conflict": null,
+          "price_conflict": false
+        },
+        "match_signals": {
+          "brand": "MATCH",
+          "text": "HIGH",
+          "text_score": 93,
+          "variant": "MATCH",
+          "variant_jw": 0.945,
+          "price": "MATCH",
+          "size": "UNKNOWN",
+          "category": "OK",
+          "decision": "PROMO_FOUND"
+        }
+      },
+      {
+        "description": "CHIPS GALLO RISO PAP",
+        "description_full": "Chips Gallo Riso Paprika",
+        "category": "pantry",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 1.31,
+        "discount": 0.0,
+        "total_price": 1.31,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 27,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 27,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "SHOPPER BIO GRA",
+        "description_full": "Shopper Biologico Grande",
+        "category": "other",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 0.15,
+        "discount": 0.0,
+        "total_price": 0.15,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 27,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 27,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      }
+    ],
+    "totals": {
+      "total_amount": 5.77,
+      "tax_amount": 0.81,
+      "item_count": 7
+    }
+  },
+  "promo_status": "PROMO_FOUND",
+  "metadata": {
+    "version": "2.0.0+6c131bf",
+    "pars_dt": "2026-04-26T19:11:10.186+00:00",
+    "processing_status": "CLEAN",
+    "flags": [],
+    "preprocessing": [
+      {
+        "image_index": 0,
+        "tile_index": 0,
+        "steps": [
+          "GRAYSCALE(sat=28)"
+        ],
+        "stats": {
+          "mean_brightness": 203.0,
+          "std_brightness": 47.5,
+          "noise_level": 311.0,
+          "skew_angle": 0.0,
+          "avg_saturation": 28.3,
+          "width": 1068,
+          "height": 2640,
+          "contrast_ratio": 162.0,
+          "is_bimodal": false,
+          "histogram_clipping": 0.044,
+          "content_coverage": 0.96,
+          "applied_steps": [
+            "GRAYSCALE(sat=28)"
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_token_count": 5251,
+      "candidates_token_count": 710,
+      "total_token_count": 7149,
+      "thinking_token_count": 1188
+    },
+    "cost_info": {
+      "total_cost": 0.0033503,
+      "model_name": "Gemini 2.5 Flash",
+      "input_cost": 0.0015753,
+      "output_cost": 0.001775
+    },
+    "retry_count": 0
+  }
+}

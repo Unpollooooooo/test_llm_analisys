@@ -1,0 +1,146 @@
+{
+  "receipt_guid": "69e88ce6551a2cb157c0b2d1",
+  "shop_brand": null,
+  "analysis": {
+    "document_type": "receipt",
+    "merchant": {
+      "name": "CESAR S.P.A.",
+      "brand_name": "ACQUA & SAPONE",
+      "address": "Via De Gasperi 64,66 Martina Franca (TA)",
+      "vat_number": "00239870686",
+      "date": "2026-04-20",
+      "receipt_number": "000000112",
+      "notes": ""
+    },
+    "items": [
+      {
+        "description": "GUM FORCELLA EASY FLOS BS",
+        "description_full": "Gum Forcella Easy Floss BS",
+        "category": "personal_care",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 2.99,
+        "discount": 0.0,
+        "total_price": 2.99,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 26,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 26,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "MATCH",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "GUM FORCELLA EASY FLOS BS",
+        "description_full": "Gum Forcella Easy Floss BS",
+        "category": "personal_care",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 2.99,
+        "discount": 0.0,
+        "total_price": 2.99,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 26,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 26,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "MATCH",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "SCOTTEX FAZZ TIG 4V PC",
+        "description_full": "Scottex Fazzoletti Tigre 4 Veli Pacco",
+        "category": "personal_care",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 3.99,
+        "discount": 0.0,
+        "total_price": 3.99,
+        "_catalog_method": "gemini_only",
+        "_catalog_confidence": 0.85,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 27,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 27,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "MATCH",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      }
+    ],
+    "totals": {
+      "total_amount": 9.97,
+      "tax_amount": 1.8,
+      "item_count": null
+    }
+  },
+  "promo_status": "NO_PROMO",
+  "metadata": {
+    "version": "2.0.0+6c131bf",
+    "pars_dt": "2026-04-22T08:55:25.811+00:00",
+    "processing_status": "CLEAN",
+    "flags": [],
+    "preprocessing": [
+      {
+        "image_index": 0,
+        "tile_index": 0,
+        "steps": [
+          "GRAYSCALE(sat=10)"
+        ],
+        "stats": {
+          "mean_brightness": 146.9,
+          "std_brightness": 57.4,
+          "noise_level": 228.0,
+          "skew_angle": 0.0,
+          "avg_saturation": 10.2,
+          "width": 825,
+          "height": 2172,
+          "contrast_ratio": 191.0,
+          "is_bimodal": true,
+          "histogram_clipping": 0.026,
+          "content_coverage": 0.96,
+          "applied_steps": [
+            "GRAYSCALE(sat=10)"
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_token_count": 5251,
+      "candidates_token_count": 506,
+      "total_token_count": 6627,
+      "thinking_token_count": 870
+    },
+    "cost_info": {
+      "total_cost": 0.0028403,
+      "model_name": "Gemini 2.5 Flash",
+      "input_cost": 0.0015753,
+      "output_cost": 0.001265
+    },
+    "retry_count": 0
+  }
+}

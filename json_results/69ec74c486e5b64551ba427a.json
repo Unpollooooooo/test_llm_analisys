@@ -1,0 +1,112 @@
+{
+  "receipt_guid": "69ec74c486e5b64551ba427a",
+  "shop_brand": null,
+  "analysis": {
+    "document_type": "receipt",
+    "merchant": {
+      "name": "Il Biscottiere s.r.l. s.",
+      "brand_name": "Il Biscottiere",
+      "address": "Via Campi d'Annibale n. 102/a 00040 Rocca di Papa (RM)",
+      "vat_number": "17953561002",
+      "date": "2026-04-25",
+      "receipt_number": "0419-0010",
+      "notes": ""
+    },
+    "items": [
+      {
+        "description": "PIZZA",
+        "description_full": "Pizza",
+        "category": "bakery",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 21.4,
+        "discount": 0.0,
+        "total_price": 21.4,
+        "_catalog_method": "gemini_only",
+        "_catalog_confidence": 0.85,
+        "_alignment_override": true,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 0,
+        "promo_match": null
+      }
+    ],
+    "totals": {
+      "total_amount": 21.4,
+      "tax_amount": 1.95,
+      "item_count": null
+    }
+  },
+  "promo_status": "NO_PROMO",
+  "metadata": {
+    "version": "2.0.0+6c131bf",
+    "pars_dt": "2026-04-25T08:01:46.239+00:00",
+    "processing_status": "CLEAN",
+    "flags": [],
+    "preprocessing": [
+      {
+        "image_index": 0,
+        "tile_index": 0,
+        "steps": [
+          "GRAYSCALE(sat=20)",
+          "CLAHE(std=51,clip=0.78)"
+        ],
+        "stats": {
+          "mean_brightness": 227.4,
+          "std_brightness": 50.9,
+          "noise_level": 223.0,
+          "skew_angle": 0.0,
+          "avg_saturation": 19.8,
+          "width": 1355,
+          "height": 2467,
+          "contrast_ratio": 144.0,
+          "is_bimodal": false,
+          "histogram_clipping": 0.782,
+          "content_coverage": 0.8,
+          "applied_steps": [
+            "GRAYSCALE(sat=20)",
+            "CLAHE(std=51,clip=0.78)"
+          ]
+        }
+      },
+      {
+        "image_index": 1,
+        "tile_index": 1,
+        "steps": [
+          "GRAYSCALE(sat=9)",
+          "CLAHE(std=30,clip=0.86)"
+        ],
+        "stats": {
+          "mean_brightness": 242.2,
+          "std_brightness": 30.0,
+          "noise_level": 258.0,
+          "skew_angle": 0.0,
+          "avg_saturation": 8.9,
+          "width": 1783,
+          "height": 632,
+          "contrast_ratio": 97.0,
+          "is_bimodal": false,
+          "histogram_clipping": 0.863,
+          "content_coverage": 0.8,
+          "applied_steps": [
+            "GRAYSCALE(sat=9)",
+            "CLAHE(std=30,clip=0.86)"
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_token_count": 3445,
+      "candidates_token_count": 230,
+      "total_token_count": 5377,
+      "thinking_token_count": 1702
+    },
+    "cost_info": {
+      "total_cost": 0.0016085000000000001,
+      "model_name": "Gemini 2.5 Flash",
+      "input_cost": 0.0010335,
+      "output_cost": 0.0005750000000000001
+    },
+    "retry_count": 0
+  }
+}

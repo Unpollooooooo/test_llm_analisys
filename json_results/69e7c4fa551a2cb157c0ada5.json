@@ -1,0 +1,120 @@
+{
+  "receipt_guid": "69e7c4fa551a2cb157c0ada5",
+  "shop_brand": null,
+  "analysis": {
+    "document_type": "receipt",
+    "merchant": {
+      "name": "SANT ELIA SRL",
+      "brand_name": "SANT ELIA SRL",
+      "address": "Via della Giustinitene, 271 00188 - ROMA",
+      "vat_number": "0715778410/3",
+      "date": "2026-04-18",
+      "receipt_number": "2481-0288",
+      "notes": ""
+    },
+    "items": [
+      {
+        "description": "PATASNELLA BARCHETTA",
+        "description_full": "Patasnella Barchetta",
+        "category": "pantry",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 2.99,
+        "discount": 1.0,
+        "total_price": 1.99,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 33,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 33,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "FINDUS BEEFBURGER",
+        "description_full": "Findus Beefburger",
+        "category": "meat_fish",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 7.99,
+        "discount": 2.0,
+        "total_price": 5.99,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 27,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 27,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "CONFLICT",
+          "size": "UNKNOWN",
+          "category": "INCOMPATIBLE"
+        }
+      }
+    ],
+    "totals": {
+      "total_amount": 8.0,
+      "tax_amount": 0.63,
+      "item_count": null
+    }
+  },
+  "promo_status": "NO_PROMO",
+  "metadata": {
+    "version": "2.0.0+6c131bf",
+    "pars_dt": "2026-04-21T18:42:40.016+00:00",
+    "processing_status": "CLEAN",
+    "flags": [],
+    "preprocessing": [
+      {
+        "image_index": 0,
+        "tile_index": 0,
+        "steps": [
+          "DESKEW(angle=-1.0°)"
+        ],
+        "stats": {
+          "mean_brightness": 136.4,
+          "std_brightness": 48.1,
+          "noise_level": 445.0,
+          "skew_angle": -1.04,
+          "avg_saturation": 49.8,
+          "width": 1733,
+          "height": 1049,
+          "contrast_ratio": 140.0,
+          "is_bimodal": true,
+          "histogram_clipping": 0.001,
+          "content_coverage": 0.88,
+          "applied_steps": [
+            "DESKEW(angle=-1.0°)"
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_token_count": 4735,
+      "candidates_token_count": 391,
+      "total_token_count": 6832,
+      "thinking_token_count": 1706
+    },
+    "cost_info": {
+      "total_cost": 0.002398,
+      "model_name": "Gemini 2.5 Flash",
+      "input_cost": 0.0014204999999999999,
+      "output_cost": 0.0009775
+    },
+    "retry_count": 0
+  }
+}

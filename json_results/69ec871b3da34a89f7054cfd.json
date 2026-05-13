@@ -1,0 +1,96 @@
+{
+  "receipt_guid": "69ec871b3da34a89f7054cfd",
+  "shop_brand": null,
+  "analysis": {
+    "document_type": "receipt",
+    "merchant": {
+      "name": "MEDI MARKET ITALIA SRL",
+      "brand_name": "MEDI MARKET",
+      "address": "VIA LUIGI EINAUDI, snc 25030 RONCADELLE (BS)",
+      "vat_number": "04873590964",
+      "date": "2026-04-24",
+      "receipt_number": "2199-0190",
+      "notes": ""
+    },
+    "items": [
+      {
+        "description": "Yogi Tea Abbraccio Della Sera",
+        "description_full": "Yogi Tea Abbraccio Della Sera",
+        "category": "beverages",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 3.98,
+        "discount": 0.2,
+        "total_price": 3.78,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 29,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 29,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      }
+    ],
+    "totals": {
+      "total_amount": 3.78,
+      "tax_amount": 0.34,
+      "item_count": null
+    }
+  },
+  "promo_status": "NO_PROMO",
+  "metadata": {
+    "version": "2.0.0+6c131bf",
+    "pars_dt": "2026-04-25T09:19:45.300+00:00",
+    "processing_status": "CLEAN",
+    "flags": [],
+    "preprocessing": [
+      {
+        "image_index": 0,
+        "tile_index": 0,
+        "steps": [
+          "GRAYSCALE(sat=11)",
+          "THRESHOLD(contrast=69,bright=216)"
+        ],
+        "stats": {
+          "mean_brightness": 215.8,
+          "std_brightness": 20.1,
+          "noise_level": 205.0,
+          "skew_angle": 0.0,
+          "avg_saturation": 11.0,
+          "width": 1310,
+          "height": 665,
+          "contrast_ratio": 69.0,
+          "is_bimodal": false,
+          "histogram_clipping": 0.0,
+          "content_coverage": 0.84,
+          "applied_steps": [
+            "GRAYSCALE(sat=11)",
+            "THRESHOLD(contrast=69,bright=216)"
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_token_count": 4735,
+      "candidates_token_count": 291,
+      "total_token_count": 5794,
+      "thinking_token_count": 768
+    },
+    "cost_info": {
+      "total_cost": 0.0021479999999999997,
+      "model_name": "Gemini 2.5 Flash",
+      "input_cost": 0.0014204999999999999,
+      "output_cost": 0.0007275000000000001
+    },
+    "retry_count": 0
+  }
+}

@@ -1,0 +1,94 @@
+{
+  "receipt_guid": "69e358d686e5b64551b9e45f",
+  "shop_brand": null,
+  "analysis": {
+    "document_type": "receipt",
+    "merchant": {
+      "name": "AIELLO ALESSANDRO S.R.L.",
+      "brand_name": "FARMACIA",
+      "address": "VIA NAZIONALE N. 212 88070 BOTRICELLO (CZ)",
+      "vat_number": "03992800791",
+      "date": "2026-04-13",
+      "receipt_number": "2418-0183",
+      "notes": ""
+    },
+    "items": [
+      {
+        "description": "CLIN 4000 30BUST",
+        "description_full": "CLIN 4000 30BUST",
+        "category": "personal_care",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 21.9,
+        "discount": 0.9,
+        "total_price": 21.0,
+        "_catalog_method": "gemini_only",
+        "_catalog_confidence": 0.4,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 20,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 20,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      }
+    ],
+    "totals": {
+      "total_amount": 21.0,
+      "tax_amount": 0.0,
+      "item_count": null
+    }
+  },
+  "promo_status": "NO_PROMO",
+  "metadata": {
+    "version": "2.0.0+6c131bf",
+    "pars_dt": "2026-04-18T10:12:04.755+00:00",
+    "processing_status": "CLEAN",
+    "flags": [],
+    "preprocessing": [
+      {
+        "image_index": 0,
+        "tile_index": 0,
+        "steps": [
+          "GRAYSCALE(sat=24)"
+        ],
+        "stats": {
+          "mean_brightness": 169.5,
+          "std_brightness": 52.1,
+          "noise_level": 111.0,
+          "skew_angle": 0.0,
+          "avg_saturation": 24.2,
+          "width": 1528,
+          "height": 2946,
+          "contrast_ratio": 152.0,
+          "is_bimodal": true,
+          "histogram_clipping": 0.011,
+          "content_coverage": 0.8,
+          "applied_steps": [
+            "GRAYSCALE(sat=24)"
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_token_count": 5251,
+      "candidates_token_count": 245,
+      "total_token_count": 6726,
+      "thinking_token_count": 1230
+    },
+    "cost_info": {
+      "total_cost": 0.0021878,
+      "model_name": "Gemini 2.5 Flash",
+      "input_cost": 0.0015753,
+      "output_cost": 0.0006125000000000001
+    },
+    "retry_count": 0
+  }
+}

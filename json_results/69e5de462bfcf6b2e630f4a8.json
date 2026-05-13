@@ -1,0 +1,121 @@
+{
+  "receipt_guid": "69e5de462bfcf6b2e630f4a8",
+  "shop_brand": null,
+  "analysis": {
+    "document_type": "receipt",
+    "merchant": {
+      "name": "SUPERMERCATI DECO' UNISFERA SRL",
+      "brand_name": "Deco",
+      "address": "VIA TATO' N 64 BARLETTA",
+      "vat_number": "08755330720",
+      "date": "2026-04-10",
+      "receipt_number": "1650-0248",
+      "notes": ""
+    },
+    "items": [
+      {
+        "description": "FANANE ORSERO",
+        "description_full": "Banane Orsero",
+        "category": "produce",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 0.63,
+        "discount": 0.0,
+        "total_price": 0.63,
+        "_catalog_method": "gemini_only",
+        "_catalog_confidence": 0.85,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 25,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 25,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "INCOMPATIBLE"
+        }
+      },
+      {
+        "description": "ROTOLO BIO RIP.PIANT.60%2",
+        "description_full": "Rotolo Bio Ripieno Pianta 60%",
+        "category": "bakery",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 0.04,
+        "discount": 0.0,
+        "total_price": 0.04,
+        "_catalog_method": "gemini_only",
+        "_catalog_confidence": 0.85,
+        "_alignment_override": true,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 28,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 28,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      }
+    ],
+    "totals": {
+      "total_amount": 0.67,
+      "tax_amount": 0.0,
+      "item_count": null
+    }
+  },
+  "promo_status": "NO_PROMO",
+  "metadata": {
+    "version": "2.0.0+6c131bf",
+    "pars_dt": "2026-04-20T08:06:04.593+00:00",
+    "processing_status": "CLEAN",
+    "flags": [],
+    "preprocessing": [
+      {
+        "image_index": 0,
+        "tile_index": 0,
+        "steps": [
+          "PASSTHROUGH(no preprocessing needed)"
+        ],
+        "stats": {
+          "mean_brightness": 134.1,
+          "std_brightness": 51.1,
+          "noise_level": 392.0,
+          "skew_angle": 0.0,
+          "avg_saturation": 70.5,
+          "width": 1920,
+          "height": 2560,
+          "contrast_ratio": 168.0,
+          "is_bimodal": false,
+          "histogram_clipping": 0.0,
+          "content_coverage": 0.96,
+          "applied_steps": [
+            "PASSTHROUGH(no preprocessing needed)"
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_token_count": 6283,
+      "candidates_token_count": 305,
+      "total_token_count": 7714,
+      "thinking_token_count": 1126
+    },
+    "cost_info": {
+      "total_cost": 0.0026474,
+      "model_name": "Gemini 2.5 Flash",
+      "input_cost": 0.0018849,
+      "output_cost": 0.0007625
+    },
+    "retry_count": 0
+  }
+}

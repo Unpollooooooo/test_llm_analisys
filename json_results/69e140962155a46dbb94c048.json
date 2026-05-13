@@ -1,0 +1,253 @@
+{
+  "receipt_guid": "69e140962155a46dbb94c048",
+  "shop_brand": null,
+  "analysis": {
+    "document_type": "receipt",
+    "merchant": {
+      "name": "NOVA COOP",
+      "brand_name": "Coop",
+      "address": "P.ZZA BRUNO TRENTIN 1, 38057 PERGINE VALSUGANA (TN)",
+      "vat_number": "01314500224",
+      "date": "2025-12-08",
+      "receipt_number": "2439-0064",
+      "notes": ""
+    },
+    "items": [
+      {
+        "description": "SHOP BIO COOP 30X60",
+        "description_full": "Shop Bio Coop 30x60",
+        "category": "home_care",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 0.1,
+        "discount": 0.0,
+        "total_price": 0.1,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 25,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 25,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "CONFLICT",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "BANE TIPO SICILIANO",
+        "description_full": "Pane Tipo Siciliano",
+        "category": "bakery",
+        "quantity": 1.0,
+        "unit_of_measure": "kg",
+        "unit_price": 2.49,
+        "discount": 0.0,
+        "total_price": 2.49,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 26,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 26,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "MATCH",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "FOCACCIA SEMPLICE TR",
+        "description_full": "Focaccia semplice",
+        "category": "bakery",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 2.49,
+        "discount": 0.0,
+        "total_price": 2.49,
+        "_catalog_method": "fuzzy",
+        "_catalog_confidence": 0.7,
+        "_gemini_original": "Focaccia Semplice Tradizionale",
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 26,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 26,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "CROSTINI DI GRANO 25",
+        "description_full": "Crostini di Grano 25",
+        "category": "pantry",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 1.18,
+        "discount": 0.0,
+        "total_price": 1.18,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 27,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 27,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "LATTUGA ICEBERG IT I",
+        "description_full": "Lattuga Iceberg Italia",
+        "category": "produce",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 0.86,
+        "discount": 0.0,
+        "total_price": 0.86,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 29,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 29,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "CONFLICT",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "ARANCIA TAROCCO",
+        "description_full": "Arancia tarocco",
+        "category": "produce",
+        "quantity": 0.5,
+        "unit_of_measure": "kg",
+        "unit_price": 1.72,
+        "discount": 0.0,
+        "total_price": 0.86,
+        "_catalog_method": "fuzzy",
+        "_catalog_confidence": 1.0,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 31,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 31,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "CONFLICT",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      }
+    ],
+    "totals": {
+      "total_amount": 10.62,
+      "tax_amount": 0.0,
+      "item_count": null
+    }
+  },
+  "promo_status": "NO_PROMO",
+  "metadata": {
+    "version": "1.0.0+6c131bf",
+    "pars_dt": "2026-04-16T20:12:16.976+00:00",
+    "processing_status": "CLEAN",
+    "flags": [
+      "THINKING_ESCALATED(4096->8192)",
+      "UNTILED_FALLBACK"
+    ],
+    "preprocessing": [
+      {
+        "image_index": 0,
+        "tile_index": 0,
+        "steps": [
+          "GRAYSCALE(sat=37)",
+          "THRESHOLD(contrast=75,bright=163)"
+        ],
+        "stats": {
+          "mean_brightness": 162.5,
+          "std_brightness": 25.1,
+          "noise_level": 675.0,
+          "skew_angle": 0.0,
+          "avg_saturation": 37.4,
+          "width": 1920,
+          "height": 2560,
+          "contrast_ratio": 75.0,
+          "is_bimodal": false,
+          "histogram_clipping": 0.0,
+          "content_coverage": 0.8,
+          "applied_steps": [
+            "GRAYSCALE(sat=37)",
+            "THRESHOLD(contrast=75,bright=163)"
+          ]
+        }
+      },
+      {
+        "image_index": 1,
+        "tile_index": 1,
+        "steps": [
+          "CLAHE(std=31,clip=0.00)"
+        ],
+        "stats": {
+          "mean_brightness": 135.7,
+          "std_brightness": 30.8,
+          "noise_level": 996.0,
+          "skew_angle": 0.0,
+          "avg_saturation": 47.2,
+          "width": 1191,
+          "height": 2519,
+          "contrast_ratio": 103.0,
+          "is_bimodal": false,
+          "histogram_clipping": 0.001,
+          "content_coverage": 1.0,
+          "applied_steps": [
+            "CLAHE(std=31,clip=0.00)"
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_token_count": 3445,
+      "candidates_token_count": 805,
+      "total_token_count": 9049,
+      "thinking_token_count": 4799
+    },
+    "cost_info": {
+      "total_cost": 0.003046,
+      "model_name": "Gemini 2.5 Flash",
+      "input_cost": 0.0010335,
+      "output_cost": 0.0020125
+    },
+    "retry_count": 0
+  }
+}

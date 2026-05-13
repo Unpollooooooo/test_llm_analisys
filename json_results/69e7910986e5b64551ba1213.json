@@ -1,0 +1,95 @@
+{
+  "receipt_guid": "69e7910986e5b64551ba1213",
+  "shop_brand": null,
+  "analysis": {
+    "document_type": "receipt",
+    "merchant": {
+      "name": "Gestioni TDM s.r.1",
+      "brand_name": "TAMOIL",
+      "address": "Viale Europa FIORENZUOLA D'ARDA (PC)",
+      "vat_number": "08324820931",
+      "date": "2026-04-20",
+      "receipt_number": "1",
+      "notes": ""
+    },
+    "items": [
+      {
+        "description": "Diesel",
+        "description_full": "Diesel",
+        "category": "other",
+        "quantity": 19.32,
+        "unit_of_measure": "l",
+        "unit_price": 2.079,
+        "discount": 0.0,
+        "total_price": 40.17,
+        "_catalog_method": "gemini_only",
+        "_catalog_confidence": 0.4,
+        "_alignment_override": true,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 20,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 20,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      }
+    ],
+    "totals": {
+      "total_amount": 40.17,
+      "tax_amount": 0.0,
+      "item_count": null
+    }
+  },
+  "promo_status": "NO_PROMO",
+  "metadata": {
+    "version": "2.0.0+6c131bf",
+    "pars_dt": "2026-04-21T15:00:49.017+00:00",
+    "processing_status": "CLEAN",
+    "flags": [],
+    "preprocessing": [
+      {
+        "image_index": 0,
+        "tile_index": 0,
+        "steps": [
+          "PASSTHROUGH(no preprocessing needed)"
+        ],
+        "stats": {
+          "mean_brightness": 172.7,
+          "std_brightness": 58.9,
+          "noise_level": 42.0,
+          "skew_angle": 0.0,
+          "avg_saturation": 48.9,
+          "width": 813,
+          "height": 1888,
+          "contrast_ratio": 175.0,
+          "is_bimodal": false,
+          "histogram_clipping": 0.006,
+          "content_coverage": 0.32,
+          "applied_steps": [
+            "PASSTHROUGH(no preprocessing needed)"
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_token_count": 5251,
+      "candidates_token_count": 269,
+      "total_token_count": 6232,
+      "thinking_token_count": 712
+    },
+    "cost_info": {
+      "total_cost": 0.0022478,
+      "model_name": "Gemini 2.5 Flash",
+      "input_cost": 0.0015753,
+      "output_cost": 0.0006725
+    },
+    "retry_count": 0
+  }
+}

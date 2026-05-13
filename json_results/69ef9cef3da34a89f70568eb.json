@@ -1,0 +1,94 @@
+{
+  "receipt_guid": "69ef9cef3da34a89f70568eb",
+  "shop_brand": null,
+  "analysis": {
+    "document_type": "receipt",
+    "merchant": {
+      "name": "MD S.P.",
+      "brand_name": "MD",
+      "address": "Via Luigi Papp, 73100 Lecce",
+      "vat_number": "03",
+      "date": "2026-04-27",
+      "receipt_number": "1",
+      "notes": "null"
+    },
+    "items": [
+      {
+        "description": "2 YOGURT BANANA SENZA LATT",
+        "description_full": "Yogurt Banana Senza Lattosio",
+        "category": "dairy",
+        "quantity": 2.0,
+        "unit_of_measure": "pz",
+        "unit_price": 0.75,
+        "discount": 0.0,
+        "total_price": 1.5,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 33,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 33,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      }
+    ],
+    "totals": {
+      "total_amount": 1.5,
+      "tax_amount": 0.0,
+      "item_count": null
+    }
+  },
+  "promo_status": "NO_PROMO",
+  "metadata": {
+    "version": "2.0.0+unknown",
+    "pars_dt": "2026-04-27T17:30:10.225+00:00",
+    "processing_status": "CLEAN",
+    "flags": [],
+    "preprocessing": [
+      {
+        "image_index": 0,
+        "tile_index": 0,
+        "steps": [
+          "PASSTHROUGH(no preprocessing needed)"
+        ],
+        "stats": {
+          "mean_brightness": 127.3,
+          "std_brightness": 48.1,
+          "noise_level": 132.0,
+          "skew_angle": 0.0,
+          "avg_saturation": 45.3,
+          "width": 938,
+          "height": 2560,
+          "contrast_ratio": 145.0,
+          "is_bimodal": true,
+          "histogram_clipping": 0.001,
+          "content_coverage": 0.8,
+          "applied_steps": [
+            "PASSTHROUGH(no preprocessing needed)"
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_token_count": 5767,
+      "candidates_token_count": 202,
+      "total_token_count": 8629,
+      "thinking_token_count": 2660
+    },
+    "cost_info": {
+      "total_cost": 0.0022351,
+      "model_name": "Gemini 2.5 Flash",
+      "input_cost": 0.0017300999999999998,
+      "output_cost": 0.000505
+    },
+    "retry_count": 0
+  }
+}

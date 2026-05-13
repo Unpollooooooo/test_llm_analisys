@@ -1,0 +1,173 @@
+{
+  "receipt_guid": "69e763792bfcf6b2e63107b4",
+  "shop_brand": null,
+  "analysis": {
+    "document_type": "receipt",
+    "merchant": {
+      "name": "Eurospin Puglia S.p.A.",
+      "brand_name": "Eurospin",
+      "address": "Via Legnami ang. Olivetti 70056 Molfetta (BA)",
+      "vat_number": "03117590756",
+      "date": "2026-04-21",
+      "receipt_number": "02716-00203",
+      "notes": ""
+    },
+    "items": [
+      {
+        "description": "ACQUA NATURALE 1,5",
+        "description_full": "Acqua Naturale 1.5 Litri",
+        "category": "beverages",
+        "quantity": 1,
+        "unit_of_measure": "pz",
+        "unit_price": 0.31,
+        "discount": 0,
+        "total_price": 0.31,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 28,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 28,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "CIABATTINE",
+        "description_full": "Ciabattine",
+        "category": "bakery",
+        "quantity": 1,
+        "unit_of_measure": "pz",
+        "unit_price": 0.55,
+        "discount": 0,
+        "total_price": 0.55,
+        "_catalog_method": "gemini_only",
+        "_catalog_confidence": 0.85,
+        "_alignment_override": true,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 23,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 23,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "CONFLICT",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "ARROSTO TACCH, 100",
+        "description_full": "Arrosto di Tacchino 100g",
+        "category": "meat_fish",
+        "quantity": 1,
+        "unit_of_measure": "pz",
+        "unit_price": 1.49,
+        "discount": 0.3,
+        "total_price": 1.19,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 33,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 33,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "CETRIOLI CAROSELLI",
+        "description_full": "Cetrioli Caroselli",
+        "category": "produce",
+        "quantity": 0.224,
+        "unit_of_measure": "kg",
+        "unit_price": 1.69,
+        "discount": 0,
+        "total_price": 0.38,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 28,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 28,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "CONFLICT",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      }
+    ],
+    "totals": {
+      "total_amount": 2.434,
+      "tax_amount": 0.21,
+      "item_count": null
+    }
+  },
+  "promo_status": "NO_PROMO",
+  "metadata": {
+    "version": "2.0.0+6c131bf",
+    "pars_dt": "2026-04-21T11:46:40.543+00:00",
+    "processing_status": "CLEAN",
+    "flags": [],
+    "preprocessing": [
+      {
+        "image_index": 0,
+        "tile_index": 0,
+        "steps": [
+          "GRAYSCALE(sat=37)"
+        ],
+        "stats": {
+          "mean_brightness": 159.3,
+          "std_brightness": 69.7,
+          "noise_level": 964.0,
+          "skew_angle": 0.0,
+          "avg_saturation": 37.0,
+          "width": 1920,
+          "height": 698,
+          "contrast_ratio": 207.0,
+          "is_bimodal": false,
+          "histogram_clipping": 0.026,
+          "content_coverage": 0.88,
+          "applied_steps": [
+            "GRAYSCALE(sat=37)"
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_token_count": 5767,
+      "candidates_token_count": 593,
+      "total_token_count": 8489,
+      "thinking_token_count": 2129
+    },
+    "cost_info": {
+      "total_cost": 0.0032126,
+      "model_name": "Gemini 2.5 Flash",
+      "input_cost": 0.0017300999999999998,
+      "output_cost": 0.0014825
+    },
+    "retry_count": 0
+  }
+}

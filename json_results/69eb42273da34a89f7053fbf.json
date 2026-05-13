@@ -1,0 +1,201 @@
+{
+  "receipt_guid": "69eb42273da34a89f7053fbf",
+  "shop_brand": null,
+  "analysis": {
+    "document_type": "receipt",
+    "merchant": {
+      "name": "MARKET LEONE DI BAGHINO CLAUDIA",
+      "brand_name": "MARKET LEONE",
+      "address": "VIA DANTE 6, CALASETTA - CI",
+      "vat_number": "03544890928",
+      "date": "2026-04-24",
+      "receipt_number": "0041-0105",
+      "notes": ""
+    },
+    "items": [
+      {
+        "description": "--- INIZIO SACCHETTO ---",
+        "description_full": "Inizio Sacchetto",
+        "category": "other",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 2.7,
+        "discount": 0.0,
+        "total_price": 2.7,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 30,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 30,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "MATCH",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "ARANCIA WASHINTON",
+        "description_full": "Arancia Washington",
+        "category": "produce",
+        "quantity": 0.722,
+        "unit_of_measure": "kg",
+        "unit_price": 2.5,
+        "discount": 0.0,
+        "total_price": 1.81,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 34,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 34,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "MATCH",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "POMODORI CAMONA",
+        "description_full": "Pomodori Camona",
+        "category": "produce",
+        "quantity": 0.378,
+        "unit_of_measure": "kg",
+        "unit_price": 4.9,
+        "discount": 0.0,
+        "total_price": 1.85,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 26,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 26,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "CREMINO",
+        "description_full": "Cremino",
+        "category": "pantry",
+        "quantity": 3.0,
+        "unit_of_measure": "pz",
+        "unit_price": 1.7,
+        "discount": 0.0,
+        "total_price": 5.1,
+        "_catalog_method": "gemini_only",
+        "_catalog_confidence": 0.85,
+        "_alignment_override": true,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 24,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 24,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "SHOPPERS ECO BI",
+        "description_full": "Shoppers Eco Bio",
+        "category": "home_care",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 0.15,
+        "discount": 0.0,
+        "total_price": 0.15,
+        "_catalog_method": "gemini_only",
+        "_catalog_confidence": 0.52,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 24,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 24,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "CONFLICT",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      }
+    ],
+    "totals": {
+      "total_amount": 11.61,
+      "tax_amount": 0.73,
+      "item_count": 7
+    }
+  },
+  "promo_status": "NO_PROMO",
+  "metadata": {
+    "version": "2.0.0+6c131bf",
+    "pars_dt": "2026-04-24T10:13:41.919+00:00",
+    "processing_status": "CLEAN",
+    "flags": [],
+    "preprocessing": [
+      {
+        "image_index": 0,
+        "tile_index": 0,
+        "steps": [
+          "DESKEW(angle=-1.0°)",
+          "GRAYSCALE(sat=29)"
+        ],
+        "stats": {
+          "mean_brightness": 130.5,
+          "std_brightness": 48.9,
+          "noise_level": 891.0,
+          "skew_angle": -1.02,
+          "avg_saturation": 29.3,
+          "width": 1920,
+          "height": 2212,
+          "contrast_ratio": 164.0,
+          "is_bimodal": false,
+          "histogram_clipping": 0.033,
+          "content_coverage": 1.0,
+          "applied_steps": [
+            "DESKEW(angle=-1.0°)",
+            "GRAYSCALE(sat=29)"
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_token_count": 5509,
+      "candidates_token_count": 522,
+      "total_token_count": 7835,
+      "thinking_token_count": 1804
+    },
+    "cost_info": {
+      "total_cost": 0.0029577,
+      "model_name": "Gemini 2.5 Flash",
+      "input_cost": 0.0016527,
+      "output_cost": 0.0013050000000000002
+    },
+    "retry_count": 0
+  }
+}

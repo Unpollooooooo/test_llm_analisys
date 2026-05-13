@@ -1,0 +1,106 @@
+{
+  "receipt_guid": "69e8afb82bfcf6b2e6311588",
+  "shop_brand": null,
+  "analysis": {
+    "document_type": "receipt",
+    "merchant": {
+      "name": "LA BOTTEGA SRLS",
+      "brand_name": "DESPAR",
+      "address": "VIA N.SAURO N. 40 66038 SAN VITO CHIETINO/CH",
+      "vat_number": "02787260690",
+      "date": "2026-04-21",
+      "receipt_number": "2402-0009",
+      "notes": ""
+    },
+    "items": [
+      {
+        "description": "CARAMELLE HARIBO 175G",
+        "description_full": "Caramelle Haribo 175g",
+        "category": "pantry",
+        "quantity": 2.0,
+        "unit_of_measure": "pz",
+        "unit_price": 1.5,
+        "discount": 0.0,
+        "total_price": 3.0,
+        "_catalog_method": "gemini_only",
+        "_catalog_confidence": 0.4,
+        "_alignment_override": true,
+        "barcode": "4001686423424",
+        "is_promo_item": false,
+        "match_confidence": 74,
+        "promo_match": {
+          "publisher_guid": "68f277a400cc667d09dd0800",
+          "product_guid": "6903b555b82c644e33de2f37",
+          "product_name": "Banane",
+          "brand_name": "Haribo",
+          "match_confidence": 74,
+          "size_conflict": false,
+          "price_conflict": null
+        },
+        "match_signals": {
+          "brand": "MATCH",
+          "text": "HIGH",
+          "text_score": 82,
+          "variant": "PARTIAL",
+          "variant_jw": 0.611,
+          "price": "UNKNOWN",
+          "size": "MATCH",
+          "category": "OK",
+          "decision": "AMBIGUOUS"
+        }
+      }
+    ],
+    "totals": {
+      "total_amount": 3.0,
+      "tax_amount": 0.0,
+      "item_count": null
+    }
+  },
+  "promo_status": "PROMO_AMBIGUOUS",
+  "metadata": {
+    "version": "2.0.0+6c131bf",
+    "pars_dt": "2026-04-22T11:23:59.607+00:00",
+    "processing_status": "CLEAN",
+    "flags": [],
+    "preprocessing": [
+      {
+        "image_index": 0,
+        "tile_index": 0,
+        "steps": [
+          "GRAYSCALE(sat=17)",
+          "THRESHOLD(contrast=51,bright=169)"
+        ],
+        "stats": {
+          "mean_brightness": 168.8,
+          "std_brightness": 20.8,
+          "noise_level": 208.0,
+          "skew_angle": 0.0,
+          "avg_saturation": 16.7,
+          "width": 1920,
+          "height": 3086,
+          "contrast_ratio": 51.0,
+          "is_bimodal": false,
+          "histogram_clipping": 0.0,
+          "content_coverage": 0.44,
+          "applied_steps": [
+            "GRAYSCALE(sat=17)",
+            "THRESHOLD(contrast=51,bright=169)"
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_token_count": 6283,
+      "candidates_token_count": 233,
+      "total_token_count": 7272,
+      "thinking_token_count": 756
+    },
+    "cost_info": {
+      "total_cost": 0.0024674,
+      "model_name": "Gemini 2.5 Flash",
+      "input_cost": 0.0018849,
+      "output_cost": 0.0005825
+    },
+    "retry_count": 0
+  }
+}

@@ -1,0 +1,253 @@
+{
+  "receipt_guid": "69ef81533da34a89f70566ec",
+  "shop_brand": null,
+  "analysis": {
+    "document_type": "receipt",
+    "merchant": {
+      "name": "COOP ALLEANZA 3.0 Soc. Coop.",
+      "brand_name": "Coop",
+      "address": "220 Supermercato Rimini Celle Via XXIII Settembre, 128 - Rimini (RN)",
+      "vat_number": "03503411203",
+      "date": "2026-04-27",
+      "receipt_number": "2464-0151",
+      "notes": "Global discount applied: 0.02 EUR."
+    },
+    "items": [
+      {
+        "description": "T PANE 5 CEREALI E S",
+        "description_full": "Pane 5 Cereali",
+        "category": "bakery",
+        "quantity": 1,
+        "unit_of_measure": "pz",
+        "unit_price": 1.66,
+        "discount": 0,
+        "total_price": 1.66,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 32,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 32,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "T PANE 5 CEREALI E S",
+        "description_full": "Pane 5 Cereali",
+        "category": "bakery",
+        "quantity": 1,
+        "unit_of_measure": "pz",
+        "unit_price": 1.66,
+        "discount": 0,
+        "total_price": 1.66,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 32,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 32,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "M-T LIMONI COOP IT 4-5",
+        "description_full": "Limoni Coop",
+        "category": "produce",
+        "quantity": 1,
+        "unit_of_measure": "pz",
+        "unit_price": 1.58,
+        "discount": 0,
+        "total_price": 1.58,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 28,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 28,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "TL. UHT ZYMIL BIO L",
+        "description_full": "Latte UHT Zymil Biologico",
+        "category": "dairy",
+        "quantity": 1,
+        "unit_of_measure": "l",
+        "unit_price": 1.99,
+        "discount": 0,
+        "total_price": 1.99,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": "8002580007372",
+        "is_promo_item": true,
+        "match_confidence": 85,
+        "promo_match": {
+          "publisher_guid": "68f0f6bb00cc667d09dd07fe",
+          "product_guid": "69314a856f6ada34183f7084",
+          "product_name": "Buono Digeribile 100% Latte d'Italia",
+          "brand_name": "Zymil",
+          "match_confidence": 85,
+          "size_conflict": null,
+          "price_conflict": false
+        },
+        "match_signals": {
+          "brand": "MATCH",
+          "text": "HIGH",
+          "text_score": 85,
+          "variant": "PARTIAL",
+          "variant_jw": 0.719,
+          "price": "MATCH",
+          "size": "UNKNOWN",
+          "category": "OK",
+          "decision": "PROMO_FOUND"
+        }
+      },
+      {
+        "description": "T L. UHT ZYMIL BIO L",
+        "description_full": "Zymil",
+        "category": "dairy",
+        "quantity": 1,
+        "unit_of_measure": "l",
+        "unit_price": 1.99,
+        "discount": 0,
+        "total_price": 1.99,
+        "_catalog_method": "fuzzy",
+        "_catalog_confidence": 0.7,
+        "_gemini_original": "Latte UHTymil Biologico",
+        "barcode": "8002580004180",
+        "is_promo_item": true,
+        "match_confidence": 100,
+        "promo_match": {
+          "publisher_guid": "68f0f6bb00cc667d09dd07fe",
+          "product_guid": "69314a856f6ada34183f7082",
+          "product_name": "Magro Digeribile 1000 ml",
+          "brand_name": "Zymil",
+          "match_confidence": 100,
+          "size_conflict": null,
+          "price_conflict": false
+        },
+        "match_signals": {
+          "brand": "MATCH",
+          "text": "HIGH",
+          "text_score": 100,
+          "variant": "PARTIAL",
+          "variant_jw": 0.5,
+          "price": "MATCH",
+          "size": "UNKNOWN",
+          "category": "OK",
+          "decision": "PROMO_FOUND"
+        }
+      },
+      {
+        "description": "T L. UHT ZYMIL BIO L",
+        "description_full": "Zymil",
+        "category": "dairy",
+        "quantity": 1,
+        "unit_of_measure": "l",
+        "unit_price": 1.99,
+        "discount": 0,
+        "total_price": 1.99,
+        "_catalog_method": "cache",
+        "_catalog_confidence": 0.7,
+        "_gemini_original": "Latte UHTymil Biologico",
+        "barcode": "8002580004180",
+        "is_promo_item": true,
+        "match_confidence": 100,
+        "promo_match": {
+          "publisher_guid": "68f0f6bb00cc667d09dd07fe",
+          "product_guid": "69314a856f6ada34183f7082",
+          "product_name": "Magro Digeribile 1000 ml",
+          "brand_name": "Zymil",
+          "match_confidence": 100,
+          "size_conflict": null,
+          "price_conflict": false
+        },
+        "match_signals": {
+          "brand": "MATCH",
+          "text": "HIGH",
+          "text_score": 100,
+          "variant": "PARTIAL",
+          "variant_jw": 0.5,
+          "price": "MATCH",
+          "size": "UNKNOWN",
+          "category": "OK",
+          "decision": "PROMO_FOUND"
+        }
+      }
+    ],
+    "totals": {
+      "total_amount": 10.85,
+      "tax_amount": 0.42,
+      "item_count": null
+    }
+  },
+  "promo_status": "PROMO_FOUND",
+  "metadata": {
+    "version": "2.0.0+unknown",
+    "pars_dt": "2026-04-27T15:32:13.002+00:00",
+    "processing_status": "CLEAN",
+    "flags": [],
+    "preprocessing": [
+      {
+        "image_index": 0,
+        "tile_index": 0,
+        "steps": [
+          "PASSTHROUGH(no preprocessing needed)"
+        ],
+        "stats": {
+          "mean_brightness": 153.0,
+          "std_brightness": 65.0,
+          "noise_level": 2266.0,
+          "skew_angle": 0.0,
+          "avg_saturation": 54.2,
+          "width": 1920,
+          "height": 996,
+          "contrast_ratio": 194.0,
+          "is_bimodal": false,
+          "histogram_clipping": 0.023,
+          "content_coverage": 1.0,
+          "applied_steps": [
+            "PASSTHROUGH(no preprocessing needed)"
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_token_count": 4735,
+      "candidates_token_count": 804,
+      "total_token_count": 7379,
+      "thinking_token_count": 1840
+    },
+    "cost_info": {
+      "total_cost": 0.0034305,
+      "model_name": "Gemini 2.5 Flash",
+      "input_cost": 0.0014204999999999999,
+      "output_cost": 0.00201
+    },
+    "retry_count": 0
+  }
+}

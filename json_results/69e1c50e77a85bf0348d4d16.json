@@ -1,0 +1,139 @@
+{
+  "receipt_guid": "69e1c50e77a85bf0348d4d16",
+  "shop_brand": null,
+  "analysis": {
+    "document_type": "receipt",
+    "merchant": {
+      "name": "MERSI' SUPERMERCATI",
+      "brand_name": "Mersi Supermercati",
+      "address": "Via Don L. Sturzo 78 Villafranca T.",
+      "vat_number": "02073970838",
+      "date": "2026-04-13",
+      "receipt_number": "DOC.0010-0137",
+      "notes": ""
+    },
+    "items": [
+      {
+        "description": "AMERIC MORATO GR.550",
+        "description_full": "AMERIC MORATO GR 550",
+        "category": "bakery",
+        "quantity": 1,
+        "unit_of_measure": "pz",
+        "unit_price": 2.31,
+        "discount": 0.56,
+        "total_price": 1.75,
+        "_catalog_method": "abbreviation",
+        "_catalog_confidence": 0.7,
+        "_gemini_original": "Americ Morato 550g",
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 28,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 28,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "TORTEL SOVERI GR.250",
+        "description_full": "Tortellini Soveri 250g",
+        "category": "pantry",
+        "quantity": 1,
+        "unit_of_measure": "pz",
+        "unit_price": 1.99,
+        "discount": 0,
+        "total_price": 1.99,
+        "_catalog_method": "gemini_only",
+        "_catalog_confidence": 0.85,
+        "_alignment_override": true,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 27,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 27,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "MATCH",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "FAG.BO L.BUD 400 G",
+        "description_full": "Bud",
+        "category": "pantry",
+        "quantity": 1,
+        "unit_of_measure": "pz",
+        "unit_price": 2.99,
+        "discount": 0,
+        "total_price": 2.99,
+        "_catalog_method": "fuzzy",
+        "_catalog_confidence": 0.7,
+        "_gemini_original": "Fagioli Borlotti 400g",
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 0,
+        "promo_match": null
+      }
+    ],
+    "totals": {
+      "total_amount": 6.17,
+      "tax_amount": 0.5,
+      "item_count": 3
+    }
+  },
+  "promo_status": "NO_PROMO",
+  "metadata": {
+    "version": "1.0.0+6c131bf",
+    "pars_dt": "2026-04-17T05:30:25.319+00:00",
+    "processing_status": "CLEAN",
+    "flags": [],
+    "preprocessing": [
+      {
+        "image_index": 0,
+        "tile_index": 0,
+        "steps": [
+          "GRAYSCALE(sat=28)"
+        ],
+        "stats": {
+          "mean_brightness": 178.2,
+          "std_brightness": 69.6,
+          "noise_level": 558.0,
+          "skew_angle": 0.0,
+          "avg_saturation": 27.7,
+          "width": 1463,
+          "height": 3684,
+          "contrast_ratio": 204.0,
+          "is_bimodal": false,
+          "histogram_clipping": 0.03,
+          "content_coverage": 1.0,
+          "applied_steps": [
+            "GRAYSCALE(sat=28)"
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_token_count": 5251,
+      "candidates_token_count": 503,
+      "total_token_count": 11689,
+      "thinking_token_count": 5935
+    },
+    "cost_info": {
+      "total_cost": 0.0028328,
+      "model_name": "Gemini 2.5 Flash",
+      "input_cost": 0.0015753,
+      "output_cost": 0.0012575000000000002
+    },
+    "retry_count": 0
+  }
+}

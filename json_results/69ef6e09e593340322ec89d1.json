@@ -1,0 +1,69 @@
+{
+  "receipt_guid": "69ef6e09e593340322ec89d1",
+  "shop_brand": null,
+  "analysis": {
+    "document_type": "receipt",
+    "merchant": {
+      "name": "null",
+      "brand_name": "null",
+      "address": "null",
+      "vat_number": "null",
+      "date": "2006-04-23",
+      "receipt_number": "2644",
+      "notes": "null"
+    },
+    "items": [],
+    "totals": {
+      "total_amount": 122.71,
+      "tax_amount": 0.0,
+      "item_count": 66
+    }
+  },
+  "promo_status": "NO_PROMO",
+  "metadata": {
+    "version": "2.0.0+unknown",
+    "pars_dt": "2026-04-27T14:10:19.928+00:00",
+    "processing_status": "CLEAN",
+    "flags": [],
+    "preprocessing": [
+      {
+        "image_index": 0,
+        "tile_index": 0,
+        "steps": [
+          "GRAYSCALE(sat=29)",
+          "THRESHOLD(contrast=59,bright=167)"
+        ],
+        "stats": {
+          "mean_brightness": 166.7,
+          "std_brightness": 21.1,
+          "noise_level": 349.0,
+          "skew_angle": 0.0,
+          "avg_saturation": 28.7,
+          "width": 1920,
+          "height": 2560,
+          "contrast_ratio": 59.0,
+          "is_bimodal": false,
+          "histogram_clipping": 0.001,
+          "content_coverage": 0.24,
+          "applied_steps": [
+            "GRAYSCALE(sat=29)",
+            "THRESHOLD(contrast=59,bright=167)"
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_token_count": 6283,
+      "candidates_token_count": 110,
+      "total_token_count": 9176,
+      "thinking_token_count": 2783
+    },
+    "cost_info": {
+      "total_cost": 0.0021598999999999998,
+      "model_name": "Gemini 2.5 Flash",
+      "input_cost": 0.0018849,
+      "output_cost": 0.000275
+    },
+    "retry_count": 0
+  }
+}

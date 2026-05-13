@@ -1,0 +1,67 @@
+{
+  "receipt_guid": "69eb95ad3da34a89f7054541",
+  "shop_brand": null,
+  "analysis": {
+    "document_type": "receipt",
+    "merchant": {
+      "name": "ERMES S.R.L",
+      "brand_name": "SPAZ",
+      "address": "76123 - S.S.170 ang.",
+      "vat_number": "02",
+      "date": "2024-04-24",
+      "receipt_number": "8812",
+      "notes": "Individual item prices are not visible on the receipt."
+    },
+    "items": [],
+    "totals": {
+      "total_amount": 33.19,
+      "tax_amount": 0.0,
+      "item_count": 10
+    }
+  },
+  "promo_status": "NO_PROMO",
+  "metadata": {
+    "version": "2.0.0+6c131bf",
+    "pars_dt": "2026-04-24T16:10:14.852+00:00",
+    "processing_status": "CLEAN",
+    "flags": [],
+    "preprocessing": [
+      {
+        "image_index": 0,
+        "tile_index": 0,
+        "steps": [
+          "PASSTHROUGH(no preprocessing needed)"
+        ],
+        "stats": {
+          "mean_brightness": 156.0,
+          "std_brightness": 50.8,
+          "noise_level": 506.0,
+          "skew_angle": 0.0,
+          "avg_saturation": 54.9,
+          "width": 807,
+          "height": 3548,
+          "contrast_ratio": 155.0,
+          "is_bimodal": false,
+          "histogram_clipping": 0.0,
+          "content_coverage": 0.96,
+          "applied_steps": [
+            "PASSTHROUGH(no preprocessing needed)"
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_token_count": 6283,
+      "candidates_token_count": 138,
+      "total_token_count": 9111,
+      "thinking_token_count": 2690
+    },
+    "cost_info": {
+      "total_cost": 0.0022299,
+      "model_name": "Gemini 2.5 Flash",
+      "input_cost": 0.0018849,
+      "output_cost": 0.00034500000000000004
+    },
+    "retry_count": 0
+  }
+}

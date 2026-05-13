@@ -1,0 +1,104 @@
+{
+  "receipt_guid": "69e4c0902bfcf6b2e630ebe8",
+  "shop_brand": null,
+  "analysis": {
+    "document_type": "receipt",
+    "merchant": {
+      "name": "ESSELUNGA S.P.A.",
+      "brand_name": "Esselunga",
+      "address": "C.so Traiano - TORINO",
+      "vat_number": "04916380159",
+      "date": "2026-04-18",
+      "receipt_number": "2821-0106",
+      "notes": ""
+    },
+    "items": [
+      {
+        "description": "RED BULL WHITE EDIT.",
+        "description_full": "Red Bull White Edition",
+        "category": "beverages",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 1.17,
+        "discount": 0.0,
+        "total_price": 1.17,
+        "_catalog_method": "gemini_only",
+        "_catalog_confidence": 0.85,
+        "_alignment_override": true,
+        "barcode": "9002490435386",
+        "is_promo_item": true,
+        "match_confidence": 86,
+        "promo_match": {
+          "publisher_guid": "6720a7b2c522bbb00d0651a1",
+          "product_guid": "67235f5056329e8499ff2175",
+          "product_name": "Red Bull White Edition Gusto Cocco-Açai 250 ml",
+          "brand_name": "Red Bull",
+          "match_confidence": 86,
+          "size_conflict": null,
+          "price_conflict": false
+        },
+        "match_signals": {
+          "brand": "MATCH",
+          "text": "HIGH",
+          "text_score": 86,
+          "variant": "MATCH",
+          "variant_jw": 1.0,
+          "price": "MATCH",
+          "size": "UNKNOWN",
+          "category": "OK",
+          "decision": "PROMO_FOUND"
+        }
+      }
+    ],
+    "totals": {
+      "total_amount": 1.17,
+      "tax_amount": 0.21,
+      "item_count": null
+    }
+  },
+  "promo_status": "PROMO_FOUND",
+  "metadata": {
+    "version": "2.0.0+6c131bf",
+    "pars_dt": "2026-04-19T11:46:45.476+00:00",
+    "processing_status": "CLEAN",
+    "flags": [],
+    "preprocessing": [
+      {
+        "image_index": 0,
+        "tile_index": 0,
+        "steps": [
+          "GRAYSCALE(sat=32)"
+        ],
+        "stats": {
+          "mean_brightness": 141.0,
+          "std_brightness": 56.9,
+          "noise_level": 212.0,
+          "skew_angle": 0.0,
+          "avg_saturation": 32.0,
+          "width": 1206,
+          "height": 2396,
+          "contrast_ratio": 190.0,
+          "is_bimodal": false,
+          "histogram_clipping": 0.012,
+          "content_coverage": 0.72,
+          "applied_steps": [
+            "GRAYSCALE(sat=32)"
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_token_count": 5251,
+      "candidates_token_count": 212,
+      "total_token_count": 6188,
+      "thinking_token_count": 725
+    },
+    "cost_info": {
+      "total_cost": 0.0021053,
+      "model_name": "Gemini 2.5 Flash",
+      "input_cost": 0.0015753,
+      "output_cost": 0.0005300000000000001
+    },
+    "retry_count": 0
+  }
+}

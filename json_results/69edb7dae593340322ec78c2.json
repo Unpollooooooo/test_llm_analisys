@@ -1,0 +1,174 @@
+{
+  "receipt_guid": "69edb7dae593340322ec78c2",
+  "shop_brand": null,
+  "analysis": {
+    "document_type": "receipt",
+    "merchant": {
+      "name": "Innovas S.r.1.",
+      "brand_name": "Innovas",
+      "address": "via Marconi, 1 20090 Trezzano sul Naviglio (MI)",
+      "vat_number": "10685730961",
+      "date": "2026-04-25",
+      "receipt_number": "0279-0058",
+      "notes": ""
+    },
+    "items": [
+      {
+        "description": "*REPTITEM, UN, UN, *, *, UN, TU, ARTIC UN, UN, *, *, UN, TU, *",
+        "description_full": "REPTITEM, UN, UN, *, *, UN, TU, ARTIC UN, UN, *, *, UN, TU, *",
+        "category": "other",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 10.0,
+        "discount": 0.0,
+        "total_price": 10.0,
+        "_catalog_method": "gemini_only",
+        "_catalog_confidence": 0.68,
+        "_alignment_override": true,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 19,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 19,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "CONFLICT",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "ABITO DONNA, UNIW6, UNI, ABITO, *, UNI UNIW6, UNI, ABITO, *, UN I, UN, UN, ABITO",
+        "description_full": "ABITO DONNA, UNIW6, UNI, ABITO, *, UNI UNIW6, UNI, ABITO, *, UN I, UN, UN, ABITO",
+        "category": "other",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 10.0,
+        "discount": 0.0,
+        "total_price": 10.0,
+        "_catalog_method": "gemini_only",
+        "_catalog_confidence": 0.75,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 21,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 21,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "PANT B-AI25-WHW, UNICP, U N, PANTALONE,",
+        "description_full": "PANT B AI25 WHW, UNICP, U N, PANTALONE,",
+        "category": "other",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 19.9,
+        "discount": 9.9,
+        "total_price": 10.0,
+        "_catalog_method": "abbreviation",
+        "_catalog_confidence": 0.7,
+        "_gemini_original": "PANTALONE B-AI25-WHW, UNICP, U N, PANTALONE,",
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 23,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 23,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "ABITO DONNA, UNIW6, UNI, ABITO, *, UNI UNIW6, UNI, ABITO, *, UN I, UN, UN, ABITO",
+        "description_full": "ABITO DONNA, UNIW6, UNI, ABITO, *, UNI UNIW6, UNI, ABITO, *, UN I, UN, UN, ABITO",
+        "category": "other",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 10.0,
+        "discount": 0.0,
+        "total_price": 10.0,
+        "_catalog_method": "gemini_only",
+        "_catalog_confidence": 0.75,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 21,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 21,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      }
+    ],
+    "totals": {
+      "total_amount": 40.0,
+      "tax_amount": 7.21,
+      "item_count": null
+    }
+  },
+  "promo_status": "NO_PROMO",
+  "metadata": {
+    "version": "2.0.0+6c131bf",
+    "pars_dt": "2026-04-26T07:00:11.352+00:00",
+    "processing_status": "CLEAN",
+    "flags": [],
+    "preprocessing": [
+      {
+        "image_index": 0,
+        "tile_index": 0,
+        "steps": [
+          "GRAYSCALE(sat=14)"
+        ],
+        "stats": {
+          "mean_brightness": 176.8,
+          "std_brightness": 47.2,
+          "noise_level": 226.0,
+          "skew_angle": 0.0,
+          "avg_saturation": 14.2,
+          "width": 1405,
+          "height": 3684,
+          "contrast_ratio": 134.0,
+          "is_bimodal": true,
+          "histogram_clipping": 0.002,
+          "content_coverage": 0.88,
+          "applied_steps": [
+            "GRAYSCALE(sat=14)"
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_token_count": 5251,
+      "candidates_token_count": 647,
+      "total_token_count": 7062,
+      "thinking_token_count": 1164
+    },
+    "cost_info": {
+      "total_cost": 0.0031928,
+      "model_name": "Gemini 2.5 Flash",
+      "input_cost": 0.0015753,
+      "output_cost": 0.0016175000000000002
+    },
+    "retry_count": 0
+  }
+}

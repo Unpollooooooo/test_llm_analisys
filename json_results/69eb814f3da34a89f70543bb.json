@@ -1,0 +1,257 @@
+{
+  "receipt_guid": "69eb814f3da34a89f70543bb",
+  "shop_brand": null,
+  "analysis": {
+    "document_type": "receipt",
+    "merchant": {
+      "name": "ALI' SPA",
+      "brand_name": "Ali'",
+      "address": "VIA VOLTURNO, 19 30014 CAVARZERE (VE)",
+      "vat_number": "00934090285",
+      "date": "2026-04-24",
+      "receipt_number": "00000102",
+      "notes": ""
+    },
+    "items": [
+      {
+        "description": "PIZZA MARGH. 2 Z CASA H",
+        "description_full": "Pizza Margherita 2 Pezzi Casa",
+        "category": "pantry",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 4.79,
+        "discount": 0.0,
+        "total_price": 4.79,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 27,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 27,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "PISTACCHIO GR. (CROISSANT)",
+        "description_full": "Croissant Sant'Angelo pistacchio",
+        "category": "bakery",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 2.75,
+        "discount": 0.0,
+        "total_price": 2.75,
+        "_catalog_method": "fuzzy",
+        "_catalog_confidence": 0.7,
+        "_gemini_original": "Pistacchio Croissant",
+        "barcode": "8007950012673",
+        "is_promo_item": false,
+        "match_confidence": 66,
+        "promo_match": {
+          "publisher_guid": "696a5d9de84bd0409997e7ca",
+          "product_guid": "696a6b33b736817e9d2428c2",
+          "product_name": "Birrificio Angelo Poretti Doppio Malto Rossa 6 Luppoli 3 x 33 cl",
+          "brand_name": "Birrificio Angelo Poretti",
+          "match_confidence": 66,
+          "size_conflict": null,
+          "price_conflict": null
+        },
+        "match_signals": {
+          "brand": "MATCH",
+          "text": "MED",
+          "text_score": 66,
+          "variant": "PARTIAL",
+          "variant_jw": 0.66,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK",
+          "decision": "AMBIGUOUS"
+        }
+      },
+      {
+        "description": "PROSCIUTTO ACC. A CUBETTI 05",
+        "description_full": "Prosciutto a Cubetti",
+        "category": "meat_fish",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 2.75,
+        "discount": 0.0,
+        "total_price": 2.75,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 33,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 33,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "MATCH",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "BEEF STICK TACCHINO VI",
+        "description_full": "Beef Stick Tacchino",
+        "category": "meat_fish",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 0.79,
+        "discount": 0.0,
+        "total_price": 0.79,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 29,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 29,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "PATATINE CLASSICHE CONF",
+        "description_full": "Patatine Classiche Confezione",
+        "category": "pantry",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 1.28,
+        "discount": 0.0,
+        "total_price": 1.28,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 29,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 29,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      },
+      {
+        "description": "LETTIERA TRUCIOLI CONF",
+        "description_full": "Lettiera Trucioli Confezione",
+        "category": "other",
+        "quantity": 1.0,
+        "unit_of_measure": "pz",
+        "unit_price": 1.91,
+        "discount": 0.0,
+        "total_price": 1.91,
+        "_catalog_method": "catalog_validated_gemini",
+        "_catalog_confidence": 0.95,
+        "barcode": null,
+        "is_promo_item": false,
+        "match_confidence": 27,
+        "promo_match": null,
+        "match_signals": {
+          "brand": "NONE",
+          "text": "LOW",
+          "text_score": 27,
+          "variant": "PARTIAL",
+          "variant_jw": 0.0,
+          "price": "UNKNOWN",
+          "size": "UNKNOWN",
+          "category": "OK"
+        }
+      }
+    ],
+    "totals": {
+      "total_amount": 14.51,
+      "tax_amount": 0.0,
+      "item_count": null
+    }
+  },
+  "promo_status": "PROMO_AMBIGUOUS",
+  "metadata": {
+    "version": "2.0.0+6c131bf",
+    "pars_dt": "2026-04-24T14:44:07.768+00:00",
+    "processing_status": "CLEAN",
+    "flags": [],
+    "preprocessing": [
+      {
+        "image_index": 0,
+        "tile_index": 0,
+        "steps": [
+          "DESKEW(angle=-13.0°)"
+        ],
+        "stats": {
+          "mean_brightness": 133.1,
+          "std_brightness": 60.4,
+          "noise_level": 220.0,
+          "skew_angle": -12.97,
+          "avg_saturation": 60.5,
+          "width": 1961,
+          "height": 2826,
+          "contrast_ratio": 187.0,
+          "is_bimodal": true,
+          "histogram_clipping": 0.036,
+          "content_coverage": 0.96,
+          "applied_steps": [
+            "DESKEW(angle=-13.0°)"
+          ]
+        }
+      },
+      {
+        "image_index": 1,
+        "tile_index": 1,
+        "steps": [
+          "RESIZE(2233→1800)"
+        ],
+        "stats": {
+          "mean_brightness": 145.4,
+          "std_brightness": 67.6,
+          "noise_level": 162.0,
+          "skew_angle": 0.0,
+          "avg_saturation": 53.1,
+          "width": 2233,
+          "height": 2927,
+          "contrast_ratio": 195.0,
+          "is_bimodal": true,
+          "histogram_clipping": 0.086,
+          "content_coverage": 0.92,
+          "applied_steps": [
+            "RESIZE(2233→1800)"
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_token_count": 3445,
+      "candidates_token_count": 641,
+      "total_token_count": 7905,
+      "thinking_token_count": 3819
+    },
+    "cost_info": {
+      "total_cost": 0.0026360000000000003,
+      "model_name": "Gemini 2.5 Flash",
+      "input_cost": 0.0010335,
+      "output_cost": 0.0016025000000000002
+    },
+    "retry_count": 0
+  }
+}
